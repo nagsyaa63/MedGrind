@@ -8,6 +8,7 @@ const errorHandler = require('./middleware/errorHandler');
 const authRoutes = require('./routes/auth');
 const questionRoutes = require('./routes/questions');
 const userRoutes = require('./routes/users');
+const taxonomyRoutes = require('./routes/taxonomy');
 
 const app = express();
 
@@ -28,6 +29,7 @@ app.use(express.json({ limit: '10kb' }));
 app.use('/api/auth', authRoutes);
 app.use('/api/questions', questionRoutes);
 app.use('/api/users', userRoutes);
+app.use('/api/taxonomy', taxonomyRoutes);
 
 // Error handler (must be last)
 app.use(errorHandler);

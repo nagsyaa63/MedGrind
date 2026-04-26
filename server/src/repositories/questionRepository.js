@@ -29,11 +29,13 @@ class QuestionRepository {
     return this.Model.findByIdAndUpdate(id, update, { new: true, ...options });
   }
 
-  async findWithFilters({ subject, difficulty, sortBy = 'newest', page = 1, limit = 10 }, userId) {
+  async findWithFilters({ subject, topic, subtopic, difficulty, sortBy = 'newest', page = 1, limit = 10 }, userId) {
     const skip = (page - 1) * limit;
 
     const matchStage = { isHidden: false };
     if (subject) matchStage.subject = subject;
+    if (topic) matchStage.topic = topic;
+    if (subtopic) matchStage.subtopic = subtopic;
     if (difficulty) matchStage.difficulty = difficulty;
 
     let sortStage;
