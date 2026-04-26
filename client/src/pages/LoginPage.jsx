@@ -5,11 +5,12 @@ import { useAuth } from '../context/AuthContext';
 export default function LoginPage() {
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
-  const { signInWithGoogle, isAuthenticated, isOnboarded, loading: authLoading } = useAuth();
+  const { signInWithGoogle, isAuthenticated, isOnboarded, isAdmin, loading: authLoading } = useAuth();
   const navigate = useNavigate();
 
   // Already authenticated — redirect immediately (handles page refresh while logged in)
   if (!authLoading && isAuthenticated) {
+    if (isAdmin) return <Navigate to="/admin" replace />;
     return <Navigate to={isOnboarded ? '/questions' : '/onboarding'} replace />;
   }
 
@@ -17,12 +18,15 @@ export default function LoginPage() {
     setError('');
     setLoading(true);
     try {
-      // signInWithGoogle returns the user object so we can read isOnboarded immediately
       const signedInUser = await signInWithGoogle();
-      const destination = signedInUser?.isOnboarded ? '/questions' : '/onboarding';
-      navigate(destination, { replace: true });
+      if (!signedInUser) return; // popup closed
+      // Admins go straight to admin panel, no onboarding
+      if (signedInUser.role === 'admin') {
+        navigate('/admin', { replace: true });
+      } else {
+        navigate(signedInUser.isOnboarded ? '/questions' : '/onboarding', { replace: true });
+      }
     } catch (err) {
-      // popup-closed-by-user is silently ignored inside signInWithGoogle
       setError(err.response?.data?.error || 'Sign-in failed. Please try again.');
     } finally {
       setLoading(false);

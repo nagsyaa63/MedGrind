@@ -312,6 +312,54 @@ describe('Firebase Auth Service — Example-Based Tests', () => {
       expect(result.user._id).toBe('u-new');
     });
 
+    it('admin email: new user created with role=admin and isOnboarded=true', async () => {
+      const adminEmail = 'admin@example.com';
+      // Temporarily add to config
+      const originalAdmins = config.ADMIN_EMAILS;
+      config.ADMIN_EMAILS = [adminEmail];
+
+      const adminUser = makeMockUser({ _id: 'u-admin', firebaseUid: 'uid-admin', email: adminEmail, role: 'admin', isOnboarded: true });
+      mockVerifyIdToken.mockResolvedValue({ uid: 'uid-admin', email: adminEmail, name: 'Admin User' });
+
+      const repo = createMockUserRepo({
+        findByFirebaseUid: jest.fn().mockResolvedValue(null),
+        findByEmailAndSetFirebaseUid: jest.fn().mockResolvedValue(null),
+        create: jest.fn().mockResolvedValue(adminUser),
+      });
+
+      const result = await firebaseAuth('valid-token', { userRepository: repo });
+
+      expect(repo.create).toHaveBeenCalledWith(
+        expect.objectContaining({ role: 'admin', isOnboarded: true })
+      );
+      expect(result.user.role).toBe('admin');
+      expect(result.user.isOnboarded).toBe(true);
+
+      config.ADMIN_EMAILS = originalAdmins;
+    });
+
+    it('admin email: existing user promoted to admin on sign-in if not already admin', async () => {
+      const adminEmail = 'promote@example.com';
+      const originalAdmins = config.ADMIN_EMAILS;
+      config.ADMIN_EMAILS = [adminEmail];
+
+      const existingUser = makeMockUser({ _id: 'u-promote', firebaseUid: 'uid-promote', email: adminEmail, role: 'user', isOnboarded: false });
+      const promotedUser = makeMockUser({ ...existingUser, role: 'admin', isOnboarded: true });
+      mockVerifyIdToken.mockResolvedValue({ uid: 'uid-promote', email: adminEmail, name: 'Promote Me' });
+
+      const repo = createMockUserRepo({
+        findByFirebaseUid: jest.fn().mockResolvedValue(existingUser),
+        updateById: jest.fn().mockResolvedValue(promotedUser),
+      });
+
+      const result = await firebaseAuth('valid-token', { userRepository: repo });
+
+      expect(repo.updateById).toHaveBeenCalledWith('u-promote', expect.objectContaining({ role: 'admin', isOnboarded: true }));
+      expect(result.user.role).toBe('admin');
+
+      config.ADMIN_EMAILS = originalAdmins;
+    });
+
     it('legacy user with complete profile: sets isOnboarded: true during migration', async () => {
       const legacyUser = makeMockUser({
         _id: 'u-complete',

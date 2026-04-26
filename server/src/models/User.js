@@ -5,6 +5,7 @@ const { BCRYPT_SALT_ROUNDS, MAX_BIO_LENGTH } = require('../config/constants');
 const userSchema = new mongoose.Schema({
   name:             { type: String, required: true, trim: true },
   email:            { type: String, required: true, unique: true, lowercase: true, trim: true, match: [/^[^\s@]+@[^\s@]+\.[^\s@]+$/, 'Please provide a valid email address'] },
+  role:             { type: String, enum: ['user', 'admin'], default: 'user' },
   password:         { type: String, minlength: 6 },
   collegeName:      { type: String, trim: true },
   currentYear:      { type: Number, min: 1, max: 6 },

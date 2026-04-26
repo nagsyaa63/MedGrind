@@ -9,7 +9,7 @@ const defaultUserRepo = new UserRepository(User);
 
 const generateToken = (user) => {
   return jwt.sign(
-    { userId: user._id, email: user.email, firebaseUid: user.firebaseUid },
+    { userId: user._id, email: user.email, firebaseUid: user.firebaseUid, role: user.role || 'user' },
     config.JWT_SECRET,
     { expiresIn: JWT_EXPIRY }
   );
@@ -34,6 +34,9 @@ const firebaseAuth = async (firebaseIdToken, { userRepository } = {}) => {
 
   const { uid, email, name } = decoded;
 
+  // Determine if this email is in the admin whitelist
+  const isAdminEmail = config.ADMIN_EMAILS.includes(email.toLowerCase());
+
   // 1. Look up by firebaseUid
   let user = await repo.findByFirebaseUid(uid);
 
@@ -42,15 +45,34 @@ const firebaseAuth = async (firebaseIdToken, { userRepository } = {}) => {
     const legacyUser = await repo.findByEmailAndSetFirebaseUid(email, uid);
 
     if (legacyUser) {
-      // If legacy user already has both profile fields, mark as onboarded
-      if (legacyUser.collegeName && legacyUser.currentYear) {
-        user = await repo.updateById(legacyUser._id, { isOnboarded: true });
-      } else {
-        user = legacyUser;
-      }
+      const updates = {};
+      // Promote to admin if email is whitelisted
+      if (isAdminEmail && legacyUser.role !== 'admin') updates.role = 'admin';
+      // Admins are always considered onboarded — no college/year needed
+      if (isAdminEmail) updates.isOnboarded = true;
+      // Regular legacy users: mark onboarded if profile is complete
+      else if (legacyUser.collegeName && legacyUser.currentYear) updates.isOnboarded = true;
+
+      user = Object.keys(updates).length > 0
+        ? await repo.updateById(legacyUser._id, updates)
+        : legacyUser;
     } else {
-      // 3. Brand-new user — isOnboarded defaults to false via schema
-      user = await repo.create({ firebaseUid: uid, email, name });
+      // 3. Brand-new user
+      user = await repo.create({
+        firebaseUid: uid,
+        email,
+        name,
+        // Admins skip onboarding entirely
+        ...(isAdminEmail ? { role: 'admin', isOnboarded: true } : {}),
+      });
+    }
+  } else {
+    // Existing user — promote to admin if newly added to whitelist
+    const updates = {};
+    if (isAdminEmail && user.role !== 'admin') updates.role = 'admin';
+    if (isAdminEmail && !user.isOnboarded) updates.isOnboarded = true;
+    if (Object.keys(updates).length > 0) {
+      user = await repo.updateById(user._id, updates);
     }
   }
 

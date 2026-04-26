@@ -3,7 +3,7 @@ import { Navigate, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 
 export default function OnboardingPage() {
-  const { isAuthenticated, loading, updateProfile } = useAuth();
+  const { isAuthenticated, loading, isAdmin, updateProfile } = useAuth();
   const navigate = useNavigate();
   const [collegeName, setCollegeName] = useState('');
   const [currentYear, setCurrentYear] = useState('');
@@ -15,6 +15,11 @@ export default function OnboardingPage() {
   // Redirect unauthenticated users to login
   if (!loading && !isAuthenticated) {
     return <Navigate to="/" replace />;
+  }
+
+  // Admins don't need onboarding — send them straight to admin panel
+  if (!loading && isAdmin) {
+    return <Navigate to="/admin" replace />;
   }
 
   const validate = () => {

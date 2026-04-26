@@ -66,7 +66,6 @@ export default function QuestionCard({ question: initialQuestion, onDeleted }) {
   // Feedback
   const [groupFeedback, setGroupFeedback] = useState({});
   const [error, setError] = useState('');
-  const [deleting, setDeleting] = useState(false);
 
   const isAuthor = user && question.author?._id === user._id;
 
@@ -162,17 +161,7 @@ export default function QuestionCard({ question: initialQuestion, onDeleted }) {
 
   // ── Delete ──────────────────────────────────────────────────────────────────
 
-  const handleDelete = async () => {
-    if (!window.confirm('Delete this question?')) return;
-    setDeleting(true);
-    try {
-      await apiClient.delete(`/questions/${question._id}`);
-      onDeleted?.(question._id);
-    } catch (err) {
-      setError(err.response?.data?.error || 'Failed to delete.');
-      setDeleting(false);
-    }
-  };
+  // Delete is admin-only — not available in the user QuestionCard
 
   const userHasLiked = question.likes?.some((id) => id === user?._id || id?._id === user?._id);
   const userHasDownvoted = question.downvotes?.some((id) => id === user?._id || id?._id === user?._id);
@@ -367,19 +356,6 @@ export default function QuestionCard({ question: initialQuestion, onDeleted }) {
                   </div>
                 ))}
               </div>
-            </div>
-          )}
-
-          {/* Delete */}
-          {isAuthor && (
-            <div className="flex justify-end pt-1">
-              <button
-                onClick={handleDelete}
-                disabled={deleting}
-                className="text-xs text-red-500 hover:text-red-700 border border-red-200 px-3 py-1 rounded-md transition-colors disabled:opacity-50"
-              >
-                {deleting ? 'Deleting...' : 'Delete Question'}
-              </button>
             </div>
           )}
         </div>

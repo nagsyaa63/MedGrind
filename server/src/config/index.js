@@ -11,6 +11,12 @@ const config = {
   FIREBASE_PROJECT_ID: process.env.FIREBASE_PROJECT_ID,
   FIREBASE_CLIENT_EMAIL: process.env.FIREBASE_CLIENT_EMAIL,
   FIREBASE_PRIVATE_KEY: process.env.FIREBASE_PRIVATE_KEY,
+  // Comma-separated list of Google emails that are auto-promoted to admin on first sign-in.
+  // e.g. ADMIN_EMAILS=alice@gmail.com,bob@gmail.com
+  ADMIN_EMAILS: (process.env.ADMIN_EMAILS || '')
+    .split(',')
+    .map(e => e.trim().toLowerCase())
+    .filter(Boolean),
 };
 
 // JWT_SECRET is required in production

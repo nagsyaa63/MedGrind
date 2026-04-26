@@ -14,6 +14,7 @@ export function AuthProvider({ children }) {
 
   const isAuthenticated = !!user;
   const isOnboarded = !!user?.isOnboarded;
+  const isAdmin = user?.role === 'admin';
 
   useEffect(() => {
     const validateToken = async () => {
@@ -71,6 +72,7 @@ export function AuthProvider({ children }) {
       token,
       isAuthenticated,
       isOnboarded,
+      isAdmin,
       loading,
       signInWithGoogle,
       logout,

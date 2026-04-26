@@ -166,25 +166,23 @@ describe('Question Service', () => {
   });
 
   describe('deleteQuestion', () => {
-    it('throws 404 for non-existent question', async () => {
+    it('throws 403 for non-admin user', async () => {
+      const qRepo = createMockQuestionRepo({ findById: jest.fn().mockResolvedValue({ _id: 'q1', author: { toString: () => 'u1' } }) });
+      await expect(deleteQuestion('q1', 'u1', 'user', { questionRepository: qRepo }))
+        .rejects.toMatchObject({ statusCode: 403, message: expect.stringMatching(/Only admins/) });
+    });
+
+    it('throws 404 for non-existent question (admin)', async () => {
       const qRepo = createMockQuestionRepo({ findById: jest.fn().mockResolvedValue(null) });
-      await expect(deleteQuestion('q1', 'u1', { questionRepository: qRepo }))
+      await expect(deleteQuestion('q1', 'admin1', 'admin', { questionRepository: qRepo }))
         .rejects.toMatchObject({ statusCode: 404 });
     });
 
-    it('throws 403 for non-author', async () => {
+    it('deletes for admin regardless of authorship', async () => {
       const qRepo = createMockQuestionRepo({
-        findById: jest.fn().mockResolvedValue({ _id: 'q1', author: { toString: () => 'author1' } }),
+        findById: jest.fn().mockResolvedValue({ _id: 'q1', author: { toString: () => 'someone-else' } }),
       });
-      await expect(deleteQuestion('q1', 'u2', { questionRepository: qRepo }))
-        .rejects.toMatchObject({ statusCode: 403 });
-    });
-
-    it('deletes for author', async () => {
-      const qRepo = createMockQuestionRepo({
-        findById: jest.fn().mockResolvedValue({ _id: 'q1', author: { toString: () => 'u1' } }),
-      });
-      const result = await deleteQuestion('q1', 'u1', { questionRepository: qRepo });
+      const result = await deleteQuestion('q1', 'admin1', 'admin', { questionRepository: qRepo });
       expect(result).toEqual({ message: 'Question deleted' });
       expect(qRepo.deleteById).toHaveBeenCalledWith('q1');
     });
