@@ -104,17 +104,55 @@ class QuestionRepository {
     return { question, challenge };
   }
 
-  async findChallengedQuestions(threshold) {
-    const docs = await this.Model.aggregate([
-      { $match: { isHidden: false } },
-      { $addFields: { challengeCount: { $size: '$challenges' } } },
-      { $match: { challengeCount: { $gte: threshold } } },
-      { $sort: { challengeCount: -1, createdAt: -1 } },
-    ]);
-    return this.Model.populate(docs, [
-      { path: 'author', select: 'name collegeName' },
+  async findChallengedQuestions({ subject, difficulty, sortBy = 'mostChallenged', page = 1, limit = 10 } = {}) {
+    const skip = (page - 1) * limit;
+
+    const matchStage = {
+      isHidden: false,
+      'challenges.0': { $exists: true }, // at least 1 challenge
+    };
+    if (subject) matchStage.subject = subject;
+    if (difficulty) matchStage.difficulty = difficulty;
+
+    let sortStage;
+    if (sortBy === 'newest') {
+      sortStage = { createdAt: -1 };
+    } else if (sortBy === 'mostVoted') {
+      sortStage = { totalChallengeVotes: -1, challengeCount: -1, createdAt: -1 };
+    } else {
+      // default: mostChallenged
+      sortStage = { challengeCount: -1, createdAt: -1 };
+    }
+
+    const pipeline = [
+      { $match: matchStage },
+      {
+        $addFields: {
+          challengeCount: { $size: '$challenges' },
+          uniqueChallengers: { $size: { $setUnion: ['$challenges.user', []] } },
+          totalChallengeVotes: { $sum: '$challenges.voteCount' },
+          hasResolvedChallenge: { $in: [true, '$challenges.resolved'] },
+        },
+      },
+      { $sort: sortStage },
+      {
+        $facet: {
+          questions: [{ $skip: skip }, { $limit: limit }],
+          total: [{ $count: 'count' }],
+        },
+      },
+    ];
+
+    const [result] = await this.Model.aggregate(pipeline);
+    const questions = result.questions || [];
+    const total = result.total[0]?.count || 0;
+
+    await this.Model.populate(questions, [
+      { path: 'author', select: 'name collegeName currentYear points' },
       { path: 'challenges.user', select: 'name' },
     ]);
+
+    return { questions, total, page, limit };
   }
 
   async save(doc) {

@@ -12,7 +12,6 @@ const {
   DEFAULT_PAGE_SIZE,
   MAX_PAGE_SIZE,
   DIFFICULTY_LEVELS,
-  CHALLENGE_THRESHOLD,
 } = require('../config/constants');
 
 const defaultQuestionRepo = new QuestionRepository(Question);
@@ -101,9 +100,19 @@ const deleteQuestion = async (id, userId, { questionRepository } = {}) => {
   return { message: 'Question deleted' };
 };
 
-const getChallengedQuestions = async ({ questionRepository } = {}) => {
+const getChallengedQuestions = async (filters = {}, userId, { questionRepository } = {}) => {
   const qRepo = questionRepository || defaultQuestionRepo;
-  return qRepo.findChallengedQuestions(CHALLENGE_THRESHOLD);
+  const { subject, difficulty, sortBy = 'mostChallenged', page = 1, limit = DEFAULT_PAGE_SIZE } = filters;
+  const pageNum = Math.max(1, parseInt(page));
+  const limitNum = Math.min(MAX_PAGE_SIZE, Math.max(1, parseInt(limit)));
+
+  return qRepo.findChallengedQuestions({
+    subject,
+    difficulty,
+    sortBy,
+    page: pageNum,
+    limit: limitNum,
+  });
 };
 
 module.exports = { createQuestion, getQuestions, getQuestionById, deleteQuestion, getChallengedQuestions };

@@ -1,4 +1,4 @@
-const { createQuestion, deleteQuestion } = require('../../src/services/questionService');
+const { createQuestion, deleteQuestion, getChallengedQuestions } = require('../../src/services/questionService');
 const AppError = require('../../src/utils/AppError');
 
 // Mock pointsEngine
@@ -222,3 +222,45 @@ describe('Question Service', () => {
     });
   });
 });
+
+  describe('getChallengedQuestions', () => {
+    it('returns paginated result from repository', async () => {
+      const mockResult = {
+        questions: [{ _id: 'q1', challengeCount: 3, uniqueChallengers: 2 }],
+        total: 1,
+        page: 1,
+        limit: 10,
+      };
+      const qRepo = createMockQuestionRepo({
+        findChallengedQuestions: jest.fn().mockResolvedValue(mockResult),
+      });
+
+      const result = await getChallengedQuestions({}, 'u1', { questionRepository: qRepo });
+      expect(result).toEqual(mockResult);
+      expect(qRepo.findChallengedQuestions).toHaveBeenCalledWith(
+        expect.objectContaining({ page: 1, limit: 10, sortBy: 'mostChallenged' })
+      );
+    });
+
+    it('passes subject and difficulty filters through', async () => {
+      const qRepo = createMockQuestionRepo({
+        findChallengedQuestions: jest.fn().mockResolvedValue({ questions: [], total: 0, page: 1, limit: 10 }),
+      });
+
+      await getChallengedQuestions({ subject: 'Anatomy', difficulty: 'Hard' }, 'u1', { questionRepository: qRepo });
+      expect(qRepo.findChallengedQuestions).toHaveBeenCalledWith(
+        expect.objectContaining({ subject: 'Anatomy', difficulty: 'Hard' })
+      );
+    });
+
+    it('clamps limit to MAX_PAGE_SIZE', async () => {
+      const qRepo = createMockQuestionRepo({
+        findChallengedQuestions: jest.fn().mockResolvedValue({ questions: [], total: 0, page: 1, limit: 50 }),
+      });
+
+      await getChallengedQuestions({ limit: '999' }, 'u1', { questionRepository: qRepo });
+      expect(qRepo.findChallengedQuestions).toHaveBeenCalledWith(
+        expect.objectContaining({ limit: 50 })
+      );
+    });
+  });
