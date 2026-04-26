@@ -30,8 +30,8 @@ const deleteQuestion = async (req, res, next) => {
 
 const getChallengedQuestions = async (req, res, next) => {
   try {
-    const questions = await questionService.getChallengedQuestions();
-    res.json(questions);
+    const result = await questionService.getChallengedQuestions(req.query, req.user.id);
+    res.json(result);
   } catch (err) { next(err); }
 };
 
