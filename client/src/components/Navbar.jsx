@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 
 export default function Navbar() {
-  const { user, logout } = useAuth();
+  const { user, logout, isAdmin } = useAuth();
   const [menuOpen, setMenuOpen] = useState(false);
 
   const navLinks = [
@@ -12,6 +12,7 @@ export default function Navbar() {
     { to: '/questions/challenged', label: 'Challenged' },
     { to: '/leaderboard', label: 'Leaderboard' },
     { to: `/profile/${user?._id}`, label: 'Profile' },
+    ...(isAdmin ? [{ to: '/admin', label: '⚙ Admin', admin: true }] : []),
   ];
 
   return (
@@ -22,7 +23,13 @@ export default function Navbar() {
         {/* Desktop nav */}
         <div className="hidden md:flex items-center gap-4">
           {navLinks.map((link) => (
-            <Link key={link.to} to={link.to} className="text-gray-600 hover:text-indigo-600 text-sm">{link.label}</Link>
+            <Link
+              key={link.to}
+              to={link.to}
+              className={`text-sm ${link.admin ? 'text-red-500 hover:text-red-700 font-medium' : 'text-gray-600 hover:text-indigo-600'}`}
+            >
+              {link.label}
+            </Link>
           ))}
           <span className="text-sm text-indigo-600 font-medium">{user?.points || 0} pts</span>
           <button onClick={logout} className="text-sm text-red-500 hover:text-red-700">Logout</button>

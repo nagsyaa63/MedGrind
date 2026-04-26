@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { AuthProvider } from './context/AuthContext';
 import ProtectedRoute from './components/ProtectedRoute';
+import AdminRoute from './components/AdminRoute';
 import Navbar from './components/Navbar';
 import LoginPage from './pages/LoginPage';
 import OnboardingPage from './pages/OnboardingPage';
@@ -11,6 +12,7 @@ import ProfilePage from './pages/ProfilePage';
 import EditProfilePage from './pages/EditProfilePage';
 import LeaderboardPage from './pages/LeaderboardPage';
 import ChallengedQuestionsPage from './pages/ChallengedQuestionsPage';
+import AdminPage from './pages/AdminPage';
 
 function AppLayout({ children }) {
   return (
@@ -35,6 +37,7 @@ function App() {
           <Route path="/profile/:userId" element={<ProtectedRoute><AppLayout><ProfilePage /></AppLayout></ProtectedRoute>} />
           <Route path="/profile/edit" element={<ProtectedRoute><AppLayout><EditProfilePage /></AppLayout></ProtectedRoute>} />
           <Route path="/leaderboard" element={<ProtectedRoute><AppLayout><LeaderboardPage /></AppLayout></ProtectedRoute>} />
+          <Route path="/admin" element={<AdminRoute><AppLayout><AdminPage /></AppLayout></AdminRoute>} />
         </Routes>
       </AuthProvider>
     </BrowserRouter>

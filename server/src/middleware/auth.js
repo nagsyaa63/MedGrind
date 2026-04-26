@@ -13,7 +13,7 @@ const auth = async (req, res, next) => {
   const token = header.split(' ')[1];
   try {
     const decoded = jwt.verify(token, config.JWT_SECRET);
-    req.user = { id: decoded.userId, email: decoded.email };
+    req.user = { id: decoded.userId, email: decoded.email, role: decoded.role || 'user' };
 
     // Only run streak update once per user per day
     const today = new Date().toISOString().slice(0, 10);

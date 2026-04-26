@@ -80,6 +80,40 @@ class QuestionRepository {
     return { questions, total };
   }
 
+  async findWithFiltersAdmin({ subject, topic, subtopic, difficulty, sortBy = 'newest', page = 1, limit = 10 }) {
+    const skip = (page - 1) * limit;
+
+    // Admin sees ALL questions including hidden
+    const matchStage = {};
+    if (subject) matchStage.subject = subject;
+    if (topic) matchStage.topic = topic;
+    if (subtopic) matchStage.subtopic = subtopic;
+    if (difficulty) matchStage.difficulty = difficulty;
+
+    const sortStage = sortBy === 'popular'
+      ? { likeCount: -1, createdAt: -1 }
+      : { createdAt: -1 };
+
+    const pipeline = [
+      { $match: matchStage },
+      { $sort: sortStage },
+      {
+        $facet: {
+          questions: [{ $skip: skip }, { $limit: limit }],
+          total: [{ $count: 'count' }],
+        },
+      },
+    ];
+
+    const [result] = await this.Model.aggregate(pipeline);
+    const questions = result.questions || [];
+    const total = result.total[0]?.count || 0;
+
+    await this.Model.populate(questions, { path: 'author', select: 'name collegeName currentYear points' });
+
+    return { questions, total };
+  }
+
   async addChallenge(questionId, challengeData) {
     const question = await this.Model.findById(questionId);
     if (!question) return null;

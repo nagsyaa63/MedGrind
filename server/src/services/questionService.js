@@ -6,7 +6,6 @@ const { updatePoints } = require('../utils/pointsEngine');
 const AppError = require('../utils/AppError');
 const taxonomyService = require('./taxonomyService');
 const {
-  ALLOWED_SUBJECTS,
   OPTION_KEYS,
   MAX_QUESTION_TEXT_LENGTH,
   MAX_OPTION_TEXT_LENGTH,
@@ -18,48 +17,58 @@ const {
 const defaultQuestionRepo = new QuestionRepository(Question);
 const defaultUserRepo = new UserRepository(User);
 
-const createQuestion = async (data, userId, { questionRepository, userRepository } = {}) => {
-  const qRepo = questionRepository || defaultQuestionRepo;
-  const uRepo = userRepository || defaultUserRepo;
-  const { questionText, options, correctOptions, subtopic, difficulty, explanation } = data;
+// ─── Shared validation helpers ────────────────────────────────────────────────
 
-  // subtopic is required; subject + topic are derived from taxonomy
-  if (!questionText || !options || !correctOptions || !subtopic || !difficulty) {
-    throw new AppError('Missing required fields: questionText, options, correctOptions, subtopic, difficulty', 400);
-  }
-
+const validateOptions = (options) => {
   const optionKeys = Object.keys(options);
   if (optionKeys.length !== 4 || !OPTION_KEYS.every(k => optionKeys.includes(k))) {
     throw new AppError('Options must have exactly keys A, B, C, D', 400);
-  }
-
-  if (questionText.length > MAX_QUESTION_TEXT_LENGTH) {
-    throw new AppError(`Question text must not exceed ${MAX_QUESTION_TEXT_LENGTH} characters`, 400);
   }
   for (const key of OPTION_KEYS) {
     if (!options[key] || options[key].length > MAX_OPTION_TEXT_LENGTH) {
       throw new AppError(`Option ${key} must be provided and not exceed ${MAX_OPTION_TEXT_LENGTH} characters`, 400);
     }
   }
+};
 
+const validateCorrectOptions = (correctOptions) => {
   if (!Array.isArray(correctOptions) || correctOptions.length === 0) {
     throw new AppError('At least one correct option is required', 400);
   }
   if (!correctOptions.every(o => OPTION_KEYS.includes(o))) {
     throw new AppError('Correct options must be A, B, C, or D', 400);
   }
+};
+
+const resolveAndValidateSubtopic = (subtopic) => {
+  const resolved = taxonomyService.resolveSubtopic(subtopic);
+  if (!resolved) throw new AppError(`Invalid subtopic: "${subtopic}"`, 400);
+  return resolved; // { subject, topic }
+};
+
+// ─── createQuestion ───────────────────────────────────────────────────────────
+
+const createQuestion = async (data, userId, { questionRepository, userRepository } = {}) => {
+  const qRepo = questionRepository || defaultQuestionRepo;
+  const uRepo = userRepository || defaultUserRepo;
+  const { questionText, options, correctOptions, subtopic, difficulty, explanation } = data;
+
+  if (!questionText || !options || !correctOptions || !subtopic || !difficulty) {
+    throw new AppError('Missing required fields: questionText, options, correctOptions, subtopic, difficulty', 400);
+  }
+
+  if (questionText.length > MAX_QUESTION_TEXT_LENGTH) {
+    throw new AppError(`Question text must not exceed ${MAX_QUESTION_TEXT_LENGTH} characters`, 400);
+  }
+
+  validateOptions(options);
+  validateCorrectOptions(correctOptions);
 
   if (!DIFFICULTY_LEVELS.includes(difficulty)) {
     throw new AppError('Difficulty must be Easy, Medium, or Hard', 400);
   }
 
-  // Resolve subject + topic from subtopic via taxonomy
-  const resolved = taxonomyService.resolveSubtopic(subtopic);
-  if (!resolved) {
-    throw new AppError(`Invalid subtopic: "${subtopic}"`, 400);
-  }
-  const { subject, topic } = resolved;
-
+  const { subject, topic } = resolveAndValidateSubtopic(subtopic);
   const questionType = correctOptions.length === 1 ? 'single' : 'multiple';
 
   const question = await qRepo.create({
@@ -81,6 +90,8 @@ const createQuestion = async (data, userId, { questionRepository, userRepository
   return question;
 };
 
+// ─── getQuestions (user feed — excludes hidden) ───────────────────────────────
+
 const getQuestions = async (filters, userId, { questionRepository } = {}) => {
   const qRepo = questionRepository || defaultQuestionRepo;
   const { subject, topic, subtopic, difficulty, sortBy = 'newest', page = 1, limit = DEFAULT_PAGE_SIZE } = filters;
@@ -95,6 +106,23 @@ const getQuestions = async (filters, userId, { questionRepository } = {}) => {
   return { questions, total, page: pageNum, limit: limitNum };
 };
 
+// ─── getQuestionsAdmin (admin feed — includes hidden) ─────────────────────────
+
+const getQuestionsAdmin = async (filters, { questionRepository } = {}) => {
+  const qRepo = questionRepository || defaultQuestionRepo;
+  const { subject, topic, subtopic, difficulty, sortBy = 'newest', page = 1, limit = DEFAULT_PAGE_SIZE } = filters;
+  const pageNum = Math.max(1, parseInt(page));
+  const limitNum = Math.min(MAX_PAGE_SIZE, Math.max(1, parseInt(limit)));
+
+  const { questions, total } = await qRepo.findWithFiltersAdmin(
+    { subject, topic, subtopic, difficulty, sortBy, page: pageNum, limit: limitNum }
+  );
+
+  return { questions, total, page: pageNum, limit: limitNum };
+};
+
+// ─── getQuestionById ──────────────────────────────────────────────────────────
+
 const getQuestionById = async (id, { questionRepository } = {}) => {
   const qRepo = questionRepository || defaultQuestionRepo;
   const question = await qRepo.findByIdWithPopulate(id, [
@@ -105,14 +133,72 @@ const getQuestionById = async (id, { questionRepository } = {}) => {
   return question;
 };
 
-const deleteQuestion = async (id, userId, { questionRepository } = {}) => {
+// ─── deleteQuestion (admin only) ──────────────────────────────────────────────
+
+const deleteQuestion = async (id, userId, userRole, { questionRepository } = {}) => {
   const qRepo = questionRepository || defaultQuestionRepo;
+
+  if (userRole !== 'admin') {
+    throw new AppError('Only admins can delete questions', 403);
+  }
+
   const question = await qRepo.findById(id);
   if (!question) throw new AppError('Question not found', 404);
-  if (question.author.toString() !== userId) throw new AppError('Not authorized to delete this question', 403);
+
   await qRepo.deleteById(id);
   return { message: 'Question deleted' };
 };
+
+// ─── updateQuestion (admin only) ──────────────────────────────────────────────
+
+const updateQuestion = async (id, data, { questionRepository } = {}) => {
+  const qRepo = questionRepository || defaultQuestionRepo;
+  const { questionText, options, correctOptions, subtopic, difficulty, explanation, isHidden } = data;
+
+  const updateFields = {};
+
+  if (questionText !== undefined) {
+    if (!questionText.trim()) throw new AppError('Question text cannot be empty', 400);
+    if (questionText.length > MAX_QUESTION_TEXT_LENGTH) {
+      throw new AppError(`Question text must not exceed ${MAX_QUESTION_TEXT_LENGTH} characters`, 400);
+    }
+    updateFields.questionText = questionText;
+  }
+
+  if (options !== undefined) {
+    validateOptions(options);
+    updateFields.options = options;
+  }
+
+  if (correctOptions !== undefined) {
+    validateCorrectOptions(correctOptions);
+    updateFields.correctOptions = correctOptions;
+    updateFields.questionType = correctOptions.length === 1 ? 'single' : 'multiple';
+  }
+
+  if (subtopic !== undefined) {
+    const { subject, topic } = resolveAndValidateSubtopic(subtopic);
+    updateFields.subject = subject;
+    updateFields.topic = topic;
+    updateFields.subtopic = subtopic;
+  }
+
+  if (difficulty !== undefined) {
+    if (!DIFFICULTY_LEVELS.includes(difficulty)) throw new AppError('Difficulty must be Easy, Medium, or Hard', 400);
+    updateFields.difficulty = difficulty;
+  }
+
+  if (explanation !== undefined) updateFields.explanation = explanation;
+  if (isHidden !== undefined) updateFields.isHidden = Boolean(isHidden);
+
+  if (Object.keys(updateFields).length === 0) throw new AppError('No fields to update', 400);
+
+  const question = await qRepo.updateById(id, updateFields);
+  if (!question) throw new AppError('Question not found', 404);
+  return question;
+};
+
+// ─── getChallengedQuestions ───────────────────────────────────────────────────
 
 const getChallengedQuestions = async (filters = {}, userId, { questionRepository } = {}) => {
   const qRepo = questionRepository || defaultQuestionRepo;
@@ -129,4 +215,12 @@ const getChallengedQuestions = async (filters = {}, userId, { questionRepository
   });
 };
 
-module.exports = { createQuestion, getQuestions, getQuestionById, deleteQuestion, getChallengedQuestions };
+module.exports = {
+  createQuestion,
+  getQuestions,
+  getQuestionsAdmin,
+  getQuestionById,
+  deleteQuestion,
+  updateQuestion,
+  getChallengedQuestions,
+};

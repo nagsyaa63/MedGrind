@@ -9,7 +9,7 @@ const defaultUserRepo = new UserRepository(User);
 
 const generateToken = (user) => {
   return jwt.sign(
-    { userId: user._id, email: user.email, firebaseUid: user.firebaseUid },
+    { userId: user._id, email: user.email, firebaseUid: user.firebaseUid, role: user.role || 'user' },
     config.JWT_SECRET,
     { expiresIn: JWT_EXPIRY }
   );

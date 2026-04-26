@@ -23,8 +23,15 @@ const getQuestion = async (req, res, next) => {
 
 const deleteQuestion = async (req, res, next) => {
   try {
-    const result = await questionService.deleteQuestion(req.params.id, req.user.id);
+    const result = await questionService.deleteQuestion(req.params.id, req.user.id, req.user.role);
     res.json(result);
+  } catch (err) { next(err); }
+};
+
+const updateQuestion = async (req, res, next) => {
+  try {
+    const question = await questionService.updateQuestion(req.params.id, req.body);
+    res.json(question);
   } catch (err) { next(err); }
 };
 
@@ -35,4 +42,4 @@ const getChallengedQuestions = async (req, res, next) => {
   } catch (err) { next(err); }
 };
 
-module.exports = { getQuestions, createQuestion, getQuestion, deleteQuestion, getChallengedQuestions };
+module.exports = { getQuestions, createQuestion, getQuestion, deleteQuestion, updateQuestion, getChallengedQuestions };
