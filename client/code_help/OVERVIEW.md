@@ -6,16 +6,18 @@ React 18 SPA for the MedGrind medical MCQ platform. Communicates with a Node.js/
 ## Tech Stack
 - React 18 + Vite (build tool)
 - Tailwind CSS v3 (utility-first styling)
-- React Router DOM v6 (client-side routing)
+- React Router DOM v7 (client-side routing)
 - Axios (HTTP client)
+- Firebase Client SDK v12 (Google OAuth)
 
 ## Architecture
 ```
 BrowserRouter
   └─ AuthProvider (React Context)
        └─ Routes
-            ├─ Public: / (Login), /register
-            └─ Protected (ProtectedRoute wrapper)
+            ├─ Public: / (Login with Google)
+            ├─ Semi-public: /onboarding (authenticated but not onboarded)
+            └─ Protected (ProtectedRoute wrapper — auth + onboarding gate)
                  ├─ /questions (Feed)
                  ├─ /questions/new (Create)
                  ├─ /questions/challenged (Challenged)
@@ -34,27 +36,38 @@ BrowserRouter
 - Error responses from backend are always `{ error: "message" }`
 - Frontend reads errors as `err.response?.data?.error`
 
-## Auth Flow
-1. User submits login/register form
-2. AuthContext calls apiClient.post('/auth/login' or '/auth/register')
-3. On success: stores token in localStorage, sets user in context state
-4. All subsequent API calls auto-include `Authorization: Bearer <token>` header
-5. On app load: checks localStorage for token, calls GET /api/auth/me to validate
-6. On 401 from any endpoint: auto-logout (clear token, redirect to /)
+## Auth Flow (Google Firebase)
+1. User clicks "Sign in with Google" on LoginPage
+2. `signInWithGoogle()` in AuthContext calls `signInWithPopup(auth, googleProvider)`
+3. Firebase returns a credential with an ID token
+4. Client POSTs `{ firebaseIdToken }` to `/api/auth/firebase`
+5. Server returns `{ user, token }` (JWT)
+6. Token stored in localStorage; user set in context
+7. `signInWithGoogle` returns the user object so LoginPage can read `isOnboarded` immediately
+8. Navigate to `/onboarding` (new user) or `/questions` (returning user)
+9. On app load: checks localStorage for token, calls GET /api/auth/me to validate
+10. On 401 from any endpoint: auto-logout (clear token, redirect to /)
+
+## Onboarding Flow
+- New Google users have `isOnboarded: false`
+- `ProtectedRoute` redirects them to `/onboarding`
+- `OnboardingPage` collects `collegeName` + `currentYear`
+- Calls `updateProfile()` → server sets `isOnboarded: true`
+- Navigate to `/questions`
 
 ## Key Files
 - `src/App.jsx` — Router setup with all routes
 - `src/main.jsx` — Entry point, renders App
 - `src/api/apiClient.js` — Axios instance with JWT interceptors
-- `src/context/AuthContext.jsx` — Auth state (user, token, isAuthenticated, login, register, logout)
+- `src/config/firebase.js` — Firebase Client SDK init (auth, googleProvider)
+- `src/context/AuthContext.jsx` — Auth state (user, token, isAuthenticated, isOnboarded, signInWithGoogle, logout, updateProfile)
 - `src/config/constants.js` — Frontend constants (subjects, difficulties, colors, pagination)
 - `src/components/Navbar.jsx` — Responsive nav with hamburger menu
-- `src/components/ProtectedRoute.jsx` — Auth guard, redirects to / if not authenticated
+- `src/components/ProtectedRoute.jsx` — Auth + onboarding guard (redirects to / or /onboarding)
 - `src/components/LoadingSpinner.jsx` — Reusable spinner
 
 ## What Backend Provides
-- POST /api/auth/register → `{ user, token }`
-- POST /api/auth/login → `{ user, token }`
+- POST /api/auth/firebase → `{ user, token }` (upserts user, returns isOnboarded flag)
 - GET /api/auth/me → user object (validates token)
 - GET /api/questions → `{ questions, total, page, limit }` (unanswered-first sorting)
 - GET /api/questions/:id → full question with author, challenges, vote arrays
@@ -65,6 +78,7 @@ BrowserRouter
 - POST /api/questions/:id/challenge/:id/vote → `{ challenge, resolved }`
 - GET /api/users/:id → user profile (no password)
 - GET /api/users/leaderboard → array of user objects
+- PUT /api/users/profile → updated user (sets isOnboarded: true when profile is complete)
 
 ## Route Order Matters
 `/questions/challenged` MUST be defined before `/questions/:id` in the router, otherwise React Router treats "challenged" as an :id param.

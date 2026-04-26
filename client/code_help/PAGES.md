@@ -1,15 +1,21 @@
 # Frontend Pages Reference
 
 ## LoginPage (/)
-- Email/password form
-- Calls AuthContext.login()
-- Redirects to /questions on success
+- Single "Sign in with Google" button with Google SVG icon
+- Calls `AuthContext.signInWithGoogle()` (Firebase popup flow)
+- If already authenticated: redirects to `/questions` (onboarded) or `/onboarding` (not onboarded)
+- After sign-in: navigates to `/onboarding` or `/questions` based on `user.isOnboarded`
 - Shows backend error via `err.response?.data?.error`
+- `auth/popup-closed-by-user` is silently ignored (no error shown)
 
-## RegisterPage (/register)
-- Form: name, email, password, collegeName, currentYear (dropdown 1-6)
-- Calls AuthContext.register()
-- Redirects to /questions on success
+## OnboardingPage (/onboarding)
+- Shown to authenticated users who have not yet completed their profile
+- Fields: College / Institution (text), Year of Study 1–6 (number)
+- Client-side validation with inline field-level error messages
+- Calls `AuthContext.updateProfile({ collegeName, currentYear })`
+- Server sets `isOnboarded: true` when both fields are valid
+- Redirects to `/questions` on success
+- Redirects unauthenticated users to `/`
 
 ## QuestionFeedPage (/questions)
 - Fetches GET /api/questions with query params (subject, difficulty, sortBy, page, limit)

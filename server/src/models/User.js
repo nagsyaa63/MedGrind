@@ -20,7 +20,7 @@ const userSchema = new mongoose.Schema({
 }, { timestamps: true });
 
 // Indexes
-userSchema.index({ email: 1 }, { unique: true });
+// NOTE: email unique index is declared inline above via `unique: true` — do NOT add it again here
 userSchema.index({ points: -1 });
 userSchema.index({ firebaseUid: 1 }, { unique: true, sparse: true });
 

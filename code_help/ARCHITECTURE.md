@@ -28,19 +28,37 @@ Routes → Controllers → Services → Repositories → Models (Mongoose)
 ## Frontend Architecture
 
 ```
-React Router v6 (BrowserRouter)
-  └─ AuthContext (user, token, isAuthenticated)
-       └─ ProtectedRoute wrapper
+React Router v7 (BrowserRouter)
+  └─ AuthContext (user, token, isAuthenticated, isOnboarded)
+       └─ ProtectedRoute wrapper (auth + onboarding gate)
             └─ Page components
                  └─ apiClient (Axios + JWT interceptor)
 ```
 
-- **AuthContext**: Provides auth state + login/register/logout/updateProfile functions to all components.
+- **AuthContext**: Provides auth state + `signInWithGoogle` / `logout` / `updateProfile` functions to all components.
 - **apiClient**: Axios instance with request interceptor (attaches Bearer token) and response interceptor (401 → logout).
-- **ProtectedRoute**: Redirects to login if not authenticated.
+- **ProtectedRoute**: Redirects to `/` if not authenticated; redirects to `/onboarding` if authenticated but not onboarded.
+
+## Authentication Architecture
+
+```
+Client (Firebase SDK)
+  └─ signInWithPopup(googleProvider)
+       └─ Firebase returns ID token
+            └─ POST /api/auth/firebase { firebaseIdToken }
+                 └─ Server verifies token via Firebase Admin SDK
+                      └─ 3-step upsert:
+                           1. findByFirebaseUid → existing user
+                           2. findByEmailAndSetFirebaseUid → legacy migration
+                           3. create → brand-new user
+                      └─ Returns { user, JWT }
+```
 
 ## Key Design Decisions
 
+- **Google-only auth via Firebase** — no email/password. Firebase handles OAuth, server verifies ID tokens via Admin SDK.
+- **Onboarding gate** — new Google users have `isOnboarded: false`. ProtectedRoute redirects them to `/onboarding` until they complete their profile (collegeName + currentYear).
+- **Legacy migration** — existing email-based users are linked to their Google account on first sign-in via atomic `findOneAndUpdate`.
 - JWT stored in localStorage (simpler for cross-domain SPA; XSS mitigated by CSP)
 - Atomic `$inc` for points (no read-modify-write races)
 - Compound unique index on Answer(user, question) — one answer per user per question at DB level
@@ -49,3 +67,4 @@ React Router v6 (BrowserRouter)
 - Constants centralized in `server/src/config/constants.js` and `client/src/config/constants.js`
 - Streak tracking cached per-day (runs once per user per calendar day)
 - Pagination via skip/limit (acceptable for Atlas free tier dataset size)
+- CORS configured with explicit `OPTIONS` preflight handler for Express 5 compatibility

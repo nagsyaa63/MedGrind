@@ -7,10 +7,30 @@ Step-by-step instructions for deploying MedGrind to free-tier hosting: MongoDB A
 - Node.js 18+ and npm installed locally
 - Git and a GitHub account with the repo pushed
 - Accounts on: [MongoDB Atlas](https://www.mongodb.com/atlas), [Render.com](https://render.com), [Vercel](https://vercel.com)
+- A Firebase project with Google sign-in enabled ([Firebase Console](https://console.firebase.google.com))
 
 ---
 
-## 1. MongoDB Atlas Setup
+## 1. Firebase Setup
+
+### Enable Google Sign-In
+1. Go to [Firebase Console](https://console.firebase.google.com) → your project → **Authentication** → **Sign-in method**
+2. Enable **Google** as a sign-in provider
+3. Add your production domain (Vercel URL) to **Authorized domains**
+
+### Get Client SDK Config (for frontend)
+1. Go to **Project Settings** → **Your apps** → select your web app (or create one)
+2. Copy the Firebase config object — you'll need these values for Vercel env vars:
+   - `apiKey`, `authDomain`, `projectId`, `messagingSenderId`, `appId`
+
+### Get Admin SDK Credentials (for backend)
+1. Go to **Project Settings** → **Service accounts**
+2. Click **Generate new private key** → download the JSON file
+3. You'll need: `project_id`, `client_email`, `private_key` from this file
+
+---
+
+## 2. MongoDB Atlas Setup
 
 1. Log in to [MongoDB Atlas](https://cloud.mongodb.com) and create a new project.
 2. Click **Build a Database** → select the **M0 Free** tier → choose a cloud provider and region.
@@ -19,10 +39,10 @@ Step-by-step instructions for deploying MedGrind to free-tier hosting: MongoDB A
    - Set a username and a strong password (save these — you'll need them for the connection string)
 4. Whitelist network access:
    - Go to **Network Access** → **Add IP Address**
-   - Add `0.0.0.0/0` to allow connections from any IP (required for cloud deployments like Render and Vercel)
+   - Add `0.0.0.0/0` to allow connections from any IP (required for Render)
 5. Get the connection string:
    - Go to **Database** → **Connect** → **Connect your application**
-   - Copy the connection string — it looks like:
+   - Copy the connection string:
      ```
      mongodb+srv://<username>:<password>@cluster0.xxxxx.mongodb.net/medgrind?retryWrites=true&w=majority
      ```
@@ -30,7 +50,7 @@ Step-by-step instructions for deploying MedGrind to free-tier hosting: MongoDB A
 
 ---
 
-## 2. Deploy Backend to Render.com
+## 3. Deploy Backend to Render.com
 
 1. Log in to [Render.com](https://dashboard.render.com) and click **New** → **Web Service**.
 2. Connect your GitHub repository.
@@ -47,17 +67,20 @@ Step-by-step instructions for deploying MedGrind to free-tier hosting: MongoDB A
 
    | Variable | Value |
    |----------|-------|
-   | `MONGODB_URI` | Your Atlas connection string from step 1 |
-   | `JWT_SECRET` | A long random string (e.g., generate with `openssl rand -hex 32`) |
-   | `CORS_ORIGIN` | Your Vercel frontend URL (set after step 3, e.g., `https://medgrind.vercel.app`) |
+   | `MONGODB_URI` | Your Atlas connection string from step 2 |
+   | `JWT_SECRET` | A long random string (generate with `openssl rand -hex 32`) |
+   | `CORS_ORIGIN` | Your Vercel frontend URL (set after step 4, e.g., `https://medgrind.vercel.app`) |
    | `NODE_ENV` | `production` |
+   | `FIREBASE_PROJECT_ID` | `project_id` from your Admin SDK JSON |
+   | `FIREBASE_CLIENT_EMAIL` | `client_email` from your Admin SDK JSON |
+   | `FIREBASE_PRIVATE_KEY` | `private_key` from your Admin SDK JSON — paste the full value including `-----BEGIN PRIVATE KEY-----` and `-----END PRIVATE KEY-----`, with literal `\n` for newlines |
 
 5. Click **Create Web Service**. Render will build and deploy automatically.
 6. Copy the service URL (e.g., `https://medgrind-api.onrender.com`) — you'll need it for the frontend.
 
 ---
 
-## 3. Deploy Frontend to Vercel
+## 4. Deploy Frontend to Vercel
 
 1. Log in to [Vercel](https://vercel.com) and click **Add New** → **Project**.
 2. Import your GitHub repository.
@@ -73,26 +96,50 @@ Step-by-step instructions for deploying MedGrind to free-tier hosting: MongoDB A
    | Variable | Value |
    |----------|-------|
    | `VITE_API_URL` | Your Render backend URL + `/api` (e.g., `https://medgrind-api.onrender.com/api`) |
+   | `VITE_FIREBASE_API_KEY` | From Firebase Client SDK config |
+   | `VITE_FIREBASE_AUTH_DOMAIN` | From Firebase Client SDK config |
+   | `VITE_FIREBASE_PROJECT_ID` | From Firebase Client SDK config |
+   | `VITE_FIREBASE_MESSAGING_SENDER_ID` | From Firebase Client SDK config |
+   | `VITE_FIREBASE_APP_ID` | From Firebase Client SDK config |
 
 5. Click **Deploy**. Vercel will build and deploy the frontend.
-6. After deployment, copy the Vercel URL and go back to Render → update the `CORS_ORIGIN` env var to match (e.g., `https://medgrind.vercel.app`). Render will redeploy automatically.
+6. After deployment, copy the Vercel URL and:
+   - Go back to Render → update `CORS_ORIGIN` to your Vercel URL (e.g., `https://medgrind.vercel.app`). Render will redeploy automatically.
+   - Go to Firebase Console → **Authentication** → **Settings** → **Authorized domains** → add your Vercel URL.
 
 ---
 
-## 4. Post-Deployment Verification
+## 5. Post-Deployment Verification
 
 1. Open the Vercel frontend URL in your browser.
-2. Register a new account — confirm you're redirected to the question feed.
-3. Create a question, submit an answer, and verify points update.
-4. Check the leaderboard page loads correctly.
+2. Click **Sign in with Google** — confirm the popup opens and completes.
+3. New users should be redirected to the onboarding page to enter college name and year.
+4. After onboarding, confirm you're redirected to the question feed.
+5. Create a question, submit an answer, and verify points update.
+6. Check the leaderboard page loads correctly.
 
 ---
 
-## 5. Common Issues
+## 6. Common Issues
 
 ### CORS Errors
 
-If you see CORS errors in the browser console, verify that `CORS_ORIGIN` on Render matches your exact Vercel URL (no trailing slash). Redeploy the backend after updating.
+If you see CORS errors in the browser console:
+- Verify `CORS_ORIGIN` on Render matches your exact Vercel URL (no trailing slash).
+- Redeploy the backend after updating.
+
+### Firebase Popup Blocked
+
+If the Google sign-in popup is blocked:
+- Ensure your Vercel domain is in Firebase **Authorized domains**.
+- The `Cross-Origin-Opener-Policy would block window.close` warning in the console is a harmless browser log from Google's own `gapi.js` — it does not affect functionality.
+
+### Firebase Admin SDK Private Key
+
+If you see `Error: Failed to parse private key` on Render:
+- The `FIREBASE_PRIVATE_KEY` must include the full key with `-----BEGIN PRIVATE KEY-----` and `-----END PRIVATE KEY-----`.
+- Newlines must be literal `\n` characters (not actual line breaks) when pasting into Render's env var UI.
+- Render automatically handles the `\n` → newline conversion when the value is quoted.
 
 ### Render Cold Starts
 
@@ -106,7 +153,7 @@ Render's free tier spins down the service after ~15 minutes of inactivity. The f
 
 ---
 
-## 6. Optional: Keep Render Awake
+## 7. Optional: Keep Render Awake
 
 To avoid cold starts, set up a free monitoring service to ping your backend periodically:
 

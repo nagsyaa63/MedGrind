@@ -9,9 +9,31 @@ Error format (all endpoints): `{ error: "message" }`
 
 | Method | Path | Auth | Rate Limited | Description |
 |--------|------|------|-------------|-------------|
-| POST | `/api/auth/register` | No | Yes (20/15min) | Register new user |
-| POST | `/api/auth/login` | No | Yes (20/15min) | Login, returns JWT |
+| POST | `/api/auth/firebase` | No | Yes (20/15min) | Exchange Firebase ID token for app JWT. Creates or upserts user. Returns `{ user, token }` |
 | GET | `/api/auth/me` | Yes | No | Current user profile |
+
+### POST `/api/auth/firebase`
+
+Request body:
+```json
+{ "firebaseIdToken": "<Firebase ID token from client SDK>" }
+```
+
+Response `200`:
+```json
+{
+  "user": { "_id": "...", "name": "...", "email": "...", "isOnboarded": false, ... },
+  "token": "<JWT>"
+}
+```
+
+Errors:
+- `400` — `firebaseIdToken` missing
+- `401` — Firebase token invalid or expired
+
+### Onboarding Flow
+
+New Google users have `isOnboarded: false`. They must complete onboarding by calling `PUT /api/users/profile` with `collegeName` and `currentYear`. Once both are set, `isOnboarded` is automatically set to `true`.
 
 ## Questions
 
@@ -54,4 +76,4 @@ Auto-resolution: when a suggestion group reaches RESOLUTION_THRESHOLD (10) votes
 |--------|------|------|-------------|
 | GET | `/api/users/leaderboard` | Yes | Leaderboard sorted by points desc |
 | GET | `/api/users/:id` | Yes | User public profile |
-| PUT | `/api/users/profile` | Yes | Update own profile (name, collegeName, currentYear, bio) |
+| PUT | `/api/users/profile` | Yes | Update own profile (name, collegeName, currentYear, bio). Sets `isOnboarded: true` when collegeName + currentYear are both valid. |
