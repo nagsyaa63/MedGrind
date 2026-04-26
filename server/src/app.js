@@ -11,8 +11,15 @@ const userRoutes = require('./routes/users');
 
 const app = express();
 
-// CORS configuration
-app.use(cors({ origin: config.CORS_ORIGIN }));
+// CORS configuration — handle preflight OPTIONS explicitly (required for Express 5)
+const corsOptions = {
+  origin: config.CORS_ORIGIN,
+  credentials: true,
+  methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization'],
+};
+app.use(cors(corsOptions));
+app.options('/{*path}', cors(corsOptions));
 
 // JSON body parser with 10KB limit
 app.use(express.json({ limit: '10kb' }));

@@ -32,7 +32,15 @@ const AUTH_RATE_LIMIT_MAX = 20;
 
 // === Security ===
 const BCRYPT_SALT_ROUNDS = 10;
-const JWT_EXPIRY = '7d';
+const JWT_EXPIRY = '1d';
+
+// === Firebase Auth Errors ===
+const FIREBASE_TOKEN_MISSING_ERROR = 'Firebase ID token is required';
+const FIREBASE_TOKEN_INVALID_ERROR = 'Invalid or expired Firebase token';
+
+// === Onboarding ===
+const MIN_YEAR = 1;
+const MAX_YEAR = 6;
 
 // === Field Limits ===
 const MAX_QUESTION_TEXT_LENGTH = 1000;
@@ -66,6 +74,10 @@ module.exports = {
   AUTH_RATE_LIMIT_MAX,
   BCRYPT_SALT_ROUNDS,
   JWT_EXPIRY,
+  FIREBASE_TOKEN_MISSING_ERROR,
+  FIREBASE_TOKEN_INVALID_ERROR,
+  MIN_YEAR,
+  MAX_YEAR,
   MAX_QUESTION_TEXT_LENGTH,
   MAX_OPTION_TEXT_LENGTH,
   MAX_EXPLANATION_LENGTH,

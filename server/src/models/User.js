@@ -5,9 +5,11 @@ const { BCRYPT_SALT_ROUNDS, MAX_BIO_LENGTH } = require('../config/constants');
 const userSchema = new mongoose.Schema({
   name:             { type: String, required: true, trim: true },
   email:            { type: String, required: true, unique: true, lowercase: true, trim: true, match: [/^[^\s@]+@[^\s@]+\.[^\s@]+$/, 'Please provide a valid email address'] },
-  password:         { type: String, required: true, minlength: 6 },
-  collegeName:      { type: String, required: true, trim: true },
-  currentYear:      { type: Number, required: true, min: 1, max: 6 },
+  password:         { type: String, minlength: 6 },
+  collegeName:      { type: String, trim: true },
+  currentYear:      { type: Number, min: 1, max: 6 },
+  firebaseUid:      { type: String },
+  isOnboarded:      { type: Boolean, default: false },
   bio:              { type: String, default: '', maxlength: MAX_BIO_LENGTH },
   points:           { type: Number, default: 0, min: 0 },
   questionsAdded:   { type: Number, default: 0 },
@@ -18,8 +20,9 @@ const userSchema = new mongoose.Schema({
 }, { timestamps: true });
 
 // Indexes
-userSchema.index({ email: 1 }, { unique: true });
+// NOTE: email unique index is declared inline above via `unique: true` — do NOT add it again here
 userSchema.index({ points: -1 });
+userSchema.index({ firebaseUid: 1 }, { unique: true, sparse: true });
 
 // Pre-save hook for password hashing
 userSchema.pre('save', async function(next) {

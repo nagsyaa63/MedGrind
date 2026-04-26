@@ -7,9 +7,11 @@
 ```
 name             String, required, trimmed
 email            String, required, unique, lowercase
-password         String, required, min 6 (stored as bcrypt hash, never returned in API)
-collegeName      String, required
-currentYear      Number, required, 1–6
+password         String, optional, min 6 (bcrypt hash — only present for legacy users)
+firebaseUid      String, optional, sparse unique index (set on first Google sign-in)
+isOnboarded      Boolean, default false (true once collegeName + currentYear are set)
+collegeName      String, optional, trimmed (required to complete onboarding)
+currentYear      Number, optional, 1–6 (required to complete onboarding)
 bio              String, default '', max 200
 points           Number, default 0, min 0
 questionsAdded   Number, default 0
@@ -19,7 +21,16 @@ streak           Number, default 0
 lastActiveDate   Date, default null (midnight UTC of last activity)
 ```
 
-Indexes: `{ email: 1 }` (unique), `{ points: -1 }` (leaderboard)
+Indexes:
+- `{ email: 1 }` unique (declared inline in schema field — NOT duplicated via `schema.index()`)
+- `{ points: -1 }` (leaderboard sorting)
+- `{ firebaseUid: 1 }` unique + sparse (sparse = allows multiple null values for users without Google sign-in yet)
+
+### User Lifecycle
+
+1. **New Google user** — created with `firebaseUid`, `email`, `name`. `isOnboarded: false`. Redirected to `/onboarding`.
+2. **Onboarded user** — has `collegeName` + `currentYear`. `isOnboarded: true`. Full access.
+3. **Legacy user** — had email/password before Firebase migration. On first Google sign-in, `firebaseUid` is linked atomically. If profile was already complete, `isOnboarded` is set to `true` automatically.
 
 ## Question
 

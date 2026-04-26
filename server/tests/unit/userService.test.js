@@ -80,12 +80,13 @@ describe('User Service', () => {
         toObject: () => ({ _id: 'u1', name: 'New Name', bio: 'New bio' }),
       };
       const repo = createMockUserRepo({
+        findById: jest.fn().mockResolvedValue({ _id: 'u1', collegeName: null, currentYear: null }),
         updateById: jest.fn().mockResolvedValue(updatedUser),
       });
 
       const result = await updateProfile('u1', { name: 'New Name', bio: 'New bio' }, { userRepository: repo });
       expect(result.name).toBe('New Name');
-      expect(repo.updateById).toHaveBeenCalledWith('u1', { name: 'New Name', bio: 'New bio' });
+      expect(repo.updateById).toHaveBeenCalledWith('u1', expect.objectContaining({ name: 'New Name', bio: 'New bio' }));
     });
   });
 

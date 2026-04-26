@@ -3,63 +3,55 @@ const UserRepository = require('../repositories/userRepository');
 const User = require('../models/User');
 const config = require('../config');
 const AppError = require('../utils/AppError');
-const { JWT_EXPIRY } = require('../config/constants');
+const { JWT_EXPIRY, FIREBASE_TOKEN_MISSING_ERROR, FIREBASE_TOKEN_INVALID_ERROR } = require('../config/constants');
 
 const defaultUserRepo = new UserRepository(User);
 
 const generateToken = (user) => {
   return jwt.sign(
-    { userId: user._id, email: user.email },
+    { userId: user._id, email: user.email, firebaseUid: user.firebaseUid },
     config.JWT_SECRET,
     { expiresIn: JWT_EXPIRY }
   );
 };
 
-const register = async ({ name, email, password, collegeName, currentYear }, { userRepository } = {}) => {
+const firebaseAuth = async (firebaseIdToken, { userRepository } = {}) => {
   const repo = userRepository || defaultUserRepo;
 
-  if (!name || !email || !password || !collegeName || currentYear === undefined) {
-    throw new AppError('All fields are required: name, email, password, collegeName, currentYear', 400);
+  if (!firebaseIdToken) {
+    throw new AppError(FIREBASE_TOKEN_MISSING_ERROR, 400);
   }
 
-  // Email format validation
-  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-  if (!emailRegex.test(email)) {
-    throw new AppError('Please provide a valid email address', 400);
+  // Lazy-require to allow mocking in tests
+  const admin = require('../config/firebase');
+
+  let decoded;
+  try {
+    decoded = await admin.auth().verifyIdToken(firebaseIdToken);
+  } catch {
+    throw new AppError(FIREBASE_TOKEN_INVALID_ERROR, 401);
   }
 
-  if (password.length < 6) {
-    throw new AppError('Password must be at least 6 characters', 400);
-  }
-  if (currentYear < 1 || currentYear > 6) {
-    throw new AppError('Current year must be between 1 and 6', 400);
-  }
+  const { uid, email, name } = decoded;
 
-  const existingUser = await repo.findByEmail(email);
-  if (existingUser) {
-    throw new AppError('Email already registered', 409);
-  }
+  // 1. Look up by firebaseUid
+  let user = await repo.findByFirebaseUid(uid);
 
-  const user = await repo.create({ name, email, password, collegeName, currentYear });
-  const token = generateToken(user);
-  return { user: user.toJSON(), token };
-};
-
-const login = async (email, password, { userRepository } = {}) => {
-  const repo = userRepository || defaultUserRepo;
-
-  if (!email || !password) {
-    throw new AppError('Email and password are required', 400);
-  }
-
-  const user = await repo.findByEmail(email);
   if (!user) {
-    throw new AppError('Invalid credentials', 401);
-  }
+    // 2. Legacy migration: look up by email and atomically set firebaseUid
+    const legacyUser = await repo.findByEmailAndSetFirebaseUid(email, uid);
 
-  const isMatch = await user.comparePassword(password);
-  if (!isMatch) {
-    throw new AppError('Invalid credentials', 401);
+    if (legacyUser) {
+      // If legacy user already has both profile fields, mark as onboarded
+      if (legacyUser.collegeName && legacyUser.currentYear) {
+        user = await repo.updateById(legacyUser._id, { isOnboarded: true });
+      } else {
+        user = legacyUser;
+      }
+    } else {
+      // 3. Brand-new user — isOnboarded defaults to false via schema
+      user = await repo.create({ firebaseUid: uid, email, name });
+    }
   }
 
   const token = generateToken(user);
@@ -75,4 +67,4 @@ const getMe = async (userId, { userRepository } = {}) => {
   return user;
 };
 
-module.exports = { register, login, getMe };
+module.exports = { firebaseAuth, getMe };

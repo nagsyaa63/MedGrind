@@ -1,4 +1,6 @@
 import { createContext, useContext, useState, useEffect } from 'react';
+import { signInWithPopup, signOut } from 'firebase/auth';
+import { auth, googleProvider } from '../config/firebase';
 import apiClient from '../api/apiClient';
 
 const AuthContext = createContext(null);
@@ -11,6 +13,7 @@ export function AuthProvider({ children }) {
   const [loading, setLoading] = useState(true);
 
   const isAuthenticated = !!user;
+  const isOnboarded = !!user?.isOnboarded;
 
   useEffect(() => {
     const validateToken = async () => {
@@ -32,21 +35,26 @@ export function AuthProvider({ children }) {
     validateToken();
   }, [token]);
 
-  const login = async (email, password) => {
-    const { data } = await apiClient.post('/auth/login', { email, password });
+  const signInWithGoogle = async () => {
+    let credential;
+    try {
+      credential = await signInWithPopup(auth, googleProvider);
+    } catch (err) {
+      // Silently ignore popup closed by user
+      if (err?.code === 'auth/popup-closed-by-user') return null;
+      throw err;
+    }
+    const firebaseIdToken = await credential.user.getIdToken();
+    const { data } = await apiClient.post('/auth/firebase', { firebaseIdToken });
     localStorage.setItem('token', data.token);
     setToken(data.token);
     setUser(data.user);
+    // Return the user so callers can read isOnboarded immediately
+    return data.user;
   };
 
-  const register = async (formData) => {
-    const { data } = await apiClient.post('/auth/register', formData);
-    localStorage.setItem('token', data.token);
-    setToken(data.token);
-    setUser(data.user);
-  };
-
-  const logout = () => {
+  const logout = async () => {
+    await signOut(auth);
     localStorage.removeItem('token');
     setToken(null);
     setUser(null);
@@ -58,7 +66,16 @@ export function AuthProvider({ children }) {
   };
 
   return (
-    <AuthContext.Provider value={{ user, token, isAuthenticated, loading, login, register, logout, updateProfile }}>
+    <AuthContext.Provider value={{
+      user,
+      token,
+      isAuthenticated,
+      isOnboarded,
+      loading,
+      signInWithGoogle,
+      logout,
+      updateProfile,
+    }}>
       {children}
     </AuthContext.Provider>
   );

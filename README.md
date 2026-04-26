@@ -8,10 +8,11 @@ MedGrind helps medical students sharpen their knowledge through collaborative pr
 
 ## Features
 
+- **Google Sign-In** — One-click authentication via Google Firebase OAuth. No passwords.
 - **MCQ Creation** — Create single or multiple-correct-answer questions across 19 medical subjects with difficulty levels
 - **Answer & Learn** — Submit answers, get instant correctness feedback with explanations
 - **Voting System** — Like, downvote, or approve questions; low-quality questions auto-hide at 5 net downvotes
-- **Answer Challenges** — Dispute incorrect answers with reasoning; community resolves at 3 agrees
+- **Answer Challenges** — Dispute incorrect answers with reasoning; community resolves at 10 agrees
 - **Points & Gamification** — Earn points for contributing, answering correctly, receiving votes, and resolving challenges
 - **Leaderboard** — Compete with peers ranked by total points
 - **Daily Streaks** — Track consecutive days of activity for bonus points
@@ -21,10 +22,10 @@ MedGrind helps medical students sharpen their knowledge through collaborative pr
 
 | Layer | Technology |
 |-------|-----------|
-| Frontend | React 18 + Vite + Tailwind CSS + React Router v6 |
-| Backend | Node.js + Express.js |
+| Frontend | React 18 + Vite + Tailwind CSS + React Router v7 |
+| Backend | Node.js + Express.js v5 |
 | Database | MongoDB + Mongoose ODM |
-| Auth | JWT (Bearer tokens, 7-day expiry) |
+| Auth | Google Firebase OAuth + JWT (1-day expiry) |
 
 ## Local Development Setup
 
@@ -32,6 +33,7 @@ MedGrind helps medical students sharpen their knowledge through collaborative pr
 
 - **Node.js 18+** and npm
 - **MongoDB** — local install or [MongoDB Atlas](https://www.mongodb.com/atlas) free tier
+- **Firebase project** — with Google sign-in enabled (see [Firebase Console](https://console.firebase.google.com))
 
 ### Getting Started
 
@@ -64,12 +66,24 @@ MedGrind helps medical students sharpen their knowledge through collaborative pr
    JWT_SECRET=your_secret_key_here
    CORS_ORIGIN=http://localhost:5173
    NODE_ENV=development
+
+   # Firebase Admin SDK (from Firebase Console → Project Settings → Service Accounts)
+   FIREBASE_PROJECT_ID=your-project-id
+   FIREBASE_CLIENT_EMAIL=firebase-adminsdk-xxxxx@your-project.iam.gserviceaccount.com
+   FIREBASE_PRIVATE_KEY="-----BEGIN PRIVATE KEY-----\n...\n-----END PRIVATE KEY-----\n"
    ```
 
    Edit `client/.env`:
 
    ```
    VITE_API_URL=http://localhost:5000/api
+
+   # Firebase Client SDK (from Firebase Console → Project Settings → Your apps)
+   VITE_FIREBASE_API_KEY=your-api-key
+   VITE_FIREBASE_AUTH_DOMAIN=your-project.firebaseapp.com
+   VITE_FIREBASE_PROJECT_ID=your-project-id
+   VITE_FIREBASE_MESSAGING_SENDER_ID=your-sender-id
+   VITE_FIREBASE_APP_ID=your-app-id
    ```
 
 4. **Start the backend**
@@ -87,6 +101,16 @@ MedGrind helps medical students sharpen their knowledge through collaborative pr
    ```
 
    Client runs at `http://localhost:5173`.
+
+6. **Sign in** — Open `http://localhost:5173`, click "Sign in with Google". New users are prompted to complete their profile (college name + year of study) before accessing the app.
+
+## Running Tests
+
+```bash
+npm test --prefix server
+```
+
+All 131 unit + property-based tests should pass.
 
 ## Contributing
 

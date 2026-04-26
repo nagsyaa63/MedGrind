@@ -9,9 +9,34 @@ Error format (all endpoints): `{ error: "message" }`
 
 | Method | Path | Auth | Rate Limited | Description |
 |--------|------|------|-------------|-------------|
-| POST | `/api/auth/register` | No | Yes (20/15min) | Register new user |
-| POST | `/api/auth/login` | No | Yes (20/15min) | Login, returns JWT |
+| POST | `/api/auth/firebase` | No | Yes (20/15min) | Exchange Firebase ID token for app JWT. Creates or upserts user. Returns `{ user, token }` |
 | GET | `/api/auth/me` | Yes | No | Current user profile |
+
+### POST `/api/auth/firebase`
+
+Request body:
+```json
+{ "firebaseIdToken": "<Firebase ID token from client SDK>" }
+```
+
+Response `200`:
+```json
+{
+  "user": { "_id": "...", "name": "...", "email": "...", "isOnboarded": false, ... },
+  "token": "<JWT>"
+}
+```
+
+Errors:
+- `400` — `firebaseIdToken` missing
+- `401` — Firebase token invalid or expired
+
+### Upsert Logic (3-step)
+
+1. Look up user by `firebaseUid` → return existing user
+2. If not found: look up by `email` and atomically set `firebaseUid` (legacy migration)
+   - If legacy user has `collegeName` + `currentYear` → also set `isOnboarded: true`
+3. If still not found: create new user with `{ firebaseUid, email, name }`, `isOnboarded: false`
 
 ## Questions
 
@@ -54,4 +79,4 @@ Auto-resolution: when a suggestion group reaches RESOLUTION_THRESHOLD (10) votes
 |--------|------|------|-------------|
 | GET | `/api/users/leaderboard` | Yes | Leaderboard sorted by points desc |
 | GET | `/api/users/:id` | Yes | User public profile |
-| PUT | `/api/users/profile` | Yes | Update own profile (name, collegeName, currentYear, bio) |
+| PUT | `/api/users/profile` | Yes | Update own profile (name, collegeName, currentYear, bio). Sets `isOnboarded: true` when collegeName + currentYear are both valid. |

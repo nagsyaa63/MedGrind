@@ -2,7 +2,7 @@ const UserRepository = require('../repositories/userRepository');
 const User = require('../models/User');
 const { updatePoints } = require('../utils/pointsEngine');
 const AppError = require('../utils/AppError');
-const { MAX_BIO_LENGTH, LEADERBOARD_DEFAULT_LIMIT, LEADERBOARD_MAX_LIMIT } = require('../config/constants');
+const { MAX_BIO_LENGTH, LEADERBOARD_DEFAULT_LIMIT, LEADERBOARD_MAX_LIMIT, MIN_YEAR, MAX_YEAR } = require('../config/constants');
 
 const defaultUserRepo = new UserRepository(User);
 
@@ -20,8 +20,11 @@ const updateProfile = async (userId, data, { userRepository } = {}) => {
   if (bio !== undefined && bio.length > MAX_BIO_LENGTH) {
     throw new AppError(`Bio must not exceed ${MAX_BIO_LENGTH} characters`, 400);
   }
-  if (currentYear !== undefined && (currentYear < 1 || currentYear > 6)) {
+  if (currentYear !== undefined && (currentYear < MIN_YEAR || currentYear > MAX_YEAR)) {
     throw new AppError('Current year must be between 1 and 6', 400);
+  }
+  if (collegeName !== undefined && collegeName.trim() === '') {
+    throw new AppError('College name is required', 400);
   }
 
   const updateFields = {};
@@ -29,6 +32,15 @@ const updateProfile = async (userId, data, { userRepository } = {}) => {
   if (collegeName !== undefined) updateFields.collegeName = collegeName;
   if (currentYear !== undefined) updateFields.currentYear = currentYear;
   if (bio !== undefined) updateFields.bio = bio;
+
+  // Resolve merged state to determine if onboarding is complete
+  const existingUser = await repo.findById(userId);
+  if (!existingUser) throw new AppError('User not found', 404);
+  const resolvedCollegeName = collegeName !== undefined ? collegeName : existingUser.collegeName;
+  const resolvedYear = currentYear !== undefined ? currentYear : existingUser.currentYear;
+  if (resolvedCollegeName && resolvedYear >= MIN_YEAR && resolvedYear <= MAX_YEAR) {
+    updateFields.isOnboarded = true;
+  }
 
   const user = await repo.updateById(userId, updateFields);
   if (!user) throw new AppError('User not found', 404);

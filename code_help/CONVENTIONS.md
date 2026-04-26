@@ -33,6 +33,22 @@
 - No business logic in routes or controllers.
 - Routes only define HTTP method + path + middleware chain.
 
+## Authentication
+
+- Auth is Google-only via Firebase. No email/password flows.
+- Client uses `signInWithPopup(googleProvider)` → gets Firebase ID token → POSTs to `/api/auth/firebase`.
+- Server verifies ID token via Firebase Admin SDK (`admin.auth().verifyIdToken()`).
+- Firebase Admin SDK is lazy-required in `authService.js` to allow mocking in tests.
+- JWT is issued by the server after verification and stored in `localStorage` on the client.
+- `AuthContext` exposes `signInWithGoogle`, `logout`, `isAuthenticated`, `isOnboarded`, `updateProfile`.
+
+## Onboarding
+
+- New Google users start with `isOnboarded: false`.
+- `ProtectedRoute` redirects unauthenticated users to `/` and non-onboarded users to `/onboarding`.
+- `updateProfile` in `userService` automatically sets `isOnboarded: true` when both `collegeName` and `currentYear` are valid.
+- Never manually set `isOnboarded` — always go through `updateProfile`.
+
 ## Points System
 
 - Points updated atomically via `$inc` + floor-of-zero enforcement (never goes negative).
@@ -44,11 +60,17 @@
 - Streak logic runs once per user per calendar day (cached via `lastActiveDate`).
 - Same day = no-op. Previous day = increment. Older/null = reset to 1.
 
+## CORS
+
+- CORS is configured with an explicit `app.options('/{*path}', cors(corsOptions))` handler for Express 5 compatibility.
+- `corsOptions` is defined once and reused for both `app.use(cors(...))` and the preflight handler.
+- Never use `app.options('*', ...)` — Express 5 (path-to-regexp v8) does not support bare `*` wildcards.
+
 ## Frontend Patterns
 
 - AuthContext wraps the entire app — all components can access auth state.
 - apiClient auto-attaches JWT to every request; 401 response triggers logout.
-- ProtectedRoute guards all authenticated pages.
+- ProtectedRoute guards all authenticated pages and enforces onboarding.
 - Loading states use the shared `LoadingSpinner` component.
 - Tailwind CSS for all styling — no CSS modules or styled-components.
 

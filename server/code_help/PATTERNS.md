@@ -24,6 +24,34 @@ const getProfile = async (userId, { userRepository } = {}) => {
 - Unknown → 500
 - Response format: `{ error: "message" }` (+ `stack` in dev mode)
 
+## Firebase Auth Pattern
+Firebase Admin SDK is lazy-required inside `authService.firebaseAuth()` to allow Jest mocking:
+
+```js
+// In authService.js — lazy require so jest.mock() can intercept it
+const admin = require('../config/firebase');
+const decoded = await admin.auth().verifyIdToken(firebaseIdToken);
+```
+
+In tests, mock it before requiring authService:
+```js
+const mockVerifyIdToken = jest.fn();
+jest.mock('../../src/config/firebase', () => ({
+  auth: () => ({ verifyIdToken: mockVerifyIdToken }),
+}));
+const { firebaseAuth } = require('../../src/services/authService');
+```
+
+## CORS Pattern (Express 5)
+Express 5 uses path-to-regexp v8 which does not support bare `*` wildcards.
+Always use `/{*path}` for catch-all OPTIONS handler:
+
+```js
+const corsOptions = { origin: config.CORS_ORIGIN, credentials: true, ... };
+app.use(cors(corsOptions));
+app.options('/{*path}', cors(corsOptions)); // handles preflight for all routes
+```
+
 ## Points System
 Always use `updatePoints(userId, 'ACTION_NAME')` — never manually update points.
 Action names are keys in POINTS object from constants.js.
@@ -43,3 +71,4 @@ const { POINTS, MAX_BIO_LENGTH, ALLOWED_SUBJECTS } = require('../config/constant
 - Pass mock repositories to service functions via options param
 - No need for mongodb-memory-server in unit tests
 - Property tests use fast-check with 100+ iterations
+- Firebase Admin SDK is mocked via jest.mock() before requiring authService
