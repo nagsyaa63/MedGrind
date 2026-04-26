@@ -29,6 +29,8 @@ const questionSchema = new mongoose.Schema({
   correctOptions:  [{ type: String, enum: OPTION_KEYS, required: true }],
   questionType:    { type: String, enum: ['single', 'multiple'], required: true },
   subject:         { type: String, required: true, enum: ALLOWED_SUBJECTS },
+  topic:           { type: String, default: '' },
+  subtopic:        { type: String, default: '' },
   difficulty:      { type: String, required: true, enum: ['Easy', 'Medium', 'Hard'] },
   explanation:     { type: String, default: '', maxlength: MAX_EXPLANATION_LENGTH },
 
@@ -51,6 +53,8 @@ const questionSchema = new mongoose.Schema({
 
 // Indexes
 questionSchema.index({ subject: 1, difficulty: 1 });
+questionSchema.index({ subject: 1, topic: 1 });
+questionSchema.index({ subject: 1, topic: 1, subtopic: 1 });
 questionSchema.index({ createdAt: -1 });
 questionSchema.index({ isHidden: 1 });
 

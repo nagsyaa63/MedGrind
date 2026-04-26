@@ -4,6 +4,7 @@ const Question = require('../models/Question');
 const User = require('../models/User');
 const { updatePoints } = require('../utils/pointsEngine');
 const AppError = require('../utils/AppError');
+const taxonomyService = require('./taxonomyService');
 const {
   ALLOWED_SUBJECTS,
   OPTION_KEYS,
@@ -20,10 +21,11 @@ const defaultUserRepo = new UserRepository(User);
 const createQuestion = async (data, userId, { questionRepository, userRepository } = {}) => {
   const qRepo = questionRepository || defaultQuestionRepo;
   const uRepo = userRepository || defaultUserRepo;
-  const { questionText, options, correctOptions, subject, difficulty, explanation } = data;
+  const { questionText, options, correctOptions, subtopic, difficulty, explanation } = data;
 
-  if (!questionText || !options || !correctOptions || !subject || !difficulty) {
-    throw new AppError('Missing required fields', 400);
+  // subtopic is required; subject + topic are derived from taxonomy
+  if (!questionText || !options || !correctOptions || !subtopic || !difficulty) {
+    throw new AppError('Missing required fields: questionText, options, correctOptions, subtopic, difficulty', 400);
   }
 
   const optionKeys = Object.keys(options);
@@ -47,18 +49,30 @@ const createQuestion = async (data, userId, { questionRepository, userRepository
     throw new AppError('Correct options must be A, B, C, or D', 400);
   }
 
-  if (!ALLOWED_SUBJECTS.includes(subject)) {
-    throw new AppError('Invalid subject', 400);
-  }
-
   if (!DIFFICULTY_LEVELS.includes(difficulty)) {
     throw new AppError('Difficulty must be Easy, Medium, or Hard', 400);
   }
 
+  // Resolve subject + topic from subtopic via taxonomy
+  const resolved = taxonomyService.resolveSubtopic(subtopic);
+  if (!resolved) {
+    throw new AppError(`Invalid subtopic: "${subtopic}"`, 400);
+  }
+  const { subject, topic } = resolved;
+
   const questionType = correctOptions.length === 1 ? 'single' : 'multiple';
 
   const question = await qRepo.create({
-    author: userId, questionText, options, correctOptions, questionType, subject, difficulty, explanation: explanation || '',
+    author: userId,
+    questionText,
+    options,
+    correctOptions,
+    questionType,
+    subject,
+    topic,
+    subtopic,
+    difficulty,
+    explanation: explanation || '',
   });
 
   await updatePoints(userId, 'ADD_QUESTION');
@@ -69,12 +83,12 @@ const createQuestion = async (data, userId, { questionRepository, userRepository
 
 const getQuestions = async (filters, userId, { questionRepository } = {}) => {
   const qRepo = questionRepository || defaultQuestionRepo;
-  const { subject, difficulty, sortBy = 'newest', page = 1, limit = DEFAULT_PAGE_SIZE } = filters;
+  const { subject, topic, subtopic, difficulty, sortBy = 'newest', page = 1, limit = DEFAULT_PAGE_SIZE } = filters;
   const pageNum = Math.max(1, parseInt(page));
   const limitNum = Math.min(MAX_PAGE_SIZE, Math.max(1, parseInt(limit)));
 
   const { questions, total } = await qRepo.findWithFilters(
-    { subject, difficulty, sortBy, page: pageNum, limit: limitNum },
+    { subject, topic, subtopic, difficulty, sortBy, page: pageNum, limit: limitNum },
     userId
   );
 
