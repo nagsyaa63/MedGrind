@@ -11,6 +11,18 @@ class UserRepository {
     return this.Model.findOne({ email: email.toLowerCase() });
   }
 
+  async findByFirebaseUid(firebaseUid) {
+    return this.Model.findOne({ firebaseUid });
+  }
+
+  async findByEmailAndSetFirebaseUid(email, firebaseUid) {
+    return this.Model.findOneAndUpdate(
+      { email: email.toLowerCase() },
+      { $set: { firebaseUid } },
+      { new: true }
+    );
+  }
+
   async create(data) {
     return this.Model.create(data);
   }

@@ -1,16 +1,8 @@
 const authService = require('../services/authService');
 
-const register = async (req, res, next) => {
+const firebaseAuth = async (req, res, next) => {
   try {
-    const result = await authService.register(req.body);
-    res.status(201).json(result);
-  } catch (err) { next(err); }
-};
-
-const login = async (req, res, next) => {
-  try {
-    const { email, password } = req.body;
-    const result = await authService.login(email, password);
+    const result = await authService.firebaseAuth(req.body.firebaseIdToken);
     res.json(result);
   } catch (err) { next(err); }
 };
@@ -22,4 +14,4 @@ const getMe = async (req, res, next) => {
   } catch (err) { next(err); }
 };
 
-module.exports = { register, login, getMe };
+module.exports = { firebaseAuth, getMe };

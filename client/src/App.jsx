@@ -3,7 +3,7 @@ import { AuthProvider } from './context/AuthContext';
 import ProtectedRoute from './components/ProtectedRoute';
 import Navbar from './components/Navbar';
 import LoginPage from './pages/LoginPage';
-import RegisterPage from './pages/RegisterPage';
+import OnboardingPage from './pages/OnboardingPage';
 import QuestionFeedPage from './pages/QuestionFeedPage';
 import CreateQuestionPage from './pages/CreateQuestionPage';
 import QuestionDetailPage from './pages/QuestionDetailPage';
@@ -27,7 +27,7 @@ function App() {
       <AuthProvider>
         <Routes>
           <Route path="/" element={<LoginPage />} />
-          <Route path="/register" element={<RegisterPage />} />
+          <Route path="/onboarding" element={<OnboardingPage />} />
           <Route path="/questions" element={<ProtectedRoute><AppLayout><QuestionFeedPage /></AppLayout></ProtectedRoute>} />
           <Route path="/questions/new" element={<ProtectedRoute><AppLayout><CreateQuestionPage /></AppLayout></ProtectedRoute>} />
           <Route path="/questions/challenged" element={<ProtectedRoute><AppLayout><ChallengedQuestionsPage /></AppLayout></ProtectedRoute>} />
