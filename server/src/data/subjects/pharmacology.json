@@ -2,138 +2,226 @@
   "subject": "Pharmacology",
   "topics": [
     {
-      "topic": "General Pharmacology",
+      "topic": "General Pharmacology (~30 questions)",
       "subtopics": [
-        "Pharmacokinetics: Absorption and Distribution",
-        "Pharmacokinetics: Metabolism and Excretion",
-        "Pharmacodynamics: Mechanisms of Drug Action",
-        "Receptor Pharmacology and Signal Transduction",
-        "Adverse Drug Reactions and Poisoning",
-        "Drug Interaction and Fixed-Dose Combinations",
-        "Essential Medicines and Rational Drug Use",
-        "Clinical Trials and Drug Development"
+        "Pharmacokinetics \u2014 absorption (bioavailability, first-pass metabolism), distribution (Vd, protein binding, barriers), metabolism (Phase I & II reactions, CYP450 enzymes, enzyme induction & inhibition), excretion (renal, biliary, enterohepatic circulation)",
+        "Pharmacodynamics \u2014 drug-receptor interactions, agonists, antagonists (competitive, non-competitive), partial agonists, inverse agonists",
+        "Dose-response relationships \u2014 graded & quantal, ED50, LD50, therapeutic index, margin of safety",
+        "Drug interactions \u2014 synergism, antagonism, potentiation",
+        "Adverse drug reactions \u2014 Type A (augmented) & Type B (bizarre), idiosyncrasy, drug allergy, teratogenicity",
+        "Routes of drug administration \u2014 oral, parenteral, sublingual, transdermal, inhalational, rectal",
+        "Pharmacogenomics \u2014 genetic polymorphisms affecting drug response",
+        "Drug development \u2014 phases of clinical trials (I-IV), placebo, informed consent",
+        "Prodrugs & drug targeting",
+        "Bioequivalence & therapeutic drug monitoring",
+        "Prescription writing & drug nomenclature"
       ]
     },
     {
-      "topic": "Autonomic Nervous System (ANS)",
+      "topic": "Autonomic Nervous System Pharmacology (~25 questions)",
       "subtopics": [
-        "Cholinergic Agonists and Anticholinergic Drugs",
-        "Adrenergic Agonists and Antagonists",
-        "Skeletal Muscle Relaxants",
-        "Drugs for Glaucoma"
+        "Neurohumoral transmission \u2014 synthesis, storage, release, metabolism of acetylcholine & norepinephrine",
+        "Cholinergic system \u2014 muscarinic & nicotinic receptors, subtypes",
+        "Cholinomimetics \u2014 direct acting (pilocarpine, bethanechol, carbachol), indirect acting (physostigmine, neostigmine, edrophonium, pyridostigmine)",
+        "Organophosphorus poisoning \u2014 mechanism, treatment (atropine, pralidoxime)",
+        "Anticholinergics \u2014 atropine, hyoscine, ipratropium, glycopyrrolate, tropicamide",
+        "Ganglionic blockers \u2014 hexamethonium, trimethaphan",
+        "Neuromuscular blocking agents \u2014 depolarizing (succinylcholine), non-depolarizing (tubocurarine, atracurium, vecuronium, pancuronium)",
+        "Sympathomimetics \u2014 direct acting (adrenaline, noradrenaline, isoprenaline, phenylephrine, dobutamine, salbutamol)",
+        "Indirect acting sympathomimetics \u2014 amphetamine, tyramine, ephedrine",
+        "Alpha-adrenergic blockers \u2014 prazosin, phentolamine, phenoxybenzamine, tamsulosin",
+        "Beta-adrenergic blockers \u2014 propranolol, atenolol, metoprolol, carvedilol, labetalol, nebivolol",
+        "Adrenergic receptor subtypes \u2014 \u03b11, \u03b12, \u03b21, \u03b22, \u03b23 and their functions"
       ]
     },
     {
-      "topic": "Autacoids and Related Drugs",
+      "topic": "Cardiovascular Pharmacology (~25 questions)",
       "subtopics": [
-        "Histamine and Antihistaminics",
-        "5-Hydroxytryptamine (Serotonin) and its Antagonists",
-        "Prostaglandins, Leukotrienes, and Platelet Activating Factor",
-        "NSAIDs and Antipyretics",
-        "Drugs for Rheumatoid Arthritis and Gout"
+        "Antihypertensives \u2014 ACE inhibitors (enalapril, ramipril), ARBs (losartan, telmisartan), calcium channel blockers (amlodipine, nifedipine, verapamil, diltiazem), diuretics, centrally acting (clonidine, methyldopa), direct vasodilators (hydralazine, minoxidil, sodium nitroprusside)",
+        "Diuretics \u2014 thiazides (hydrochlorothiazide), loop (furosemide, torsemide), potassium-sparing (spironolactone, amiloride, triamterene), osmotic (mannitol), carbonic anhydrase inhibitors (acetazolamide)",
+        "Antianginal drugs \u2014 nitrates (GTN, isosorbide dinitrate/mononitrate), beta-blockers, calcium channel blockers, ranolazine, nicorandil",
+        "Drugs for heart failure \u2014 digoxin, ACE inhibitors, ARBs, beta-blockers (carvedilol, metoprolol, bisoprolol), diuretics, sacubitril/valsartan, milrinone, dobutamine",
+        "Antiarrhythmic drugs \u2014 Vaughan-Williams classification (Class I-IV), amiodarone, lidocaine, flecainide, sotalol, adenosine",
+        "Anticoagulants \u2014 heparin (UFH, LMWH), warfarin, DOACs (rivaroxaban, apixaban, dabigatran)",
+        "Antiplatelet drugs \u2014 aspirin, clopidogrel, prasugrel, ticagrelor, GPIIb/IIIa inhibitors (abciximab)",
+        "Fibrinolytics \u2014 streptokinase, alteplase, tenecteplase",
+        "Hypolipidemic drugs \u2014 statins (atorvastatin, rosuvastatin), fibrates, ezetimibe, PCSK9 inhibitors, bile acid sequestrants, niacin",
+        "Drugs for peripheral vascular disease & pulmonary hypertension (sildenafil, bosentan)"
       ]
     },
     {
-      "topic": "Respiratory System Drugs",
+      "topic": "Central Nervous System Pharmacology (~30 questions)",
       "subtopics": [
-        "Drugs for Bronchial Asthma",
-        "Drugs for Cough (Antitussives and Expectorants)",
-        "Drugs for COPD"
+        "General anesthetics \u2014 inhalational (halothane, isoflurane, sevoflurane, nitrous oxide, desflurane), IV (thiopentone, propofol, ketamine, etomidate)",
+        "Stages of anesthesia, MAC concept",
+        "Local anesthetics \u2014 lidocaine, bupivacaine, procaine, ropivacaine; mechanism, types of block",
+        "Sedatives & hypnotics \u2014 benzodiazepines (diazepam, lorazepam, midazolam, alprazolam), barbiturates, zolpidem, zaleplon, ramelteon",
+        "Flumazenil \u2014 benzodiazepine antagonist",
+        "Antiepileptic drugs \u2014 phenytoin, carbamazepine, valproate, phenobarbital, ethosuximide, lamotrigine, levetiracetam, topiramate, gabapentin, vigabatrin",
+        "Drug selection by seizure type",
+        "Anti-Parkinsonian drugs \u2014 levodopa + carbidopa, dopamine agonists (bromocriptine, pramipexole, ropinirole), MAO-B inhibitors (selegiline, rasagiline), COMT inhibitors (entacapone, tolcapone), amantadine, anticholinergics (trihexyphenidyl)",
+        "Antipsychotics \u2014 typical (chlorpromazine, haloperidol, fluphenazine), atypical (clozapine, olanzapine, risperidone, quetiapine, aripiprazole)",
+        "Extrapyramidal side effects, neuroleptic malignant syndrome, tardive dyskinesia",
+        "Antidepressants \u2014 TCAs (amitriptyline, imipramine), SSRIs (fluoxetine, sertraline, escitalopram), SNRIs (venlafaxine, duloxetine), MAOIs (phenelzine, tranylcypromine, moclobemide), atypical (bupropion, mirtazapine)",
+        "Serotonin syndrome, cheese reaction",
+        "Mood stabilizers \u2014 lithium, valproate, carbamazepine",
+        "Anxiolytics \u2014 buspirone, benzodiazepines",
+        "Opioid analgesics \u2014 morphine, codeine, fentanyl, tramadol, pethidine, methadone, buprenorphine",
+        "Opioid antagonists \u2014 naloxone, naltrexone",
+        "Drug dependence & addiction \u2014 alcohol, opioids, nicotine, cannabis",
+        "Drugs for Alzheimer disease \u2014 donepezil, rivastigmine, memantine",
+        "CNS stimulants \u2014 amphetamine, methylphenidate, modafinil, caffeine"
       ]
     },
     {
-      "topic": "Hormones and Related Drugs",
+      "topic": "Autacoids & Related Drugs (~20 questions)",
       "subtopics": [
-        "Anterior Pituitary and Hypothalamic Hormones",
-        "Thyroid and Antithyroid Drugs",
-        "Insulin and Oral Hypoglycemic Agents",
-        "Corticosteroids",
-        "Estrogens, Progestins, and Contraceptives",
-        "Androgens and Drugs for Erectile Dysfunction",
-        "Calcium Metabolism and Bone-acting Drugs"
+        "Histamine \u2014 synthesis, receptors (H1-H4), physiological roles",
+        "Antihistamines \u2014 H1 blockers: first generation (chlorpheniramine, diphenhydramine, promethazine), second generation (cetirizine, loratadine, fexofenadine)",
+        "H2 blockers \u2014 ranitidine, famotidine",
+        "Serotonin (5-HT) \u2014 receptors, agonists (sumatriptan, buspirone), antagonists (ondansetron, cyproheptadine)",
+        "Prostaglandins & thromboxanes \u2014 PGE2, PGF2\u03b1, PGI2, TXA2; clinical uses (misoprostol, dinoprostone, alprostadil)",
+        "NSAIDs \u2014 aspirin, ibuprofen, diclofenac, naproxen, piroxicam, indomethacin, ketorolac; mechanism (COX-1 vs COX-2)",
+        "Selective COX-2 inhibitors \u2014 celecoxib, etoricoxib",
+        "Paracetamol (acetaminophen) \u2014 mechanism, toxicity, N-acetylcysteine",
+        "Disease-modifying antirheumatic drugs (DMARDs) \u2014 methotrexate, sulfasalazine, hydroxychloroquine, leflunomide",
+        "Biologic DMARDs \u2014 infliximab, etanercept, adalimumab, rituximab, tocilizumab",
+        "Drugs for gout \u2014 colchicine, allopurinol, febuxostat, probenecid, rasburicase",
+        "Ergot alkaloids \u2014 ergotamine, ergometrine, methysergide",
+        "Migraine therapy \u2014 acute (triptans, NSAIDs, ergotamine) & prophylactic (propranolol, valproate, topiramate)"
       ]
     },
     {
-      "topic": "Cardiovascular Drugs",
+      "topic": "Chemotherapy \u2014 Antibiotics (~30 questions)",
       "subtopics": [
-        "Drugs for Hypertension",
-        "Antianginal Drugs",
-        "Drugs for Congestive Heart Failure",
-        "Antiarrhythmic Drugs",
-        "Hypolipidemic Drugs"
+        "General principles \u2014 bactericidal vs bacteriostatic, MIC, MBC, spectrum, combination therapy, prophylaxis",
+        "Beta-lactam antibiotics \u2014 penicillins (penicillin G, amoxicillin, ampicillin, piperacillin, cloxacillin), cephalosporins (1st-5th generation), carbapenems (imipenem, meropenem), monobactams (aztreonam)",
+        "Beta-lactamase inhibitors \u2014 clavulanic acid, sulbactam, tazobactam",
+        "Aminoglycosides \u2014 gentamicin, amikacin, streptomycin, tobramycin; ototoxicity, nephrotoxicity",
+        "Macrolides \u2014 erythromycin, azithromycin, clarithromycin",
+        "Tetracyclines \u2014 tetracycline, doxycycline, minocycline, tigecycline",
+        "Fluoroquinolones \u2014 ciprofloxacin, levofloxacin, moxifloxacin, ofloxacin",
+        "Chloramphenicol \u2014 mechanism, gray baby syndrome, aplastic anemia",
+        "Glycopeptides \u2014 vancomycin, teicoplanin; red man syndrome",
+        "Lincosamides \u2014 clindamycin",
+        "Oxazolidinones \u2014 linezolid",
+        "Sulfonamides & trimethoprim \u2014 cotrimoxazole",
+        "Metronidazole & tinidazole",
+        "Nitrofurantoin",
+        "Polymyxins \u2014 colistin",
+        "Daptomycin",
+        "Antibiotic resistance mechanisms \u2014 MRSA, ESBL, VRE, MDR-TB"
       ]
     },
     {
-      "topic": "Drugs Acting on Kidney",
+      "topic": "Chemotherapy \u2014 Antitubercular, Antileprotic & Antifungal (~20 questions)",
       "subtopics": [
-        "Diuretics",
-        "Antidiuretics"
+        "Antitubercular drugs \u2014 first-line (isoniazid, rifampicin, pyrazinamide, ethambutol, streptomycin), second-line (ethionamide, cycloserine, PAS, fluoroquinolones, bedaquiline, delamanid)",
+        "DOTS regimen \u2014 categories, directly observed therapy",
+        "MDR-TB & XDR-TB management",
+        "Adverse effects \u2014 INH (peripheral neuropathy, hepatotoxicity), rifampicin (hepatotoxicity, enzyme induction, orange discoloration), ethambutol (optic neuritis), pyrazinamide (hyperuricemia)",
+        "Antileprotic drugs \u2014 dapsone, rifampicin, clofazimine; WHO MDT regimens",
+        "Antifungal drugs \u2014 polyenes (amphotericin B, nystatin), azoles (fluconazole, itraconazole, voriconazole, ketoconazole), echinocandins (caspofungin, micafungin), flucytosine, griseofulvin, terbinafine"
       ]
     },
     {
-      "topic": "Drugs Affecting Blood",
+      "topic": "Chemotherapy \u2014 Antiviral, Antimalarial & Antiprotozoal (~20 questions)",
       "subtopics": [
-        "Hematinics: Iron, Vit B12, and Folic Acid",
-        "Coagulants and Anticoagulants",
-        "Fibrinolytics and Antiplatelet Drugs"
+        "Antiviral drugs \u2014 anti-herpes (acyclovir, valacyclovir, ganciclovir, foscarnet), anti-influenza (oseltamivir, zanamivir, amantadine), anti-hepatitis (sofosbuvir, ledipasvir, ribavirin, entecavir, tenofovir)",
+        "Antiretroviral therapy \u2014 NRTIs (zidovudine, lamivudine, tenofovir, emtricitabine), NNRTIs (efavirenz, nevirapine), protease inhibitors (ritonavir, lopinavir, atazanavir), integrase inhibitors (dolutegravir, raltegravir), entry inhibitors (maraviroc, enfuvirtide)",
+        "ART regimens \u2014 first-line, second-line, PMTCT",
+        "Antimalarial drugs \u2014 chloroquine, artemisinin & derivatives (artesunate, artemether), quinine, mefloquine, primaquine, pyrimethamine + sulfadoxine, atovaquone-proguanil, lumefantrine",
+        "Malaria prophylaxis & treatment regimens",
+        "Antiprotozoal drugs \u2014 metronidazole (amoebiasis, giardiasis, trichomoniasis), diloxanide furoate, sodium stibogluconate (leishmaniasis), suramin, pentamidine, nitazoxanide",
+        "Anthelmintics \u2014 albendazole, mebendazole, ivermectin, praziquantel, DEC (diethylcarbamazine), niclosamide, pyrantel pamoate"
       ]
     },
     {
-      "topic": "Gastrointestinal Drugs",
+      "topic": "Endocrine Pharmacology (~25 questions)",
       "subtopics": [
-        "Drugs for Peptic Ulcer and GERD",
-        "Antiemetics",
-        "Laxatives and Purgatives",
-        "Drugs for Diarrhea and IBS"
+        "Hypothalamic & pituitary hormones \u2014 GnRH analogues (leuprolide, goserelin), GH (somatotropin), octreotide, bromocriptine, desmopressin, oxytocin",
+        "Thyroid pharmacology \u2014 levothyroxine, liothyronine, antithyroid drugs (carbimazole, methimazole, propylthiouracil), radioactive iodine, Lugol's iodine",
+        "Insulin \u2014 types (rapid, short, intermediate, long-acting), insulin analogues (lispro, aspart, glargine, detemir, degludec)",
+        "Oral hypoglycemics \u2014 sulfonylureas (glimepiride, glipizide, glyburide), meglitinides (repaglinide), biguanides (metformin), thiazolidinediones (pioglitazone), alpha-glucosidase inhibitors (acarbose, voglibose), DPP-4 inhibitors (sitagliptin), GLP-1 agonists (exenatide, liraglutide), SGLT2 inhibitors (dapagliflozin, empagliflozin)",
+        "Corticosteroids \u2014 glucocorticoids (hydrocortisone, prednisolone, dexamethasone, betamethasone), mineralocorticoids (fludrocortisone); adverse effects, Cushing syndrome",
+        "Sex hormones \u2014 estrogens (ethinylestradiol, conjugated estrogens), progestins (medroxyprogesterone, norethisterone, levonorgestrel), SERMs (tamoxifen, raloxifene, clomiphene)",
+        "Oral contraceptives \u2014 combined, progestin-only, emergency contraception",
+        "Androgens \u2014 testosterone, danazol; anti-androgens (flutamide, finasteride, cyproterone)",
+        "Drugs for osteoporosis \u2014 bisphosphonates (alendronate, zoledronic acid), calcitonin, teriparatide, denosumab, calcium + vitamin D",
+        "Drugs affecting uterus \u2014 oxytocin, ergometrine, PGE2, PGF2\u03b1, ritodrine, atosiban, mifepristone, misoprostol"
       ]
     },
     {
-      "topic": "Central Nervous System (CNS)",
+      "topic": "GIT Pharmacology (~15 questions)",
       "subtopics": [
-        "General Anesthetics",
-        "Local Anesthetics",
-        "Sedative-Hypnotics",
-        "Antiepileptic Drugs",
-        "Antipsychotics and Lithium",
-        "Antidepressants and Antianxiety Drugs",
-        "Opioid Analgesics and Antagonists",
-        "Drugs for Parkinson's and Alzheimer's",
-        "CNS Stimulants and Nootropics"
+        "Drugs for acid-peptic disease \u2014 proton pump inhibitors (omeprazole, pantoprazole, esomeprazole, rabeprazole), H2 blockers, antacids (aluminum hydroxide, magnesium hydroxide, sodium bicarbonate), sucralfate, misoprostol, bismuth subsalicylate",
+        "H. pylori eradication regimens \u2014 triple therapy, quadruple therapy",
+        "Antiemetics \u2014 ondansetron (5-HT3 antagonist), metoclopramide, domperidone, prochlorperazine, dexamethasone, aprepitant (NK1 antagonist), scopolamine",
+        "Prokinetics \u2014 metoclopramide, domperidone, erythromycin",
+        "Laxatives \u2014 bulk-forming (psyllium), osmotic (lactulose, PEG), stimulant (bisacodyl, senna), stool softeners (docusate)",
+        "Antidiarrheal drugs \u2014 loperamide, diphenoxylate, racecadotril, ORS",
+        "Drugs for IBD \u2014 5-ASA (mesalamine, sulfasalazine), corticosteroids, azathioprine, infliximab",
+        "Drugs for IBS"
       ]
     },
     {
-      "topic": "Chemotherapy of Infections",
+      "topic": "Respiratory Pharmacology (~15 questions)",
       "subtopics": [
-        "General Principles of Antimicrobial Therapy",
-        "Sulfonamides and Quinolones",
-        "Beta-Lactam Antibiotics (Penicillins, Cephalosporins)",
-        "Tetracyclines and Chloramphenicol",
-        "Aminoglycosides",
-        "Macrolides and Miscellaneous Antibiotics",
-        "Antitubercular Drugs",
-        "Antileprotic Drugs",
-        "Antifungal Drugs",
-        "Antiviral Drugs (including HIV/AIDS)",
-        "Antimalarial Drugs",
-        "Antiamoebic and Antiprotozoal Drugs",
-        "Anthelmintic Drugs"
+        "Bronchodilators \u2014 \u03b22 agonists: short-acting (salbutamol, terbutaline), long-acting (salmeterol, formoterol); anticholinergics (ipratropium, tiotropium); methylxanthines (theophylline, aminophylline)",
+        "Anti-inflammatory agents \u2014 inhaled corticosteroids (beclomethasone, budesonide, fluticasone), leukotriene antagonists (montelukast, zafirlukast), mast cell stabilizers (cromolyn sodium, nedocromil)",
+        "Anti-IgE therapy \u2014 omalizumab",
+        "Stepwise management of asthma",
+        "Drugs for COPD",
+        "Antitussives \u2014 codeine, dextromethorphan, noscapine",
+        "Expectorants & mucolytics \u2014 guaifenesin, bromhexine, ambroxol, acetylcysteine",
+        "Nasal decongestants \u2014 pseudoephedrine, oxymetazoline, xylometazoline",
+        "Drugs for allergic rhinitis"
       ]
     },
     {
-      "topic": "Chemotherapy of Neoplastic Diseases",
+      "topic": "Anticancer Drugs (~20 questions)",
       "subtopics": [
-        "Cytotoxic Drugs (Alkylating agents, Antimetabolites)",
-        "Targeted Therapy and Monoclonal Antibodies",
-        "Immunomodulators and Gene Therapy"
+        "Principles of cancer chemotherapy \u2014 cell cycle specificity, combination therapy, log-kill hypothesis, resistance",
+        "Alkylating agents \u2014 cyclophosphamide (hemorrhagic cystitis, mesna), chlorambucil, melphalan, busulfan, dacarbazine, temozolomide, cisplatin, carboplatin, oxaliplatin",
+        "Antimetabolites \u2014 methotrexate (leucovorin rescue), 5-fluorouracil, cytarabine, gemcitabine, 6-mercaptopurine, 6-thioguanine",
+        "Vinca alkaloids \u2014 vincristine, vinblastine",
+        "Taxanes \u2014 paclitaxel, docetaxel",
+        "Topoisomerase inhibitors \u2014 etoposide, irinotecan, topotecan, doxorubicin (cardiotoxicity, dexrazoxane)",
+        "Antitumor antibiotics \u2014 doxorubicin, daunorubicin, bleomycin (pulmonary fibrosis), actinomycin D, mitomycin C",
+        "Hormonal agents \u2014 tamoxifen, aromatase inhibitors (letrozole, anastrozole), GnRH analogues, flutamide, abiraterone",
+        "Targeted therapy \u2014 imatinib (BCR-ABL), trastuzumab (HER2), rituximab (CD20), bevacizumab (VEGF), erlotinib/gefitinib (EGFR), sorafenib, sunitinib",
+        "Immune checkpoint inhibitors \u2014 nivolumab, pembrolizumab (PD-1), ipilimumab (CTLA-4), atezolizumab (PD-L1)",
+        "Adverse effects of chemotherapy \u2014 myelosuppression, mucositis, alopecia, tumor lysis syndrome",
+        "Supportive care \u2014 antiemetics, G-CSF (filgrastim), erythropoietin"
       ]
     },
     {
-      "topic": "Miscellaneous Topics",
+      "topic": "Immunopharmacology (~15 questions)",
       "subtopics": [
-        "Antiseptics and Disinfectants",
-        "Chelating Agents",
-        "Vitamins",
-        "Vaccines and Sera"
+        "Immunosuppressants \u2014 cyclosporine, tacrolimus, sirolimus (everolimus), mycophenolate mofetil, azathioprine, cyclophosphamide",
+        "Corticosteroids as immunosuppressants",
+        "Monoclonal antibodies \u2014 basiliximab (anti-IL-2R), muromonab-CD3, alemtuzumab",
+        "Immunostimulants \u2014 interferons (\u03b1, \u03b2, \u03b3), interleukins (IL-2), BCG, levamisole",
+        "Vaccines \u2014 types (live, killed, toxoid, subunit, conjugate, mRNA), schedule",
+        "Immunoglobulins \u2014 normal human Ig, anti-D, anti-tetanus, anti-rabies",
+        "Drugs for autoimmune diseases"
+      ]
+    },
+    {
+      "topic": "Toxicology (~15 questions)",
+      "subtopics": [
+        "General principles \u2014 poison identification, decontamination (gastric lavage, activated charcoal, whole bowel irrigation), antidotes",
+        "Organophosphorus poisoning \u2014 atropine, pralidoxime",
+        "Heavy metal poisoning \u2014 lead (EDTA, succimer, D-penicillamine), arsenic (BAL/dimercaprol), mercury (BAL, succimer), iron (desferrioxamine), copper (D-penicillamine)",
+        "Paracetamol poisoning \u2014 N-acetylcysteine",
+        "Opioid overdose \u2014 naloxone",
+        "Benzodiazepine overdose \u2014 flumazenil",
+        "Methanol & ethylene glycol poisoning \u2014 fomepizole, ethanol",
+        "Snake bite \u2014 anti-snake venom",
+        "Cyanide poisoning \u2014 sodium thiosulfate, hydroxocobalamin, amyl nitrite",
+        "Carbon monoxide poisoning",
+        "Drug-induced hepatotoxicity, nephrotoxicity, ototoxicity",
+        "Drugs in pregnancy \u2014 FDA categories, teratogenic drugs"
       ]
     }
   ]

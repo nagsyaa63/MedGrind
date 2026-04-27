@@ -1,0 +1,287 @@
+{
+  "subject": "PART B",
+  "topics": [
+    {
+      "topic": "Basic Sciences in Obstetrics (~30 questions)",
+      "subtopics": [
+        "Anatomy of Female Reproductive System (uterus, fallopian tubes, ovaries, pelvis, pelvic floor, perineum)",
+        "Gametogenesis (oogenesis, spermatogenesis)",
+        "Fertilization, Implantation & Early Embryonic Development",
+        "Placenta (development, structure, functions, circulation, abnormalities \u2014 placenta previa, accreta, increta, percreta)",
+        "Amniotic Fluid (formation, circulation, functions, disorders \u2014 polyhydramnios, oligohydramnios)",
+        "Fetal Physiology (fetal circulation, fetal hemoglobin, fetal lung maturity)",
+        "Maternal Physiological Changes in Pregnancy (CVS, respiratory, renal, hematological, endocrine, GIT)",
+        "Pelvimetry & Types of Pelvis (gynecoid, android, anthropoid, platypelloid)",
+        "Umbilical Cord (structure, abnormalities \u2014 single umbilical artery, cord prolapse, nuchal cord)"
+      ]
+    },
+    {
+      "topic": "Antenatal Care (~50 questions)",
+      "subtopics": [
+        "Diagnosis of Pregnancy (symptoms, signs, investigations \u2014 UPT, USG)",
+        "Antenatal Visits Schedule & Components",
+        "Antenatal Investigations (blood group, Rh typing, hemoglobin, VDRL, HIV, HBsAg, urine routine, GCT/GTT, anomaly scan)",
+        "Estimation of Gestational Age (LMP, USG \u2014 CRL, BPD, FL)",
+        "Fetal Growth Assessment (symphysio-fundal height, USG biometry, IUGR/FGR \u2014 symmetric, asymmetric)",
+        "Fetal Well-Being Assessment (fetal movements, NST, CST, BPP, Doppler \u2014 umbilical artery, MCA, ductus venosus)",
+        "Nutrition in Pregnancy (iron, folic acid, calcium supplementation, weight gain)",
+        "Immunization in Pregnancy (tetanus toxoid, COVID-19)",
+        "Drugs in Pregnancy (teratogenicity, FDA categories, safe drugs)",
+        "Prenatal Diagnosis & Genetic Counseling (first trimester screening \u2014 NT, dual marker; second trimester \u2014 quadruple test; amniocentesis, CVS, cordocentesis, NIPT)",
+        "Minor Disorders of Pregnancy (nausea, vomiting, heartburn, constipation, backache, varicose veins, leg cramps)",
+        "Hyperemesis Gravidarum",
+        "Antenatal Exercises & Birth Preparedness",
+        "High-Risk Pregnancy Identification & Referral"
+      ]
+    },
+    {
+      "topic": "Normal Labor & Delivery (~50 questions)",
+      "subtopics": [
+        "Definition & Onset of Labor (true vs false labor)",
+        "Stages of Labor (first \u2014 latent, active; second; third; fourth)",
+        "Mechanism of Normal Labor (engagement, descent, flexion, internal rotation, extension, restitution, external rotation, expulsion)",
+        "Partograph (WHO partograph, alert line, action line, interpretation)",
+        "Management of First Stage (monitoring, active management)",
+        "Management of Second Stage (pushing, delivery techniques)",
+        "Management of Third Stage (AMTSL \u2014 active management, oxytocin, controlled cord traction, uterine massage)",
+        "Episiotomy (types \u2014 mediolateral, median; indications, repair)",
+        "Normal Puerperium (physiological changes, lochia, involution, lactation, breastfeeding)",
+        "Pain Relief in Labor (non-pharmacological, pharmacological \u2014 epidural, spinal, pudendal block, entonox)",
+        "Induction of Labor (indications, methods \u2014 Bishop score, prostaglandins, oxytocin, ARM, mechanical \u2014 Foley catheter)",
+        "Augmentation of Labor",
+        "Fetal Monitoring in Labor (intermittent auscultation, CTG \u2014 interpretation, fetal scalp blood sampling)",
+        "Cord Clamping (early vs delayed)"
+      ]
+    },
+    {
+      "topic": "Abnormal Labor (~60 questions)",
+      "subtopics": [
+        "Prolonged Labor / Dystocia (causes \u2014 power, passage, passenger)",
+        "Cephalopelvic Disproportion (CPD)",
+        "Malpositions (occipitoposterior \u2014 persistent, deep transverse arrest)",
+        "Malpresentations (breech \u2014 types, diagnosis, ECV, vaginal breech delivery, cesarean; face, brow, shoulder/transverse lie, compound presentation)",
+        "Obstructed Labor (signs, complications \u2014 Bandl's ring, uterine rupture, fistula, maternal/fetal morbidity)",
+        "Uterine Rupture (complete, incomplete, causes, management)",
+        "Cord Prolapse (management)",
+        "Shoulder Dystocia (risk factors, McRoberts maneuver, management)",
+        "Operative Vaginal Delivery (forceps \u2014 types, indications, prerequisites; vacuum extraction)",
+        "Cesarean Section (indications, types \u2014 lower segment, classical; technique, complications)",
+        "Trial of Labor After Cesarean (TOLAC/VBAC)",
+        "Cervical Dystocia",
+        "Precipitate Labor",
+        "Retained Placenta (manual removal, placenta accreta spectrum)"
+      ]
+    },
+    {
+      "topic": "High-Risk Pregnancy (~80 questions)",
+      "subtopics": [
+        "Hypertensive Disorders of Pregnancy (gestational hypertension, preeclampsia \u2014 mild, severe; eclampsia \u2014 management, magnesium sulfate protocol; HELLP syndrome; chronic hypertension in pregnancy)",
+        "Gestational Diabetes Mellitus (screening \u2014 GCT, GTT; management \u2014 diet, insulin, metformin; fetal complications \u2014 macrosomia)",
+        "Pre-existing Diabetes in Pregnancy (preconception counseling, management)",
+        "Antepartum Hemorrhage (placenta previa \u2014 types, management; abruptio placentae \u2014 concealed, revealed; vasa previa)",
+        "Postpartum Hemorrhage (primary \u2014 atonic, traumatic, coagulopathy, retained tissue; secondary; management \u2014 uterotonics, B-Lynch suture, balloon tamponade, uterine artery ligation, hysterectomy)",
+        "Rh Isoimmunization (pathophysiology, indirect Coombs test, anti-D prophylaxis, management of affected fetus \u2014 MCA Doppler, intrauterine transfusion)",
+        "Multiple Pregnancy (twins \u2014 dizygotic, monozygotic; chorionicity, complications \u2014 TTTS, discordant growth, preterm labor; management)",
+        "Preterm Labor & Premature Rupture of Membranes (PPROM) (tocolytics, antenatal corticosteroids, magnesium sulfate for neuroprotection, antibiotics)",
+        "Intrauterine Growth Restriction (IUGR/FGR) (causes, diagnosis, Doppler, management, timing of delivery)",
+        "Intrauterine Fetal Death (IUFD) (causes, diagnosis, management, DIC risk)",
+        "Anemia in Pregnancy (iron deficiency, megaloblastic, management, blood transfusion)",
+        "Heart Disease in Pregnancy (rheumatic, congenital, peripartum cardiomyopathy, management, contraindicated conditions)",
+        "Thyroid Disorders in Pregnancy (hypothyroidism, hyperthyroidism, management)",
+        "Liver Diseases in Pregnancy (intrahepatic cholestasis, acute fatty liver, HELLP)",
+        "Renal Disease in Pregnancy",
+        "Infections in Pregnancy (TORCH \u2014 toxoplasma, rubella, CMV, herpes; syphilis, HIV, hepatitis B, GBS, UTI, malaria)",
+        "Epilepsy in Pregnancy (drug management, folic acid)",
+        "Thromboembolism in Pregnancy (DVT, PE, anticoagulation)",
+        "Amniotic Fluid Disorders (polyhydramnios, oligohydramnios \u2014 causes, management)",
+        "Cervical Incompetence (cerclage \u2014 McDonald, Shirodkar)",
+        "Ectopic Pregnancy (tubal \u2014 diagnosis, management \u2014 medical/methotrexate, surgical/salpingectomy; heterotopic, cervical, ovarian, abdominal)",
+        "Gestational Trophoblastic Disease (hydatidiform mole \u2014 complete, partial; invasive mole, choriocarcinoma, placental site trophoblastic tumor; hCG monitoring, chemotherapy)",
+        "Abortion / Miscarriage (threatened, inevitable, incomplete, complete, missed, septic; management \u2014 medical, surgical/MVA/EVA; recurrent pregnancy loss)"
+      ]
+    },
+    {
+      "topic": "Puerperium & Complications (~40 questions)",
+      "subtopics": [
+        "Normal Puerperium (involution, lochia, lactation physiology)",
+        "Breastfeeding (initiation, technique, advantages, problems \u2014 engorgement, mastitis, breast abscess, cracked nipple, inadequate milk)",
+        "Puerperal Sepsis (endometritis, wound infection, management)",
+        "Puerperal Pyrexia (causes, investigation, management)",
+        "Secondary PPH (causes, management)",
+        "Subinvolution of Uterus",
+        "Psychiatric Disorders in Puerperium (baby blues, postpartum depression, puerperal psychosis)",
+        "Thromboembolic Disease in Puerperium",
+        "Postpartum Contraception",
+        "Postpartum Exercises & Rehabilitation",
+        "Lactation Suppression (indications, methods)",
+        "Sheehan Syndrome (postpartum pituitary necrosis)"
+      ]
+    },
+    {
+      "topic": "Obstetric Anesthesia & Analgesia (~15 questions)",
+      "subtopics": [
+        "Epidural Analgesia (technique, complications)",
+        "Spinal Anesthesia for Cesarean Section",
+        "General Anesthesia in Obstetrics (indications, Mendelson syndrome)",
+        "Pudendal Nerve Block",
+        "Local Infiltration",
+        "Complications of Obstetric Anesthesia"
+      ]
+    },
+    {
+      "topic": "Neonatology Overlap (~20 questions)",
+      "subtopics": [
+        "Neonatal Resuscitation (NRP algorithm, Apgar score)",
+        "Birth Asphyxia (HIE staging \u2014 Sarnat)",
+        "Low Birth Weight & Prematurity (classification, complications)",
+        "Neonatal Jaundice (physiological, pathological \u2014 overlap with pediatrics)",
+        "Congenital Anomalies \u2014 Obstetric Perspective (neural tube defects, Down syndrome, screening)",
+        "Kangaroo Mother Care"
+      ]
+    },
+    {
+      "topic": "Puberty & Menstrual Disorders (~50 questions)",
+      "subtopics": [
+        "Normal Puberty (Tanner staging, menarche, thelarche, adrenarche)",
+        "Precocious Puberty (central, peripheral \u2014 causes, management)",
+        "Delayed Puberty (causes, investigation)",
+        "Normal Menstrual Cycle (hormonal regulation, HPO axis, follicular phase, ovulation, luteal phase)",
+        "Amenorrhea (primary \u2014 causes including Turner syndrome, Mullerian agenesis, imperforate hymen; secondary \u2014 causes including PCOS, hypothalamic, pituitary, ovarian failure, Asherman syndrome)",
+        "Abnormal Uterine Bleeding (AUB) (PALM-COEIN classification, investigation, management)",
+        "Menorrhagia / Heavy Menstrual Bleeding (causes, medical management, surgical \u2014 endometrial ablation, hysterectomy)",
+        "Dysmenorrhea (primary, secondary \u2014 causes, management)",
+        "Premenstrual Syndrome (PMS/PMDD)",
+        "Polycystic Ovarian Syndrome (PCOS) (Rotterdam criteria, clinical features, management \u2014 lifestyle, metformin, OCP, ovulation induction)",
+        "Dysfunctional Uterine Bleeding (DUB) \u2014 anovulatory, ovulatory",
+        "Postmenopausal Bleeding (causes, investigation \u2014 endometrial biopsy, management)",
+        "Intermenstrual Bleeding"
+      ]
+    },
+    {
+      "topic": "Gynecological Infections (~40 questions)",
+      "subtopics": [
+        "Vulvovaginitis (candidiasis, bacterial vaginosis, trichomoniasis \u2014 diagnosis, management)",
+        "Pelvic Inflammatory Disease (PID) (etiology, diagnosis \u2014 Fitz-Hugh-Curtis syndrome, management, complications \u2014 TOA, chronic PID)",
+        "Sexually Transmitted Infections (gonorrhea, chlamydia, syphilis, herpes genitalis, HPV \u2014 genital warts, condylomata, chancroid, LGV)",
+        "Cervicitis (causes, management)",
+        "Bartholin's Cyst & Abscess (marsupialization)",
+        "Tuberculosis of Genital Tract (endometrial TB, tubal TB \u2014 infertility)",
+        "Vulvar Infections (herpes, molluscum, candidiasis)",
+        "HIV in Gynecology (screening, PMTCT)",
+        "Toxic Shock Syndrome",
+        "Actinomycosis (IUD-related)"
+      ]
+    },
+    {
+      "topic": "Gynecological Tumors (~80 questions)",
+      "subtopics": [
+        "Cervical Cancer (epidemiology, HPV \u2014 types 16, 18; screening \u2014 Pap smear, VIA, VILI, HPV DNA test; CIN \u2014 classification, colposcopy, LEEP/LLETZ; staging \u2014 FIGO; management \u2014 surgery, radiotherapy, chemotherapy; vaccination \u2014 quadrivalent, nonavalent)",
+        "Cervical Intraepithelial Neoplasia (CIN 1, 2, 3 \u2014 management)",
+        "Uterine Fibroids / Leiomyoma (types \u2014 subserosal, intramural, submucosal; clinical features, red degeneration in pregnancy, management \u2014 medical/GnRH agonists, ulipristal; surgical \u2014 myomectomy, hysterectomy, UAE)",
+        "Endometrial Cancer (risk factors, staging \u2014 FIGO, management \u2014 TAH-BSO, adjuvant therapy)",
+        "Endometrial Hyperplasia (simple, complex, with/without atypia \u2014 management)",
+        "Ovarian Tumors (classification \u2014 epithelial, germ cell, sex cord-stromal; benign \u2014 serous/mucinous cystadenoma, dermoid/mature cystic teratoma; malignant \u2014 serous cystadenocarcinoma, mucinous, endometrioid, clear cell; germ cell \u2014 dysgerminoma, yolk sac, immature teratoma; sex cord \u2014 granulosa cell, Sertoli-Leydig; staging \u2014 FIGO; tumor markers \u2014 CA-125, AFP, beta-hCG, LDH, inhibin; management \u2014 surgery, chemotherapy)",
+        "Ovarian Cysts (functional \u2014 follicular, corpus luteum; management, torsion)",
+        "Gestational Trophoblastic Neoplasia (overlap with obstetrics \u2014 staging, chemotherapy, follow-up)",
+        "Vulvar Cancer (SCC, melanoma, staging, management)",
+        "Vaginal Cancer (SCC, DES-related clear cell adenocarcinoma)",
+        "Fallopian Tube Cancer",
+        "Uterine Sarcoma (leiomyosarcoma, endometrial stromal sarcoma)",
+        "Pseudomyxoma Peritonei & Meigs Syndrome",
+        "Krukenberg Tumor"
+      ]
+    },
+    {
+      "topic": "Endometriosis & Adenomyosis (~30 questions)",
+      "subtopics": [
+        "Endometriosis (pathogenesis \u2014 Sampson's theory, clinical features, staging \u2014 rASRM, diagnosis \u2014 laparoscopy, USG; management \u2014 medical/OCP, GnRH agonists, dienogest, progestins; surgical \u2014 laparoscopic excision/ablation)",
+        "Chocolate Cyst / Endometrioma (management)",
+        "Adenomyosis (clinical features, diagnosis \u2014 USG, MRI; management \u2014 medical, hysterectomy)",
+        "Deep Infiltrating Endometriosis",
+        "Endometriosis & Infertility (management approach)"
+      ]
+    },
+    {
+      "topic": "Infertility (~50 questions)",
+      "subtopics": [
+        "Definition & Epidemiology (primary, secondary infertility)",
+        "Female Factors (ovulatory \u2014 PCOS, hypothalamic; tubal \u2014 PID, TB; uterine \u2014 fibroids, Asherman syndrome; cervical; peritoneal \u2014 endometriosis)",
+        "Male Factors (semen analysis \u2014 WHO criteria, oligospermia, azoospermia, asthenospermia, teratospermia; varicocele, hormonal causes)",
+        "Investigation of Infertile Couple (semen analysis, ovulation assessment \u2014 day 21 progesterone, LH surge; tubal patency \u2014 HSG, laparoscopy; hormonal profile \u2014 FSH, LH, AMH, prolactin, thyroid)",
+        "Ovulation Induction (clomiphene citrate, letrozole, gonadotropins, OHSS \u2014 ovarian hyperstimulation syndrome)",
+        "Intrauterine Insemination (IUI) (indications, technique)",
+        "In Vitro Fertilization (IVF) (indications, steps \u2014 stimulation, oocyte retrieval, fertilization, embryo transfer)",
+        "Intracytoplasmic Sperm Injection (ICSI)",
+        "Assisted Reproductive Technology (ART) \u2014 Legal & Ethical Aspects (ART Act India)",
+        "Donor Gametes & Surrogacy \u2014 Legal Framework",
+        "Unexplained Infertility (management approach)",
+        "Recurrent Pregnancy Loss (causes \u2014 antiphospholipid syndrome, uterine anomalies, cervical incompetence, thrombophilia; investigation, management)"
+      ]
+    },
+    {
+      "topic": "Contraception & Family Planning (~50 questions)",
+      "subtopics": [
+        "Natural Methods (calendar, BBT, cervical mucus, lactational amenorrhea \u2014 LAM)",
+        "Barrier Methods (male condom, female condom, diaphragm, cervical cap, spermicides)",
+        "Hormonal Contraception (combined OCP \u2014 mechanism, benefits, risks, contraindications; POP \u2014 mini pill; injectable \u2014 DMPA; implants \u2014 etonogestrel; emergency contraception \u2014 levonorgestrel, ulipristal, Cu-IUD)",
+        "Intrauterine Devices (Cu-T 380A, LNG-IUS/Mirena \u2014 mechanism, insertion, complications \u2014 perforation, expulsion, PID, ectopic)",
+        "Sterilization (tubectomy \u2014 laparoscopic, minilaparotomy, Pomeroy, Falope ring; vasectomy)",
+        "Postpartum Contraception (timing, options)",
+        "Postabortal Contraception",
+        "Contraception in Special Situations (adolescents, lactating women, medical conditions \u2014 WHO MEC categories)",
+        "Medical Termination of Pregnancy (MTP Act India \u2014 amendments, indications, methods, gestational limits)",
+        "National Family Planning Program (India \u2014 targets, methods, incentives)"
+      ]
+    },
+    {
+      "topic": "Urogynecology & Pelvic Floor Disorders (~30 questions)",
+      "subtopics": [
+        "Pelvic Organ Prolapse (cystocele, rectocele, uterine prolapse \u2014 degrees, enterocele; POP-Q staging)",
+        "Management of Prolapse (conservative \u2014 pessary, Kegel exercises; surgical \u2014 anterior/posterior repair, vaginal hysterectomy, sacrocolpopexy, Manchester repair)",
+        "Urinary Incontinence (stress \u2014 SUI, urge \u2014 OAB, mixed, overflow; urodynamic studies, management \u2014 behavioral, medical, surgical \u2014 TVT, TOT, Burch colposuspension)",
+        "Vesicovaginal Fistula (VVF) (causes \u2014 obstructed labor, surgical; diagnosis, management)",
+        "Rectovaginal Fistula",
+        "Genital Fistulae \u2014 Prevention & Management"
+      ]
+    },
+    {
+      "topic": "Menopause & Hormone Replacement Therapy (~25 questions)",
+      "subtopics": [
+        "Menopause (definition, perimenopause, premature ovarian insufficiency)",
+        "Menopausal Symptoms (vasomotor, urogenital, psychological, skeletal)",
+        "Hormone Replacement Therapy (HRT) (indications, regimens, benefits, risks \u2014 WHI study, contraindications)",
+        "Osteoporosis in Menopause (screening \u2014 DEXA, management \u2014 bisphosphonates, calcium, vitamin D, SERMs \u2014 raloxifene)",
+        "Alternatives to HRT (phytoestrogens, SSRIs, gabapentin)",
+        "Postmenopausal Bleeding \u2014 Investigation"
+      ]
+    },
+    {
+      "topic": "Gynecological Procedures & Surgeries (~25 questions)",
+      "subtopics": [
+        "Hysterectomy (abdominal \u2014 TAH, vaginal \u2014 VH, laparoscopic \u2014 TLH, LAVH; indications, complications)",
+        "Dilatation & Curettage (D&C) (diagnostic, therapeutic)",
+        "Hysteroscopy (diagnostic, operative \u2014 polypectomy, myomectomy, septum resection, Asherman lysis)",
+        "Laparoscopy in Gynecology (diagnostic, operative \u2014 cystectomy, myomectomy, adhesiolysis, tubal surgery)",
+        "Colposcopy (indications, technique, biopsy)",
+        "Cervical Cerclage",
+        "Bartholin's Cyst Marsupialization",
+        "Endometrial Ablation",
+        "Uterine Artery Embolization",
+        "Culdocentesis"
+      ]
+    },
+    {
+      "topic": "Medicolegal & Ethical Issues in Obstetrics & Gynecology (~15 questions)",
+      "subtopics": [
+        "MTP Act (India) \u2014 Provisions & Amendments (2021)",
+        "PCPNDT Act (Pre-Conception and Pre-Natal Diagnostic Techniques Act)",
+        "ART (Assisted Reproductive Technology) Regulation Act",
+        "Surrogacy Regulation Act",
+        "Consent in Obstetrics & Gynecology",
+        "Maternal Death Review & Audit",
+        "POCSO Act \u2014 Relevance",
+        "Domestic Violence Act \u2014 Medical Role"
+      ]
+    }
+  ]
+}

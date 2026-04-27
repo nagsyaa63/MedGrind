@@ -2,75 +2,322 @@
   "subject": "Psychiatry",
   "topics": [
     {
-      "topic": "Introduction and Classification",
+      "topic": "Classification & History of Psychiatry (~15 questions)",
       "subtopics": [
-        "History and Examination (Mental Status Examination)",
-        "Classification of Mental Disorders (ICD-11 and DSM-5)",
-        "Major Signs and Symptoms in Psychiatry"
+        "History of psychiatry \u2014 moral treatment, deinstitutionalization, community psychiatry",
+        "Classification systems \u2014 ICD-11 vs DSM-5, multiaxial system (historical), dimensional vs categorical approach",
+        "Mental health legislation \u2014 Mental Healthcare Act 2017 (India), rights of persons with mental illness",
+        "Epidemiology of mental disorders \u2014 prevalence, burden of disease",
+        "Biopsychosocial model of mental illness",
+        "Stigma and mental health",
+        "National Mental Health Programme (NMHP) and District Mental Health Programme (DMHP)",
+        "Psychiatric interview \u2014 techniques, mental status examination (MSE)",
+        "Components of MSE \u2014 appearance, behavior, speech, mood, affect, thought (form, content, possession), perception, cognition, insight, judgment",
+        "Psychological testing \u2014 IQ tests (Stanford-Binet, WAIS, WISC), personality tests (MMPI, Rorschach, TAT), rating scales (HAM-D, HAM-A, BPRS, PANSS, YMRS)"
       ]
     },
     {
-      "topic": "Psychotic Disorders",
+      "topic": "Psychopathology & Descriptive Phenomenology (~20 questions)",
       "subtopics": [
-        "Schizophrenia: Clinical Features and Subtypes",
-        "Schizoaffective and Delusional Disorders",
-        "Acute and Transient Psychotic Disorders"
+        "Disorders of perception \u2014 illusions, hallucinations (auditory, visual, tactile, olfactory, gustatory), pseudohallucinations, functional hallucinations, reflex hallucinations, hypnagogic/hypnopompic",
+        "Disorders of thought \u2014 form (loosening of associations, tangentiality, circumstantiality, flight of ideas, thought blocking, neologisms, word salad, perseveration, clang associations) and content (delusions \u2014 types: persecutory, grandiose, reference, nihilistic, somatic, erotomanic, jealousy; overvalued ideas, obsessions)",
+        "Disorders of thought possession \u2014 thought insertion, withdrawal, broadcasting",
+        "Disorders of mood and affect \u2014 euthymia, depression, elation, euphoria, anxiety, irritability, apathy, anhedonia, blunted/flat/inappropriate/labile affect",
+        "Disorders of motor activity \u2014 stupor, catatonia (waxy flexibility, posturing, negativism, echolalia, echopraxia, ambitendency), psychomotor retardation, agitation",
+        "Disorders of consciousness \u2014 delirium, clouding, stupor, coma",
+        "Disorders of memory \u2014 amnesia (anterograde, retrograde), confabulation, d\u00e9j\u00e0 vu, jamais vu, paramnesia",
+        "Disorders of self \u2014 depersonalization, derealization",
+        "Insight \u2014 levels (complete denial to true insight)",
+        "Schneider's first-rank symptoms of schizophrenia"
       ]
     },
     {
-      "topic": "Mood (Affective) Disorders",
+      "topic": "Schizophrenia & Other Psychotic Disorders (~35 questions)",
       "subtopics": [
-        "Depressive Disorders",
-        "Bipolar Affective Disorder (BPAD)",
-        "Dysthymia and Cyclothymia",
-        "Suicide and Self-Harm"
+        "Schizophrenia \u2014 epidemiology, etiology (genetic \u2014 polygenic, dopamine hypothesis, glutamate hypothesis, neurodevelopmental hypothesis)",
+        "Positive symptoms (hallucinations, delusions, disorganized speech, disorganized behavior)",
+        "Negative symptoms (alogia, avolition, anhedonia, affective flattening, asociality)",
+        "Cognitive symptoms (attention, working memory, executive function deficits)",
+        "Subtypes (historical \u2014 paranoid, hebephrenic/disorganized, catatonic, undifferentiated, residual, simple)",
+        "Diagnostic criteria (ICD-11, DSM-5) \u2014 Schneider's first-rank symptoms",
+        "Course and prognosis \u2014 good and poor prognostic factors",
+        "Neuroimaging findings (ventricular enlargement, reduced prefrontal cortex volume)",
+        "Management \u2014 antipsychotics (first-generation/typical \u2014 chlorpromazine, haloperidol; second-generation/atypical \u2014 risperidone, olanzapine, clozapine, quetiapine, aripiprazole, ziprasidone)",
+        "Clozapine \u2014 indications (treatment-resistant schizophrenia), monitoring (agranulocytosis \u2014 weekly/biweekly CBC), side effects (metabolic syndrome, seizures, myocarditis)",
+        "Side effects of antipsychotics \u2014 extrapyramidal symptoms (acute dystonia, akathisia, parkinsonism, tardive dyskinesia), neuroleptic malignant syndrome (NMS), metabolic syndrome, hyperprolactinemia, QTc prolongation",
+        "Neuroleptic malignant syndrome \u2014 clinical features (hyperthermia, rigidity, autonomic instability, altered consciousness), elevated CPK, management (dantrolene, bromocriptine)",
+        "Psychosocial interventions \u2014 CBT for psychosis, family therapy, social skills training, vocational rehabilitation",
+        "Schizoaffective disorder",
+        "Schizophreniform disorder",
+        "Delusional disorder \u2014 types (persecutory, jealous/Othello syndrome, erotomanic/de Cl\u00e9rambault, somatic, grandiose)",
+        "Brief psychotic disorder",
+        "Shared psychotic disorder (folie \u00e0 deux)",
+        "Catatonia \u2014 clinical features, management (lorazepam, ECT)"
       ]
     },
     {
-      "topic": "Anxiety and Stress-related Disorders",
+      "topic": "Mood Disorders (~35 questions)",
       "subtopics": [
-        "Generalized Anxiety Disorder and Panic Disorder",
-        "Phobic Anxiety Disorders",
-        "Obsessive-Compulsive Disorder (OCD)",
-        "Post-Traumatic Stress Disorder (PTSD) and Adjustment Disorders",
-        "Dissociative (Conversion) Disorders"
+        "Major depressive disorder \u2014 epidemiology, etiology (monoamine hypothesis, HPA axis, neuroplasticity, genetic factors)",
+        "Clinical features of depression \u2014 core symptoms (depressed mood, anhedonia, fatigue), biological symptoms (sleep disturbance, appetite changes, psychomotor changes, diurnal variation, loss of libido), cognitive symptoms (guilt, worthlessness, hopelessness, suicidal ideation, poor concentration)",
+        "Severity grading \u2014 mild, moderate, severe (with/without psychotic features)",
+        "Atypical depression \u2014 hypersomnia, hyperphagia, leaden paralysis, rejection sensitivity",
+        "Melancholic depression",
+        "Psychotic depression \u2014 mood-congruent vs mood-incongruent",
+        "Dysthymia (persistent depressive disorder)",
+        "Suicide \u2014 risk factors, assessment (SAD PERSONS scale), management, protective factors",
+        "Antidepressants \u2014 SSRIs (fluoxetine, sertraline, paroxetine, escitalopram), SNRIs (venlafaxine, duloxetine), TCAs (amitriptyline, imipramine, clomipramine), MAOIs (phenelzine, tranylcypromine, moclobemide), atypical (mirtazapine, bupropion, trazodone, vortioxetine)",
+        "SSRI side effects \u2014 GI symptoms, sexual dysfunction, serotonin syndrome, discontinuation syndrome",
+        "TCA side effects \u2014 anticholinergic effects, cardiac toxicity, overdose lethality",
+        "Serotonin syndrome \u2014 clinical features (triad: mental status changes, autonomic instability, neuromuscular hyperactivity), management",
+        "Bipolar disorder \u2014 type I (mania + depression), type II (hypomania + depression), cyclothymia",
+        "Mania \u2014 clinical features (elevated mood, grandiosity, decreased sleep, pressured speech, flight of ideas, distractibility, increased goal-directed activity, reckless behavior)",
+        "Hypomania vs mania \u2014 distinction",
+        "Mixed episodes",
+        "Rapid cycling bipolar disorder",
+        "Mood stabilizers \u2014 lithium (mechanism, therapeutic range 0.6\u20131.2 mEq/L, monitoring \u2014 thyroid, renal, side effects \u2014 tremor, polyuria, hypothyroidism, teratogenicity \u2014 Ebstein's anomaly, toxicity), valproate (teratogenicity \u2014 neural tube defects, PCOS, hepatotoxicity), carbamazepine (Stevens-Johnson syndrome, aplastic anemia, drug interactions), lamotrigine (SJS risk, effective for bipolar depression)",
+        "Lithium toxicity \u2014 clinical features, management",
+        "Atypical antipsychotics in bipolar disorder (olanzapine, quetiapine, aripiprazole, lurasidone)",
+        "ECT \u2014 indications (severe depression, catatonia, treatment-resistant, pregnancy), technique (bilateral vs unilateral), side effects (memory impairment), contraindications (raised ICP)",
+        "Repetitive transcranial magnetic stimulation (rTMS)",
+        "Seasonal affective disorder (SAD) \u2014 light therapy",
+        "Postpartum mood disorders \u2014 baby blues, postpartum depression, postpartum psychosis"
       ]
     },
     {
-      "topic": "Organic and Substance Use Disorders",
+      "topic": "Anxiety Disorders (~25 questions)",
       "subtopics": [
-        "Delirium and Dementia",
-        "Alcohol Use Disorder and Withdrawal",
-        "Opioid and Cannabis Use Disorders",
-        "Stimulants, Hallucinogens, and Nicotine Dependence"
+        "Generalized anxiety disorder (GAD) \u2014 clinical features (excessive worry, restlessness, fatigue, difficulty concentrating, irritability, muscle tension, sleep disturbance), management (SSRIs, SNRIs, buspirone, benzodiazepines short-term, CBT)",
+        "Panic disorder \u2014 panic attacks (palpitations, sweating, trembling, shortness of breath, chest pain, derealization, fear of dying/losing control), agoraphobia, management (SSRIs, CBT, benzodiazepines)",
+        "Social anxiety disorder (social phobia) \u2014 performance anxiety, management (SSRIs, CBT, beta-blockers for performance anxiety)",
+        "Specific phobias \u2014 types (animal, natural environment, blood-injection-injury, situational), management (exposure therapy, systematic desensitization)",
+        "Separation anxiety disorder",
+        "Selective mutism",
+        "Benzodiazepines \u2014 mechanism (GABA-A receptor), types (short-acting \u2014 alprazolam, lorazepam; long-acting \u2014 diazepam, clonazepam), side effects (sedation, dependence, tolerance), withdrawal syndrome, flumazenil (antagonist)",
+        "Buspirone \u2014 mechanism (5-HT1A partial agonist), advantages (no dependence)",
+        "Beta-blockers in anxiety (propranolol)",
+        "Neurobiology of anxiety \u2014 amygdala, HPA axis, GABA, serotonin"
       ]
     },
     {
-      "topic": "Personality and Eating Disorders",
+      "topic": "Obsessive-Compulsive Disorder (OCD) (~15 questions)",
       "subtopics": [
-        "Classification of Personality Disorders",
-        "Anorexia Nervosa and Bulimia Nervosa",
-        "Sleep Disorders (Insomnia, Narcolepsy)",
-        "Sexual Dysfunctions and Gender Identity"
+        "Epidemiology and etiology (serotonin hypothesis, basal ganglia \u2014 CSTC circuit, PANDAS)",
+        "Obsessions \u2014 types (contamination, doubt, symmetry, aggressive, sexual, religious/scrupulosity)",
+        "Compulsions \u2014 types (washing, checking, counting, ordering, hoarding, mental rituals)",
+        "Ego-dystonic nature of OCD",
+        "Yale-Brown Obsessive Compulsive Scale (Y-BOCS)",
+        "Management \u2014 SSRIs (high dose, fluoxetine, fluvoxamine, sertraline), clomipramine, augmentation (antipsychotics), CBT with ERP (Exposure and Response Prevention)",
+        "Treatment-resistant OCD \u2014 deep brain stimulation, capsulotomy (neurosurgery)",
+        "OCD-related disorders \u2014 body dysmorphic disorder, hoarding disorder, trichotillomania, excoriation (skin-picking) disorder",
+        "OCD vs OCPD (obsessive-compulsive personality disorder)"
       ]
     },
     {
-      "topic": "Child and Adolescent Psychiatry",
+      "topic": "Trauma and Stressor-Related Disorders (~15 questions)",
       "subtopics": [
-        "Intellectual Disability",
-        "Autism Spectrum Disorder",
-        "ADHD and Conduct Disorders",
-        "Enuresis and Encopresis"
+        "Post-traumatic stress disorder (PTSD) \u2014 diagnostic criteria (exposure, intrusion/re-experiencing, avoidance, negative cognitions/mood, hyperarousal), duration > 1 month",
+        "Acute stress disorder \u2014 duration 3 days to 1 month",
+        "Adjustment disorder \u2014 types (with depressed mood, anxiety, mixed, disturbance of conduct)",
+        "Complex PTSD",
+        "Management of PTSD \u2014 trauma-focused CBT, EMDR (Eye Movement Desensitization and Reprocessing), SSRIs (sertraline, paroxetine), prazosin (for nightmares)",
+        "Prolonged grief disorder",
+        "Reactive attachment disorder and disinhibited social engagement disorder (in children)",
+        "Psychological debriefing \u2014 evidence and controversy",
+        "Resilience and protective factors"
       ]
     },
     {
-      "topic": "Treatments in Psychiatry",
+      "topic": "Substance Use Disorders (~35 questions)",
       "subtopics": [
-        "Antipsychotics and Mood Stabilizers",
-        "Antidepressants and Anxiolytics",
-        "Electroconvulsive Therapy (ECT)",
-        "Psychotherapy and Counseling Techniques",
-        "Mental Healthcare Act (India)"
+        "Terminology \u2014 use, misuse, abuse, dependence, tolerance, withdrawal, cross-tolerance, cross-dependence",
+        "ICD-11/DSM-5 criteria for substance use disorder",
+        "Alcohol use disorder \u2014 epidemiology, pharmacology (GABA, NMDA), clinical features of intoxication, pathological intoxication, blackouts",
+        "Alcohol withdrawal \u2014 timeline, clinical features (tremors, seizures, delirium tremens), CIWA-Ar scale, management (benzodiazepines \u2014 chlordiazepoxide/lorazepam, thiamine)",
+        "Delirium tremens \u2014 clinical features (confusion, visual hallucinations, autonomic instability, seizures), management",
+        "Wernicke's encephalopathy (confusion, ataxia, ophthalmoplegia) and Korsakoff's psychosis (amnesia, confabulation) \u2014 thiamine deficiency",
+        "Alcohol-related liver disease, neuropathy, cerebellar degeneration, Marchiafava-Bignami disease",
+        "Pharmacotherapy for alcohol dependence \u2014 disulfiram (mechanism, aversive therapy), naltrexone, acamprosate, baclofen",
+        "Opioid use disorder \u2014 heroin, morphine, prescription opioids, clinical features of intoxication (miosis, respiratory depression, euphoria), overdose management (naloxone)",
+        "Opioid withdrawal \u2014 clinical features (lacrimation, rhinorrhea, yawning, piloerection, diarrhea, mydriasis), management (clonidine, buprenorphine, methadone)",
+        "Opioid substitution therapy \u2014 methadone maintenance, buprenorphine-naloxone",
+        "Cannabis use disorder \u2014 clinical features (euphoria, red eyes, increased appetite, amotivational syndrome), synthetic cannabinoids",
+        "Cocaine and amphetamine use \u2014 clinical features (euphoria, tachycardia, hypertension, mydriasis, paranoia, formication), crash, management",
+        "Benzodiazepine dependence and withdrawal \u2014 seizure risk, gradual tapering",
+        "Tobacco/nicotine dependence \u2014 Fagerstr\u00f6m test, management (NRT, bupropion, varenicline)",
+        "Inhalant abuse (volatile substance abuse) \u2014 sudden sniffing death",
+        "Hallucinogens \u2014 LSD, psilocybin, PCP (phencyclidine), MDMA (ecstasy)",
+        "Motivational interviewing and stages of change (Prochaska and DiClemente)",
+        "Brief intervention (FRAMES)",
+        "Alcoholics Anonymous and 12-step programs",
+        "Dual diagnosis (comorbid psychiatric and substance use disorders)"
+      ]
+    },
+    {
+      "topic": "Personality Disorders (~18 questions)",
+      "subtopics": [
+        "Definition and general diagnostic criteria",
+        "Cluster A (odd/eccentric) \u2014 paranoid, schizoid, schizotypal",
+        "Cluster B (dramatic/emotional) \u2014 antisocial (conduct disorder in childhood, psychopathy), borderline (emotional instability, self-harm, identity disturbance, splitting), histrionic, narcissistic",
+        "Cluster C (anxious/fearful) \u2014 avoidant, dependent, obsessive-compulsive (OCPD)",
+        "Borderline personality disorder \u2014 clinical features, dialectical behavior therapy (DBT \u2014 Marsha Linehan)",
+        "Antisocial personality disorder \u2014 Hare Psychopathy Checklist, forensic implications",
+        "Differential diagnosis \u2014 personality disorder vs personality traits, vs Axis I disorders",
+        "Management \u2014 psychotherapy (DBT, mentalization-based therapy, schema therapy), pharmacotherapy (limited, symptom-targeted)",
+        "Personality change due to medical condition"
+      ]
+    },
+    {
+      "topic": "Somatic Symptom and Related Disorders (~15 questions)",
+      "subtopics": [
+        "Somatic symptom disorder \u2014 excessive thoughts/feelings/behaviors related to somatic symptoms",
+        "Illness anxiety disorder (hypochondriasis)",
+        "Conversion disorder (functional neurological symptom disorder) \u2014 motor symptoms (paralysis, tremor, gait disturbance), sensory symptoms (blindness, anesthesia), non-epileptic seizures (PNES), la belle indiff\u00e9rence",
+        "Factitious disorder (Munchausen syndrome) \u2014 self-induced illness, Munchausen by proxy (factitious disorder imposed on another)",
+        "Malingering \u2014 differentiation from factitious disorder and conversion",
+        "Body dysmorphic disorder (covered under OCD spectrum)",
+        "Psychological factors affecting other medical conditions",
+        "Management \u2014 regular follow-up, validation, CBT, avoiding unnecessary investigations"
+      ]
+    },
+    {
+      "topic": "Dissociative Disorders (~12 questions)",
+      "subtopics": [
+        "Dissociative amnesia \u2014 localized, selective, generalized, dissociative fugue",
+        "Dissociative identity disorder (multiple personality disorder)",
+        "Depersonalization/derealization disorder",
+        "Dissociative motor disorders and sensory loss",
+        "Dissociative stupor",
+        "Possession trance disorder",
+        "Ganser syndrome \u2014 approximate answers (vorbeireden)",
+        "Etiology \u2014 trauma, psychological stress",
+        "Management \u2014 psychotherapy (hypnotherapy, abreaction), supportive therapy"
+      ]
+    },
+    {
+      "topic": "Eating Disorders (~12 questions)",
+      "subtopics": [
+        "Anorexia nervosa \u2014 diagnostic criteria (restriction, low body weight, fear of weight gain, body image disturbance), types (restricting, binge-purge), medical complications (amenorrhea, osteoporosis, cardiac \u2014 bradycardia, hypotension, electrolyte imbalance, lanugo hair, Russell's sign), management (nutritional rehabilitation, CBT, family-based therapy/Maudsley approach)",
+        "Bulimia nervosa \u2014 diagnostic criteria (binge eating, compensatory behaviors \u2014 purging, laxatives, exercise), medical complications (dental erosion, parotid enlargement, Mallory-Weiss tear, metabolic alkalosis), management (CBT, SSRIs \u2014 fluoxetine)",
+        "Binge eating disorder",
+        "Avoidant/restrictive food intake disorder (ARFID)",
+        "Pica and rumination disorder",
+        "Refeeding syndrome \u2014 pathophysiology (hypophosphatemia), prevention",
+        "Orthorexia (not formally classified)",
+        "Body image and sociocultural factors"
+      ]
+    },
+    {
+      "topic": "Child & Adolescent Psychiatry (~20 questions)",
+      "subtopics": [
+        "Intellectual disability (mental retardation) \u2014 classification (mild, moderate, severe, profound), etiology (genetic \u2014 Down syndrome, fragile X; prenatal, perinatal, postnatal), assessment (IQ testing, adaptive behavior), management",
+        "Autism spectrum disorder (ASD) \u2014 clinical features (social communication deficits, restricted/repetitive behaviors), early signs, screening (M-CHAT), management (behavioral \u2014 ABA, speech therapy, occupational therapy)",
+        "Attention deficit hyperactivity disorder (ADHD) \u2014 clinical features (inattention, hyperactivity, impulsivity), subtypes, management (stimulants \u2014 methylphenidate, amphetamines; non-stimulants \u2014 atomoxetine, guanfacine; behavioral therapy)",
+        "Specific learning disorders \u2014 dyslexia, dyscalculia, dysgraphia",
+        "Conduct disorder and oppositional defiant disorder",
+        "Separation anxiety disorder",
+        "Selective mutism",
+        "Tic disorders and Tourette syndrome \u2014 management (habit reversal therapy, antipsychotics \u2014 haloperidol, aripiprazole, clonidine)",
+        "Enuresis \u2014 primary vs secondary, management (alarm therapy, desmopressin, imipramine)",
+        "Encopresis",
+        "Childhood-onset schizophrenia",
+        "Childhood depression and suicide",
+        "Child abuse \u2014 physical, sexual, emotional, neglect; mandatory reporting"
+      ]
+    },
+    {
+      "topic": "Sleep Disorders (~12 questions)",
+      "subtopics": [
+        "Normal sleep architecture \u2014 NREM stages (N1, N2, N3), REM sleep, sleep cycles",
+        "Insomnia \u2014 types (onset, maintenance, early morning awakening), causes, management (sleep hygiene, CBT-I, pharmacotherapy \u2014 zolpidem, zopiclone, melatonin, low-dose trazodone, orexin receptor antagonists)",
+        "Obstructive sleep apnea \u2014 clinical features, polysomnography, management (CPAP, weight loss)",
+        "Narcolepsy \u2014 clinical features (excessive daytime sleepiness, cataplexy, sleep paralysis, hypnagogic hallucinations), orexin/hypocretin deficiency, management (modafinil, sodium oxybate, stimulants)",
+        "Restless legs syndrome \u2014 clinical features, management (dopamine agonists, gabapentin)",
+        "Parasomnias \u2014 NREM (sleepwalking, sleep terrors, confusional arousals) and REM (REM sleep behavior disorder \u2014 association with synucleinopathies, nightmare disorder)",
+        "Circadian rhythm sleep-wake disorders \u2014 delayed sleep phase, advanced sleep phase, shift work, jet lag",
+        "Klein-Levin syndrome (recurrent hypersomnia)"
+      ]
+    },
+    {
+      "topic": "Sexual Disorders (~12 questions)",
+      "subtopics": [
+        "Normal sexual response cycle (Masters and Johnson \u2014 excitement, plateau, orgasm, resolution; Kaplan \u2014 desire, arousal, orgasm)",
+        "Sexual dysfunctions \u2014 male (erectile dysfunction, premature ejaculation, delayed ejaculation), female (female sexual interest/arousal disorder, female orgasmic disorder, genito-pelvic pain/penetration disorder)",
+        "Management of sexual dysfunctions \u2014 PDE5 inhibitors (sildenafil), SSRIs for premature ejaculation (dapoxetine), psychotherapy (sensate focus \u2014 Masters and Johnson)",
+        "Gender dysphoria \u2014 clinical features, management (hormonal therapy, gender-affirming surgery)",
+        "Paraphilic disorders \u2014 exhibitionism, voyeurism, fetishism, transvestic disorder, frotteurism, pedophilic disorder, sexual masochism, sexual sadism",
+        "Management of paraphilic disorders \u2014 CBT, antiandrogens (cyproterone acetate), GnRH agonists, SSRIs"
+      ]
+    },
+    {
+      "topic": "Psychopharmacology (~30 questions)",
+      "subtopics": [
+        "Antipsychotics \u2014 classification (typical/first-generation vs atypical/second-generation), mechanism (D2 receptor blockade, 5-HT2A antagonism), individual drugs, side effects (EPS, metabolic syndrome, hyperprolactinemia, NMS, tardive dyskinesia, QTc prolongation, agranulocytosis with clozapine)",
+        "Antidepressants \u2014 SSRIs, SNRIs, TCAs, MAOIs, atypical antidepressants; mechanisms, side effects, drug interactions, serotonin syndrome, discontinuation syndrome",
+        "Mood stabilizers \u2014 lithium (pharmacokinetics, monitoring, side effects, toxicity, teratogenicity), valproate, carbamazepine, lamotrigine",
+        "Anxiolytics and hypnotics \u2014 benzodiazepines (mechanism, types, dependence, withdrawal), buspirone, Z-drugs (zolpidem, zopiclone), melatonin receptor agonists",
+        "Anticholinergic drugs \u2014 trihexyphenidyl (for EPS)",
+        "Psychostimulants \u2014 methylphenidate, amphetamines, modafinil",
+        "Anti-addiction drugs \u2014 disulfiram, naltrexone, acamprosate, methadone, buprenorphine, varenicline, NRT",
+        "Drug interactions in psychiatry \u2014 serotonin syndrome, tyramine reaction (MAOIs), lithium interactions, CYP450 interactions",
+        "Prescribing in special populations \u2014 pregnancy (teratogenicity \u2014 lithium, valproate, carbamazepine), lactation, elderly, children, hepatic/renal impairment",
+        "Pharmacogenomics in psychiatry (CYP2D6, CYP2C19 polymorphisms)"
+      ]
+    },
+    {
+      "topic": "Psychotherapy (~15 questions)",
+      "subtopics": [
+        "Psychoanalysis and psychodynamic therapy \u2014 Freud (id, ego, superego, defense mechanisms, free association, transference, countertransference)",
+        "Defense mechanisms \u2014 mature (sublimation, humor, altruism, suppression), neurotic (repression, displacement, rationalization, reaction formation, intellectualization), immature (projection, denial, splitting, acting out, regression, somatization)",
+        "Cognitive behavioral therapy (CBT) \u2014 Aaron Beck, cognitive distortions (all-or-nothing thinking, catastrophizing, overgeneralization), behavioral techniques (exposure, behavioral activation, relaxation training)",
+        "Dialectical behavior therapy (DBT) \u2014 Marsha Linehan, for borderline personality disorder (mindfulness, distress tolerance, emotion regulation, interpersonal effectiveness)",
+        "Interpersonal therapy (IPT) \u2014 for depression",
+        "Behavioral therapy \u2014 classical conditioning (Pavlov), operant conditioning (Skinner), systematic desensitization (Wolpe), flooding, aversion therapy, token economy, modeling",
+        "Family therapy \u2014 structural (Minuchin), strategic, systemic",
+        "Group therapy \u2014 Yalom's therapeutic factors",
+        "Motivational interviewing \u2014 for substance use disorders",
+        "Supportive psychotherapy",
+        "Mindfulness-based therapies (MBSR, MBCT)",
+        "Biofeedback and neurofeedback",
+        "Play therapy (for children)"
+      ]
+    },
+    {
+      "topic": "Emergency Psychiatry (~15 questions)",
+      "subtopics": [
+        "Psychiatric emergencies \u2014 definition, triage",
+        "Acute psychosis \u2014 management (rapid tranquilization \u2014 haloperidol + promethazine, olanzapine IM, lorazepam)",
+        "Suicidal patient \u2014 risk assessment, management (safety planning, hospitalization, one-to-one observation)",
+        "Deliberate self-harm \u2014 assessment, management",
+        "Violence and aggression \u2014 de-escalation techniques, pharmacological management, restraint (physical and chemical)",
+        "Delirium \u2014 causes (infection, metabolic, drugs, withdrawal), clinical features (fluctuating consciousness, inattention, disorientation), management (treat underlying cause, low-dose haloperidol)",
+        "Neuroleptic malignant syndrome \u2014 emergency management",
+        "Serotonin syndrome \u2014 emergency management",
+        "Lithium toxicity \u2014 emergency management",
+        "Catatonia \u2014 emergency management (lorazepam challenge, ECT)",
+        "Acute dystonia \u2014 management (anticholinergics \u2014 benztropine, promethazine)",
+        "Panic attack \u2014 management",
+        "Stupor \u2014 differential diagnosis and management",
+        "Excited delirium"
+      ]
+    },
+    {
+      "topic": "Forensic Psychiatry (~15 questions)",
+      "subtopics": [
+        "Indian Penal Code (IPC) sections relevant to psychiatry \u2014 Section 84 (insanity defense/McNaughten rule), Section 309 (attempted suicide \u2014 decriminalized under MHCA 2017)",
+        "Mental Healthcare Act 2017 \u2014 key provisions (advance directive, nominated representative, admission types \u2014 independent, supported, involuntary, emergency)",
+        "Fitness to stand trial (competency)",
+        "Criminal responsibility and insanity defense",
+        "Testamentary capacity (capacity to make a will)",
+        "Consent in psychiatry \u2014 informed consent, capacity assessment",
+        "Involuntary admission and treatment \u2014 criteria, safeguards",
+        "Restraint and seclusion \u2014 ethical and legal aspects",
+        "Confidentiality and duty to warn (Tarasoff principle)",
+        "Malingering vs factitious disorder",
+        "Civil commitment",
+        "Forensic evaluation of dangerousness",
+        "Psychiatry and disability certification",
+        "Rights of persons with mental illness"
       ]
     }
   ]
