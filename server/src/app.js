@@ -10,6 +10,7 @@ const questionRoutes = require('./routes/questions');
 const userRoutes = require('./routes/users');
 const taxonomyRoutes = require('./routes/taxonomy');
 const adminRoutes = require('./routes/admin');
+const collegeRoutes = require('./routes/colleges');
 
 const app = express();
 
@@ -32,6 +33,7 @@ app.use('/api/questions', questionRoutes);
 app.use('/api/users', userRoutes);
 app.use('/api/taxonomy', taxonomyRoutes);
 app.use('/api/admin', adminRoutes);
+app.use('/api/colleges', collegeRoutes);
 
 // Error handler (must be last)
 app.use(errorHandler);

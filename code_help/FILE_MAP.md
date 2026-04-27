@@ -25,6 +25,7 @@ server/
       votingService.js              — Like/downvote/approve toggles, auto-hide
       challengeService.js           — Challenge submission, voting, auto-resolution
       userService.js                — Profile, leaderboard, streak tracking, onboarding completion
+      collegeService.js             — Loads colleges.json at startup, serves list from memory (singleton)
     controllers/
       authController.js             — Auth request/response handling
       questionController.js         — Question request/response handling
@@ -32,10 +33,12 @@ server/
       votingController.js           — Voting request/response handling
       challengeController.js        — Challenge request/response handling
       userController.js             — User request/response handling
+      collegeController.js          — College request/response handling (GET /api/colleges)
     routes/
       auth.js                       — POST /api/auth/firebase, GET /api/auth/me
       questions.js                  — /api/questions/* routes (includes answer, voting, challenge)
       users.js                      — /api/users/* routes
+      colleges.js                   — GET /api/colleges
     middleware/
       auth.js                       — JWT verification, attaches req.user, daily streak trigger
       rateLimiter.js                — Rate limiting for auth endpoints (20/15min)
@@ -63,6 +66,10 @@ client/
       Navbar.jsx                    — Navigation bar (responsive, hamburger menu)
       ProtectedRoute.jsx            — Auth + onboarding guard (redirects to / or /onboarding)
       LoadingSpinner.jsx            — Reusable loading spinner
+      SearchableSelect.jsx          — Accessible combobox with search + free-text fallback ("Use: [typed text]")
+    hooks/
+      useTaxonomy.js                — Fetches taxonomy tree once, caches in module memory
+      useColleges.js                — Fetches colleges list once, caches in module memory
     pages/
       LoginPage.jsx                 — Google Sign-In button (replaces email/password form)
       OnboardingPage.jsx            — Collect collegeName + currentYear for new Google users

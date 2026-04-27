@@ -10,7 +10,8 @@
 
 ## OnboardingPage (/onboarding)
 - Shown to authenticated users who have not yet completed their profile
-- Fields: College / Institution (text), Year of Study 1–6 (number)
+- Fields: College / Institution (SearchableSelect with colleges list), Year of Study 1–6 (number)
+- College field uses `useColleges` hook to load options; supports free-text fallback via "Use: [typed text]" option in dropdown
 - Client-side validation with inline field-level error messages
 - Calls `AuthContext.updateProfile({ collegeName, currentYear })`
 - Server sets `isOnboarded: true` when both fields are valid
@@ -55,7 +56,8 @@
 
 ## EditProfilePage (/profile/edit)
 - Pre-populated form from AuthContext user data
-- Fields: name, collegeName, currentYear, bio (200 char limit)
+- Fields: name, collegeName (SearchableSelect with colleges list), currentYear, bio (200 char limit)
+- College field uses `useColleges` hook to load options; supports free-text fallback via "Use: [typed text]" option in dropdown
 - PUTs to /api/users/profile via AuthContext.updateProfile()
 
 ## LeaderboardPage (/leaderboard)

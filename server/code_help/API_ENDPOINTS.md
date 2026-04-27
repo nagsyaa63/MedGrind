@@ -80,3 +80,18 @@ Auto-resolution: when a suggestion group reaches RESOLUTION_THRESHOLD (10) votes
 | GET | `/api/users/leaderboard` | Yes | Leaderboard sorted by points desc |
 | GET | `/api/users/:id` | Yes | User public profile |
 | PUT | `/api/users/profile` | Yes | Update own profile (name, collegeName, currentYear, bio). Sets `isOnboarded: true` when collegeName + currentYear are both valid. |
+
+## Colleges
+
+| Method | Path | Auth | Description |
+|--------|------|------|-------------|
+| GET | `/api/colleges` | Yes | Returns full list of college name strings (loaded from `server/src/data/colleges.json` at startup, served from memory) |
+
+### GET `/api/colleges`
+
+Response `200`:
+```json
+["[AFMC] Armed Forces Medical College, Pune, 1962", "[AIIMS-ANS] All India Institute of Medical Sciences, Ansari Nagar East, 1956", ...]
+```
+
+Returns a flat `string[]`. Used by the `useColleges` hook on the client to populate the college `SearchableSelect` on OnboardingPage and EditProfilePage.
