@@ -1,0 +1,133 @@
+{
+  "subject": "Community Medicine",
+  "topics": [
+    {
+      "topic": "Concept of Health and Disease",
+      "subtopics": [
+        "Definition and Dimensions of Health",
+        "Determinants and Indicators of Health",
+        "Natural History of Disease",
+        "Levels of Prevention",
+        "Iceberg Phenomenon of Disease"
+      ]
+    },
+    {
+      "topic": "Principles of Epidemiology",
+      "subtopics": [
+        "Descriptive Epidemiology (Time, Place, Person)",
+        "Analytical Epidemiology (Case Control and Cohort Studies)",
+        "Experimental Epidemiology (Randomized Controlled Trials)",
+        "Association and Causation",
+        "Investigation of an Epidemic"
+      ]
+    },
+    {
+      "topic": "Screening for Disease",
+      "subtopics": [
+        "Concept and Criteria for Screening",
+        "Sensitivity, Specificity, and Predictive Values",
+        "Types of Screening"
+      ]
+    },
+    {
+      "topic": "Epidemiology of Communicable Diseases",
+      "subtopics": [
+        "Respiratory Infections (TB, Influenza, Measles, SARS-CoV-2)",
+        "Intestinal Infections (Cholera, Typhoid, Hepatitis, Polio)",
+        "Arthropod-borne Infections (Malaria, Dengue, Filariasis)",
+        "Zoonoses (Rabies, Plague, Leptospirosis)",
+        "Surface Infections (Tetanus, Leprosy, HIV/AIDS/STDs)"
+      ]
+    },
+    {
+      "topic": "Epidemiology of Non-communicable Diseases",
+      "subtopics": [
+        "Cardiovascular Diseases (Hypertension, CHD)",
+        "Cancer (Cervix, Breast, Lung, Oral)",
+        "Diabetes Mellitus",
+        "Obesity and Blindness",
+        "Accidents and Injuries"
+      ]
+    },
+    {
+      "topic": "National Health Programmes",
+      "subtopics": [
+        "NHP for Communicable Diseases (RNTCP/NTEP, NCVBDCP)",
+        "NHP for Non-communicable Diseases (NPCDCS)",
+        "Reproductive and Child Health Programme (RCH)",
+        "National Nutritional Programmes",
+        "National Health Mission (NRHM and NUHM)"
+      ]
+    },
+    {
+      "topic": "Demography and Family Planning",
+      "subtopics": [
+        "Demographic Cycle and Population Trends",
+        "Fertility Indicators",
+        "Contraceptive Methods (Barrier, IUD, Hormonal, Permanent)",
+        "Medical Termination of Pregnancy (MTP) Act",
+        "National Population Policy"
+      ]
+    },
+    {
+      "topic": "Maternal and Child Health (MCH)",
+      "subtopics": [
+        "Antenatal, Intranatal, and Postnatal Care",
+        "Neonatal Care and IMNCI",
+        "Immunization Schedule (Universal Immunization Programme)",
+        "School Health Services",
+        "Social Paediatrics and Indicators of MCH"
+      ]
+    },
+    {
+      "topic": "Nutrition and Health",
+      "subtopics": [
+        "Proximate Principles and Vitamins",
+        "Nutritional Deficiency Disorders (PEM, Anaemia, IDD)",
+        "Assessment of Nutritional Status",
+        "Food Hygiene and Adulteration",
+        "Nutrition Education and Surveillance"
+      ]
+    },
+    {
+      "topic": "Environment and Health",
+      "subtopics": [
+        "Water Purification and Standards",
+        "Air Pollution and Global Warming",
+        "Ventilation, Lighting, and Noise",
+        "Solid Waste and Excreta Disposal",
+        "Medical Entomology and Insecticides"
+      ]
+    },
+    {
+      "topic": "Occupational Health",
+      "subtopics": [
+        "Occupational Hazards (Physical, Chemical, Biological)",
+        "Pneumoconiosis (Silicosis, Anthracosis, Asbestosis)",
+        "Lead Poisoning and Occupational Cancer",
+        "Factories Act and ESI Act"
+      ]
+    },
+    {
+      "topic": "Biostatistics",
+      "subtopics": [
+        "Data Collection and Presentation",
+        "Measures of Central Tendency and Dispersion",
+        "Normal Distribution and Sampling Errors",
+        "Tests of Significance (Z-test, t-test, Chi-square)",
+        "Correlation and Regression",
+        "Vital Statistics"
+      ]
+    },
+    {
+      "topic": "Health Planning and Management",
+      "subtopics": [
+        "Health Planning Cycle",
+        "Management Techniques (PERT, CPM, Cost-Benefit Analysis)",
+        "Health Systems in India (Primary, Secondary, Tertiary)",
+        "National Health Policy",
+        "International Health Agencies (WHO, UNICEF, UNDP)"
+      ]
+    }
+  ]
+}

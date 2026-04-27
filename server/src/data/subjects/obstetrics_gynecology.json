@@ -1,0 +1,92 @@
+{
+  "subject": "Obstetrics & Gynecology",
+  "topics": [
+    {
+      "topic": "Obstetrics: Normal Pregnancy",
+      "subtopics": [
+        "Physiological Changes in Pregnancy",
+        "Antenatal Care and Screening",
+        "Fetal Skull and Maternal Pelvis",
+        "Normal Labor: Stages and Management",
+        "Normal Puerperium"
+      ]
+    },
+    {
+      "topic": "Obstetrics: Complications in Pregnancy",
+      "subtopics": [
+        "Spontaneous and Induced Abortion",
+        "Ectopic Pregnancy",
+        "Gestational Trophoblastic Disease",
+        "Hypertensive Disorders (Preeclampsia, Eclampsia)",
+        "Antepartum Hemorrhage (Placenta Previa, Abruption)",
+        "Preterm Labor and PROM",
+        "Multiple Pregnancy",
+        "Rh Isoimmunization"
+      ]
+    },
+    {
+      "topic": "Obstetrics: Medical Disorders in Pregnancy",
+      "subtopics": [
+        "Diabetes in Pregnancy (GDM)",
+        "Anemia in Pregnancy",
+        "Heart Disease and Other Chronic Illnesses",
+        "Infections (TORCH, HIV, Hepatitis)"
+      ]
+    },
+    {
+      "topic": "Obstetrics: Abnormal Labor and Operative",
+      "subtopics": [
+        "Malpresentations and Malpositions",
+        "Obstructed Labor and Dystocia",
+        "Induction and Augmentation of Labor",
+        "Cesarean Section and Instrumental Delivery",
+        "Postpartum Hemorrhage (PPH)"
+      ]
+    },
+    {
+      "topic": "Gynecology: Menstrual and Hormonal Disorders",
+      "subtopics": [
+        "Normal Menstrual Cycle",
+        "Amenorrhea (Primary and Secondary)",
+        "Abnormal Uterine Bleeding (AUB)",
+        "Polycystic Ovarian Syndrome (PCOS)",
+        "Endometriosis and Adenomyosis",
+        "Menopause and HRT"
+      ]
+    },
+    {
+      "topic": "Gynecology: Infections and Inflammations",
+      "subtopics": [
+        "Pelvic Inflammatory Disease (PID)",
+        "Vaginal Discharge and STI",
+        "Genital Tuberculosis"
+      ]
+    },
+    {
+      "topic": "Gynecology: Oncology",
+      "subtopics": [
+        "Cervical Cancer and Screening",
+        "Endometrial and Uterine Tumors (Fibroids)",
+        "Ovarian Tumors (Benign and Malignant)",
+        "Vulvar and Vaginal Cancers"
+      ]
+    },
+    {
+      "topic": "Infertility and Contraception",
+      "subtopics": [
+        "Male and Female Infertility Workup",
+        "Assisted Reproductive Technology (ART)",
+        "Hormonal and Barrier Contraceptives",
+        "Sterilization Techniques"
+      ]
+    },
+    {
+      "topic": "Urogynecology and Social OBG",
+      "subtopics": [
+        "Pelvic Organ Prolapse",
+        "Urinary Incontinence",
+        "Maternal Mortality and Indicators"
+      ]
+    }
+  ]
+}

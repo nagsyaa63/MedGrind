@@ -1,0 +1,116 @@
+{
+  "subject": "Medicine",
+  "topics": [
+    {
+      "topic": "Cardiovascular Medicine",
+      "subtopics": [
+        "Ischemic Heart Disease (ACS, Stable Angina)",
+        "Heart Failure and Cor Pulmonale",
+        "Valvular Heart Diseases (Rheumatic, Calcific)",
+        "Arrhythmias and Cardiac Arrest",
+        "Hypertension and Crisis",
+        "Infective Endocarditis and Pericardial Diseases",
+        "Congenital Heart Disease in Adults"
+      ]
+    },
+    {
+      "topic": "Respiratory Medicine",
+      "subtopics": [
+        "Bronchial Asthma and COPD",
+        "Pneumonia and Lung Abscess",
+        "Pulmonary Tuberculosis",
+        "Interstitial Lung Diseases and Sarcoidosis",
+        "Pleural Effusion and Pneumothorax",
+        "Pulmonary Embolism and Hypertension",
+        "Obstructive Sleep Apnea"
+      ]
+    },
+    {
+      "topic": "Gastroenterology and Hepatology",
+      "subtopics": [
+        "Peptic Ulcer Disease and GERD",
+        "Inflammatory Bowel Disease (Crohn's, UC)",
+        "Malabsorption Syndromes",
+        "Cirrhosis and Portal Hypertension",
+        "Acute and Chronic Viral Hepatitis",
+        "Acute and Chronic Pancreatitis",
+        "GI Malignancies"
+      ]
+    },
+    {
+      "topic": "Nephrology",
+      "subtopics": [
+        "Acute Kidney Injury (AKI)",
+        "Chronic Kidney Disease (CKD)",
+        "Glomerulonephritis and Nephrotic Syndrome",
+        "Urinary Tract Infections",
+        "Electrolyte and Acid-Base Disorders",
+        "Renal Replacement Therapy (Dialysis, Transplant)"
+      ]
+    },
+    {
+      "topic": "Endocrinology and Metabolism",
+      "subtopics": [
+        "Diabetes Mellitus and Complications",
+        "Thyroid Disorders (Hypo, Hyper, Thyroiditis)",
+        "Pituitary and Hypothalamic Diseases",
+        "Adrenal Gland Disorders (Cushing's, Addison's)",
+        "Calcium Metabolism and Metabolic Bone Diseases",
+        "Polycystic Ovarian Syndrome (Medical Management)"
+      ]
+    },
+    {
+      "topic": "Neurology",
+      "subtopics": [
+        "Stroke and Cerebrovascular Diseases",
+        "Seizures and Epilepsy",
+        "Headache and Facial Pain",
+        "Movement Disorders (Parkinson's, Tremors)",
+        "Demyelinating Diseases (Multiple Sclerosis)",
+        "Neuromuscular Junction Disorders (Myasthenia Gravis)",
+        "CNS Infections (Meningitis, Encephalitis)"
+      ]
+    },
+    {
+      "topic": "Hematology and Oncology",
+      "subtopics": [
+        "Approach to Anemia",
+        "Myeloproliferative and Lymphoproliferative Disorders",
+        "Leukemias (Acute and Chronic)",
+        "Lymphomas (Hodgkin's and Non-Hodgkin's)",
+        "Coagulation Disorders (Hemophilia, DIC)",
+        "Principles of Chemotherapy and Palliation"
+      ]
+    },
+    {
+      "topic": "Infectious Diseases",
+      "subtopics": [
+        "Fever of Unknown Origin (FUO)",
+        "Sepsis and Septic Shock",
+        "Malaria, Enteric Fever, and Leptospirosis",
+        "HIV/AIDS and Opportunistic Infections",
+        "Rickettsial and Fungal Infections"
+      ]
+    },
+    {
+      "topic": "Rheumatology and Immunology",
+      "subtopics": [
+        "Rheumatoid Arthritis",
+        "Systemic Lupus Erythematosus (SLE)",
+        "Spondyloarthritides (Ankylosing Spondylitis)",
+        "Vasculitis Syndromes",
+        "Crystal Arthropathies (Gout)"
+      ]
+    },
+    {
+      "topic": "Emergency and Critical Care",
+      "subtopics": [
+        "Basic and Advanced Life Support (BLS/ACLS)",
+        "Management of Shock",
+        "Poisoning and Drug Overdose",
+        "Environmental Emergencies (Heat, Cold, Drowning)",
+        "Mechanical Ventilation Basics"
+      ]
+    }
+  ]
+}

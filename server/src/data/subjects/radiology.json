@@ -1,0 +1,83 @@
+{
+  "subject": "Radiology",
+  "topics": [
+    {
+      "topic": "Basics of Radiology and Physics",
+      "subtopics": [
+        "Production and Properties of X-rays",
+        "Principles of Computed Tomography (CT)",
+        "Principles of Magnetic Resonance Imaging (MRI)",
+        "Ultrasound Physics and Doppler",
+        "Digital Radiography and PACS"
+      ]
+    },
+    {
+      "topic": "Radiation Safety and Contrast",
+      "subtopics": [
+        "Biological Effects of Radiation",
+        "Radiation Protection Principles (ALARA, Shielding)",
+        "Radiography Contrast Media (Barium, Iodine, Gadolinium)",
+        "Contrast Reactions and Management",
+        "Radiation Legislation in India (AERB)"
+      ]
+    },
+    {
+      "topic": "Respiratory System Imaging",
+      "subtopics": [
+        "Chest X-ray: Normal Anatomy and Interpretation",
+        "Imaging of Pneumonia and Tuberculosis",
+        "Lung Malignancies and Nodules",
+        "Pleural Effusion and Pneumothorax Imaging",
+        "High Resolution CT (HRCT) of Lung"
+      ]
+    },
+    {
+      "topic": "Cardiovascular System Imaging",
+      "subtopics": [
+        "Cardiac Silhouette and Chambers on CXR",
+        "Imaging in Congestive Heart Failure",
+        "Basics of Echocardiography",
+        "CT and MR Angiography"
+      ]
+    },
+    {
+      "topic": "Gastrointestinal and Hepatobiliary Imaging",
+      "subtopics": [
+        "Abdominal Radiograph: Gas Patterns and Calcifications",
+        "Barium Studies (Swallow, Meal, Enema)",
+        "Imaging of Acute Abdomen and Bowel Obstruction",
+        "USG and CT of Liver, Gallbladder, and Pancreas",
+        "Imaging of Liver Cirrhosis and Portal Hypertension"
+      ]
+    },
+    {
+      "topic": "Urogenital Imaging",
+      "subtopics": [
+        "Intravenous Urography (IVU) and RGU/MCU",
+        "Imaging of Renal Stones and Obstruction",
+        "Renal and Bladder Tumors",
+        "Imaging of the Scrotum and Prostate"
+      ]
+    },
+    {
+      "topic": "Musculoskeletal and Neuroradiology",
+      "subtopics": [
+        "Imaging of Fractures and Dislocations",
+        "Bone Tumors and Osteomyelitis",
+        "Imaging of Metabolic Bone Diseases",
+        "Neuroimaging: Stroke, Hemorrhage, and Trauma",
+        "MRI in Spine and Spinal Cord Disorders"
+      ]
+    },
+    {
+      "topic": "Specialized and Interventional Radiology",
+      "subtopics": [
+        "Obstetric Ultrasound (Level I, II, Growth)",
+        "Mammography and Breast Imaging",
+        "Vascular Interventions (Embolization, Stenting)",
+        "Non-vascular Interventions (PTBD, PCN, Biopsy)",
+        "Basics of Nuclear Medicine and PET-CT"
+      ]
+    }
+  ]
+}

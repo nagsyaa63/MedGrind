@@ -1,0 +1,90 @@
+{
+  "subject": "Surgery",
+  "topics": [
+    {
+      "topic": "General Surgery Principles",
+      "subtopics": [
+        "Metabolic Response to Injury",
+        "Shock: Pathophysiology and Management",
+        "Fluid, Electrolyte, and Acid-Base Balance",
+        "Hemostasis, Surgical Bleeding, and Transfusion",
+        "Wound Healing and Management",
+        "Surgical Infections and Antibiotic Prophylaxis",
+        "Trauma: Primary and Secondary Survey",
+        "Burns: Assessment and Management",
+        "Surgical Oncology: Principles and Biology"
+      ]
+    },
+    {
+      "topic": "Upper Gastrointestinal Surgery",
+      "subtopics": [
+        "Esophageal Disorders (Achalasia, GERD, Cancer)",
+        "Stomach and Duodenum (PUD, Gastric Cancer)",
+        "Bariatric Surgery",
+        "Small Intestine (Obstruction, Crohn's, Fistulae)"
+      ]
+    },
+    {
+      "topic": "Hepato-Pancreato-Biliary (HPB) Surgery",
+      "subtopics": [
+        "Liver (Cysts, Abscess, Primary and Meta Tumors)",
+        "Gallbladder and Extrahepatic Biliary System (Gallstones, Cholangitis)",
+        "Pancreas (Acute and Chronic Pancreatitis, Tumors)",
+        "Spleen and Splenectomy"
+      ]
+    },
+    {
+      "topic": "Lower Gastrointestinal and Proctology",
+      "subtopics": [
+        "Appendix and Appendicitis",
+        "Colon and Rectum (Ulcerative Colitis, Diverticular Disease)",
+        "Colorectal Cancer",
+        "Anus and Anal Canal (Hemorrhoids, Fissure, Fistula-in-ano)",
+        "Intestinal Obstruction and Pseudo-obstruction"
+      ]
+    },
+    {
+      "topic": "Breast and Endocrine Surgery",
+      "subtopics": [
+        "Breast Diseases (Benign and Malignant)",
+        "Thyroid Gland (Nodules, Goiter, Carcinoma)",
+        "Parathyroid and Adrenal Glands",
+        "Multiple Endocrine Neoplasia (MEN) Syndromes"
+      ]
+    },
+    {
+      "topic": "Hernias and Abdominal Wall",
+      "subtopics": [
+        "Inguinal and Femoral Hernias",
+        "Ventral, Incisional, and Umbilical Hernias",
+        "Acute Abdomen and Peritonitis"
+      ]
+    },
+    {
+      "topic": "Urology",
+      "subtopics": [
+        "Renal and Ureteric Stones",
+        "Bladder and Prostatic Disorders (BPH, Prostate Cancer)",
+        "Testicular Tumors and Scrotal Swellings",
+        "Urinary Tract Trauma"
+      ]
+    },
+    {
+      "topic": "Vascular Surgery",
+      "subtopics": [
+        "Arterial Disorders (Aneurysms, Chronic Ischemia)",
+        "Venous Disorders (Varicose Veins, DVT)",
+        "Lymphatic Disorders"
+      ]
+    },
+    {
+      "topic": "Specialty Surgery",
+      "subtopics": [
+        "Neurosurgery: Head Injury and Tumors",
+        "Cardiothoracic Surgery Basics",
+        "Plastic Surgery: Grafts and Flaps",
+        "Pediatric Surgery Basics"
+      ]
+    }
+  ]
+}

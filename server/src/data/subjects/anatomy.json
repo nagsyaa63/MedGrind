@@ -1,0 +1,189 @@
+{
+  "subject": "Anatomy",
+  "topics": [
+    {
+      "topic": "General Anatomy",
+      "subtopics": [
+        "Introduction and Anatomical Terminology",
+        "Skin and Appendages (Integumentary System)",
+        "Fasciae (Superficial and Deep)",
+        "Skeletal System (Osteology): Types of Bones and Ossification",
+        "Arthrology: Classification and Structure of Joints",
+        "Myology: Types of Muscles and Nerve Supply",
+        "Angiology: Cardiovascular and Lymphatic Systems",
+        "Neurology: General Organization of Nervous System",
+        "Anatomical Variations and Principles of Clinical Anatomy"
+      ]
+    },
+    {
+      "topic": "Upper Limb",
+      "subtopics": [
+        "Osteology of Upper Limb (Clavicle, Scapula, Humerus, Radius, Ulna, Carpals)",
+        "Pectoral Region and Mammary Gland (Breast)",
+        "Axilla, Brachial Plexus, and its Branches",
+        "Back and Scapular Region",
+        "Shoulder Joint and Movement Dynamics",
+        "Arm (Brachium): Compartments, Vessels, and Nerves",
+        "Elbow Joint and Cubital Fossa",
+        "Forearm (Antebrachium): Muscles, Vessels, and Nerves",
+        "Wrist and Hand: Palmar Spaces, Carpal Tunnel, and Small Muscles",
+        "Nerve Injuries and Clinical Correlations (Erb's, Klumpke's, Wrist drop, etc.)",
+        "Surface and Radiological Anatomy of Upper Limb"
+      ]
+    },
+    {
+      "topic": "Lower Limb",
+      "subtopics": [
+        "Osteology of Lower Limb (Hip Bone, Femur, Patella, Tibia, Fibula, Tarsals)",
+        "Front and Medial Side of Thigh: Femoral Triangle, Canal, and Sheath",
+        "Gluteal Region and Hip Joint",
+        "Popliteal Fossa",
+        "Back of Thigh and Hamstring Muscles",
+        "Leg (Crus): Anterior, Lateral, and Posterior Compartments",
+        "Ankle and Foot: Joints, Muscles, and Arches of Foot",
+        "Nerves of Lower Limb and Clinical Correlation (Sciatica, Foot drop)",
+        "Venous Drainage and Varicose Veins",
+        "Surface and Radiological Anatomy of Lower Limb"
+      ]
+    },
+    {
+      "topic": "Thorax",
+      "subtopics": [
+        "Thoracic Cage: Ribs, Sternum, and Vertebrae",
+        "Thoracic Wall and Intercostal Spaces",
+        "Pleura: Types, Reflections, and Recesses",
+        "Lungs: Gross Features, Bronchopulmonary Segments, and Blood Supply",
+        "Mediastinum: Divisions and Contents",
+        "Pericardium and Heart: External and Internal Features, Blood Supply",
+        "Great Vessels: Aorta, Pulmonary Trunk, SVC, IVC",
+        "Oesophagus, Trachea, and Thoracic Duct",
+        "Diaphragm: Openings and Nerve Supply",
+        "Clinical Anatomy: Pleural Effusion, Pneumothorax, and Cardiac Stent"
+      ]
+    },
+    {
+      "topic": "Abdomen",
+      "subtopics": [
+        "Anterior Abdominal Wall: Muscles, Fascia, and Rectus Sheath",
+        "Inguinal Canal, Spermatic Cord, and Hernias",
+        "Peritoneum: Greater and Lesser Sacs, Mesenteries",
+        "Oesophagus (Abdominal Part) and Stomach",
+        "Small Intestine: Duodenum, Jejunum, and Ileum",
+        "Large Intestine: Caecum, Appendix, and Colon",
+        "Liver and Extrahepatic Biliary Apparatus",
+        "Pancreas and Spleen",
+        "Kidney, Ureter, and Suprarenal Glands",
+        "Posterior Abdominal Wall and Lumbar Plexus",
+        "Abdominal Aorta, IVC, and Portal Vein",
+        "Clinical Anatomy: Appendicitis, Cholecystitis, and Cirrhosis"
+      ]
+    },
+    {
+      "topic": "Pelvis and Perineum",
+      "subtopics": [
+        "Bony Pelvis and Pelvic Walls",
+        "Pelvic Fascia and Muscles (Levator Ani)",
+        "Urinary Bladder and Urethra",
+        "Male Internal Genital Organs: Prostate, Seminal Vesicles, Vas Deferens",
+        "Female Internal Genital Organs: Uterus, Ovaries, Fallopian Tubes",
+        "Rectum and Anal Canal",
+        "Perineum: Urogenital and Anal Triangles, Ischioanal Fossa",
+        "Clinical Anatomy: Pelvic Floor Prolapse, Episiotomy, and Haemorrhoids"
+      ]
+    },
+    {
+      "topic": "Head and Neck",
+      "subtopics": [
+        "Skull (Osteology): Normas and Interior of Cranium",
+        "Scalp, Face, and Muscles of Facial Expression",
+        "Triangles of the Neck (Anterior and Posterior)",
+        "Parotid Region and Salivary Glands",
+        "Infratemporal Fossa, Pterygopalatine Fossa, and Muscles of Mastication",
+        "Temporomandibular Joint",
+        "Submandibular Region",
+        "Mouth, Tongue, and Teeth",
+        "Pharynx, Soft Palate, and Tonsils",
+        "Nose and Paranasal Sinuses",
+        "Larynx",
+        "Eyeball, Orbit, and Lacrimal Apparatus",
+        "Ear: External, Middle, and Internal",
+        "Thyroid and Parathyroid Glands",
+        "Cranial Nerves (Distribution and Clinical Testing)",
+        "Clinical Anatomy: Bell's Palsy, Trigeminal Neuralgia, and Goitre"
+      ]
+    },
+    {
+      "topic": "Neuroanatomy",
+      "subtopics": [
+        "Introduction, Meninges, and CSF Circulation",
+        "Spinal Cord: Internal Structure and Tracts",
+        "Brainstem: Medulla Oblongata, Pons, and Midbrain",
+        "Cerebellum: Gross Features and Functions",
+        "Fourth Ventricle and Cranial Nerve Nuclei",
+        "Cerebrum: Lobes, Sulci, Gyri, and Functional Areas",
+        "White Matter of Cerebrum (Internal Capsule, Corpus Callosum)",
+        "Basal Nuclei and Limbic System",
+        "Diencephalon: Thalamus and Hypothalamus",
+        "Lateral and Third Ventricles",
+        "Blood Supply of Brain (Circle of Willis)",
+        "Visual, Auditory, and Somatosensory Pathways"
+      ]
+    },
+    {
+      "topic": "General Embryology",
+      "subtopics": [
+        "Gametogenesis: Spermatogenesis and Oogenesis",
+        "Ovarian and Uterine (Menstrual) Cycles",
+        "Fertilization, Cleavage, and Blastocyst Formation",
+        "Implantation and Germ Layer Formation (Week 2 and 3)",
+        "Intra-embryonic Coelom and Folding of Embryo",
+        "Placenta, Umbilical Cord, and Foetal Membranes",
+        "Teratology and Congenital Anomalies"
+      ]
+    },
+    {
+      "topic": "Systemic Embryology",
+      "subtopics": [
+        "Development of Cardiovascular System (Heart and Arches)",
+        "Development of Gastrointestinal Tract and Mesenteries",
+        "Development of Respiratory System",
+        "Development of Urogenital System",
+        "Development of Nervous System and Special Senses",
+        "Pharyngeal Apparatus, Face, and Palate",
+        "Development of Endocrine Glands and Skeletal System"
+      ]
+    },
+    {
+      "topic": "Histology",
+      "subtopics": [
+        "General Histology: Epithelium, Glands, and Connective Tissue",
+        "Histology of Bone, Cartilage, and Muscle",
+        "Circulatory and Lymphatic Systems Histology",
+        "Respiratory System Histology",
+        "Gastrointestinal System Histology (Salivary, GIT, Liver, Pancreas)",
+        "Urinary System Histology",
+        "Male and Female Reproductive Systems Histology",
+        "Endocrine System Histology",
+        "Nervous System Histology and Special Senses"
+      ]
+    },
+    {
+      "topic": "Genetics",
+      "subtopics": [
+        "Cell Division: Mitosis and Meiosis",
+        "Chromosomes, Karyotyping, and Lyon's Hypothesis",
+        "Mendelian Inheritance (Autosomal and X-linked)",
+        "Chromosomal Aberrations (Down's, Turner's, Klinefelter's)",
+        "Genetic Counseling and Prenatal Diagnosis"
+      ]
+    },
+    {
+      "topic": "Surface and Radiological Anatomy",
+      "subtopics": [
+        "Surface Marking of Major Viscera and Vessels",
+        "Basics of X-rays, Contrast Radiography, and Barium Studies",
+        "Introduction to CT, MRI, and Ultrasound Anatomy"
+      ]
+    }
+  ]
+}

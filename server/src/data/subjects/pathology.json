@@ -1,0 +1,196 @@
+{
+  "subject": "Pathology",
+  "topics": [
+    {
+      "topic": "General Pathology: Cell Injury and Adaptation",
+      "subtopics": [
+        "Cellular Adaptations (Atrophy, Hypertrophy, Hyperplasia, Metaplasia)",
+        "Reversible and Irreversible Cell Injury",
+        "Mechanisms of Cell Injury",
+        "Necrosis: Types and Morphology",
+        "Apoptosis: Mechanism and Importance",
+        "Intracellular Accumulations (Lipids, Proteins, Pigments)",
+        "Pathologic Calcification (Dystrophic and Metastatic)",
+        "Cellular Aging"
+      ]
+    },
+    {
+      "topic": "Inflammation and Repair",
+      "subtopics": [
+        "Acute Inflammation: Vascular and Cellular Events",
+        "Chemical Mediators of Inflammation",
+        "Outcomes and Morphologic Patterns of Acute Inflammation",
+        "Chronic Inflammation and Granulomatous Inflammation",
+        "Systemic Effects of Inflammation",
+        "Regeneration and Repair (Healing by Primary and Secondary Union)",
+        "Factors Affecting Wound Healing"
+      ]
+    },
+    {
+      "topic": "Hemodynamic Disorders",
+      "subtopics": [
+        "Edema, Effusion, and Hyperemia/Congestion",
+        "Hemostasis, Coagulation Cascade, and Thrombosis",
+        "Disseminated Intravascular Coagulation (DIC)",
+        "Embolism: Types and Clinical Significance",
+        "Infarction: Morphology and Factors",
+        "Shock: Pathogenesis, Stages, and Morphology"
+      ]
+    },
+    {
+      "topic": "Genetic and Pediatric Diseases",
+      "subtopics": [
+        "Mendelian Disorders (Autosomal and X-linked)",
+        "Cytogenetic Disorders (Down, Edwards, Patau, Turner, Klinefelter Syndromes)",
+        "Molecular Diagnosis of Genetic Diseases",
+        "Congenital Anomalies",
+        "Infant Respiratory Distress Syndrome (IRDS)",
+        "Tumors of Infancy and Childhood (Wilms Tumor, Neuroblastoma)"
+      ]
+    },
+    {
+      "topic": "Immunopathology",
+      "subtopics": [
+        "Hypersensitivity Reactions (Types I-IV)",
+        "Autoimmune Diseases (SLE, Rheumatoid Arthritis, Sjogren Syndrome)",
+        "Systemic Sclerosis (Scleroderma)",
+        "Rejection of Tissue Transplants",
+        "Primary and Secondary Immunodeficiency States",
+        "Acquired Immunodeficiency Syndrome (AIDS)",
+        "Amyloidosis: Pathogenesis and Classification"
+      ]
+    },
+    {
+      "topic": "Neoplasia",
+      "subtopics": [
+        "Nomenclature and Biology of Tumor Growth",
+        "Benign vs Malignant Neoplasms",
+        "Epidemiology and Molecular Basis of Cancer",
+        "Oncogenes and Tumor Suppressor Genes",
+        "Carcinogenesis (Chemical, Radiation, Microbial)",
+        "Tumor Immunity",
+        "Clinical Features: Paraneoplastic Syndromes and Grading/Staging",
+        "Laboratory Diagnosis: Tumor Markers, Cytology, and Biopsy"
+      ]
+    },
+    {
+      "topic": "Hematopathology",
+      "subtopics": [
+        "Anemias: Microcytic (Iron Deficiency, Thalassemia), Macrocytic, Hemolytic",
+        "Sickle Cell Anemia and G6PD Deficiency",
+        "Aplastic Anemia and Polycythemia",
+        "White Blood Cell Disorders: Leukopenia and Leukocytosis",
+        "Acute Myeloid and Lymphoblastic Leukemias",
+        "Chronic Myeloid and Lymphocytic Leukemias",
+        "Myeloproliferative Neoplasms",
+        "Plasma Cell Dyscrasias (Multiple Myeloma)",
+        "Lymphomas: Hodgkin and Non-Hodgkin",
+        "Bleeding Disorders: Platelet Defects and Hemophilia",
+        "Blood Groups and Blood Transfusion Reactions"
+      ]
+    },
+    {
+      "topic": "Cardiovascular System",
+      "subtopics": [
+        "Atherosclerosis and Hypertension",
+        "Ischemic Heart Disease (Myocardial Infarction)",
+        "Rheumatic Heart Disease and Endocarditis",
+        "Valvular Heart Diseases",
+        "Cardiomyopathies and Myocarditis",
+        "Congenital Heart Diseases",
+        "Tumors of the Heart and Blood Vessels",
+        "Vasculitis and Aneurysms"
+      ]
+    },
+    {
+      "topic": "Respiratory System",
+      "subtopics": [
+        "Atelectasis and Acute Lung Injury (ARDS)",
+        "Obstructive Lung Diseases (Emphysema, Bronchitis, Asthma, Bronchiectasis)",
+        "Restrictive/Interstitial Lung Diseases",
+        "Pneumoconiosis and Sarcoidosis",
+        "Pulmonary Infections (Pneumonia, Tuberculosis)",
+        "Lung Tumors (Bronchogenic Carcinoma)",
+        "Pleural Diseases: Effusions and Mesothelioma"
+      ]
+    },
+    {
+      "topic": "Gastrointestinal and Hepatobiliary System",
+      "subtopics": [
+        "Esophageal Disorders (Esophagitis, Barrett Esophagus, Carcinoma)",
+        "Gastritis and Peptic Ulcer Disease",
+        "Gastric Tumors (Adenocarcinoma, Lymphoma)",
+        "Inflammatory Bowel Disease (Crohn Disease, Ulcerative Colitis)",
+        "Intestinal Obstruction and Malabsorption Syndromes",
+        "Colorectal Polyps and Carcinoma",
+        "Cirrhosis and Portal Hypertension",
+        "Hepatitis (Viral and Alcoholic)",
+        "Hepatocellular Carcinoma",
+        "Cholelithiasis and Cholecystitis",
+        "Pancreatitis and Pancreatic Carcinoma"
+      ]
+    },
+    {
+      "topic": "Renal and Urinary System",
+      "subtopics": [
+        "Nephritic and Nephrotic Syndromes",
+        "Glomerulonephritis (Post-streptococcal, IgA Nephropathy, etc.)",
+        "Acute Tubular Injury/Necrosis",
+        "Pyelonephritis and Tubulointerstitial Nephritis",
+        "Nephrosclerosis and Renal Artery Stenosis",
+        "Urolithiasis (Renal Stones)",
+        "Renal Cell Carcinoma and Wilms Tumor",
+        "Bladder Tumors (Urothelial Carcinoma)"
+      ]
+    },
+    {
+      "topic": "Endocrine System",
+      "subtopics": [
+        "Pituitary Gland: Hyperpituitarism and Adenomas",
+        "Thyroid: Hyper/Hypothyroidism, Goiter, and Thyroiditis",
+        "Thyroid Neoplasms (Papillary, Follicular, Medullary)",
+        "Parathyroid Glands: Hyperparathyroidism",
+        "Diabetes Mellitus: Pathogenesis and Complications",
+        "Adrenal Cortex: Cushing Syndrome, Hyperaldosteronism, Addison Disease",
+        "Adrenal Medulla: Pheochromocytoma",
+        "Multiple Endocrine Neoplasia (MEN) Syndromes"
+      ]
+    },
+    {
+      "topic": "Reproductive System and Breast",
+      "subtopics": [
+        "Cervical Intraepithelial Neoplasia and Carcinoma",
+        "Endometrial Hyperplasia and Carcinoma",
+        "Endometriosis and Leiomyomas",
+        "Ovarian Tumors (Surface Epithelial, Germ Cell, Sex Cord-Stroma)",
+        "Gestational Trophoblastic Disease (Molar Pregnancy)",
+        "Breast: Fibrocystic Changes and Fibroadenoma",
+        "Breast Carcinoma: Types and Molecular Classification",
+        "Prostatic Hyperplasia and Prostatic Adenocarcinoma",
+        "Testicular Germ Cell Tumors"
+      ]
+    },
+    {
+      "topic": "Central Nervous System, Bone, and Skin",
+      "subtopics": [
+        "CNS Infections (Meningitis, Abscess)",
+        "Demyelinating Diseases (Multiple Sclerosis)",
+        "Neurodegenerative Diseases (Alzheimer, Parkinson)",
+        "CNS Tumors (Gliomas, Meningioma)",
+        "Bone: Osteomyelitis, Paget Disease, Osteoporosis",
+        "Bone Tumors (Osteosarcoma, Ewing Sarcoma, Giant Cell Tumor)",
+        "Soft Tissue Tumors",
+        "Skin: Melanocytic Nevi, Melanoma, Basal and Squamous Cell Carcinomas"
+      ]
+    },
+    {
+      "topic": "Clinical Pathology",
+      "subtopics": [
+        "Urinalysis (Physical, Chemical, and Microscopic)",
+        "Examination of Body Fluids (CSF, Pleural, Peritoneal)",
+        "Laboratory Safety and Quality Control",
+        "Semen Analysis"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "subject": "Orthopedics",
+  "topics": [
+    {
+      "topic": "General Orthopedics and Traumatology",
+      "subtopics": [
+        "Classification and Healing of Fractures",
+        "Complications of Fractures (Non-union, Mal-union, AVN)",
+        "Principles of Fracture Management (Splints, Fixation)",
+        "Approach to a Polytrauma Patient (ATLS)"
+      ]
+    },
+    {
+      "topic": "Regional Fractures and Dislocations",
+      "subtopics": [
+        "Upper Limb: Clavicle, Humerus, Radius, Ulna",
+        "Hand and Wrist Fractures (Colles, Scaphoid)",
+        "Shoulder and Elbow Dislocations",
+        "Lower Limb: Hip, Femur, Tibia, Fibula",
+        "Foot and Ankle Injuries",
+        "Fractures of Pelvis and Acetabulum",
+        "Spinal Injuries and Management"
+      ]
+    },
+    {
+      "topic": "Infections of Bone and Joints",
+      "subtopics": [
+        "Acute and Chronic Osteomyelitis",
+        "Septic Arthritis",
+        "Bone and Joint Tuberculosis (Spine/Pott's, Hip, Knee)"
+      ]
+    },
+    {
+      "topic": "Bone Tumors",
+      "subtopics": [
+        "Classification of Bone Tumors",
+        "Benign Bone Tumors (Osteoid Osteoma, GCT, Exostosis)",
+        "Malignant Bone Tumors (Osteosarcoma, Ewing's Sarcoma)",
+        "Metastatic Bone Disease"
+      ]
+    },
+    {
+      "topic": "Congenital and Developmental Disorders",
+      "subtopics": [
+        "Clubfoot (CTEV)",
+        "Developmental Dysplasia of the Hip (DDH)",
+        "Congenital Torticollis and Pseudoarthrosis",
+        "Scoliosis and Kyphosis"
+      ]
+    },
+    {
+      "topic": "Metabolic and Degenerative Diseases",
+      "subtopics": [
+        "Rickets and Osteomalacia",
+        "Osteoporosis and Scurvy",
+        "Paget's Disease of Bone",
+        "Osteoarthritis and Gouty Arthritis"
+      ]
+    },
+    {
+      "topic": "Neuromuscular and Soft Tissue Conditions",
+      "subtopics": [
+        "Poliomyelitis and Cerebral Palsy",
+        "Peripheral Nerve Injuries (Radial, Ulnar, Median, Sciatic)",
+        "Low Back Pain and Disc Prolapse",
+        "Sports Medicine: Ligamentous and Meniscal Injuries"
+      ]
+    },
+    {
+      "topic": "Prosthetics, Orthotics, and Rehabilitation",
+      "subtopics": [
+        "Amputations: Levels and Indications",
+        "Basics of Orthotics and Prosthetics",
+        "Physiotherapy and Occupational Therapy Principles"
+      ]
+    }
+  ]
+}

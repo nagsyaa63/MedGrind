@@ -1,0 +1,117 @@
+{
+  "subject": "Physiology",
+  "topics": [
+    {
+      "topic": "General Physiology",
+      "subtopics": [
+        "Cell Membrane Structure and Transport",
+        "Homeostasis and Negative/Positive Feedback",
+        "Intercellular Signaling",
+        "Body Fluid Compartments"
+      ]
+    },
+    {
+      "topic": "Hematology",
+      "subtopics": [
+        "Composition and Plasma Proteins",
+        "Erythropoiesis and Hemoglobin",
+        "Anemias and Jaundice",
+        "Leukocytes and Immunity",
+        "Hemostasis and Blood Coagulation",
+        "Blood Groups and Transfusion"
+      ]
+    },
+    {
+      "topic": "Nerve and Muscle Physiology",
+      "subtopics": [
+        "Resting Membrane and Action Potentials",
+        "Nerve Fiber Classification and Conduction",
+        "Neuromuscular Junction and Transmission",
+        "Excitation-Contraction Coupling",
+        "Skeletal, Smooth, and Cardiac Muscle Mechanics"
+      ]
+    },
+    {
+      "topic": "Cardiovascular System (CVS)",
+      "subtopics": [
+        "Functional Anatomy and Pacemaker Potential",
+        "Cardiac Cycle and Heart Sounds",
+        "Electrocardiogram (ECG)",
+        "Cardiac Output and Venous Return",
+        "Regulation of Blood Pressure",
+        "Microcirculation and Lymphatic System",
+        "Regional Circulations (Coronary, Cerebral, Skeletal)"
+      ]
+    },
+    {
+      "topic": "Respiratory System",
+      "subtopics": [
+        "Mechanics of Ventilation and Compliance",
+        "Pulmonary Volumes and Capacities",
+        "Gas Exchange and Diffusion",
+        "Transport of O2 and CO2",
+        "Neural and Chemical Regulation of Respiration",
+        "Physiology of High Altitude and Deep Sea"
+      ]
+    },
+    {
+      "topic": "Renal Physiology and Excretion",
+      "subtopics": [
+        "Glomerular Filtration Rate (GFR)",
+        "Tubular Functions (Reabsorption and Secretion)",
+        "Counter-current Mechanism and Urine Concentration",
+        "Acid-Base Balance and Renal Regulation",
+        "Micturition Reflex"
+      ]
+    },
+    {
+      "topic": "Gastrointestinal System",
+      "subtopics": [
+        "GI Motility and Innervation",
+        "Secretions (Salivary, Gastric, Pancreatic, Biliary)",
+        "Digestion and Absorption of Nutrients",
+        "Functions of Liver and Gallbladder"
+      ]
+    },
+    {
+      "topic": "Endocrine System",
+      "subtopics": [
+        "Mechanism of Hormone Action",
+        "Hypothalamus and Pituitary Gland",
+        "Thyroid and Parathyroid Glands",
+        "Adrenal Cortex and Medulla",
+        "Pancreas and Glucose Regulation",
+        "Local Hormones"
+      ]
+    },
+    {
+      "topic": "Reproductive System",
+      "subtopics": [
+        "Male Reproductive Physiology (Spermatogenesis)",
+        "Female Reproductive Physiology (Menstrual Cycle)",
+        "Physiology of Pregnancy, Parturition, and Lactation",
+        "Contraceptive Physiology"
+      ]
+    },
+    {
+      "topic": "Central Nervous System (CNS)",
+      "subtopics": [
+        "Synaptic Transmission and Neurotransmitters",
+        "Sensory System: Receptors and Pathways",
+        "Motor System: Reflexes, Basal Ganglia, Cerebellum",
+        "Sleep, EEG, and Higher Functions (Learning, Memory)",
+        "Autonomic Nervous System",
+        "CSF and Blood-Brain Barrier"
+      ]
+    },
+    {
+      "topic": "Special Senses",
+      "subtopics": [
+        "Vision: Optics, Phototransduction, and Pathways",
+        "Hearing: Mechanics and Auditory Pathways",
+        "Vestibular Apparatus and Equilibrium",
+        "Taste and Smell"
+      ]
+    }
+  ]
+}
