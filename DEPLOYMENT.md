@@ -162,3 +162,62 @@ To avoid cold starts, set up a free monitoring service to ping your backend peri
 3. Set the monitoring interval to **5 minutes**.
 
 This keeps the Render service warm by sending regular requests.
+
+---
+
+## Frontend SPA Routing — Platform Guide
+
+MedGrind is a React SPA (Single Page Application). All routing is handled client-side by React Router. When a user refreshes the page or navigates directly to a URL like `/questions/123`, the hosting platform must serve `index.html` for every path — not return a 404.
+
+This is already solved for every major platform. The configs live in `client/public/` (auto-copied into `dist/` on build) and `client/deploy/`.
+
+### Why this is needed
+
+- **Localhost (Vite dev server)**: works automatically — Vite handles SPA fallback by default.
+- **Production static hosts**: need explicit configuration to serve `index.html` for unknown paths.
+
+### Platform-specific configs (all included in the repo)
+
+| Platform | Config file | Location |
+|---|---|---|
+| **Vercel** | `vercel.json` | `client/vercel.json` |
+| **Netlify** | `_redirects` | `client/public/_redirects` → copied to `dist/_redirects` |
+| **Azure Static Web Apps** | `staticwebapp.config.json` | `client/public/staticwebapp.config.json` → copied to `dist/` |
+| **AWS Amplify** | `amplify.yml` | `client/deploy/amplify.yml` → copy to repo root |
+| **Nginx (EC2/VPS)** | `nginx.conf` | `client/deploy/nginx.conf` → reference config |
+| **Apache** | `.htaccess` | See snippet below |
+
+### AWS S3 + CloudFront
+
+In the CloudFront distribution:
+1. Go to **Error Pages** → **Create custom error response**
+2. HTTP error code: `403` → Response page path: `/index.html` → HTTP response code: `200`
+3. Repeat for `404`
+
+### Apache `.htaccess`
+
+```apache
+Options -MultiViews
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.html [QSA,L]
+```
+
+Place this in the `dist/` directory root on your Apache server.
+
+### Nginx (EC2 / any VPS)
+
+Use `client/deploy/nginx.conf` as your server block. The key directive is:
+```nginx
+location / {
+    try_files $uri $uri/ /index.html;
+}
+```
+
+### AWS Amplify
+
+Copy `client/deploy/amplify.yml` to the repository root. Amplify reads it automatically during CI/CD.
+
+### Key principle
+
+Every platform config does the same thing: **if the requested path doesn't match a real static file, serve `index.html` with HTTP 200**. React Router then reads the URL and renders the correct page.
