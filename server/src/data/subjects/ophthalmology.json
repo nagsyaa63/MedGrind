@@ -2,95 +2,323 @@
   "subject": "Ophthalmology",
   "topics": [
     {
-      "topic": "Anatomy and Physiology of the Eye",
+      "topic": "Anatomy & Physiology of the Eye (~40 questions)",
       "subtopics": [
-        "Anatomy of the Eyeball and Orbit",
-        "Physiology of Vision and Aqueous Humor Dynamics",
-        "Ocular Adnexa: Eyelids, Lacrimal Apparatus, and Extraocular Muscles"
+        "Eyeball \u2014 Gross Anatomy (coats, chambers, dimensions)",
+        "Cornea (layers \u2014 epithelium, Bowman's, stroma, Descemet's, endothelium; transparency, nutrition)",
+        "Sclera (structure, lamina cribrosa, blue sclera)",
+        "Uveal Tract \u2014 Anatomy (iris, ciliary body, choroid)",
+        "Lens (anatomy, zonules, accommodation, biochemistry)",
+        "Retina (layers, macula, fovea, optic disc, rod & cone distribution, visual cycle)",
+        "Vitreous (structure, composition, PVD)",
+        "Aqueous Humor (formation, drainage \u2014 trabecular, uveoscleral pathway)",
+        "Optic Nerve (anatomy, blood supply, optic chiasma, optic tract, visual pathway)",
+        "Extraocular Muscles (origin, insertion, nerve supply, actions)",
+        "Orbit \u2014 Anatomy (bones, foramina, fissures, contents)",
+        "Eyelids \u2014 Anatomy (layers, glands \u2014 meibomian, Zeis, Moll)",
+        "Lacrimal Apparatus \u2014 Anatomy (lacrimal gland, drainage system \u2014 puncta, canaliculi, sac, nasolacrimal duct)",
+        "Blood Supply of the Eye (ophthalmic artery, central retinal artery, ciliary arteries)",
+        "Nerve Supply (sensory, motor, autonomic \u2014 sympathetic, parasympathetic)",
+        "Physiology of Vision (phototransduction, dark/light adaptation, color vision, visual acuity)",
+        "Pupillary Reflexes (direct, consensual, near reflex, RAPD \u2014 Marcus Gunn pupil)",
+        "Intraocular Pressure \u2014 Physiology (normal, diurnal variation)"
       ]
     },
     {
-      "topic": "Optics and Refraction",
+      "topic": "Optics & Refraction (~50 questions)",
       "subtopics": [
-        "Elementary Optics and Physical Optics",
-        "Refractive Errors: Myopia, Hypermetropia, Astigmatism",
-        "Accommodation and Presbyopia",
-        "Aphakia and Pseudophakia",
-        "Contact Lenses and Refractive Surgery"
+        "Basic Optics (reflection, refraction, Snell's law, prisms, lenses \u2014 convex, concave, cylindrical)",
+        "Emmetropia & Ametropia (definition, types)",
+        "Myopia (pathological, simple, management \u2014 spectacles, contact lenses, refractive surgery)",
+        "Hypermetropia (types \u2014 latent, manifest, facultative, absolute; management)",
+        "Astigmatism (types \u2014 regular, irregular, with-the-rule, against-the-rule; correction)",
+        "Presbyopia (mechanism, correction, add power)",
+        "Anisometropia & Aniseikonia",
+        "Aphakia (causes, optical correction \u2014 spectacles, contact lens, IOL)",
+        "Contact Lenses (types \u2014 soft, RGP, therapeutic; complications)",
+        "Refractive Surgery (LASIK, PRK, SMILE, ICL \u2014 indications, contraindications, complications)",
+        "Retinoscopy (principle, technique, types of reflex)",
+        "Subjective Refraction (fogging, cross-cylinder, duochrome test)",
+        "Instruments in Optics (direct ophthalmoscope, indirect ophthalmoscope, slit lamp, keratometer, autorefractor, lensometer)",
+        "Visual Acuity Testing (Snellen chart, LogMAR, near vision, pinhole test)",
+        "Low Vision Aids (magnifiers, telescopes, electronic aids)",
+        "Color Vision Testing (Ishihara, Farnsworth)",
+        "Accommodation (mechanism, amplitude, anomalies \u2014 spasm, paralysis, insufficiency)"
       ]
     },
     {
-      "topic": "Diseases of the Eyelids and Lacrimal Apparatus",
+      "topic": "Conjunctiva (~30 questions)",
       "subtopics": [
-        "Blepharitis, Chalazion, and Hordeolum",
-        "Entropion, Ectropion, and Ptosis",
-        "Tumors of the Eyelids",
-        "Dacryocystitis and Epiphora",
-        "Dry Eye Syndrome"
+        "Anatomy & Physiology of Conjunctiva",
+        "Conjunctivitis \u2014 Bacterial (acute mucopurulent, gonococcal ophthalmia neonatorum, chronic \u2014 angular, Moraxella)",
+        "Conjunctivitis \u2014 Viral (adenoviral \u2014 EKC, pharyngoconjunctival fever; herpes simplex, herpes zoster)",
+        "Conjunctivitis \u2014 Allergic (seasonal, vernal keratoconjunctivitis \u2014 VKC, atopic, GPC)",
+        "Trachoma (WHO grading, SAFE strategy, Herbert's pits, Arlt's line, complications)",
+        "Ophthalmia Neonatorum (causes \u2014 gonococcal, chlamydial; Cred\u00e9 prophylaxis)",
+        "Pterygium (pathology, management \u2014 excision with conjunctival autograft)",
+        "Pinguecula",
+        "Subconjunctival Hemorrhage",
+        "Conjunctival Degenerations & Tumors (CIN, SCC, melanoma, lymphoma)",
+        "Dry Eye / Keratoconjunctivitis Sicca (causes, Schirmer test, TBUT, management)",
+        "Symblepharon & Pseudomembranous Conjunctivitis",
+        "Steven-Johnson Syndrome \u2014 Ocular Manifestations"
       ]
     },
     {
-      "topic": "Conjunctiva and Cornea",
+      "topic": "Cornea (~50 questions)",
       "subtopics": [
-        "Infective Conjunctivitis (Bacterial, Viral, Chlamydial)",
-        "Allergic Conjunctivitis (Vernal Keratoconjunctivitis)",
-        "Degenerative Conditions (Pterygium, Pinguecula)",
-        "Corneal Ulcers (Bacterial, Viral, Fungal, Acanthamoeba)",
-        "Corneal Dystrophies and Degenerations",
-        "Keratoconus and Keratoplasty"
+        "Corneal Ulcer \u2014 Bacterial (Pseudomonas, Staphylococcus, Pneumococcus \u2014 hypopyon ulcer)",
+        "Corneal Ulcer \u2014 Fungal (Aspergillus, Fusarium \u2014 satellite lesions, feathery margins)",
+        "Corneal Ulcer \u2014 Viral (herpes simplex keratitis \u2014 dendritic ulcer, disciform keratitis, stromal keratitis)",
+        "Corneal Ulcer \u2014 Acanthamoeba (contact lens-related, ring infiltrate)",
+        "Mooren's Ulcer",
+        "Marginal Keratitis (staphylococcal hypersensitivity)",
+        "Interstitial Keratitis (congenital syphilis, TB)",
+        "Corneal Dystrophies (epithelial \u2014 map-dot-fingerprint; stromal \u2014 lattice, granular, macular; endothelial \u2014 Fuchs')",
+        "Corneal Degenerations (arcus senilis, band keratopathy, Salzmann nodular)",
+        "Keratoconus (Munson sign, Vogt striae, Fleischer ring, management \u2014 spectacles, RGP, CXL, DALK, PK)",
+        "Corneal Transplantation (penetrating keratoplasty \u2014 PK, lamellar \u2014 DALK, DSAEK, DMEK; indications, rejection, eye banking)",
+        "Corneal Opacity (nebula, macula, leucoma, leucoma adherent)",
+        "Keratomalacia (vitamin A deficiency \u2014 xerophthalmia classification)",
+        "Corneal Foreign Body & Abrasion",
+        "Exposure Keratopathy",
+        "Neurotrophic Keratitis",
+        "Band-Shaped Keratopathy (causes, management \u2014 EDTA chelation)",
+        "Eye Banking (eye donation, storage media \u2014 MK medium, Optisol; corneal preservation)"
       ]
     },
     {
-      "topic": "Sclera and Uveal Tract",
+      "topic": "Lens & Cataract (~50 questions)",
       "subtopics": [
-        "Episcleritis and Scleritis",
-        "Anterior Uveitis (Iritis, Iridocyclitis)",
-        "Intermediate and Posterior Uveitis",
-        "Specific Uveitic Syndromes (Fuchs', HLA-B27)",
-        "Tumors of the Uveal Tract"
+        "Lens Anatomy & Physiology (embryology, structure, accommodation)",
+        "Cataract \u2014 Classification (age-related \u2014 cortical, nuclear, posterior subcapsular; congenital; traumatic; complicated; metabolic; drug-induced)",
+        "Age-Related Cataract (morphology, stages \u2014 immature, mature, hypermature/Morgagnian; management)",
+        "Congenital Cataract (causes \u2014 TORCH, metabolic, genetic; types \u2014 lamellar, polar; management \u2014 timing of surgery)",
+        "Traumatic Cataract (penetrating, blunt \u2014 Vossius ring, rosette cataract)",
+        "Complicated Cataract (uveitis, retinal detachment, glaucoma \u2014 polychromatic lustre)",
+        "Metabolic Cataract (diabetic \u2014 snowflake, senile; galactosemic \u2014 oil droplet; hypocalcemic)",
+        "Drug-Induced Cataract (steroids \u2014 PSC, chlorpromazine, amiodarone)",
+        "Cataract Surgery (SICS \u2014 small incision, phacoemulsification \u2014 technique, IOL types \u2014 PMMA, foldable, multifocal, toric; complications)",
+        "Complications of Cataract Surgery (PCR, vitreous loss, endophthalmitis, PCO \u2014 Nd:YAG capsulotomy, CME, IOL decentration, corneal edema)",
+        "IOL Power Calculation (biometry \u2014 A-scan, IOL Master; SRK formula)",
+        "Aphakia (optical correction, complications)",
+        "Ectopia Lentis / Subluxation (Marfan \u2014 superotemporal, homocystinuria \u2014 inferonasal, Ehlers-Danlos, trauma)",
+        "Pseudoexfoliation Syndrome"
       ]
     },
     {
-      "topic": "Lens and Glaucoma",
+      "topic": "Glaucoma (~60 questions)",
       "subtopics": [
-        "Congenital and Developmental Cataract",
-        "Senile Cataract: Classification and Management",
-        "Complicated and Traumatic Cataract",
-        "Primary Open Angle Glaucoma",
-        "Primary Angle Closure Glaucoma",
-        "Secondary Glaucomas and Congenital Glaucoma"
+        "Aqueous Humor Dynamics (production, outflow \u2014 trabecular, uveoscleral)",
+        "Intraocular Pressure (normal, measurement \u2014 Goldmann applanation tonometry, Schiotz, non-contact, Perkins)",
+        "Classification of Glaucoma (open-angle, angle-closure, congenital, secondary)",
+        "Primary Open-Angle Glaucoma (POAG) (risk factors, pathophysiology, diagnosis, visual field defects, optic disc changes \u2014 CDR, RNFL, management)",
+        "Primary Angle-Closure Glaucoma (PACG) (acute \u2014 symptoms, signs, management \u2014 pilocarpine, timolol, mannitol, laser PI; chronic; intermittent)",
+        "Normal Tension Glaucoma",
+        "Congenital / Developmental Glaucoma (buphthalmos, Haab's striae, management \u2014 goniotomy, trabeculotomy)",
+        "Secondary Glaucoma (neovascular, steroid-induced, lens-induced \u2014 phacomorphic, phacolytic, phacotopic; uveitic, traumatic \u2014 angle recession; pigmentary, pseudoexfoliative)",
+        "Gonioscopy (Shaffer grading, Van Herick, structures \u2014 Schwalbe's line, trabecular meshwork, scleral spur, ciliary band)",
+        "Visual Field Testing (perimetry \u2014 Humphrey, Goldmann; scotomas, field defects in glaucoma \u2014 arcuate, nasal step, paracentral)",
+        "Optic Disc Assessment (CDR, disc hemorrhage, RNFL defects, OCT \u2014 RNFL thickness)",
+        "Medical Management (prostaglandin analogs \u2014 latanoprost; beta-blockers \u2014 timolol; alpha-agonists \u2014 brimonidine; CAIs \u2014 dorzolamide, acetazolamide; miotics \u2014 pilocarpine; ROCK inhibitors)",
+        "Laser Treatment (laser PI \u2014 iridotomy, SLT \u2014 selective laser trabeculoplasty, ALT, laser iridoplasty, cyclophotocoagulation)",
+        "Surgical Management (trabeculectomy, glaucoma drainage devices \u2014 Ahmed, Baerveldt; MIGS \u2014 iStent, Trabectome; combined surgery \u2014 phaco-trab)",
+        "Glaucoma Screening & Community Programs",
+        "Ocular Hypertension (management, risk assessment)"
       ]
     },
     {
-      "topic": "Vitreous and Retina",
+      "topic": "Retina & Vitreous (~60 questions)",
       "subtopics": [
-        "Vitreous Opacities and Hemorrhage",
-        "Retinal Detachment: Types and Management",
-        "Diabetic Retinopathy",
-        "Hypertensive Retinopathy",
-        "Age-related Macular Degeneration (AMD)",
-        "Retinal Vascular Occlusions (CRAO, CRVO)",
-        "Retinitis Pigmentosa and Other Degenerations"
+        "Retinal Anatomy & Physiology (layers, macula, fovea, RPE, photoreceptors)",
+        "Diabetic Retinopathy (NPDR \u2014 microaneurysms, hemorrhages, hard exudates, cotton wool spots, IRMA; PDR \u2014 neovascularization, vitreous hemorrhage, tractional RD; CSME/DME; ETDRS classification; management \u2014 laser PRP, anti-VEGF, vitrectomy)",
+        "Hypertensive Retinopathy (Keith-Wagener-Barker classification, features)",
+        "Age-Related Macular Degeneration (AMD) (dry \u2014 drusen, geographic atrophy; wet \u2014 CNV, management \u2014 anti-VEGF \u2014 ranibizumab, bevacizumab, aflibercept)",
+        "Retinal Detachment (rhegmatogenous, tractional, exudative; symptoms \u2014 flashes, floaters, curtain; management \u2014 scleral buckle, vitrectomy, pneumatic retinopexy, laser barrage)",
+        "Retinal Vascular Occlusions (CRVO, BRVO, CRAO, BRAO \u2014 cherry red spot, management)",
+        "Retinitis Pigmentosa (clinical features, ERG, management, gene therapy)",
+        "Retinoblastoma (genetics \u2014 Rb gene, leukocoria, classification \u2014 Reese-Ellsworth, ICRB; management \u2014 chemotherapy, laser, enucleation)",
+        "Retinopathy of Prematurity (ROP) (screening criteria, staging \u2014 ICROP, management \u2014 laser, anti-VEGF, vitrectomy)",
+        "Posterior Vitreous Detachment (PVD) (symptoms, complications \u2014 retinal tear, RD)",
+        "Vitreous Hemorrhage (causes, management)",
+        "Macular Hole (stages, management \u2014 vitrectomy, ILM peeling)",
+        "Epiretinal Membrane",
+        "Central Serous Chorioretinopathy (CSCR) (FFA \u2014 ink-blot, smoke-stack; management)",
+        "Retinal Vasculitis (Eales disease, sarcoidosis, Beh\u00e7et's)",
+        "Coats Disease",
+        "Fundus Fluorescein Angiography (FFA) (technique, phases, patterns \u2014 hyperfluorescence, hypofluorescence)",
+        "Optical Coherence Tomography (OCT) (principle, applications \u2014 macula, RNFL, optic disc)",
+        "Electroretinography (ERG) & Electro-oculography (EOG)",
+        "Laser in Retinal Diseases (PRP, focal/grid, barrage)",
+        "Intravitreal Injections (anti-VEGF, steroids \u2014 triamcinolone, dexamethasone implant)"
       ]
     },
     {
-      "topic": "Neuro-ophthalmology and Strabismus",
+      "topic": "Uvea (~40 questions)",
       "subtopics": [
-        "Pupillary Reflexes and Abnormalities",
-        "Optic Neuritis and Papilledema",
-        "Optic Atrophy",
-        "Visual Pathway Lesions",
-        "Strabismus: Comitant and Incomitant (Paralytic)",
-        "Amblyopia and Nystagmus"
+        "Uveal Anatomy (iris, ciliary body, choroid)",
+        "Anterior Uveitis / Iritis / Iridocyclitis (causes \u2014 HLA-B27, TB, sarcoidosis, herpes; clinical features \u2014 keratic precipitates, cells, flare, posterior synechiae; management)",
+        "Intermediate Uveitis / Pars Planitis (snowbanking, management)",
+        "Posterior Uveitis / Choroiditis (toxoplasmosis, TB, sarcoidosis, CMV retinitis, toxocara)",
+        "Panuveitis (Vogt-Koyanagi-Harada \u2014 VKH, sympathetic ophthalmia, Beh\u00e7et's disease)",
+        "Endophthalmitis (exogenous \u2014 post-surgical, post-traumatic; endogenous; management \u2014 intravitreal antibiotics, vitrectomy)",
+        "Sympathetic Ophthalmia (pathology, management, enucleation vs evisceration)",
+        "Uveal Melanoma (choroidal melanoma \u2014 diagnosis, management \u2014 enucleation, brachytherapy)",
+        "Iris Tumors (melanoma, cysts, metastases)",
+        "Uveitis in Systemic Diseases (JIA, ankylosing spondylitis, sarcoidosis, TB, syphilis, Beh\u00e7et's, Vogt-Koyanagi-Harada)",
+        "Complications of Uveitis (cataract, glaucoma, CME, band keratopathy, retinal detachment)",
+        "Masquerade Syndromes (retinoblastoma, lymphoma, leukemia mimicking uveitis)"
       ]
     },
     {
-      "topic": "Ocular Trauma and Community Ophthalmology",
+      "topic": "Orbit & Oculoplastics (~35 questions)",
       "subtopics": [
-        "Mechanical Trauma (Blunt and Perforating)",
-        "Chemical and Thermal Burns",
-        "Blindness: Definition, Causes, and NPCB",
-        "Ocular Manifestations of Systemic Diseases"
+        "Orbital Anatomy (bones, foramina, spaces, contents)",
+        "Proptosis / Exophthalmos (causes \u2014 thyroid eye disease, orbital tumors, cellulitis; investigation \u2014 CT, MRI; management)",
+        "Thyroid Eye Disease / Graves' Ophthalmopathy (NOSPECS classification, CAS score, management \u2014 steroids, decompression, radiotherapy)",
+        "Orbital Cellulitis (preseptal vs orbital \u2014 Chandler classification, complications \u2014 cavernous sinus thrombosis; management)",
+        "Orbital Tumors (dermoid cyst, hemangioma \u2014 capillary, cavernous; lymphoma, lacrimal gland tumors \u2014 pleomorphic adenoma, ACC; rhabdomyosarcoma in children, optic nerve glioma, meningioma)",
+        "Orbital Fractures (blow-out fracture \u2014 floor, medial wall; management)",
+        "Enophthalmos (causes)",
+        "Enucleation, Evisceration & Exenteration (indications, technique, prosthesis)",
+        "Orbital Implants & Prosthetics",
+        "Orbital Decompression",
+        "Cavernous Sinus Thrombosis (causes, clinical features, management)"
+      ]
+    },
+    {
+      "topic": "Neuro-ophthalmology (~40 questions)",
+      "subtopics": [
+        "Visual Pathway (retina to visual cortex \u2014 anatomy, lesion localization)",
+        "Visual Field Defects (scotomas, hemianopia \u2014 homonymous, bitemporal, altitudinal; quadrantanopia; localization)",
+        "Optic Neuritis (demyelinating, infectious; clinical features, management, association with MS)",
+        "Papilledema (causes \u2014 raised ICP, clinical features, stages, management)",
+        "Optic Atrophy (primary, secondary, consecutive, glaucomatous; causes)",
+        "Pupillary Abnormalities (RAPD \u2014 Marcus Gunn, Argyll Robertson pupil, Horner syndrome, Adie's tonic pupil, pharmacological testing)",
+        "Cranial Nerve Palsies \u2014 Ocular (III \u2014 ptosis, down & out; IV \u2014 superior oblique palsy; VI \u2014 lateral rectus palsy; causes, management)",
+        "Nystagmus (types \u2014 jerk, pendular; congenital, acquired; causes, management)",
+        "Optic Disc Edema \u2014 Differential (papilledema vs papillitis vs ischemic optic neuropathy)",
+        "Anterior Ischemic Optic Neuropathy (AION) (arteritic \u2014 GCA, non-arteritic; management)",
+        "Toxic & Nutritional Optic Neuropathy (methanol, ethambutol, tobacco-alcohol amblyopia)",
+        "Chiasmal Syndromes (pituitary tumors, craniopharyngioma \u2014 bitemporal hemianopia)",
+        "Higher Visual Function Disorders (cortical blindness, visual agnosia, prosopagnosia)",
+        "Migraine \u2014 Ocular Manifestations (aura, retinal migraine)"
+      ]
+    },
+    {
+      "topic": "Strabismus (Squint) (~40 questions)",
+      "subtopics": [
+        "Binocular Vision (development, fusion, stereopsis)",
+        "Amblyopia (types \u2014 strabismic, anisometropic, deprivation; critical period, management \u2014 patching, penalization)",
+        "Esotropia (infantile/congenital, accommodative \u2014 fully, partially; non-accommodative; management)",
+        "Exotropia (intermittent, constant; management)",
+        "Vertical Deviations (hypertropia, hypotropia \u2014 causes)",
+        "Paralytic / Incomitant Squint (III, IV, VI nerve palsy \u2014 features, management)",
+        "Cover Test (cover-uncover, alternate cover, prism cover test)",
+        "Assessment of Squint (Hirschberg test, Krimsky test, Maddox rod, synoptophore, prism bar)",
+        "AC/A Ratio (accommodative convergence/accommodation)",
+        "Duane Retraction Syndrome",
+        "Brown Syndrome",
+        "Congenital Fibrosis of Extraocular Muscles",
+        "Surgical Management of Squint (recession, resection, adjustable sutures)",
+        "Botulinum Toxin in Strabismus",
+        "Diplopia \u2014 Approach (monocular vs binocular)"
+      ]
+    },
+    {
+      "topic": "Eyelid Disorders (~30 questions)",
+      "subtopics": [
+        "Eyelid Anatomy (layers, muscles, glands, blood supply, nerve supply)",
+        "Hordeolum (external \u2014 stye, internal \u2014 meibomian gland infection)",
+        "Chalazion (pathology, management \u2014 incision & curettage)",
+        "Blepharitis (anterior \u2014 staphylococcal, seborrheic; posterior \u2014 meibomian gland dysfunction)",
+        "Ptosis (congenital, acquired \u2014 neurogenic/III nerve, myogenic/myasthenia, aponeurotic/senile, mechanical; evaluation, management \u2014 Fasanella-Servat, levator resection, frontalis sling)",
+        "Entropion (involutional, cicatricial, spastic, congenital; management)",
+        "Ectropion (involutional, cicatricial, paralytic, mechanical; management)",
+        "Trichiasis & Distichiasis",
+        "Lagophthalmos (causes \u2014 VII nerve palsy, thyroid; management)",
+        "Eyelid Tumors \u2014 Benign (papilloma, xanthelasma, nevus, hemangioma)",
+        "Eyelid Tumors \u2014 Malignant (BCC \u2014 most common, SCC, sebaceous gland carcinoma \u2014 meibomian gland, melanoma)",
+        "Eyelid Trauma (laceration, canalicular injury \u2014 repair)",
+        "Blepharospasm (essential, hemifacial spasm \u2014 botulinum toxin)",
+        "Coloboma of Eyelid",
+        "Epicanthus & Telecanthus",
+        "Cosmetic Eyelid Surgery (blepharoplasty)"
+      ]
+    },
+    {
+      "topic": "Lacrimal System (~25 questions)",
+      "subtopics": [
+        "Lacrimal Apparatus Anatomy (secretory \u2014 lacrimal gland, accessory glands; drainage \u2014 puncta, canaliculi, sac, NLD)",
+        "Epiphora \u2014 Approach (causes, investigation \u2014 syringing, probing, DCG, dacryoscintigraphy)",
+        "Dacryocystitis (acute \u2014 abscess, fistula; chronic \u2014 mucocele, regurgitation test; management \u2014 DCR)",
+        "Dacryocystorhinostomy (DCR) (external, endoscopic \u2014 indications, technique)",
+        "Congenital Nasolacrimal Duct Obstruction (CNLDO) (Hasner valve, management \u2014 massage, probing, DCR)",
+        "Canaliculitis (Actinomyces, management)",
+        "Dacryoadenitis (acute, chronic \u2014 sarcoidosis, Sj\u00f6gren's)",
+        "Dry Eye Syndrome (causes \u2014 Sj\u00f6gren's, meibomian gland dysfunction, environmental; Schirmer test, TBUT, management \u2014 artificial tears, punctal plugs, cyclosporine)",
+        "Lacrimal Gland Tumors (pleomorphic adenoma, adenoid cystic carcinoma)",
+        "Lacrimal Sac Tumors"
+      ]
+    },
+    {
+      "topic": "Ocular Pharmacology (~35 questions)",
+      "subtopics": [
+        "Mydriatics & Cycloplegics (tropicamide, cyclopentolate, atropine, homatropine \u2014 mechanism, uses, side effects)",
+        "Miotics (pilocarpine \u2014 mechanism, uses in glaucoma)",
+        "Anti-Glaucoma Drugs (prostaglandin analogs \u2014 latanoprost, travoprost; beta-blockers \u2014 timolol; alpha-agonists \u2014 brimonidine; CAIs \u2014 dorzolamide, acetazolamide; ROCK inhibitors \u2014 netarsudil; osmotic agents \u2014 mannitol, glycerol)",
+        "Topical Antibiotics (fluoroquinolones \u2014 moxifloxacin, ofloxacin; aminoglycosides \u2014 tobramycin, gentamicin; chloramphenicol; natamycin \u2014 antifungal)",
+        "Topical Antifungals (natamycin, voriconazole, amphotericin B)",
+        "Topical Antivirals (acyclovir, ganciclovir)",
+        "Topical Corticosteroids (prednisolone acetate, dexamethasone, fluorometholone \u2014 side effects \u2014 steroid glaucoma, cataract)",
+        "NSAIDs \u2014 Topical (ketorolac, nepafenac, flurbiprofen)",
+        "Anti-VEGF Agents (ranibizumab, bevacizumab, aflibercept \u2014 indications, intravitreal injection technique)",
+        "Anti-Allergy Drugs (olopatadine, sodium cromoglycate, ketotifen)",
+        "Local Anesthetics (proparacaine, lignocaine, tetracaine)",
+        "Staining Agents (fluorescein, rose bengal, lissamine green, ICG)",
+        "Viscoelastics (sodium hyaluronate, hydroxypropyl methylcellulose \u2014 uses in surgery)",
+        "Ocular Drug Delivery Systems (drops, ointments, intravitreal implants, sustained-release)",
+        "Adverse Ocular Effects of Systemic Drugs (chloroquine \u2014 bull's eye maculopathy, ethambutol \u2014 optic neuritis, tamoxifen \u2014 retinopathy, amiodarone \u2014 cornea verticillata, steroids \u2014 cataract, glaucoma, rifampicin \u2014 orange tears)"
+      ]
+    },
+    {
+      "topic": "Ocular Trauma (~30 questions)",
+      "subtopics": [
+        "Classification of Ocular Trauma (BETT classification \u2014 open globe, closed globe)",
+        "Blunt Trauma (hyphema, angle recession, iridodialysis, subluxation/dislocation of lens, vitreous hemorrhage, commotio retinae \u2014 Berlin's edema, choroidal rupture, globe rupture)",
+        "Penetrating & Perforating Injuries (IOFB \u2014 intraocular foreign body, siderosis, chalcosis; management \u2014 primary repair, vitrectomy)",
+        "Chemical Burns (acid vs alkali \u2014 Roper-Hall classification, emergency management \u2014 irrigation, management)",
+        "Thermal & Radiation Injuries (UV keratitis \u2014 arc eye, infrared cataract \u2014 glass blower's)",
+        "Sympathetic Ophthalmia (pathology, prevention, management)",
+        "Orbital Fractures (blow-out \u2014 entrapment, management)",
+        "Eyelid & Adnexal Trauma (laceration repair, canalicular repair)",
+        "Traumatic Optic Neuropathy",
+        "Subconjunctival Hemorrhage \u2014 Traumatic",
+        "Post-Traumatic Glaucoma",
+        "Post-Traumatic Endophthalmitis",
+        "Medicolegal Aspects of Ocular Trauma"
+      ]
+    },
+    {
+      "topic": "Community Ophthalmology (~30 questions)",
+      "subtopics": [
+        "Blindness \u2014 Definition & Classification (WHO, Indian definition \u2014 legal blindness)",
+        "Causes of Blindness \u2014 Global & India (cataract, refractive error, glaucoma, corneal opacity, diabetic retinopathy, AMD)",
+        "National Programme for Control of Blindness & Visual Impairment (NPCBVI) (history, objectives, strategies, achievements)",
+        "Vision 2020 \u2014 The Right to Sight (IAPB, WHO initiative)",
+        "Cataract Blindness (magnitude, surgical strategies, cataract surgical rate)",
+        "Trachoma Control (SAFE strategy \u2014 Surgery, Antibiotics, Facial cleanliness, Environmental improvement)",
+        "Vitamin A Deficiency \u2014 Prevention (supplementation program, ICDS)",
+        "Diabetic Retinopathy \u2014 Screening Programs",
+        "Glaucoma \u2014 Screening & Early Detection",
+        "School Eye Screening Programs",
+        "Primary Eye Care (integration with primary health care)",
+        "Eye Banking & Corneal Transplantation \u2014 National Program",
+        "Rehabilitation of Blind (low vision aids, Braille, vocational training)",
+        "Epidemiology of Eye Diseases (prevalence, incidence, RAAB \u2014 Rapid Assessment of Avoidable Blindness)",
+        "Health Education in Ophthalmology",
+        "Telemedicine in Ophthalmology",
+        "Eye Donation \u2014 Awareness & Legal Aspects"
       ]
     }
   ]

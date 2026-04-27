@@ -1,72 +1,396 @@
 {
-  "subject": "ENT (Otolaryngology)",
+  "subject": "ENT (Otorhinolaryngology)",
   "topics": [
     {
-      "topic": "Ear: Anatomy and Physiology",
+      "topic": "Anatomy & Physiology of the Ear (~30 questions)",
       "subtopics": [
-        "Anatomy of External, Middle, and Inner Ear",
-        "Physiology of Hearing and Equilibrium",
-        "Assessment of Hearing (PTA, Impedance, BERA)",
-        "Assessment of Vestibular Function"
+        "Anatomy of the external ear (pinna, external auditory canal)",
+        "Anatomy of the middle ear (tympanic membrane, ossicles, tympanic cavity boundaries, eustachian tube)",
+        "Anatomy of the inner ear (cochlea, vestibular apparatus, semicircular canals, endolymph & perilymph)",
+        "Blood supply and nerve supply of the ear",
+        "Physiology of hearing (sound conduction, impedance matching, travelling wave theory, tonotopic organization)",
+        "Physiology of balance (vestibular reflexes, VOR, otolith organs)",
+        "Tuning fork tests (Rinne, Weber, ABC \u2014 Absolute Bone Conduction)",
+        "Audiometry basics (pure tone audiometry, speech audiometry, impedance audiometry, tympanometry)",
+        "OAE (Otoacoustic Emissions) and BERA (Brainstem Evoked Response Audiometry)",
+        "Newborn hearing screening"
       ]
     },
     {
-      "topic": "Diseases of the Ear",
+      "topic": "Diseases of the External Ear (~25 questions)",
       "subtopics": [
-        "Diseases of External Ear (Otitis Externa, Wax, Keratosis)",
-        "Acute and Chronic Otitis Media (ASOM, CSOM)",
-        "Complications of Otitis Media",
-        "Otosclerosis and Tympanosclerosis",
-        "Meniere's Disease and Ototoxicity",
-        "Acoustic Neuroma and Inner Ear Tumors",
-        "Facial Nerve Anatomy and Disorders (Bell's Palsy)"
+        "Congenital anomalies (microtia, atresia, preauricular sinus, accessory auricle)",
+        "Otitis externa (diffuse, localized/furunculosis)",
+        "Malignant/necrotizing otitis externa",
+        "Otomycosis",
+        "Perichondritis and cauliflower ear",
+        "Keratosis obturans vs cholesteatoma of external auditory canal",
+        "Wax (cerumen) impaction",
+        "Foreign bodies in the ear",
+        "Exostosis and osteoma of the EAC",
+        "Bullous myringitis",
+        "Herpes zoster oticus (Ramsay Hunt syndrome)",
+        "Tumors of the external ear (SCC, BCC)"
       ]
     },
     {
-      "topic": "Nose and Paranasal Sinuses",
+      "topic": "Diseases of the Middle Ear \u2014 Otitis Media (~45 questions)",
       "subtopics": [
-        "Anatomy and Physiology of Nose and Sinuses",
-        "Congenital Diseases (Choanal Atresia)",
-        "Diseases of External Nose (Vestibulitis, Furunculosis)",
-        "Nasal Septum (DNS, Septal Abscess, Hematoma)",
-        "Acute and Chronic Rhinosinusitis",
-        "Nasal Polyposis (Ethmoidal and Antrochoanal)",
-        "Epistaxis: Causes and Management",
-        "Trauma to Nose and Face",
-        "Tumors of Nose and Sinuses (JNA, Inverted Papilloma)"
+        "Acute suppurative otitis media (ASOM) \u2014 etiology, pathology, stages, complications, management",
+        "Secretory/serous otitis media (SOM/glue ear) \u2014 etiology, pathology, management, grommet insertion",
+        "Chronic suppurative otitis media \u2014 tubotympanic (safe/mucosal) type",
+        "CSOM \u2014 atticoantral (unsafe/squamous) type",
+        "Cholesteatoma \u2014 congenital vs acquired, pathogenesis (retraction pocket theory, migration theory, metaplasia), complications",
+        "Complications of otitis media \u2014 intratemporal (mastoiditis, petrositis, labyrinthitis, facial nerve palsy) and intracranial (meningitis, brain abscess, lateral sinus thrombosis, otitic hydrocephalus, extradural abscess, subdural abscess)",
+        "Mastoiditis \u2014 acute, coalescent, masked/latent",
+        "Tympanic membrane perforations \u2014 types, healing, myringoplasty",
+        "Tympanoplasty \u2014 types (Wullstein classification), techniques",
+        "Mastoidectomy \u2014 cortical, modified radical, radical",
+        "Ossiculoplasty",
+        "Glomus tumors (glomus tympanicum, glomus jugulare)",
+        "Hemotympanum and barotrauma"
       ]
     },
     {
-      "topic": "Pharynx and Oral Cavity",
+      "topic": "Otosclerosis (~15 questions)",
       "subtopics": [
-        "Anatomy of Oral Cavity and Pharynx",
-        "Adenoids and Palatine Tonsils",
-        "Pharyngitis and Tonsillitis",
-        "Peritonsillar and Retropharyngeal Abscess",
-        "Nasopharyngeal Carcinoma and Tumors of Pharynx",
-        "Sleep Apnea and Snoring"
+        "Etiopathogenesis (histopathology, otospongiosis)",
+        "Clinical features (Schwartze sign, Carhart's notch, paracusis Willisii)",
+        "Audiological findings",
+        "Differential diagnosis",
+        "Medical management (sodium fluoride)",
+        "Surgical management (stapedectomy, stapedotomy)"
       ]
     },
     {
-      "topic": "Larynx and Tracheobronchial Tree",
+      "topic": "Hearing Loss (~30 questions)",
       "subtopics": [
-        "Anatomy and Physiology of Larynx",
-        "Acute and Chronic Laryngitis",
-        "Stridor: Causes and Management",
-        "Congenital Lesions (Laryngomalacia)",
-        "Vocal Cord Paralysis and Benign Vocal Fold Lesions",
-        "Carcinoma of the Larynx",
-        "Foreign Bodies in Airway and Food Passage",
-        "Tracheostomy: Indications and Technique"
+        "Classification \u2014 conductive, sensorineural, mixed",
+        "Causes of conductive hearing loss",
+        "Causes of sensorineural hearing loss (presbycusis, noise-induced, ototoxicity, sudden SNHL, Meniere's, acoustic neuroma, congenital)",
+        "Presbycusis \u2014 types and management",
+        "Noise-induced hearing loss (NIHL) \u2014 TTS, PTS, acoustic trauma",
+        "Ototoxic drugs (aminoglycosides, loop diuretics, cisplatin, aspirin)",
+        "Sudden sensorineural hearing loss",
+        "Hearing aids \u2014 types, indications, fitting",
+        "Cochlear implants \u2014 indications, candidacy, mechanism, rehabilitation",
+        "BAHA (Bone Anchored Hearing Aid)",
+        "Auditory brainstem implant",
+        "Deaf-mutism and rehabilitation",
+        "Occupational hearing loss and prevention",
+        "Central auditory processing disorders"
       ]
     },
     {
-      "topic": "Head and Neck Surgery",
+      "topic": "Meniere's Disease (~12 questions)",
       "subtopics": [
-        "Salivary Gland Disorders (Sialadenitis, Tumors)",
-        "Thyroid and Parathyroid Surgery",
-        "Neck Spaces and Deep Neck Infections",
-        "Neck Masses and Differential Diagnosis"
+        "Etiopathogenesis (endolymphatic hydrops)",
+        "Clinical features (triad/tetrad \u2014 vertigo, tinnitus, hearing loss, aural fullness)",
+        "Investigations (ECoG, audiometry, glycerol dehydration test)",
+        "Differential diagnosis",
+        "Medical management (salt restriction, betahistine, diuretics)",
+        "Surgical management (endolymphatic sac decompression, labyrinthectomy, vestibular neurectomy)",
+        "Lermoyez syndrome and Tumarkin's otolithic crisis"
+      ]
+    },
+    {
+      "topic": "BPPV & Vestibular Disorders (~20 questions)",
+      "subtopics": [
+        "BPPV \u2014 pathophysiology (canalithiasis, cupulolithiasis), Dix-Hallpike test, Epley maneuver, Semont maneuver",
+        "Vestibular neuritis/labyrinthitis",
+        "Central vs peripheral vertigo \u2014 differentiation",
+        "Caloric testing and electronystagmography (ENG/VNG)",
+        "Vestibular rehabilitation",
+        "Superior semicircular canal dehiscence (SSCD)",
+        "Perilymph fistula",
+        "Vestibular schwannoma (acoustic neuroma) \u2014 clinical features, investigations (MRI with gadolinium), management",
+        "Cerebellopontine angle tumors"
+      ]
+    },
+    {
+      "topic": "Facial Nerve (~18 questions)",
+      "subtopics": [
+        "Anatomy of the facial nerve (intracranial, intratemporal, extratemporal segments)",
+        "Bell's palsy \u2014 etiology, clinical features, grading (House-Brackmann), management",
+        "Ramsay Hunt syndrome",
+        "Facial nerve injury in temporal bone fractures",
+        "Facial nerve tumors",
+        "Facial nerve testing (Schirmer's test, stapedial reflex, taste testing, nerve excitability test, electroneuronography)",
+        "Surgical decompression of facial nerve",
+        "Facial reanimation procedures",
+        "Crocodile tears (Bogorad syndrome)"
+      ]
+    },
+    {
+      "topic": "Anatomy & Physiology of the Nose and Paranasal Sinuses (~20 questions)",
+      "subtopics": [
+        "External nose anatomy (cartilages, bones, blood supply, nerve supply)",
+        "Nasal cavity anatomy (lateral wall \u2014 turbinates, meatuses, ostia; septum; roof; floor)",
+        "Little's area and Kiesselbach's plexus",
+        "Woodruff's plexus",
+        "Paranasal sinuses \u2014 anatomy, development, drainage pathways",
+        "Ostiomeatal complex (OMC)",
+        "Nasal cycle and physiology of nasal airflow",
+        "Olfactory physiology",
+        "Mucociliary clearance mechanism",
+        "Functions of the nose (filtration, humidification, warming, olfaction, resonance)"
+      ]
+    },
+    {
+      "topic": "Epistaxis (~18 questions)",
+      "subtopics": [
+        "Etiology \u2014 local causes (trauma, DNS, tumors, granulomas) and systemic causes (hypertension, coagulopathies, liver disease)",
+        "Anterior vs posterior epistaxis",
+        "First aid and initial management",
+        "Anterior nasal packing",
+        "Posterior nasal packing (Bellocq's tampon)",
+        "Chemical and electrical cautery",
+        "Endoscopic sphenopalatine artery ligation",
+        "Anterior ethmoidal artery ligation",
+        "External carotid artery ligation",
+        "Angiographic embolization",
+        "Hereditary hemorrhagic telangiectasia (Osler-Weber-Rendu)",
+        "Epistaxis in children"
+      ]
+    },
+    {
+      "topic": "Nasal Septum & DNS (~12 questions)",
+      "subtopics": [
+        "Deviated nasal septum \u2014 types, etiology, clinical features",
+        "Septal spur and septal perforation",
+        "Septoplasty \u2014 indications, technique, complications",
+        "Submucous resection (SMR)",
+        "Septal abscess and septal hematoma \u2014 emergency management",
+        "Rhinoplasty basics"
+      ]
+    },
+    {
+      "topic": "Rhinitis (~18 questions)",
+      "subtopics": [
+        "Allergic rhinitis \u2014 classification (ARIA), pathophysiology, skin prick test, specific IgE, management (antihistamines, intranasal steroids, immunotherapy)",
+        "Vasomotor (non-allergic) rhinitis",
+        "Rhinitis medicamentosa",
+        "Atrophic rhinitis and ozaena",
+        "Rhinitis sicca",
+        "NARES (Non-Allergic Rhinitis with Eosinophilia Syndrome)",
+        "Rhinitis in pregnancy",
+        "Samter's triad (aspirin-exacerbated respiratory disease)"
+      ]
+    },
+    {
+      "topic": "Sinusitis (~22 questions)",
+      "subtopics": [
+        "Acute rhinosinusitis \u2014 etiology, pathology, clinical features, management",
+        "Chronic rhinosinusitis \u2014 with and without polyps",
+        "Complications of sinusitis \u2014 orbital (preseptal cellulitis, orbital cellulitis, subperiosteal abscess, orbital abscess, cavernous sinus thrombosis) and intracranial (meningitis, brain abscess, frontal bone osteomyelitis/Pott's puffy tumor)",
+        "Fungal sinusitis \u2014 allergic fungal sinusitis (AFS), mycetoma/fungal ball, invasive fungal sinusitis (acute and chronic), mucormycosis",
+        "Functional Endoscopic Sinus Surgery (FESS) \u2014 principles, technique, landmarks",
+        "Caldwell-Luc operation",
+        "Frontal sinus surgery (trephination, Draf procedures, osteoplastic flap)",
+        "Mucocele and mucopyocele",
+        "Antrochoanal polyp (ethmoidal vs antrochoanal)"
+      ]
+    },
+    {
+      "topic": "Nasal Polyps (~12 questions)",
+      "subtopics": [
+        "Ethmoidal polyps \u2014 etiology, pathology, clinical features",
+        "Antrochoanal polyp (Killian's polyp)",
+        "Nasal polyposis and association with asthma, aspirin sensitivity",
+        "Medical management (steroids \u2014 topical and systemic)",
+        "Surgical management (polypectomy, FESS)",
+        "Recurrence and prevention",
+        "Differential diagnosis (inverted papilloma, meningocele, glioma, dermoid)"
+      ]
+    },
+    {
+      "topic": "Tumors of the Nose & Paranasal Sinuses (~18 questions)",
+      "subtopics": [
+        "Benign tumors \u2014 inverted papilloma, osteoma, hemangioma, fibrous dysplasia",
+        "Juvenile nasopharyngeal angiofibroma (JNA) \u2014 clinical features, Holman-Miller sign, staging, embolization, surgical approaches",
+        "Malignant tumors \u2014 squamous cell carcinoma, adenocarcinoma, adenoid cystic carcinoma, esthesioneuroblastoma (olfactory neuroblastoma), melanoma, lymphoma",
+        "Maxillary sinus carcinoma \u2014 Ohngren's line, staging",
+        "Lethal midline granuloma / NK/T-cell lymphoma",
+        "Wegener's granulomatosis (GPA) \u2014 nasal manifestations",
+        "Rhinosporidiosis",
+        "Rhinoscleroma"
+      ]
+    },
+    {
+      "topic": "Pharynx \u2014 Tonsils & Adenoids (~25 questions)",
+      "subtopics": [
+        "Anatomy of Waldeyer's ring",
+        "Acute tonsillitis \u2014 etiology, clinical features, management",
+        "Chronic tonsillitis \u2014 clinical features, indications for tonsillectomy",
+        "Peritonsillar abscess (quinsy) \u2014 clinical features, management",
+        "Parapharyngeal abscess",
+        "Retropharyngeal abscess (in children)",
+        "Adenoid hypertrophy \u2014 clinical features (adenoid facies, mouth breathing, OSA), management",
+        "Tonsillectomy \u2014 techniques (dissection, coblation, intracapsular), complications (hemorrhage \u2014 reactionary and secondary)",
+        "Adenoidectomy",
+        "Obstructive sleep apnea (OSA) \u2014 pathophysiology, polysomnography, management (CPAP, UPPP)",
+        "Infectious mononucleosis (EBV) \u2014 pharyngeal manifestations",
+        "Tonsillar tumors (SCC, lymphoma)",
+        "Diphtheria \u2014 pharyngeal membrane, bull neck"
+      ]
+    },
+    {
+      "topic": "Pharyngitis & Diseases of the Oropharynx (~12 questions)",
+      "subtopics": [
+        "Acute pharyngitis \u2014 viral vs bacterial",
+        "Chronic pharyngitis \u2014 types (catarrhal, hypertrophic, atrophic/sicca)",
+        "Ludwig's angina",
+        "Vincent's angina (ANUG)",
+        "Plummer-Vinson/Paterson-Brown-Kelly syndrome",
+        "Pharyngeal pouch (Zenker's diverticulum)",
+        "Globus pharyngeus",
+        "Nasopharyngeal carcinoma \u2014 etiology (EBV), staging, management",
+        "Oropharyngeal carcinoma"
+      ]
+    },
+    {
+      "topic": "Larynx \u2014 Anatomy, Physiology & Voice Disorders (~25 questions)",
+      "subtopics": [
+        "Anatomy of the larynx (cartilages, muscles \u2014 intrinsic and extrinsic, nerve supply \u2014 RLN, SLN, blood supply)",
+        "Laryngeal inlet, glottis, subglottis",
+        "Physiology of phonation (myoelastic-aerodynamic theory)",
+        "Laryngoscopy \u2014 indirect, direct, flexible fiberoptic",
+        "Stroboscopy",
+        "Hoarseness \u2014 causes and evaluation",
+        "Vocal cord nodules (singer's nodules)",
+        "Vocal cord polyps",
+        "Reinke's edema",
+        "Vocal cord paralysis \u2014 unilateral and bilateral, causes (RLN palsy, SLN palsy), Semon's law, positions of vocal cords",
+        "Laryngeal papillomatosis (recurrent respiratory papillomatosis)",
+        "Laryngocele",
+        "Laryngeal web and atresia",
+        "Laryngomalacia",
+        "Subglottic stenosis",
+        "Spasmodic dysphonia",
+        "Functional voice disorders (psychogenic dysphonia)"
+      ]
+    },
+    {
+      "topic": "Laryngeal Infections & Inflammation (~12 questions)",
+      "subtopics": [
+        "Acute laryngitis",
+        "Chronic laryngitis",
+        "Acute epiglottitis \u2014 emergency management",
+        "Croup (laryngotracheobronchitis)",
+        "Laryngeal tuberculosis",
+        "Laryngeal candidiasis",
+        "Laryngopharyngeal reflux (LPR)",
+        "Perichondritis of larynx"
+      ]
+    },
+    {
+      "topic": "Laryngeal & Hypopharyngeal Tumors (~20 questions)",
+      "subtopics": [
+        "Benign tumors of the larynx",
+        "Premalignant lesions (leukoplakia, erythroplakia, dysplasia)",
+        "Carcinoma of the larynx \u2014 glottic, supraglottic, subglottic; staging (TNM), clinical features, management",
+        "Conservation laryngeal surgery (cordectomy, vertical partial laryngectomy, supraglottic laryngectomy, supracricoid partial laryngectomy)",
+        "Total laryngectomy \u2014 technique, voice rehabilitation (esophageal speech, TEP with voice prosthesis, electrolarynx)",
+        "Neck dissection \u2014 types (radical, modified radical, selective)",
+        "Hypopharyngeal carcinoma (pyriform fossa, postcricoid)",
+        "Radiation therapy in laryngeal cancer"
+      ]
+    },
+    {
+      "topic": "Stridor & Airway Emergencies (~15 questions)",
+      "subtopics": [
+        "Stridor \u2014 definition, types (inspiratory, expiratory, biphasic)",
+        "Causes of stridor in children (laryngomalacia, croup, epiglottitis, foreign body, subglottic stenosis, hemangioma)",
+        "Causes of stridor in adults (tumors, bilateral vocal cord palsy, angioedema, trauma)",
+        "Assessment and grading of airway obstruction",
+        "Emergency airway management",
+        "Cricothyrotomy (cricothyroidotomy)",
+        "Intubation \u2014 indications and techniques"
+      ]
+    },
+    {
+      "topic": "Tracheostomy (~15 questions)",
+      "subtopics": [
+        "Indications (upper airway obstruction, prolonged ventilation, pulmonary toilet, prophylactic)",
+        "Surgical anatomy",
+        "Types \u2014 elective, emergency, percutaneous dilatational",
+        "Technique of surgical tracheostomy",
+        "Tracheostomy tubes \u2014 types (cuffed, uncuffed, fenestrated, speaking valve)",
+        "Complications \u2014 immediate (hemorrhage, pneumothorax, tube misplacement), early (tube blockage, subcutaneous emphysema, tube displacement), late (tracheal stenosis, tracheo-innominate fistula, tracheoesophageal fistula, difficult decannulation)",
+        "Decannulation protocol",
+        "Pediatric tracheostomy \u2014 special considerations",
+        "Minitracheostomy"
+      ]
+    },
+    {
+      "topic": "Foreign Bodies in the Aerodigestive Tract (~15 questions)",
+      "subtopics": [
+        "Foreign body in the ear \u2014 types, removal techniques",
+        "Foreign body in the nose \u2014 types (button battery \u2014 emergency), complications (rhinolith), management",
+        "Foreign body in the pharynx and esophagus (coin, denture, fish bone) \u2014 clinical features, X-ray findings, management (rigid esophagoscopy)",
+        "Foreign body in the larynx and tracheobronchial tree \u2014 clinical features (choking, stridor, check-valve/ball-valve/bypass-valve mechanisms), management (rigid bronchoscopy)",
+        "Heimlich maneuver",
+        "Complications of foreign body aspiration (atelectasis, pneumonia, lung abscess, bronchiectasis)"
+      ]
+    },
+    {
+      "topic": "Salivary Gland Diseases (~18 questions)",
+      "subtopics": [
+        "Anatomy of major salivary glands (parotid, submandibular, sublingual)",
+        "Sialolithiasis (salivary calculi) \u2014 submandibular > parotid, clinical features, management",
+        "Acute sialadenitis (bacterial, viral \u2014 mumps)",
+        "Chronic sialadenitis",
+        "Sialography and sialendoscopy",
+        "Pleomorphic adenoma (mixed tumor) \u2014 clinical features, management (superficial parotidectomy), recurrence",
+        "Warthin's tumor (adenolymphoma)",
+        "Mucoepidermoid carcinoma",
+        "Adenoid cystic carcinoma (cylindroma) \u2014 perineural invasion",
+        "Other malignant tumors (acinic cell carcinoma, carcinoma ex pleomorphic adenoma)",
+        "Frey's syndrome (gustatory sweating)",
+        "Ranula",
+        "Sj\u00f6gren's syndrome \u2014 salivary manifestations",
+        "Mikulicz disease"
+      ]
+    },
+    {
+      "topic": "Deep Neck Space Infections (~10 questions)",
+      "subtopics": [
+        "Anatomy of deep neck spaces (parapharyngeal, retropharyngeal, prevertebral, submandibular, masticator)",
+        "Parapharyngeal abscess",
+        "Retropharyngeal abscess",
+        "Ludwig's angina",
+        "Bezold's abscess",
+        "Lemierre syndrome (jugular vein thrombophlebitis)",
+        "Mediastinitis as a complication",
+        "Imaging (CT with contrast) and management principles"
+      ]
+    },
+    {
+      "topic": "Branchial Anomalies & Congenital Neck Masses (~12 questions)",
+      "subtopics": [
+        "Embryology of branchial arches, clefts, and pouches",
+        "Branchial cyst (second arch \u2014 most common), sinus, fistula",
+        "First branchial cleft anomalies",
+        "Third and fourth branchial pouch anomalies",
+        "Thyroglossal duct cyst \u2014 clinical features, Sistrunk operation",
+        "Dermoid cyst of the neck",
+        "Cystic hygroma (lymphatic malformation)",
+        "Cervical rib",
+        "Torticollis",
+        "Differential diagnosis of neck masses (rule of 80s, anatomical triangle approach)"
+      ]
+    },
+    {
+      "topic": "Miscellaneous & Recent Advances (~8 questions)",
+      "subtopics": [
+        "Cochlear implant \u2014 recent advances",
+        "Endoscopic ear surgery",
+        "Robotic surgery in ENT (TORS \u2014 Transoral Robotic Surgery)",
+        "Navigation-guided sinus surgery",
+        "Laser surgery in ENT",
+        "Hearing implants (middle ear implants, auditory brainstem implant)",
+        "Biologics in CRS with nasal polyps (dupilumab, omalizumab)",
+        "Teleotology and telemedicine in ENT"
       ]
     }
   ]

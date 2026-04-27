@@ -1,8 +1,5 @@
 {
   "colleges": [
-    "[2] 28,920, 17,915, 46,835",
-    "[4] 48,028, 44,765, 92,793",
-    "[7] 76,948, 62,680, 1,39,628",
     "[ABVGM] Atal Bihari Vajpayee Government Medical College, Vidisha, 2018",
     "[ABVIM] Atal Bihari Vajpayee Institute of Medical Sciences and Dr. RML Hospital, Connaught Place, 2008",
     "[ABVMG] Atal Bihari Vajpayee Memorial Government Medical College, Rajnandgaon, 2014",
@@ -797,7 +794,6 @@
     "[YMC] Yenepoya Medical College, Mangaluru, 1999",
     "[YSPGM] Dr. Yashwant Singh Parmar Government Medical College, Nahan, 2016",
     "[ZMCH] Zydus Medical College and Hospital, Dahod, 2018",
-    "[ZMC] Zoram Medical College, Falkawn, 2018",
-    "[] Goa, 1, 0"
+    "[ZMC] Zoram Medical College, Falkawn, 2018"
   ]
 }

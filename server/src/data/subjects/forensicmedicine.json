@@ -1,0 +1,259 @@
+{
+  "subject": "Forensic Medicine & Toxicology",
+  "topics": [
+    {
+      "topic": "Legal Procedures & Courts (~15 questions)",
+      "subtopics": [
+        "Indian legal system \u2014 courts hierarchy (Supreme Court, High Court, Sessions Court, Magistrate Court)",
+        "Inquest \u2014 police inquest (Sec 174 CrPC), magistrate inquest, coroner's inquest",
+        "Types of courts & their powers",
+        "Dying declaration \u2014 definition, evidentiary value, conditions",
+        "Dying deposition",
+        "Evidence \u2014 types (documentary, oral, circumstantial, medical), expert witness",
+        "Conduct of doctor in court \u2014 examination-in-chief, cross-examination, re-examination",
+        "Subpoena, summons",
+        "Medical evidence & medical certificate",
+        "Consent \u2014 types (implied, expressed, informed), age of consent, blanket consent",
+        "Therapeutic privilege, emergency doctrine",
+        "Professional secrecy & privileged communication",
+        "Medical negligence \u2014 civil & criminal, Bolam test, res ipsa loquitur, contributory negligence",
+        "Consumer Protection Act (CPA) \u2014 applicability to doctors",
+        "Indian Medical Council \u2014 disciplinary proceedings, infamous conduct"
+      ]
+    },
+    {
+      "topic": "Identification (~20 questions)",
+      "subtopics": [
+        "Personal identity \u2014 definition, data for identification",
+        "Race, sex, age, stature determination",
+        "Age estimation \u2014 from teeth (dental age), ossification centers, epiphyseal fusion, secondary sexual characters",
+        "Age estimation in fetus \u2014 Haase's rule",
+        "Age estimation in living \u2014 medicolegal importance at various ages (7, 12, 14, 16, 18, 21)",
+        "Identification of sex \u2014 from skeleton (pelvis, skull), DNA (Barr body, SRY gene)",
+        "Identification from hair \u2014 species, race, sex, region of body",
+        "Identification from blood \u2014 species (precipitin test), blood grouping (ABO, Rh), DNA profiling",
+        "Dactylography (fingerprints) \u2014 types (loops, whorls, arches, composites), classification, medicolegal importance",
+        "Footprints, lip prints, bite marks, ear prints",
+        "DNA fingerprinting \u2014 STR, RFLP, PCR, mitochondrial DNA, Y-STR",
+        "Identification of mutilated bodies, mass disasters",
+        "Superimposition technique, facial reconstruction",
+        "Tattoo marks, scars, moles \u2014 medicolegal significance",
+        "Poroscopy"
+      ]
+    },
+    {
+      "topic": "Death & Changes After Death (~25 questions)",
+      "subtopics": [
+        "Definition of death \u2014 somatic death, molecular death, brain death (criteria), brain stem death",
+        "Modes of death \u2014 coma, syncope, asphyxia",
+        "Suspended animation \u2014 conditions mimicking death",
+        "Presumption of death & survivorship",
+        "Signs of death \u2014 immediate, early, late",
+        "Post-mortem changes \u2014 cooling (algor mortis \u2014 Newton's law of cooling), post-mortem lividity (livor mortis \u2014 fixation, distribution, medicolegal importance), rigor mortis (onset, sequence, cadaveric spasm, heat/cold stiffening), decomposition",
+        "Putrefaction \u2014 stages, marbling, degloving, adipocere, mummification",
+        "Estimation of time since death \u2014 from PM changes, entomology, chemical changes (vitreous humor potassium)",
+        "Post-mortem artifacts \u2014 PM staining vs antemortem bruise, PM injuries",
+        "Autopsy \u2014 types (medicolegal, clinical/pathological), objectives, procedure, negative autopsy, obscure autopsy, virtual autopsy",
+        "Exhumation \u2014 indications, procedure, findings",
+        "Sudden & unexpected death \u2014 causes (cardiac, CNS, respiratory, GIT)",
+        "Organ transplantation \u2014 legal aspects, Transplantation of Human Organs Act"
+      ]
+    },
+    {
+      "topic": "Mechanical Injuries & Wounds (~25 questions)",
+      "subtopics": [
+        "Classification of injuries \u2014 mechanical, physical, chemical, biological",
+        "Abrasion \u2014 types (scratch, graze, pressure, impact), medicolegal importance, patterned abrasion",
+        "Contusion (bruise) \u2014 mechanism, factors affecting, age estimation of bruise, antemortem vs postmortem",
+        "Laceration \u2014 characteristics, differentiation from incised wound",
+        "Incised wound \u2014 characteristics, types (chop wound, slash, stab)",
+        "Stab wound \u2014 dimensions, depth, direction, weapon identification",
+        "Defense wounds \u2014 types, location",
+        "Self-inflicted wounds \u2014 characteristics, hesitation cuts",
+        "Fabricated wounds",
+        "Fractures \u2014 types, medicolegal importance",
+        "Head injuries \u2014 scalp injuries, skull fractures (linear, depressed, comminuted, ring, diastatic), extradural hemorrhage, subdural hemorrhage, subarachnoid hemorrhage, contrecoup injury, diffuse axonal injury",
+        "Spinal injuries",
+        "Abdominal & thoracic injuries",
+        "Regional injuries \u2014 medicolegal importance",
+        "Wound healing \u2014 factors, age estimation of wound",
+        "Grievous hurt (Sec 320 IPC) vs simple hurt"
+      ]
+    },
+    {
+      "topic": "Firearm Injuries (~15 questions)",
+      "subtopics": [
+        "Classification of firearms \u2014 rifled (pistol, revolver, rifle), smooth bore (shotgun)",
+        "Ammunition \u2014 bullet, cartridge, pellets, propellant",
+        "Mechanism of firearm injury",
+        "Wound ballistics \u2014 entry wound vs exit wound characteristics",
+        "Range of fire \u2014 contact, close range, intermediate, distant; features at each range (tattooing, blackening, singeing, muzzle imprint)",
+        "Shotgun injuries \u2014 spread pattern, rat-hole entry",
+        "Ricochet bullet",
+        "Tandem bullet, dum-dum bullet",
+        "Medicolegal aspects \u2014 direction, range, type of weapon, suicidal vs homicidal vs accidental",
+        "Examination of firearm evidence \u2014 dermal nitrate test (paraffin test), neutron activation analysis, Walker test",
+        "Air gun injuries"
+      ]
+    },
+    {
+      "topic": "Asphyxia (~25 questions)",
+      "subtopics": [
+        "Definition & classification of asphyxia \u2014 mechanical, pathological, environmental, iatrogenic",
+        "Stages of asphyxia \u2014 dyspnea, convulsion, respiratory failure, death",
+        "Post-mortem findings \u2014 Tardieu spots, cyanosis, congestion, fluidity of blood",
+        "Hanging \u2014 types (complete, incomplete; typical, atypical), ligature mark characteristics, cause of death, PM findings, suicidal vs homicidal vs accidental",
+        "Strangulation \u2014 ligature strangulation vs manual strangulation (throttling), differences from hanging, PM findings",
+        "Mugging & bansdola",
+        "Suffocation \u2014 smothering, choking, gagging, overlaying, traumatic asphyxia (crush asphyxia), positional asphyxia",
+        "Drowning \u2014 types (wet, dry, secondary, immersion syndrome), diatom test, Gettler test, PM findings, freshwater vs saltwater drowning",
+        "Sexual asphyxia (autoerotic asphyxia)",
+        "Caf\u00e9 coronary",
+        "Burking",
+        "Overlaying",
+        "Medicolegal aspects of each type"
+      ]
+    },
+    {
+      "topic": "Thermal, Electrical & Lightning Injuries (~15 questions)",
+      "subtopics": [
+        "Burns \u2014 classification (superficial, partial thickness, full thickness), rule of nines, Lund & Browder chart, medicolegal aspects",
+        "Scalds",
+        "Antemortem vs postmortem burns \u2014 pugilistic attitude, heat ruptures vs antemortem fractures, heat hematoma",
+        "Causes of death in burns \u2014 neurogenic shock, hypovolemic shock, toxemia, septicemia",
+        "Cold injuries \u2014 hypothermia, frostbite",
+        "Electrocution \u2014 mechanism of death, joule burn, crocodile skin, fibrillation, electrocution mark",
+        "Lightning \u2014 entry & exit marks, arborescent markings (Lichtenberg figures), keraunographic markings, magnetization of metals",
+        "Medicolegal aspects of thermal & electrical deaths"
+      ]
+    },
+    {
+      "topic": "Sexual Offences (~20 questions)",
+      "subtopics": [
+        "Rape (Sec 375 IPC) \u2014 definition, legal aspects, examination of victim (general, genital), examination of accused",
+        "Evidence collection \u2014 swabs, clothing, DNA, acid phosphatase test, Florence test, Barberio test, P30 glycoprotein",
+        "Virginity & defloration \u2014 hymen types, medicolegal significance",
+        "Sexual intercourse \u2014 signs of recent & remote intercourse",
+        "Sodomy (Sec 377 IPC) \u2014 examination of active & passive agent",
+        "Incest, adultery",
+        "Unnatural sexual offences \u2014 bestiality, buccal coitus",
+        "Sexual perversions \u2014 sadism, masochism, fetishism, voyeurism, exhibitionism, necrophilia, pedophilia, frotteurism",
+        "Pregnancy \u2014 signs, medicolegal importance, legitimacy & paternity disputes",
+        "Abortion \u2014 legal (MTP Act), criminal, methods, complications, examination findings",
+        "Infanticide \u2014 live birth vs stillbirth, viability, hydrostatic test (Breslau), maceration, signs of live birth",
+        "Battered baby syndrome (child abuse) \u2014 features, medicolegal aspects",
+        "POCSO Act"
+      ]
+    },
+    {
+      "topic": "Forensic Toxicology \u2014 General Principles (~10 questions)",
+      "subtopics": [
+        "Definition \u2014 poison, toxicology, forensic toxicology",
+        "Classification of poisons \u2014 according to action, origin, medicolegal",
+        "Laws related to poisons \u2014 Poisons Act 1919, NDPS Act 1985, Insecticides Act",
+        "Factors modifying action of poisons \u2014 dose, route, age, sex, tolerance, idiosyncrasy, habit",
+        "Duties of doctor in poisoning cases",
+        "Preservation & dispatch of viscera \u2014 containers, preservatives (saturated NaCl, rectified spirit, formalin)",
+        "General treatment of poisoning \u2014 decontamination, antidotes, supportive care"
+      ]
+    },
+    {
+      "topic": "Corrosive Poisons (~15 questions)",
+      "subtopics": [
+        "Sulfuric acid (vitriol) \u2014 mechanism, features (charring, black vomitus), PM findings, treatment",
+        "Nitric acid \u2014 yellow staining (xanthoproteic reaction)",
+        "Hydrochloric acid",
+        "Carbolic acid (phenol) \u2014 carboluria, olive green/smoky urine",
+        "Oxalic acid \u2014 calcium oxalate crystals",
+        "Alkalis \u2014 sodium hydroxide (caustic soda), potassium hydroxide, ammonia \u2014 soapy feel, deep penetrating injuries",
+        "Differentiation between acid & alkali poisoning"
+      ]
+    },
+    {
+      "topic": "Metallic & Non-Metallic Poisons (~20 questions)",
+      "subtopics": [
+        "Arsenic \u2014 acute & chronic poisoning (Mees lines, rain drop pigmentation, peripheral neuropathy), Marsh test, Reinsch test, treatment (BAL)",
+        "Lead \u2014 acute & chronic (wrist drop, lead line \u2014 Burton line, basophilic stippling, lead colic), diagnosis, treatment (EDTA, succimer)",
+        "Mercury \u2014 acute & chronic (acrodynia/pink disease, erethism, Minamata disease), treatment (BAL, DMSA)",
+        "Copper \u2014 blue-green vomitus, Wilson disease",
+        "Iron \u2014 acute poisoning in children, treatment (desferrioxamine)",
+        "Thallium \u2014 alopecia, Mees lines",
+        "Phosphorus \u2014 acute poisoning (garlic odor, smoking stool, phossy jaw), yellow phosphorus, treatment",
+        "Zinc phosphide \u2014 common rodenticide"
+      ]
+    },
+    {
+      "topic": "Organic/Plant & Animal Poisons (~15 questions)",
+      "subtopics": [
+        "Alcohol (ethanol) \u2014 stages of intoxication, blood alcohol levels, medicolegal aspects, drunk driving laws, methanol poisoning (formic acid, blindness), treatment (fomepizole, ethanol)",
+        "Abrus precatorius (jequirity bean) \u2014 abrin",
+        "Ricinus communis (castor) \u2014 ricin",
+        "Croton tiglium \u2014 croton oil",
+        "Calotropis \u2014 madar poisoning",
+        "Aconite (Aconitum napellus) \u2014 queen of poisons",
+        "Oleander (Nerium) \u2014 cardiac glycosides",
+        "Datura (dhatura) \u2014 anticholinergic poisoning, mydriasis",
+        "Strychnos nux-vomica \u2014 strychnine (opisthotonus, risus sardonicus, differentiation from tetanus)",
+        "Cannabis \u2014 bhang, ganja, charas, hashish",
+        "Opium \u2014 morphine, heroin, codeine; acute poisoning (pin-point pupils, respiratory depression)",
+        "Cyanide \u2014 bitter almond smell, cherry red color, mechanism (cytochrome oxidase inhibition), treatment",
+        "Snake bite \u2014 types (neurotoxic, hemotoxic, myotoxic), identification, treatment (ASV)",
+        "Scorpion sting, spider bite, bee sting"
+      ]
+    },
+    {
+      "topic": "Pesticide & Agrochemical Poisons (~15 questions)",
+      "subtopics": [
+        "Organophosphorus compounds \u2014 mechanism (AChE inhibition), DUMBELS/SLUDGE mnemonic, intermediate syndrome, OPIDN, treatment (atropine, pralidoxime)",
+        "Carbamates \u2014 reversible AChE inhibition, treatment",
+        "Organochlorines \u2014 DDT, BHC, endosulfan; bioaccumulation",
+        "Pyrethroids \u2014 allethrin, permethrin",
+        "Aluminum phosphide (celphos) \u2014 mechanism, garlic odor, no specific antidote, silver nitrate test",
+        "Paraquat \u2014 pulmonary fibrosis, blue discoloration",
+        "Endosulfan \u2014 neurotoxicity",
+        "Rodenticides \u2014 zinc phosphide, barium carbonate, superwarfarins"
+      ]
+    },
+    {
+      "topic": "Drugs of Abuse & Miscellaneous Poisons (~15 questions)",
+      "subtopics": [
+        "Opioids \u2014 morphine, heroin, codeine; acute poisoning, withdrawal, treatment (naloxone, methadone)",
+        "Barbiturates \u2014 acute poisoning, treatment",
+        "Benzodiazepines \u2014 overdose, treatment (flumazenil)",
+        "Amphetamines & methamphetamine",
+        "Cocaine \u2014 mechanism, effects, crack cocaine",
+        "LSD, psilocybin, mescaline",
+        "MDMA (ecstasy)",
+        "Cannabis \u2014 effects, medicolegal aspects",
+        "Volatile substance abuse (glue sniffing)",
+        "Tobacco & nicotine poisoning",
+        "Carbon monoxide \u2014 cherry red lividity, carboxyhemoglobin, treatment (100% O2, hyperbaric O2)",
+        "Kerosene poisoning \u2014 in children, aspiration pneumonitis"
+      ]
+    },
+    {
+      "topic": "Medical Jurisprudence & Ethics (~20 questions)",
+      "subtopics": [
+        "Medical ethics \u2014 principles (autonomy, beneficence, non-maleficence, justice)",
+        "Code of medical ethics \u2014 MCI guidelines",
+        "Professional misconduct \u2014 infamous conduct, disciplinary action, warning notice",
+        "Euthanasia \u2014 active, passive, voluntary, involuntary; legal status in India",
+        "Organ donation \u2014 cadaveric, living donor, brain death certification, THOA 1994",
+        "Medical negligence \u2014 duty of care, breach, causation, damage; Bolam test, res ipsa loquitur",
+        "Informed consent \u2014 elements, exceptions (emergency, therapeutic privilege, waiver)",
+        "Confidentiality \u2014 exceptions (notifiable diseases, court orders, public interest)",
+        "Medical records \u2014 importance, retention, legal admissibility",
+        "Death certificate \u2014 format, cause of death certification (ICD system)",
+        "Fitness certificate, wound certificate, age certificate, potency certificate",
+        "Human experimentation \u2014 Helsinki Declaration, ICMR guidelines, institutional ethics committee",
+        "Rights of patients",
+        "Duties of medical practitioner",
+        "Vicarious liability",
+        "Good Samaritan law",
+        "Mental Health Act \u2014 provisions, involuntary admission",
+        "PCPNDT Act \u2014 prenatal sex determination prohibition",
+        "Dowry death (Sec 304B IPC), dowry prohibition"
+      ]
+    }
+  ]
+}

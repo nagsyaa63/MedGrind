@@ -2,76 +2,312 @@
   "subject": "Orthopedics",
   "topics": [
     {
-      "topic": "General Orthopedics and Traumatology",
+      "topic": "General Orthopedics & Basic Sciences (~30 questions)",
       "subtopics": [
-        "Classification and Healing of Fractures",
-        "Complications of Fractures (Non-union, Mal-union, AVN)",
-        "Principles of Fracture Management (Splints, Fixation)",
-        "Approach to a Polytrauma Patient (ATLS)"
+        "Bone \u2014 structure, composition, types (cortical, cancellous), blood supply, ossification (intramembranous, endochondral)",
+        "Bone growth and remodeling (Wolff's law, Hueter-Volkmann law)",
+        "Cartilage \u2014 types (hyaline, fibrocartilage, elastic), structure, nutrition",
+        "Skeletal muscle physiology and types of muscle contraction",
+        "Joints \u2014 classification (fibrous, cartilaginous, synovial), structure of synovial joint",
+        "Ligaments and tendons \u2014 structure, healing",
+        "Peripheral nerve \u2014 structure, degeneration (Wallerian), regeneration, Seddon and Sunderland classification of nerve injuries",
+        "Gait cycle \u2014 phases, determinants of gait, abnormal gaits (Trendelenburg, antalgic, short leg, high-stepping)",
+        "Orthopedic instruments and implants \u2014 basic types",
+        "Orthopedic terminology (varus, valgus, anteversion, retroversion, subluxation, dislocation)",
+        "Imaging in orthopedics (X-ray interpretation, CT, MRI indications, bone scan, DEXA)"
       ]
     },
     {
-      "topic": "Regional Fractures and Dislocations",
+      "topic": "Fracture Principles (~40 questions)",
       "subtopics": [
-        "Upper Limb: Clavicle, Humerus, Radius, Ulna",
-        "Hand and Wrist Fractures (Colles, Scaphoid)",
-        "Shoulder and Elbow Dislocations",
-        "Lower Limb: Hip, Femur, Tibia, Fibula",
-        "Foot and Ankle Injuries",
-        "Fractures of Pelvis and Acetabulum",
-        "Spinal Injuries and Management"
+        "Definition and classification of fractures (open/closed, complete/incomplete, pattern \u2014 transverse, oblique, spiral, comminuted, segmental, butterfly)",
+        "Gustilo-Anderson classification of open fractures",
+        "Fracture healing \u2014 stages (hematoma, inflammation, soft callus, hard callus, remodeling), primary vs secondary healing",
+        "Factors affecting fracture healing (local and systemic)",
+        "Delayed union, non-union (hypertrophic, atrophic, oligotrophic), malunion",
+        "Principles of fracture management \u2014 reduction (closed, open), immobilization, rehabilitation",
+        "Cast and splint application \u2014 types, complications (compartment syndrome, pressure sores, cast syndrome)",
+        "Traction \u2014 skin traction (Buck's, Russell's), skeletal traction (Steinmann pin, Denham pin), principles",
+        "Internal fixation \u2014 plates and screws (DCP, LC-DCP, locking plates), intramedullary nails (Kuntscher, interlocking), tension band wiring, K-wires, lag screws",
+        "External fixation \u2014 types (uniplanar, multiplanar, ring fixators \u2014 Ilizarov), indications",
+        "AO/ASIF principles of fracture fixation (anatomical reduction, stable fixation, preservation of blood supply, early mobilization)",
+        "Complications of fractures \u2014 immediate (vascular injury, nerve injury, compartment syndrome, fat embolism), early (DVT, PE, infection, ARDS, crush syndrome), late (non-union, malunion, AVN, Volkmann's ischemic contracture, Sudeck's dystrophy/CRPS, myositis ossificans, joint stiffness)",
+        "Compartment syndrome \u2014 pathophysiology, clinical features (5 Ps), Whitesides technique, fasciotomy",
+        "Fat embolism syndrome \u2014 Gurd's criteria, management",
+        "Pathological fractures \u2014 causes, management",
+        "Stress fractures \u2014 march fracture, fatigue fracture, insufficiency fracture",
+        "Gunshot and blast injuries to bone"
       ]
     },
     {
-      "topic": "Infections of Bone and Joints",
+      "topic": "Upper Limb Fractures & Dislocations (~50 questions)",
       "subtopics": [
-        "Acute and Chronic Osteomyelitis",
-        "Septic Arthritis",
-        "Bone and Joint Tuberculosis (Spine/Pott's, Hip, Knee)"
+        "Clavicle fractures \u2014 classification (Allman), management",
+        "Acromioclavicular joint injuries \u2014 Rockwood classification",
+        "Sternoclavicular joint dislocation",
+        "Scapula fractures",
+        "Proximal humerus fractures \u2014 Neer classification, management",
+        "Shoulder dislocation \u2014 anterior (Bankart lesion, Hill-Sachs lesion), posterior, recurrent, management",
+        "Rotator cuff injuries \u2014 tears, impingement syndrome",
+        "Humeral shaft fractures \u2014 radial nerve palsy (wrist drop), management (functional bracing, plating, nailing)",
+        "Supracondylar fracture of humerus \u2014 in children (Gartland classification), complications (Volkmann's ischemic contracture, cubitus varus), management",
+        "Lateral condyle fracture of humerus \u2014 in children, non-union complications",
+        "Medial epicondyle fracture",
+        "Intercondylar fractures of humerus",
+        "Olecranon fractures \u2014 tension band wiring",
+        "Radial head fractures \u2014 Mason classification",
+        "Monteggia fracture-dislocation \u2014 Bado classification",
+        "Galeazzi fracture-dislocation",
+        "Both bone forearm fractures \u2014 in adults and children",
+        "Elbow dislocation \u2014 posterior (most common), terrible triad",
+        "Pulled elbow (nursemaid's elbow) in children",
+        "Distal radius fractures \u2014 Colles' fracture, Smith's fracture, Barton's fracture, chauffeur's fracture",
+        "Scaphoid fracture \u2014 blood supply, AVN, clinical features (anatomical snuffbox tenderness), management",
+        "Other carpal fractures and dislocations (lunate dislocation, perilunate dislocation, triquetral fracture)",
+        "Metacarpal fractures \u2014 Bennett's fracture, Rolando's fracture, boxer's fracture",
+        "Phalangeal fractures \u2014 mallet finger, boutonniere deformity",
+        "Hand injuries \u2014 tendon injuries (flexor, extensor), replantation principles"
       ]
     },
     {
-      "topic": "Bone Tumors",
+      "topic": "Lower Limb Fractures & Dislocations (~55 questions)",
       "subtopics": [
-        "Classification of Bone Tumors",
-        "Benign Bone Tumors (Osteoid Osteoma, GCT, Exostosis)",
-        "Malignant Bone Tumors (Osteosarcoma, Ewing's Sarcoma)",
-        "Metastatic Bone Disease"
+        "Fracture neck of femur \u2014 Garden classification, intracapsular vs extracapsular, AVN risk, management (cannulated screws, hemiarthroplasty, total hip replacement)",
+        "Intertrochanteric fractures \u2014 Boyd and Griffin / AO classification, management (DHS, PFN, arthroplasty)",
+        "Subtrochanteric fractures \u2014 management (PFN, reconstruction nail)",
+        "Femoral shaft fractures \u2014 management (interlocking nail), complications",
+        "Supracondylar fracture of femur",
+        "Fractures around the knee \u2014 tibial plateau fractures (Schatzker classification), management",
+        "Patellar fractures \u2014 types, tension band wiring",
+        "Patellar dislocation \u2014 recurrent, MPFL reconstruction",
+        "Knee dislocation \u2014 vascular injury (popliteal artery), multiligament injury",
+        "Tibial shaft fractures \u2014 open fractures, management (interlocking nail, external fixation, plating)",
+        "Pilon fracture (tibial plafond)",
+        "Ankle fractures \u2014 Weber classification, Lauge-Hansen classification, management",
+        "Maisonneuve fracture",
+        "Talus fractures \u2014 Hawkins classification, AVN",
+        "Calcaneum fractures \u2014 Bohler's angle, Sanders classification, management",
+        "Midfoot injuries \u2014 Lisfranc injury, navicular fractures",
+        "Metatarsal fractures \u2014 Jones fracture, march fracture",
+        "Toe fractures",
+        "Hip dislocation \u2014 anterior, posterior (dashboard injury, sciatic nerve injury), central; Thompson-Epstein classification",
+        "Knee ligament injuries \u2014 ACL (Lachman test, anterior drawer, pivot shift), PCL (posterior drawer, posterior sag), MCL, LCL",
+        "Meniscal injuries \u2014 McMurray test, Apley grind test, bucket handle tear, management (arthroscopic meniscectomy, repair)",
+        "Achilles tendon rupture \u2014 Thompson test, management",
+        "Ankle ligament injuries \u2014 lateral ligament complex, anterior drawer test"
       ]
     },
     {
-      "topic": "Congenital and Developmental Disorders",
+      "topic": "Spine (~35 questions)",
       "subtopics": [
-        "Clubfoot (CTEV)",
-        "Developmental Dysplasia of the Hip (DDH)",
-        "Congenital Torticollis and Pseudoarthrosis",
-        "Scoliosis and Kyphosis"
+        "Anatomy of the vertebral column (cervical, thoracic, lumbar, sacral)",
+        "Spinal cord anatomy and dermatomes",
+        "Cervical spine injuries \u2014 atlas fracture (Jefferson), axis fracture (odontoid \u2014 Anderson and D'Alonzo, hangman's fracture), subaxial cervical spine injuries",
+        "Atlanto-axial instability and subluxation",
+        "Thoracolumbar spine fractures \u2014 Denis three-column concept, burst fracture, chance fracture, fracture-dislocation",
+        "TLICS (Thoracolumbar Injury Classification and Severity) score",
+        "Spinal cord injury \u2014 complete vs incomplete, ASIA classification, spinal shock, neurogenic shock",
+        "Incomplete spinal cord syndromes (anterior cord, central cord, Brown-S\u00e9quard, posterior cord, cauda equina, conus medullaris)",
+        "Management of spinal cord injury \u2014 immobilization, methylprednisolone controversy, rehabilitation",
+        "Intervertebral disc prolapse \u2014 lumbar (PIVD), cervical disc disease",
+        "Lumbar disc herniation \u2014 clinical features (sciatica, SLR test, crossed SLR), management (conservative, microdiscectomy)",
+        "Cervical spondylosis and myelopathy",
+        "Lumbar canal stenosis \u2014 neurogenic claudication vs vascular claudication",
+        "Spondylolysis and spondylolisthesis \u2014 Meyerding grading, Wiltse classification",
+        "Spinal tuberculosis (Pott's spine) \u2014 pathology, cold abscess, Gibbus deformity, management (ATT, surgical decompression)",
+        "Spinal tumors \u2014 intradural extramedullary, intramedullary, extradural",
+        "Scoliosis \u2014 classification (idiopathic, congenital, neuromuscular), Cobb angle, management",
+        "Kyphosis \u2014 Scheuermann's disease, postural kyphosis",
+        "Ankylosing spondylitis \u2014 spinal manifestations, bamboo spine",
+        "Spinal infections \u2014 pyogenic spondylodiscitis"
       ]
     },
     {
-      "topic": "Metabolic and Degenerative Diseases",
+      "topic": "Bone & Joint Infections (~30 questions)",
       "subtopics": [
-        "Rickets and Osteomalacia",
-        "Osteoporosis and Scurvy",
-        "Paget's Disease of Bone",
-        "Osteoarthritis and Gouty Arthritis"
+        "Acute osteomyelitis \u2014 etiology (Staphylococcus aureus), pathogenesis, clinical features, investigations (X-ray, MRI, blood cultures), management",
+        "Chronic osteomyelitis \u2014 sequestrum, involucrum, cloaca, Brodie's abscess, Garre's sclerosing osteomyelitis",
+        "Osteomyelitis in children \u2014 metaphyseal predilection, growth plate involvement",
+        "Osteomyelitis in adults \u2014 vertebral osteomyelitis, diabetic foot osteomyelitis",
+        "Septic arthritis \u2014 etiology, clinical features, investigations (joint aspiration), management (arthrotomy, arthroscopic lavage)",
+        "Septic arthritis in children \u2014 hip joint emergency",
+        "Tuberculosis of bones and joints \u2014 spine (Pott's), hip, knee, pathology (cold abscess, caseation), management",
+        "TB hip \u2014 stages, management",
+        "TB knee \u2014 triple deformity",
+        "Prosthetic joint infection \u2014 classification (Tsukayama), management",
+        "Necrotizing fasciitis",
+        "Gas gangrene",
+        "Chronic recurrent multifocal osteomyelitis (CRMO)"
       ]
     },
     {
-      "topic": "Neuromuscular and Soft Tissue Conditions",
+      "topic": "Bone Tumors (~30 questions)",
       "subtopics": [
-        "Poliomyelitis and Cerebral Palsy",
-        "Peripheral Nerve Injuries (Radial, Ulnar, Median, Sciatic)",
-        "Low Back Pain and Disc Prolapse",
-        "Sports Medicine: Ligamentous and Meniscal Injuries"
+        "Classification of bone tumors (benign, malignant, metastatic)",
+        "Enneking staging system for musculoskeletal tumors",
+        "Osteochondroma (exostosis) \u2014 solitary, multiple hereditary exostoses",
+        "Enchondroma \u2014 Ollier disease, Maffucci syndrome",
+        "Giant cell tumor (GCT) \u2014 Campanacci grading, soap bubble appearance, management",
+        "Osteoid osteoma \u2014 nidus, night pain relieved by aspirin, management",
+        "Osteoblastoma",
+        "Chondroblastoma",
+        "Aneurysmal bone cyst",
+        "Simple (unicameral) bone cyst \u2014 fallen fragment sign",
+        "Fibrous dysplasia \u2014 monostotic, polyostotic, McCune-Albright syndrome",
+        "Non-ossifying fibroma",
+        "Osteosarcoma \u2014 types (conventional, telangiectatic, parosteal, periosteal), Codman triangle, sunburst pattern, management (neoadjuvant chemotherapy, limb salvage surgery)",
+        "Ewing's sarcoma \u2014 onion peel periosteal reaction, age group, management (chemotherapy, radiation, surgery)",
+        "Chondrosarcoma \u2014 types, management (surgery \u2014 resistant to chemo/RT)",
+        "Fibrosarcoma and malignant fibrous histiocytoma",
+        "Multiple myeloma \u2014 punched-out lesions, Bence Jones protein",
+        "Metastatic bone disease \u2014 common primaries (breast, prostate, lung, kidney, thyroid), pathological fractures, Mirels scoring, management",
+        "Soft tissue tumors \u2014 lipoma, liposarcoma, rhabdomyosarcoma, synovial sarcoma",
+        "Biopsy principles in bone tumors (Mankin's principles)"
       ]
     },
     {
-      "topic": "Prosthetics, Orthotics, and Rehabilitation",
+      "topic": "Metabolic Bone Disease (~20 questions)",
       "subtopics": [
-        "Amputations: Levels and Indications",
-        "Basics of Orthotics and Prosthetics",
-        "Physiotherapy and Occupational Therapy Principles"
+        "Osteoporosis \u2014 definition (T-score), risk factors, DEXA scan, FRAX score, management (bisphosphonates, denosumab, teriparatide, calcium, vitamin D)",
+        "Osteomalacia and rickets \u2014 etiology (vitamin D deficiency), clinical features (rachitic rosary, Harrison's sulcus, bow legs, knock knees), biochemistry, management",
+        "Renal osteodystrophy \u2014 types (osteitis fibrosa cystica, osteomalacia, adynamic bone disease)",
+        "Hyperparathyroidism \u2014 primary, secondary, tertiary; osteitis fibrosa cystica, brown tumors, subperiosteal resorption",
+        "Paget's disease of bone \u2014 pathology (mosaic pattern), clinical features, complications (sarcomatous change), management (bisphosphonates)",
+        "Scurvy \u2014 skeletal manifestations",
+        "Osteogenesis imperfecta \u2014 types, blue sclera, management",
+        "Osteopetrosis (marble bone disease)",
+        "Achondroplasia",
+        "Fibrous dysplasia (monostotic, polyostotic)",
+        "Fluorosis \u2014 skeletal manifestations"
+      ]
+    },
+    {
+      "topic": "Arthritis & Joint Disorders (~30 questions)",
+      "subtopics": [
+        "Osteoarthritis \u2014 pathology, clinical features, radiological features (joint space narrowing, osteophytes, subchondral sclerosis, subchondral cysts), management (conservative, joint replacement)",
+        "Rheumatoid arthritis \u2014 pathology (pannus), clinical features (hand deformities \u2014 swan neck, boutonniere, Z-thumb, ulnar drift), extra-articular manifestations, management (DMARDs, biologics)",
+        "Juvenile idiopathic arthritis (JIA) \u2014 types, management",
+        "Ankylosing spondylitis \u2014 clinical features, HLA-B27, bamboo spine, management",
+        "Reactive arthritis (Reiter's syndrome)",
+        "Psoriatic arthritis",
+        "Gout \u2014 pathology (tophi, monosodium urate crystals), clinical features, management (colchicine, allopurinol, febuxostat)",
+        "Pseudogout (CPPD disease)",
+        "Septic arthritis (covered in infections)",
+        "Neuropathic joint (Charcot joint) \u2014 causes (diabetes, syringomyelia, tabes dorsalis)",
+        "Hemophilic arthropathy",
+        "Total hip replacement \u2014 indications, approaches, bearing surfaces, complications (dislocation, loosening, infection, periprosthetic fracture)",
+        "Total knee replacement \u2014 indications, alignment, complications",
+        "Arthroscopy \u2014 indications, techniques",
+        "Osteonecrosis / Avascular necrosis \u2014 causes (steroids, alcohol, sickle cell, trauma), Ficat staging, management (core decompression, arthroplasty)"
+      ]
+    },
+    {
+      "topic": "Pediatric Orthopedics (~35 questions)",
+      "subtopics": [
+        "Growth plate (physis) \u2014 anatomy (Ranvier, Perichondrial ring), Salter-Harris classification of physeal injuries",
+        "Developmental dysplasia of the hip (DDH) \u2014 clinical features (Ortolani, Barlow tests), imaging (ultrasound \u2014 Graf classification, X-ray \u2014 Shenton's line, acetabular index), management (Pavlik harness, closed reduction, open reduction, osteotomies)",
+        "Congenital talipes equinovarus (CTEV/clubfoot) \u2014 Pirani score, Ponseti method (serial casting, tenotomy, bracing), surgical management",
+        "Congenital vertical talus",
+        "Metatarsus adductus",
+        "Flat foot (pes planus) \u2014 flexible vs rigid",
+        "Legg-Calv\u00e9-Perthes disease \u2014 pathology (AVN of femoral head), Catterall/Herring classification, management",
+        "Slipped capital femoral epiphysis (SCFE) \u2014 classification (stable/unstable), management (in-situ pinning)",
+        "Congenital muscular torticollis",
+        "Congenital radial club hand",
+        "Congenital dislocation of the radial head",
+        "Sprengel's deformity",
+        "Klippel-Feil syndrome",
+        "Blount's disease (tibia vara)",
+        "Rickets \u2014 orthopedic manifestations and management",
+        "Cerebral palsy \u2014 orthopedic management (spasticity management, tendon transfers, osteotomies)",
+        "Poliomyelitis \u2014 orthopedic sequelae, reconstructive surgery",
+        "Birth injuries \u2014 brachial plexus palsy (Erb's palsy, Klumpke's palsy), fracture clavicle",
+        "Obstetric brachial plexus palsy \u2014 Erb-Duchenne (C5-C6), Klumpke (C8-T1), management",
+        "Skeletal dysplasias \u2014 achondroplasia, osteogenesis imperfecta, Marfan syndrome, Ehlers-Danlos syndrome",
+        "Growing pains",
+        "Osgood-Schlatter disease",
+        "Sever's disease"
+      ]
+    },
+    {
+      "topic": "Sports Medicine & Soft Tissue Injuries (~25 questions)",
+      "subtopics": [
+        "Ligament injuries \u2014 grading (I, II, III), healing",
+        "ACL injury \u2014 mechanism, clinical tests, MRI, reconstruction (hamstring graft, BPTB graft)",
+        "PCL injury \u2014 mechanism, management",
+        "Meniscal injuries \u2014 types, clinical tests, arthroscopic management",
+        "Rotator cuff tears \u2014 clinical features, imaging, management (repair, debridement)",
+        "Shoulder impingement syndrome \u2014 Neer stages",
+        "Frozen shoulder (adhesive capsulitis) \u2014 stages, management",
+        "Tennis elbow (lateral epicondylitis) and golfer's elbow (medial epicondylitis)",
+        "De Quervain's tenosynovitis \u2014 Finkelstein test",
+        "Trigger finger",
+        "Carpal tunnel syndrome \u2014 Phalen's test, Tinel's sign, nerve conduction studies, management",
+        "Plantar fasciitis",
+        "Shin splints and stress fractures",
+        "Muscle injuries \u2014 strains, contusions, myositis ossificans",
+        "Tendon injuries \u2014 Achilles tendon rupture, patellar tendon rupture, quadriceps tendon rupture",
+        "Anterior knee pain \u2014 patellofemoral syndrome, chondromalacia patellae",
+        "Ankle sprains \u2014 lateral ligament complex, management",
+        "Sports-related concussion",
+        "Doping in sports \u2014 WADA prohibited substances"
+      ]
+    },
+    {
+      "topic": "Amputations (~15 questions)",
+      "subtopics": [
+        "Indications for amputation (vascular, trauma, infection, tumor)",
+        "Levels of amputation \u2014 upper limb (forequarter, above elbow, below elbow, wrist disarticulation, finger amputations) and lower limb (hindquarter, hip disarticulation, above knee, through knee, below knee, Syme's, Chopart's, Lisfranc's, transmetatarsal, toe amputations)",
+        "Principles of amputation surgery (myodesis, myoplasty, bone handling, nerve handling, skin flaps)",
+        "Below knee amputation \u2014 technique, long posterior flap",
+        "Above knee amputation \u2014 technique",
+        "Syme's amputation",
+        "Prosthetics \u2014 types, fitting, components",
+        "Phantom limb and phantom pain",
+        "Complications of amputation (infection, contracture, neuroma, phantom pain, stump revision)",
+        "Rehabilitation after amputation"
+      ]
+    },
+    {
+      "topic": "Rehabilitation & Orthoses (~12 questions)",
+      "subtopics": [
+        "Principles of rehabilitation in orthopedics",
+        "Physiotherapy modalities (heat, cold, ultrasound, TENS, SWD)",
+        "Therapeutic exercises \u2014 ROM, strengthening, stretching",
+        "Orthoses \u2014 upper limb (wrist splints, elbow orthoses), lower limb (AFO, KAFO, HKAFO), spinal (cervical collar, TLSO, Milwaukee brace)",
+        "Walking aids \u2014 crutches, walkers, canes",
+        "Wheelchair prescription",
+        "Occupational therapy in orthopedics",
+        "Gait training after amputation and joint replacement"
+      ]
+    },
+    {
+      "topic": "Hand Surgery (~15 questions)",
+      "subtopics": [
+        "Anatomy of the hand (bones, joints, tendons, nerves, blood supply)",
+        "Flexor tendon injuries \u2014 zones, management, rehabilitation protocols",
+        "Extensor tendon injuries \u2014 zones, mallet finger, boutonniere deformity",
+        "Nerve injuries of the hand (median, ulnar, radial) \u2014 clinical features, management",
+        "Dupuytren's contracture",
+        "Trigger finger and trigger thumb",
+        "Ganglion cyst",
+        "Hand infections \u2014 felon, paronychia, tendon sheath infection (Kanavel signs), web space infection",
+        "Replantation and microsurgery \u2014 indications, technique",
+        "Congenital hand anomalies (syndactyly, polydactyly, radial club hand)",
+        "Volkmann's ischemic contracture \u2014 pathology, clinical features, management"
+      ]
+    },
+    {
+      "topic": "Miscellaneous & Recent Advances (~8 questions)",
+      "subtopics": [
+        "Computer-assisted navigation in orthopedics",
+        "Robotic-assisted joint replacement",
+        "3D printing in orthopedics",
+        "Platelet-rich plasma (PRP) therapy",
+        "Stem cell therapy in orthopedics",
+        "Biodegradable implants",
+        "Damage control orthopedics (DCO) in polytrauma",
+        "Enhanced recovery after surgery (ERAS) in orthopedics"
       ]
     }
   ]

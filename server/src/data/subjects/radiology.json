@@ -2,81 +2,255 @@
   "subject": "Radiology",
   "topics": [
     {
-      "topic": "Basics of Radiology and Physics",
+      "topic": "Physics of Radiology (~30 questions)",
       "subtopics": [
-        "Production and Properties of X-rays",
-        "Principles of Computed Tomography (CT)",
-        "Principles of Magnetic Resonance Imaging (MRI)",
-        "Ultrasound Physics and Doppler",
-        "Digital Radiography and PACS"
+        "Electromagnetic spectrum and properties of X-rays",
+        "X-ray production \u2014 X-ray tube (cathode, anode, filament, target), Bremsstrahlung and characteristic radiation",
+        "Factors affecting X-ray beam \u2014 kVp (quality/penetration), mA (quantity/intensity), exposure time, filtration, collimation",
+        "Interaction of X-rays with matter \u2014 photoelectric effect, Compton scattering, coherent scattering, pair production",
+        "X-ray beam attenuation \u2014 half-value layer (HVL), linear attenuation coefficient",
+        "Image quality \u2014 contrast, resolution (spatial, contrast), noise, signal-to-noise ratio, modulation transfer function",
+        "Digital radiography \u2014 computed radiography (CR), digital radiography (DR), PACS (Picture Archiving and Communication System)",
+        "Fluoroscopy \u2014 principles, image intensifier, flat panel detector, digital subtraction angiography (DSA)",
+        "Mammography \u2014 principles, dedicated equipment, screen-film vs digital, tomosynthesis",
+        "Physics of CT \u2014 principles (Hounsfield units, windowing, pitch, slice thickness), generations of CT scanners, spiral/helical CT, MDCT (multidetector CT)",
+        "Physics of MRI \u2014 principles (nuclear magnetic resonance, precession, Larmor frequency, T1 and T2 relaxation, proton density), pulse sequences (spin echo, gradient echo, inversion recovery \u2014 STIR, FLAIR), k-space",
+        "MRI contrast agents \u2014 gadolinium (mechanism, nephrogenic systemic fibrosis risk)",
+        "Physics of ultrasound \u2014 principles (piezoelectric effect, frequency, wavelength, resolution \u2014 axial and lateral), Doppler effect (continuous wave, pulsed wave, color Doppler, power Doppler), artifacts (acoustic shadowing, posterior enhancement, reverberation, mirror artifact)",
+        "Physics of nuclear medicine \u2014 radioactivity (alpha, beta, gamma), half-life (physical, biological, effective), radiopharmaceuticals, gamma camera, SPECT, PET (positron emission, annihilation radiation, coincidence detection)",
+        "PET/CT \u2014 principles, FDG (18F-fluorodeoxyglucose), SUV (standardized uptake value)"
       ]
     },
     {
-      "topic": "Radiation Safety and Contrast",
+      "topic": "Radiation Protection & Safety (~18 questions)",
       "subtopics": [
-        "Biological Effects of Radiation",
-        "Radiation Protection Principles (ALARA, Shielding)",
-        "Radiography Contrast Media (Barium, Iodine, Gadolinium)",
-        "Contrast Reactions and Management",
-        "Radiation Legislation in India (AERB)"
+        "Biological effects of radiation \u2014 deterministic (threshold \u2014 skin erythema, cataract, sterility, radiation sickness) and stochastic (no threshold \u2014 carcinogenesis, genetic effects)",
+        "Radiosensitivity \u2014 law of Bergoni\u00e9 and Tribondeau, radiosensitivity of different tissues (lymphocytes most sensitive, neurons most resistant)",
+        "Radiation dose quantities \u2014 absorbed dose (Gray), equivalent dose (Sievert), effective dose (Sievert), exposure (Roentgen)",
+        "Dose limits \u2014 occupational (20 mSv/year averaged over 5 years), public (1 mSv/year), pregnant worker, lens of eye",
+        "ALARA principle (As Low As Reasonably Achievable)",
+        "Principles of radiation protection \u2014 time, distance (inverse square law), shielding",
+        "Personal protective equipment \u2014 lead aprons, thyroid shields, lead glasses, lead gloves",
+        "Personnel monitoring \u2014 film badge, TLD (thermoluminescent dosimeter), OSL (optically stimulated luminescence), electronic personal dosimeter",
+        "Area monitoring \u2014 Geiger-M\u00fcller counter, ionization chamber, scintillation detector",
+        "Radiation protection in pregnancy \u2014 10-day rule, fetal dose limits",
+        "Radiation protection in pediatric imaging \u2014 Image Gently campaign, dose reduction strategies",
+        "CT dose \u2014 CTDI (CT Dose Index), DLP (Dose Length Product), effective dose estimation",
+        "Contrast media \u2014 types (iodinated \u2014 ionic/non-ionic, high/low osmolar; barium; gadolinium), adverse reactions (mild, moderate, severe, anaphylactoid), management of contrast reactions, contrast-induced nephropathy (CIN) \u2014 risk factors, prevention (hydration, NAC)",
+        "MRI safety \u2014 ferromagnetic implants, pacemakers, cochlear implants, pregnancy, claustrophobia, nephrogenic systemic fibrosis (NSF)",
+        "Radiation emergencies and mass casualty management"
       ]
     },
     {
-      "topic": "Respiratory System Imaging",
+      "topic": "Conventional Radiography (X-ray) (~25 questions)",
       "subtopics": [
-        "Chest X-ray: Normal Anatomy and Interpretation",
-        "Imaging of Pneumonia and Tuberculosis",
-        "Lung Malignancies and Nodules",
-        "Pleural Effusion and Pneumothorax Imaging",
-        "High Resolution CT (HRCT) of Lung"
+        "Principles of plain radiography",
+        "Systematic approach to X-ray interpretation",
+        "Chest X-ray \u2014 PA view, AP view, lateral view; systematic interpretation (ABCDE approach \u2014 Airway, Bones, Cardiac, Diaphragm, Everything else/Effusion/Extras)",
+        "Chest X-ray findings \u2014 consolidation, collapse/atelectasis, pleural effusion, pneumothorax, cardiomegaly, mediastinal widening, hilar lymphadenopathy, pulmonary edema, lung masses, cavitary lesions, miliary pattern, reticulonodular pattern",
+        "Abdominal X-ray \u2014 supine, erect; systematic interpretation; bowel gas pattern, air-fluid levels, free gas under diaphragm (pneumoperitoneum), calcifications (renal, biliary, pancreatic, vascular), soft tissue masses",
+        "Skeletal radiography \u2014 fracture identification, bone lesions (lytic, sclerotic, mixed), periosteal reactions, joint space assessment",
+        "Contrast studies \u2014 barium swallow, barium meal, barium follow-through, barium enema (single and double contrast), IVU/IVP (intravenous urography), MCU (micturating cystourethrogram), HSG (hysterosalpingography), RGU (retrograde urethrogram), T-tube cholangiogram, ERCP, fistulogram/sinogram",
+        "Special views \u2014 Waters' view (sinuses), Towne's view (skull), Caldwell view, submentovertex (SMV), skyline view (patella), stress views"
       ]
     },
     {
-      "topic": "Cardiovascular System Imaging",
+      "topic": "Computed Tomography (CT) (~30 questions)",
       "subtopics": [
-        "Cardiac Silhouette and Chambers on CXR",
-        "Imaging in Congestive Heart Failure",
-        "Basics of Echocardiography",
-        "CT and MR Angiography"
+        "CT principles and technique (covered in physics)",
+        "CT contrast \u2014 oral, IV, rectal; phases of enhancement (non-contrast, arterial, portal venous, delayed/nephrographic, excretory)",
+        "CT of the brain \u2014 normal anatomy, stroke (hyperdense MCA sign, loss of grey-white differentiation, Alberta Stroke Program Early CT Score/ASPECTS), hemorrhage (epidural \u2014 biconvex, subdural \u2014 crescent, subarachnoid, intraparenchymal, intraventricular), tumors, hydrocephalus, calcifications",
+        "CT angiography (CTA) \u2014 cerebral, coronary, pulmonary (PE protocol), aortic (dissection, aneurysm), peripheral",
+        "CT of the chest \u2014 HRCT (high-resolution CT) for interstitial lung disease (UIP, NSIP, sarcoidosis, hypersensitivity pneumonitis), lung nodule evaluation (Fleischner criteria), mediastinal masses (anterior \u2014 4 Ts: thymoma, teratoma, thyroid, terrible lymphoma), pulmonary embolism, aortic dissection (Stanford classification), bronchiectasis",
+        "CT of the abdomen \u2014 liver lesions (hemangioma, HCC \u2014 arterial enhancement with washout, metastases, abscess, cyst), pancreatic pathology (pancreatitis \u2014 CT severity index/Balthazar, pancreatic tumors), renal masses (Bosniak classification of cystic renal lesions), adrenal masses, splenic pathology, bowel pathology (appendicitis, obstruction, perforation)",
+        "CT of the spine \u2014 disc herniation, spinal stenosis, fractures, tumors",
+        "CT in trauma \u2014 FAST CT, whole-body CT in polytrauma, solid organ injury grading (AAST \u2014 liver, spleen, kidney)",
+        "CT-guided procedures \u2014 biopsy, drainage",
+        "CT colonography (virtual colonoscopy)",
+        "Dual-energy CT \u2014 principles and applications (gout, renal stones, pulmonary embolism)",
+        "CT dose reduction strategies \u2014 automatic exposure control, iterative reconstruction"
       ]
     },
     {
-      "topic": "Gastrointestinal and Hepatobiliary Imaging",
+      "topic": "Magnetic Resonance Imaging (MRI) (~30 questions)",
       "subtopics": [
-        "Abdominal Radiograph: Gas Patterns and Calcifications",
-        "Barium Studies (Swallow, Meal, Enema)",
-        "Imaging of Acute Abdomen and Bowel Obstruction",
-        "USG and CT of Liver, Gallbladder, and Pancreas",
-        "Imaging of Liver Cirrhosis and Portal Hypertension"
+        "MRI principles and technique (covered in physics)",
+        "MRI sequences and tissue characteristics \u2014 T1-weighted (fat bright, fluid dark), T2-weighted (fluid bright), FLAIR (CSF suppressed), STIR (fat suppressed), DWI (diffusion-weighted imaging \u2014 acute stroke, abscess, epidermoid), ADC map, gradient echo (hemorrhage \u2014 blooming artifact), SWI (susceptibility-weighted imaging)",
+        "MRI contrast \u2014 gadolinium-based contrast agents, enhancement patterns",
+        "MRI of the brain \u2014 normal anatomy, acute ischemic stroke (DWI restriction), hemorrhage (signal changes over time on T1/T2), tumors (glioma, meningioma, pituitary adenoma, acoustic schwannoma, metastases), demyelination (MS \u2014 Dawson fingers, periventricular plaques), infections (abscess \u2014 DWI restriction, tuberculoma, neurocysticercosis)",
+        "MR angiography (MRA) \u2014 TOF (time of flight), contrast-enhanced MRA",
+        "MR venography",
+        "MR spectroscopy \u2014 NAA, choline, creatine, lactate, lipid peaks; applications (brain tumors, metabolic disorders)",
+        "Functional MRI (fMRI) \u2014 BOLD signal, presurgical mapping",
+        "MRI of the spine \u2014 disc disease, cord compression, myelopathy, syringomyelia, spinal tumors (intradural extramedullary, intramedullary, extradural), spinal infections",
+        "MRI of the musculoskeletal system \u2014 ligament and meniscal tears (knee MRI), rotator cuff tears, AVN, bone marrow edema, soft tissue tumors, stress fractures",
+        "MRI of the abdomen \u2014 MRCP (magnetic resonance cholangiopancreatography \u2014 biliary and pancreatic duct evaluation), liver MRI (hepatocyte-specific agents \u2014 gadoxetic acid/Primovist, iron overload), renal MRI",
+        "MRI of the pelvis \u2014 uterine pathology (fibroids, endometrial cancer staging), cervical cancer staging, rectal cancer staging, prostate MRI (PI-RADS)",
+        "Cardiac MRI \u2014 viability assessment (late gadolinium enhancement), cardiomyopathies, myocarditis, congenital heart disease",
+        "Fetal MRI",
+        "MRI in breast imaging \u2014 indications, BI-RADS",
+        "Contraindications and safety (covered in radiation protection)"
       ]
     },
     {
-      "topic": "Urogenital Imaging",
+      "topic": "Ultrasonography (~30 questions)",
       "subtopics": [
-        "Intravenous Urography (IVU) and RGU/MCU",
-        "Imaging of Renal Stones and Obstruction",
-        "Renal and Bladder Tumors",
-        "Imaging of the Scrotum and Prostate"
+        "Ultrasound principles and technique (covered in physics)",
+        "Ultrasound modes \u2014 B-mode, M-mode, Doppler (color, spectral, power)",
+        "Obstetric ultrasound \u2014 first trimester (dating, viability, nuchal translucency, ectopic pregnancy, molar pregnancy), second trimester (anomaly scan \u2014 neural tube defects, cardiac anomalies, renal anomalies, skeletal dysplasias), third trimester (growth, placenta, amniotic fluid \u2014 AFI, biophysical profile), Doppler in obstetrics (umbilical artery, MCA, ductus venosus)",
+        "Gynecological ultrasound \u2014 uterine pathology (fibroids, adenomyosis, endometrial thickness, endometrial polyp, endometrial cancer), ovarian pathology (cysts \u2014 simple, hemorrhagic, dermoid, endometrioma/chocolate cyst, ovarian tumors), PCOS (Rotterdam criteria \u2014 ultrasound features), ectopic pregnancy, adnexal torsion",
+        "Abdominal ultrasound \u2014 liver (fatty liver, cirrhosis, hepatomegaly, focal lesions \u2014 cyst, hemangioma, HCC, metastases, abscess), gallbladder (cholelithiasis \u2014 WES triad: wall echo shadow, cholecystitis \u2014 Murphy's sign, wall thickening, pericholecystic fluid, gallbladder polyps, carcinoma), biliary system (CBD dilatation, choledocholithiasis), pancreas (pancreatitis, pseudocyst, tumors), spleen (splenomegaly, focal lesions), kidneys (hydronephrosis, renal calculi \u2014 twinkling artifact, renal cysts \u2014 Bosniak, renal tumors, renal size), bladder (post-void residual, bladder tumors, bladder wall thickening)",
+        "Vascular ultrasound \u2014 carotid Doppler (stenosis grading, plaque characterization), DVT (compression ultrasound \u2014 non-compressibility), peripheral arterial disease, abdominal aortic aneurysm screening, portal hypertension (portal vein Doppler, hepatofugal flow)",
+        "Thyroid ultrasound \u2014 nodule evaluation (TIRADS classification), diffuse thyroid disease (Hashimoto's, Graves'), FNAC guidance",
+        "Breast ultrasound \u2014 BI-RADS classification, cyst vs solid, ultrasound-guided biopsy",
+        "Musculoskeletal ultrasound \u2014 tendon pathology, joint effusion, soft tissue masses, guided injections",
+        "Pediatric ultrasound \u2014 pyloric stenosis (target sign, elongated pyloric channel), intussusception (target/doughnut sign), hip ultrasound (DDH \u2014 Graf classification), cranial ultrasound (neonatal \u2014 germinal matrix hemorrhage)",
+        "Scrotal ultrasound \u2014 testicular torsion (absent blood flow), epididymitis, hydrocele, varicocele, testicular tumors",
+        "FAST (Focused Assessment with Sonography for Trauma) \u2014 free fluid in Morrison's pouch, splenorenal recess, pelvis, pericardium; eFAST (pneumothorax)",
+        "Contrast-enhanced ultrasound (CEUS) \u2014 principles, applications (liver lesion characterization)",
+        "Elastography \u2014 principles, applications (liver fibrosis, thyroid, breast)",
+        "Point-of-care ultrasound (POCUS) \u2014 lung ultrasound (A-lines, B-lines, lung sliding, pleural effusion), cardiac (parasternal, apical, subcostal views), IVC assessment"
       ]
     },
     {
-      "topic": "Musculoskeletal and Neuroradiology",
+      "topic": "Nuclear Medicine (~25 questions)",
       "subtopics": [
-        "Imaging of Fractures and Dislocations",
-        "Bone Tumors and Osteomyelitis",
-        "Imaging of Metabolic Bone Diseases",
-        "Neuroimaging: Stroke, Hemorrhage, and Trauma",
-        "MRI in Spine and Spinal Cord Disorders"
+        "Radiopharmaceuticals \u2014 Tc-99m (most commonly used, generator \u2014 Mo-99/Tc-99m), I-131, I-123, F-18 FDG, Ga-67, Tl-201, In-111",
+        "Thyroid scintigraphy \u2014 Tc-99m pertechnetate, I-131, I-123; hot nodule (functioning), cold nodule (non-functioning \u2014 higher malignancy risk), diffuse uptake (Graves'), thyroid cancer (I-131 therapy and whole-body scan)",
+        "Bone scintigraphy (bone scan) \u2014 Tc-99m MDP, indications (metastases \u2014 superscan, stress fractures, osteomyelitis, Paget's, AVN, prosthetic loosening vs infection), three-phase bone scan",
+        "Renal scintigraphy \u2014 Tc-99m DTPA (GFR, dynamic/renogram \u2014 obstructive vs non-obstructive), Tc-99m DMSA (static/cortical \u2014 scarring, ectopic kidney, differential function), Tc-99m MAG3 (tubular function), captopril renogram (renovascular hypertension)",
+        "Cardiac nuclear medicine \u2014 myocardial perfusion imaging (Tc-99m sestamibi/tetrofosmin, Tl-201), stress testing (exercise, pharmacological \u2014 adenosine, dipyridamole, dobutamine, regadenoson), MUGA scan (ejection fraction)",
+        "PET/CT \u2014 F-18 FDG (oncology \u2014 staging, restaging, treatment response; neurology \u2014 epilepsy, dementia; cardiology \u2014 viability), other PET tracers (Ga-68 DOTATATE \u2014 neuroendocrine tumors, F-18 NaF \u2014 bone, PSMA \u2014 prostate cancer)",
+        "Lung scintigraphy \u2014 V/Q scan (ventilation \u2014 Tc-99m DTPA aerosol/Xe-133/Kr-81m; perfusion \u2014 Tc-99m MAA), PIOPED criteria for pulmonary embolism",
+        "GI nuclear medicine \u2014 Meckel's scan (Tc-99m pertechnetate), GI bleeding scan (Tc-99m RBC), gastric emptying study, hepatobiliary scintigraphy (HIDA scan \u2014 Tc-99m mebrofenin, acute cholecystitis, biliary atresia)",
+        "Sentinel lymph node mapping \u2014 Tc-99m sulfur colloid/nanocolloid, lymphoscintigraphy",
+        "Radionuclide therapy \u2014 I-131 (thyroid cancer, hyperthyroidism), Lu-177 DOTATATE (neuroendocrine tumors \u2014 PRRT), Ra-223 (bone metastases \u2014 castration-resistant prostate cancer), Y-90 microspheres (SIRT \u2014 hepatic malignancies), Sm-153/Sr-89 (bone pain palliation)",
+        "Infection imaging \u2014 Ga-67 citrate, In-111 labeled WBC, Tc-99m HMPAO labeled WBC, F-18 FDG PET/CT"
       ]
     },
     {
-      "topic": "Specialized and Interventional Radiology",
+      "topic": "Interventional Radiology (~22 questions)",
       "subtopics": [
-        "Obstetric Ultrasound (Level I, II, Growth)",
-        "Mammography and Breast Imaging",
-        "Vascular Interventions (Embolization, Stenting)",
-        "Non-vascular Interventions (PTBD, PCN, Biopsy)",
-        "Basics of Nuclear Medicine and PET-CT"
+        "Vascular access \u2014 arterial (Seldinger technique), venous (central venous catheter, PICC, port-a-cath, tunneled catheter)",
+        "Angiography \u2014 diagnostic (cerebral, coronary, peripheral, visceral), digital subtraction angiography (DSA)",
+        "Angioplasty and stenting \u2014 peripheral (iliac, femoral, renal), carotid stenting, coronary (PCI)",
+        "Embolization \u2014 uterine artery embolization (fibroids), bronchial artery embolization (hemoptysis), splenic artery embolization (trauma), hepatic artery embolization/chemoembolization (TACE \u2014 HCC), coil embolization (aneurysms, AVM), GI bleeding embolization",
+        "Thrombolysis \u2014 catheter-directed thrombolysis (DVT, PE, stroke), mechanical thrombectomy",
+        "IVC filter \u2014 indications (contraindication to anticoagulation, recurrent PE despite anticoagulation), types (retrievable, permanent)",
+        "TIPS (Transjugular Intrahepatic Portosystemic Shunt) \u2014 indications (variceal bleeding, refractory ascites), complications (hepatic encephalopathy, shunt stenosis)",
+        "Percutaneous drainage \u2014 abscess drainage (hepatic, pelvic, lung), biliary drainage (PTC \u2014 percutaneous transhepatic cholangiography, PTBD), nephrostomy",
+        "Percutaneous biopsy \u2014 CT-guided, ultrasound-guided (liver, kidney, lung, bone, lymph node, thyroid)",
+        "Vertebroplasty and kyphoplasty \u2014 osteoporotic compression fractures, pathological fractures",
+        "Radiofrequency ablation (RFA) and microwave ablation \u2014 liver tumors, renal tumors, lung tumors, bone tumors (osteoid osteoma)",
+        "Cryoablation",
+        "Uterine fibroid embolization",
+        "Varicocele embolization",
+        "Dialysis access \u2014 AV fistula/graft creation and maintenance, fistuloplasty"
+      ]
+    },
+    {
+      "topic": "Chest Radiology (~25 questions)",
+      "subtopics": [
+        "Normal chest X-ray anatomy and systematic interpretation",
+        "Consolidation \u2014 lobar pneumonia, bronchopneumonia, round pneumonia",
+        "Lung collapse/atelectasis \u2014 signs (direct and indirect), patterns by lobe",
+        "Pleural effusion \u2014 meniscus sign, loculated effusion, empyema",
+        "Pneumothorax \u2014 types (simple, tension, hydropneumothorax), deep sulcus sign (supine)",
+        "Pulmonary edema \u2014 cardiogenic (cephalization, Kerley B lines, bat-wing pattern, peribronchial cuffing) vs non-cardiogenic (ARDS)",
+        "Pulmonary tuberculosis \u2014 primary (Ghon focus, Ranke complex, hilar lymphadenopathy, pleural effusion), post-primary/reactivation (upper lobe cavitation, tree-in-bud, miliary TB)",
+        "Lung abscess \u2014 air-fluid level, thick-walled cavity",
+        "Bronchiectasis \u2014 signet ring sign (CT), tram-track sign",
+        "Interstitial lung disease \u2014 HRCT patterns (UIP \u2014 honeycombing, basal predominance; NSIP \u2014 ground-glass, basal; sarcoidosis \u2014 upper/mid zone, lymphadenopathy; hypersensitivity pneumonitis \u2014 mosaic attenuation)",
+        "Lung cancer \u2014 solitary pulmonary nodule (Fleischner criteria), central vs peripheral, Pancoast tumor, staging (TNM)",
+        "Mediastinal masses \u2014 anterior (4 Ts), middle (lymphadenopathy, bronchogenic cyst, vascular), posterior (neurogenic tumors, meningocele)",
+        "Cardiac imaging \u2014 cardiomegaly (CTR > 0.5), chamber enlargement signs, pericardial effusion (water bottle sign), calcified pericardium (constrictive pericarditis)",
+        "Aortic pathology \u2014 aneurysm, dissection (Stanford A and B), coarctation (rib notching, figure-3 sign)",
+        "Diaphragm \u2014 eventration, hernia (Bochdalek, Morgagni), elevated hemidiaphragm",
+        "Chest trauma \u2014 rib fractures, flail chest, hemothorax, pneumomediastinum, aortic injury"
+      ]
+    },
+    {
+      "topic": "Abdominal Radiology (~25 questions)",
+      "subtopics": [
+        "Abdominal X-ray \u2014 bowel obstruction (small bowel \u2014 valvulae conniventes/central, large bowel \u2014 haustra/peripheral), sigmoid volvulus (coffee bean sign), cecal volvulus, paralytic ileus, toxic megacolon",
+        "Pneumoperitoneum \u2014 Rigler sign (double wall sign), football sign, free gas under diaphragm on erect film",
+        "Hepatobiliary imaging \u2014 ultrasound (gallstones, cholecystitis, biliary dilatation), CT (liver lesions \u2014 hemangioma, HCC, metastases, abscess), MRCP (choledocholithiasis, cholangiocarcinoma, pancreatic duct pathology), HIDA scan",
+        "Pancreatic imaging \u2014 acute pancreatitis (CT severity index \u2014 Balthazar), chronic pancreatitis (calcifications, duct dilatation), pancreatic tumors (double duct sign, pancreatic protocol CT)",
+        "Renal imaging \u2014 KUB (renal calculi \u2014 radiopaque vs radiolucent), IVU/IVP, CT KUB (gold standard for renal colic), renal masses (Bosniak classification), renal trauma (AAST grading)",
+        "Adrenal imaging \u2014 CT (adenoma \u2014 low HU, washout characteristics), MRI (chemical shift \u2014 signal drop on out-of-phase), pheochromocytoma, adrenal metastases",
+        "GI tract imaging \u2014 barium studies (achalasia \u2014 bird beak, strictures, diverticula, polyps, carcinoma \u2014 apple core/napkin ring, Crohn's \u2014 string sign/cobblestoning, UC \u2014 lead pipe colon), CT enterography (Crohn's), CT colonography",
+        "Acute abdomen \u2014 imaging approach (X-ray, ultrasound, CT), appendicitis (CT \u2014 dilated appendix > 6mm, periappendiceal fat stranding), diverticulitis, mesenteric ischemia, bowel perforation",
+        "Abdominal trauma \u2014 FAST, CT (solid organ injury grading \u2014 liver, spleen, kidney)",
+        "Abdominal vascular imaging \u2014 aortic aneurysm (CT angiography), mesenteric ischemia (CT angiography), portal hypertension (Doppler, CT)"
+      ]
+    },
+    {
+      "topic": "Musculoskeletal Radiology (~22 questions)",
+      "subtopics": [
+        "Fracture imaging \u2014 X-ray (two views, two joints, two occasions), CT (complex fractures, spine), MRI (occult fractures, stress fractures)",
+        "Bone tumors \u2014 radiological approach (age, location, zone of transition, periosteal reaction, matrix), specific appearances (osteosarcoma \u2014 sunburst/Codman triangle, Ewing's \u2014 onion peel, GCT \u2014 soap bubble, chondrosarcoma \u2014 popcorn calcification, osteoid osteoma \u2014 nidus, enchondroma \u2014 ring and arc calcification, osteochondroma \u2014 cortical and medullary continuity)",
+        "Metabolic bone disease \u2014 osteoporosis (DEXA, vertebral fractures), rickets/osteomalacia (Looser zones, fraying/cupping of metaphysis), hyperparathyroidism (subperiosteal resorption, brown tumors, salt and pepper skull), Paget's disease (cotton wool skull, picture frame vertebra, blade of grass sign), renal osteodystrophy (rugger jersey spine)",
+        "Arthritis imaging \u2014 osteoarthritis (joint space narrowing, osteophytes, subchondral sclerosis/cysts), rheumatoid arthritis (periarticular osteopenia, erosions, joint space narrowing, subluxations), gout (punched-out erosions with overhanging edges, tophi), ankylosing spondylitis (sacroiliitis, bamboo spine, syndesmophytes), psoriatic arthritis (pencil-in-cup deformity, ray pattern)",
+        "Bone infections \u2014 osteomyelitis (X-ray \u2014 periosteal reaction, lytic lesion; MRI \u2014 marrow edema; bone scan \u2014 increased uptake), Brodie's abscess, TB spine (vertebral body destruction, paravertebral abscess, disc involvement)",
+        "AVN \u2014 MRI (double line sign), staging (Ficat)",
+        "Soft tissue imaging \u2014 MRI for soft tissue tumors, ultrasound for tendons and ligaments",
+        "Joint imaging \u2014 MRI of knee (ACL, PCL, menisci, cartilage), shoulder (rotator cuff, labrum), hip, ankle",
+        "Arthrography \u2014 MR arthrography (shoulder \u2014 labral tears, hip \u2014 labral tears)"
+      ]
+    },
+    {
+      "topic": "Neuroradiology (~25 questions)",
+      "subtopics": [
+        "CT of the brain \u2014 normal anatomy, acute stroke (hyperdense vessel sign, early ischemic changes, ASPECTS), hemorrhage (epidural \u2014 biconvex/lenticular, subdural \u2014 crescent, subarachnoid \u2014 star sign in basal cisterns, intraparenchymal), hydrocephalus (communicating vs obstructive), brain tumors, calcifications (physiological \u2014 pineal, choroid plexus; pathological \u2014 craniopharyngioma, oligodendroglioma, meningioma, AVM, neurocysticercosis)",
+        "CT angiography \u2014 circle of Willis, aneurysms, AVM, carotid stenosis, vertebral dissection",
+        "CT perfusion \u2014 core vs penumbra in acute stroke (CBF, CBV, MTT, TTP)",
+        "MRI of the brain \u2014 stroke (DWI restriction \u2014 acute, FLAIR \u2014 subacute), tumors (glioblastoma \u2014 ring enhancement, butterfly pattern; meningioma \u2014 dural tail; pituitary adenoma; acoustic schwannoma \u2014 ice cream cone; metastases \u2014 multiple ring-enhancing), demyelination (MS \u2014 periventricular, Dawson fingers, open ring enhancement), infections (abscess \u2014 DWI restriction, ring enhancement; tuberculoma \u2014 target sign; neurocysticercosis \u2014 stages; toxoplasmosis; PML), neurodegenerative diseases (Alzheimer's \u2014 hippocampal atrophy; Parkinson's \u2014 loss of swallow tail sign)",
+        "MRI of the spine \u2014 disc herniation, cord compression, myelopathy (T2 hyperintensity), syringomyelia, spinal tumors, spinal infections, Chiari malformations, tethered cord",
+        "Cerebral angiography \u2014 aneurysms, AVM, vasospasm, moyamoya disease",
+        "Pediatric neuroradiology \u2014 congenital malformations (Dandy-Walker, Chiari, agenesis of corpus callosum, holoprosencephaly, lissencephaly), hypoxic-ischemic encephalopathy, non-accidental injury (subdural hematoma, retinal hemorrhage)",
+        "Head and neck radiology \u2014 temporal bone CT (cholesteatoma, otosclerosis), paranasal sinus CT, orbit imaging, salivary gland imaging, neck masses, nasopharyngeal carcinoma",
+        "Spinal angiography \u2014 spinal AVM, dural fistula"
+      ]
+    },
+    {
+      "topic": "Pediatric Radiology (~20 questions)",
+      "subtopics": [
+        "Neonatal chest \u2014 respiratory distress syndrome (ground-glass, air bronchograms), transient tachypnea of newborn (fluid in fissures), meconium aspiration (hyperinflation, patchy opacities), congenital diaphragmatic hernia (bowel in chest), congenital lobar emphysema, CPAM (congenital pulmonary airway malformation)",
+        "Pediatric chest \u2014 round pneumonia, foreign body aspiration (hyperinflation, mediastinal shift), cystic fibrosis (bronchiectasis, mucus plugging)",
+        "Pediatric abdomen \u2014 necrotizing enterocolitis (pneumatosis intestinalis, portal venous gas), Hirschsprung disease (transition zone on barium enema), intussusception (target sign on ultrasound, pneumatic/hydrostatic reduction), pyloric stenosis (ultrasound \u2014 pyloric muscle thickness > 3mm, length > 15mm), malrotation and volvulus (upper GI \u2014 corkscrew/bird beak, DJ position), duodenal atresia (double bubble sign), meconium ileus",
+        "Pediatric urinary tract \u2014 vesicoureteral reflux (MCU grading), posterior urethral valves (MCU \u2014 dilated posterior urethra, keyhole sign), multicystic dysplastic kidney, UPJ obstruction (hydronephrosis), Wilms tumor (CT \u2014 intrarenal mass, claw sign)",
+        "Pediatric musculoskeletal \u2014 non-accidental injury (metaphyseal corner fractures, bucket handle fractures, multiple fractures of different ages, periosteal reaction), Salter-Harris fractures, Legg-Calv\u00e9-Perthes disease, SCFE, DDH (ultrasound \u2014 Graf classification, X-ray \u2014 Shenton's line, acetabular index)",
+        "Pediatric neuroradiology (covered in neuroradiology)",
+        "Pediatric nuclear medicine \u2014 DMSA scan (renal scarring, VUR), DTPA (obstruction), MIBG (neuroblastoma), bone scan",
+        "Radiation dose considerations in children \u2014 ALARA, Image Gently, weight-based protocols",
+        "Fetal imaging \u2014 ultrasound (anomaly scan), fetal MRI (CNS, thoracic, abdominal anomalies)"
+      ]
+    },
+    {
+      "topic": "Breast Imaging (~15 questions)",
+      "subtopics": [
+        "Mammography \u2014 screening vs diagnostic, views (CC \u2014 craniocaudal, MLO \u2014 mediolateral oblique), findings (mass, calcifications \u2014 benign vs suspicious, architectural distortion, asymmetry)",
+        "BI-RADS classification (0\u20136)",
+        "Breast ultrasound \u2014 cyst vs solid, BI-RADS, ultrasound-guided biopsy (core needle, vacuum-assisted)",
+        "Breast MRI \u2014 indications (high-risk screening, extent of disease, implant evaluation, occult primary), enhancement patterns",
+        "Screening guidelines \u2014 age of initiation, frequency, controversies",
+        "Image-guided breast biopsy \u2014 stereotactic, ultrasound-guided, MRI-guided",
+        "Galactography (ductography)",
+        "Breast calcifications \u2014 benign (coarse, popcorn, rim, vascular) vs suspicious (pleomorphic, fine linear, clustered)",
+        "Male breast imaging \u2014 gynecomastia vs carcinoma"
+      ]
+    },
+    {
+      "topic": "Miscellaneous & Recent Advances (~8 questions)",
+      "subtopics": [
+        "Artificial intelligence in radiology \u2014 CAD (computer-aided detection/diagnosis), deep learning, applications (chest X-ray, mammography, CT lung screening)",
+        "Radiomics and texture analysis",
+        "3D printing in radiology \u2014 surgical planning, patient education",
+        "Hybrid imaging \u2014 PET/CT, PET/MRI, SPECT/CT",
+        "Theranostics \u2014 diagnostic + therapeutic (Lu-177 DOTATATE, I-131, PSMA-targeted therapy)",
+        "Molecular imaging \u2014 targeted tracers, antibody imaging",
+        "Teleradiology",
+        "Structured reporting and standardized lexicons (BI-RADS, LI-RADS, PI-RADS, TI-RADS, Lung-RADS, O-RADS)"
       ]
     }
   ]
