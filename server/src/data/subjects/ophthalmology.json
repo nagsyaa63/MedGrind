@@ -1,0 +1,97 @@
+{
+  "subject": "Ophthalmology",
+  "topics": [
+    {
+      "topic": "Anatomy and Physiology of the Eye",
+      "subtopics": [
+        "Anatomy of the Eyeball and Orbit",
+        "Physiology of Vision and Aqueous Humor Dynamics",
+        "Ocular Adnexa: Eyelids, Lacrimal Apparatus, and Extraocular Muscles"
+      ]
+    },
+    {
+      "topic": "Optics and Refraction",
+      "subtopics": [
+        "Elementary Optics and Physical Optics",
+        "Refractive Errors: Myopia, Hypermetropia, Astigmatism",
+        "Accommodation and Presbyopia",
+        "Aphakia and Pseudophakia",
+        "Contact Lenses and Refractive Surgery"
+      ]
+    },
+    {
+      "topic": "Diseases of the Eyelids and Lacrimal Apparatus",
+      "subtopics": [
+        "Blepharitis, Chalazion, and Hordeolum",
+        "Entropion, Ectropion, and Ptosis",
+        "Tumors of the Eyelids",
+        "Dacryocystitis and Epiphora",
+        "Dry Eye Syndrome"
+      ]
+    },
+    {
+      "topic": "Conjunctiva and Cornea",
+      "subtopics": [
+        "Infective Conjunctivitis (Bacterial, Viral, Chlamydial)",
+        "Allergic Conjunctivitis (Vernal Keratoconjunctivitis)",
+        "Degenerative Conditions (Pterygium, Pinguecula)",
+        "Corneal Ulcers (Bacterial, Viral, Fungal, Acanthamoeba)",
+        "Corneal Dystrophies and Degenerations",
+        "Keratoconus and Keratoplasty"
+      ]
+    },
+    {
+      "topic": "Sclera and Uveal Tract",
+      "subtopics": [
+        "Episcleritis and Scleritis",
+        "Anterior Uveitis (Iritis, Iridocyclitis)",
+        "Intermediate and Posterior Uveitis",
+        "Specific Uveitic Syndromes (Fuchs', HLA-B27)",
+        "Tumors of the Uveal Tract"
+      ]
+    },
+    {
+      "topic": "Lens and Glaucoma",
+      "subtopics": [
+        "Congenital and Developmental Cataract",
+        "Senile Cataract: Classification and Management",
+        "Complicated and Traumatic Cataract",
+        "Primary Open Angle Glaucoma",
+        "Primary Angle Closure Glaucoma",
+        "Secondary Glaucomas and Congenital Glaucoma"
+      ]
+    },
+    {
+      "topic": "Vitreous and Retina",
+      "subtopics": [
+        "Vitreous Opacities and Hemorrhage",
+        "Retinal Detachment: Types and Management",
+        "Diabetic Retinopathy",
+        "Hypertensive Retinopathy",
+        "Age-related Macular Degeneration (AMD)",
+        "Retinal Vascular Occlusions (CRAO, CRVO)",
+        "Retinitis Pigmentosa and Other Degenerations"
+      ]
+    },
+    {
+      "topic": "Neuro-ophthalmology and Strabismus",
+      "subtopics": [
+        "Pupillary Reflexes and Abnormalities",
+        "Optic Neuritis and Papilledema",
+        "Optic Atrophy",
+        "Visual Pathway Lesions",
+        "Strabismus: Comitant and Incomitant (Paralytic)",
+        "Amblyopia and Nystagmus"
+      ]
+    },
+    {
+      "topic": "Ocular Trauma and Community Ophthalmology",
+      "subtopics": [
+        "Mechanical Trauma (Blunt and Perforating)",
+        "Chemical and Thermal Burns",
+        "Blindness: Definition, Causes, and NPCB",
+        "Ocular Manifestations of Systemic Diseases"
+      ]
+    }
+  ]
+}

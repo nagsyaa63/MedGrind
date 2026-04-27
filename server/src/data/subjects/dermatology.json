@@ -1,0 +1,73 @@
+{
+  "subject": "Dermatology",
+  "topics": [
+    {
+      "topic": "General Dermatology",
+      "subtopics": [
+        "Anatomy and Functions of Skin",
+        "Primary and Secondary Skin Lesions",
+        "Principles of Topical Therapy"
+      ]
+    },
+    {
+      "topic": "Infections and Infestations",
+      "subtopics": [
+        "Bacterial Infections (Impetigo, Folliculitis, Cellulitis)",
+        "Fungal Infections (Tinea, Candidiasis, Deep Mycoses)",
+        "Viral Infections (Herpes, Warts, Molluscum)",
+        "Parasitic Infestations (Scabies, Pediculosis)"
+      ]
+    },
+    {
+      "topic": "Papulosquamous and Eczematous Disorders",
+      "subtopics": [
+        "Psoriasis and Pityriasis Rosea",
+        "Lichen Planus",
+        "Atopic and Contact Dermatitis",
+        "Seborrheic Dermatitis and Stasis Dermatitis"
+      ]
+    },
+    {
+      "topic": "Vesiculobullous Disorders",
+      "subtopics": [
+        "Pemphigus Group",
+        "Bullous Pemphigoid and Dermatitis Herpetiformis",
+        "Erythema Multiforme, SJS, and TEN"
+      ]
+    },
+    {
+      "topic": "Acne and Pigmentary Disorders",
+      "subtopics": [
+        "Acne Vulgaris and Rosacea",
+        "Vitiligo and Albinism",
+        "Melasma and Post-inflammatory Hyperpigmentation"
+      ]
+    },
+    {
+      "topic": "Appendageal and Connective Tissue Disorders",
+      "subtopics": [
+        "Alopecia (Areata, Androgenetic)",
+        "Nail Disorders",
+        "Cutaneous Lupus Erythematosus and Scleroderma"
+      ]
+    },
+    {
+      "topic": "Leprosy and STIs",
+      "subtopics": [
+        "Leprosy: Classification, Clinical Features, and Reactions",
+        "National Leprosy Eradication Programme (NLEP)",
+        "Syphilis and Chancroid",
+        "Gonorrhea and Lymphogranuloma Venereum (LGV)",
+        "HIV-related Dermatoses"
+      ]
+    },
+    {
+      "topic": "Skin Tumors and Systemic Diseases",
+      "subtopics": [
+        "Benign Tumors (Seborrheic Keratosis, Nevi)",
+        "Malignant Tumors (BCC, SCC, Melanoma)",
+        "Cutaneous Markers of Internal Malignancy"
+      ]
+    }
+  ]
+}

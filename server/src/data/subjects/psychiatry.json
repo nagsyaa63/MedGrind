@@ -1,0 +1,77 @@
+{
+  "subject": "Psychiatry",
+  "topics": [
+    {
+      "topic": "Introduction and Classification",
+      "subtopics": [
+        "History and Examination (Mental Status Examination)",
+        "Classification of Mental Disorders (ICD-11 and DSM-5)",
+        "Major Signs and Symptoms in Psychiatry"
+      ]
+    },
+    {
+      "topic": "Psychotic Disorders",
+      "subtopics": [
+        "Schizophrenia: Clinical Features and Subtypes",
+        "Schizoaffective and Delusional Disorders",
+        "Acute and Transient Psychotic Disorders"
+      ]
+    },
+    {
+      "topic": "Mood (Affective) Disorders",
+      "subtopics": [
+        "Depressive Disorders",
+        "Bipolar Affective Disorder (BPAD)",
+        "Dysthymia and Cyclothymia",
+        "Suicide and Self-Harm"
+      ]
+    },
+    {
+      "topic": "Anxiety and Stress-related Disorders",
+      "subtopics": [
+        "Generalized Anxiety Disorder and Panic Disorder",
+        "Phobic Anxiety Disorders",
+        "Obsessive-Compulsive Disorder (OCD)",
+        "Post-Traumatic Stress Disorder (PTSD) and Adjustment Disorders",
+        "Dissociative (Conversion) Disorders"
+      ]
+    },
+    {
+      "topic": "Organic and Substance Use Disorders",
+      "subtopics": [
+        "Delirium and Dementia",
+        "Alcohol Use Disorder and Withdrawal",
+        "Opioid and Cannabis Use Disorders",
+        "Stimulants, Hallucinogens, and Nicotine Dependence"
+      ]
+    },
+    {
+      "topic": "Personality and Eating Disorders",
+      "subtopics": [
+        "Classification of Personality Disorders",
+        "Anorexia Nervosa and Bulimia Nervosa",
+        "Sleep Disorders (Insomnia, Narcolepsy)",
+        "Sexual Dysfunctions and Gender Identity"
+      ]
+    },
+    {
+      "topic": "Child and Adolescent Psychiatry",
+      "subtopics": [
+        "Intellectual Disability",
+        "Autism Spectrum Disorder",
+        "ADHD and Conduct Disorders",
+        "Enuresis and Encopresis"
+      ]
+    },
+    {
+      "topic": "Treatments in Psychiatry",
+      "subtopics": [
+        "Antipsychotics and Mood Stabilizers",
+        "Antidepressants and Anxiolytics",
+        "Electroconvulsive Therapy (ECT)",
+        "Psychotherapy and Counseling Techniques",
+        "Mental Healthcare Act (India)"
+      ]
+    }
+  ]
+}

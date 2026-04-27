@@ -1,0 +1,140 @@
+{
+  "subject": "Pharmacology",
+  "topics": [
+    {
+      "topic": "General Pharmacology",
+      "subtopics": [
+        "Pharmacokinetics: Absorption and Distribution",
+        "Pharmacokinetics: Metabolism and Excretion",
+        "Pharmacodynamics: Mechanisms of Drug Action",
+        "Receptor Pharmacology and Signal Transduction",
+        "Adverse Drug Reactions and Poisoning",
+        "Drug Interaction and Fixed-Dose Combinations",
+        "Essential Medicines and Rational Drug Use",
+        "Clinical Trials and Drug Development"
+      ]
+    },
+    {
+      "topic": "Autonomic Nervous System (ANS)",
+      "subtopics": [
+        "Cholinergic Agonists and Anticholinergic Drugs",
+        "Adrenergic Agonists and Antagonists",
+        "Skeletal Muscle Relaxants",
+        "Drugs for Glaucoma"
+      ]
+    },
+    {
+      "topic": "Autacoids and Related Drugs",
+      "subtopics": [
+        "Histamine and Antihistaminics",
+        "5-Hydroxytryptamine (Serotonin) and its Antagonists",
+        "Prostaglandins, Leukotrienes, and Platelet Activating Factor",
+        "NSAIDs and Antipyretics",
+        "Drugs for Rheumatoid Arthritis and Gout"
+      ]
+    },
+    {
+      "topic": "Respiratory System Drugs",
+      "subtopics": [
+        "Drugs for Bronchial Asthma",
+        "Drugs for Cough (Antitussives and Expectorants)",
+        "Drugs for COPD"
+      ]
+    },
+    {
+      "topic": "Hormones and Related Drugs",
+      "subtopics": [
+        "Anterior Pituitary and Hypothalamic Hormones",
+        "Thyroid and Antithyroid Drugs",
+        "Insulin and Oral Hypoglycemic Agents",
+        "Corticosteroids",
+        "Estrogens, Progestins, and Contraceptives",
+        "Androgens and Drugs for Erectile Dysfunction",
+        "Calcium Metabolism and Bone-acting Drugs"
+      ]
+    },
+    {
+      "topic": "Cardiovascular Drugs",
+      "subtopics": [
+        "Drugs for Hypertension",
+        "Antianginal Drugs",
+        "Drugs for Congestive Heart Failure",
+        "Antiarrhythmic Drugs",
+        "Hypolipidemic Drugs"
+      ]
+    },
+    {
+      "topic": "Drugs Acting on Kidney",
+      "subtopics": [
+        "Diuretics",
+        "Antidiuretics"
+      ]
+    },
+    {
+      "topic": "Drugs Affecting Blood",
+      "subtopics": [
+        "Hematinics: Iron, Vit B12, and Folic Acid",
+        "Coagulants and Anticoagulants",
+        "Fibrinolytics and Antiplatelet Drugs"
+      ]
+    },
+    {
+      "topic": "Gastrointestinal Drugs",
+      "subtopics": [
+        "Drugs for Peptic Ulcer and GERD",
+        "Antiemetics",
+        "Laxatives and Purgatives",
+        "Drugs for Diarrhea and IBS"
+      ]
+    },
+    {
+      "topic": "Central Nervous System (CNS)",
+      "subtopics": [
+        "General Anesthetics",
+        "Local Anesthetics",
+        "Sedative-Hypnotics",
+        "Antiepileptic Drugs",
+        "Antipsychotics and Lithium",
+        "Antidepressants and Antianxiety Drugs",
+        "Opioid Analgesics and Antagonists",
+        "Drugs for Parkinson's and Alzheimer's",
+        "CNS Stimulants and Nootropics"
+      ]
+    },
+    {
+      "topic": "Chemotherapy of Infections",
+      "subtopics": [
+        "General Principles of Antimicrobial Therapy",
+        "Sulfonamides and Quinolones",
+        "Beta-Lactam Antibiotics (Penicillins, Cephalosporins)",
+        "Tetracyclines and Chloramphenicol",
+        "Aminoglycosides",
+        "Macrolides and Miscellaneous Antibiotics",
+        "Antitubercular Drugs",
+        "Antileprotic Drugs",
+        "Antifungal Drugs",
+        "Antiviral Drugs (including HIV/AIDS)",
+        "Antimalarial Drugs",
+        "Antiamoebic and Antiprotozoal Drugs",
+        "Anthelmintic Drugs"
+      ]
+    },
+    {
+      "topic": "Chemotherapy of Neoplastic Diseases",
+      "subtopics": [
+        "Cytotoxic Drugs (Alkylating agents, Antimetabolites)",
+        "Targeted Therapy and Monoclonal Antibodies",
+        "Immunomodulators and Gene Therapy"
+      ]
+    },
+    {
+      "topic": "Miscellaneous Topics",
+      "subtopics": [
+        "Antiseptics and Disinfectants",
+        "Chelating Agents",
+        "Vitamins",
+        "Vaccines and Sera"
+      ]
+    }
+  ]
+}

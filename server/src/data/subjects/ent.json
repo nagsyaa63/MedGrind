@@ -1,0 +1,73 @@
+{
+  "subject": "ENT (Otolaryngology)",
+  "topics": [
+    {
+      "topic": "Ear: Anatomy and Physiology",
+      "subtopics": [
+        "Anatomy of External, Middle, and Inner Ear",
+        "Physiology of Hearing and Equilibrium",
+        "Assessment of Hearing (PTA, Impedance, BERA)",
+        "Assessment of Vestibular Function"
+      ]
+    },
+    {
+      "topic": "Diseases of the Ear",
+      "subtopics": [
+        "Diseases of External Ear (Otitis Externa, Wax, Keratosis)",
+        "Acute and Chronic Otitis Media (ASOM, CSOM)",
+        "Complications of Otitis Media",
+        "Otosclerosis and Tympanosclerosis",
+        "Meniere's Disease and Ototoxicity",
+        "Acoustic Neuroma and Inner Ear Tumors",
+        "Facial Nerve Anatomy and Disorders (Bell's Palsy)"
+      ]
+    },
+    {
+      "topic": "Nose and Paranasal Sinuses",
+      "subtopics": [
+        "Anatomy and Physiology of Nose and Sinuses",
+        "Congenital Diseases (Choanal Atresia)",
+        "Diseases of External Nose (Vestibulitis, Furunculosis)",
+        "Nasal Septum (DNS, Septal Abscess, Hematoma)",
+        "Acute and Chronic Rhinosinusitis",
+        "Nasal Polyposis (Ethmoidal and Antrochoanal)",
+        "Epistaxis: Causes and Management",
+        "Trauma to Nose and Face",
+        "Tumors of Nose and Sinuses (JNA, Inverted Papilloma)"
+      ]
+    },
+    {
+      "topic": "Pharynx and Oral Cavity",
+      "subtopics": [
+        "Anatomy of Oral Cavity and Pharynx",
+        "Adenoids and Palatine Tonsils",
+        "Pharyngitis and Tonsillitis",
+        "Peritonsillar and Retropharyngeal Abscess",
+        "Nasopharyngeal Carcinoma and Tumors of Pharynx",
+        "Sleep Apnea and Snoring"
+      ]
+    },
+    {
+      "topic": "Larynx and Tracheobronchial Tree",
+      "subtopics": [
+        "Anatomy and Physiology of Larynx",
+        "Acute and Chronic Laryngitis",
+        "Stridor: Causes and Management",
+        "Congenital Lesions (Laryngomalacia)",
+        "Vocal Cord Paralysis and Benign Vocal Fold Lesions",
+        "Carcinoma of the Larynx",
+        "Foreign Bodies in Airway and Food Passage",
+        "Tracheostomy: Indications and Technique"
+      ]
+    },
+    {
+      "topic": "Head and Neck Surgery",
+      "subtopics": [
+        "Salivary Gland Disorders (Sialadenitis, Tumors)",
+        "Thyroid and Parathyroid Surgery",
+        "Neck Spaces and Deep Neck Infections",
+        "Neck Masses and Differential Diagnosis"
+      ]
+    }
+  ]
+}

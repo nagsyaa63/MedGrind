@@ -1,0 +1,103 @@
+{
+  "subject": "Forensic Medicine",
+  "topics": [
+    {
+      "topic": "Medical Jurisprudence",
+      "subtopics": [
+        "Legal Procedure (Inquest, Courts, Evidence)",
+        "Medical Law and Ethics",
+        "Professional Misconduct and Negligence",
+        "Consent and Medical Records",
+        "Consumer Protection Act in Medicine"
+      ]
+    },
+    {
+      "topic": "Thanatology (Study of Death)",
+      "subtopics": [
+        "Definition and Diagnosis of Death",
+        "Post-mortem Changes (Immediate, Early, Late)",
+        "Preservation of Dead Bodies (Embalming)",
+        "Time Since Death Estimation",
+        "Sudden and Unexpected Deaths"
+      ]
+    },
+    {
+      "topic": "Identification",
+      "subtopics": [
+        "Data for Identification (Age, Sex, Stature)",
+        "Dactylography (Fingerprints) and DNA Profiling",
+        "Anthropometry and Forensic Odontology",
+        "Examination of Mutilated Remains and Bones"
+      ]
+    },
+    {
+      "topic": "Traumatology (Mechanical Injuries)",
+      "subtopics": [
+        "Classification of Injuries",
+        "Abrasions, Contusions, and Lacerations",
+        "Incised and Stab Wounds",
+        "Firearm and Explosive Injuries",
+        "Regional Injuries (Head, Spine, Chest, Abdomen)",
+        "Medico-legal Importance of Injuries and Age of Wound",
+        "Transportation Injuries (Road, Rail, Air)"
+      ]
+    },
+    {
+      "topic": "Asphyxial Deaths",
+      "subtopics": [
+        "Hanging and Strangulation",
+        "Suffocation and Traumatic Asphyxia",
+        "Drowning and Resuscitation"
+      ]
+    },
+    {
+      "topic": "Sexual Offences and Forensic Pediatrics",
+      "subtopics": [
+        "Rape and Sexual Assault Examination",
+        "Unnatural Sexual Offences",
+        "Infanticide and Battered Baby Syndrome",
+        "Abortion and Medical Termination of Pregnancy (MTP) Act",
+        "Sexual Relativity and Hermaphroditism"
+      ]
+    },
+    {
+      "topic": "Thermal and Environmental Injuries",
+      "subtopics": [
+        "Burns and Scalds",
+        "Heat Stroke and Cold Injuries",
+        "Electrocution and Lightning Stroke",
+        "Radiation and Starvation"
+      ]
+    },
+    {
+      "topic": "Forensic Psychiatry",
+      "subtopics": [
+        "Civil and Criminal Responsibilities of Mentally Ill",
+        "Examination of the Mentally Ill",
+        "True vs Feigned Insanity",
+        "Mental Healthcare Act"
+      ]
+    },
+    {
+      "topic": "General Toxicology",
+      "subtopics": [
+        "Legal Aspects of Poisoning",
+        "Factors Modifying Action of Poisons",
+        "General Principles of Treatment of Poisoning",
+        "Preservation and Dispatch of Viscera"
+      ]
+    },
+    {
+      "topic": "Special Toxicology",
+      "subtopics": [
+        "Corrosive Poisons (Acids and Alkalis)",
+        "Irritant Poisons (Inorganic, Organic, Mechanical)",
+        "Neurotoxic Poisons (Opioids, Alcohol, Sedatives)",
+        "Cardiotoxic Poisons (Digitalis, Aconite)",
+        "Asphyxiants and Agricultural Poisons (Organophosphates)",
+        "Drug Dependence and Abuse",
+        "Food Poisoning and Environmental Toxins"
+      ]
+    }
+  ]
+}

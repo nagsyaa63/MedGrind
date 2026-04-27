@@ -1,0 +1,145 @@
+{
+  "subject": "Biochemistry",
+  "topics": [
+    {
+      "topic": "Cell and Subcellular Organelles",
+      "subtopics": [
+        "Structure and Functions of Cell Membrane",
+        "Nucleus, Mitochondria, and Ribosomes",
+        "Endoplasmic Reticulum and Golgi Apparatus",
+        "Lysosomes and Peroxisomes",
+        "Cytoskeleton and Extracellular Matrix"
+      ]
+    },
+    {
+      "topic": "Enzymes",
+      "subtopics": [
+        "Classification and Nomenclature",
+        "Mechanism of Enzyme Action",
+        "Enzyme Kinetics (Michaelis-Menten Equation)",
+        "Enzyme Inhibition (Reversible and Irreversible)",
+        "Regulation of Enzyme Activity",
+        "Diagnostic and Therapeutic Enzymology",
+        "Coenzymes and Cofactors"
+      ]
+    },
+    {
+      "topic": "Carbohydrate Chemistry and Metabolism",
+      "subtopics": [
+        "Classification and Biomedical Importance",
+        "Digestion and Absorption",
+        "Glycolysis and Oxidation of Pyruvate",
+        "Citric Acid Cycle (TCA Cycle)",
+        "Gluconeogenesis",
+        "Glycogen Metabolism (Glycogenesis and Glycogenolysis)",
+        "Hexose Monophosphate Shunt (HMP Path)",
+        "Uronic Acid Pathway and Galactose Metabolism",
+        "Regulation of Blood Glucose and Diabetes Mellitus",
+        "Inborn Errors of Carbohydrate Metabolism"
+      ]
+    },
+    {
+      "topic": "Lipid Chemistry and Metabolism",
+      "subtopics": [
+        "Classification and Importance of Lipids",
+        "Digestion and Absorption of Lipids",
+        "Fatty Acid Oxidation (Alpha, Beta, Omega)",
+        "Fatty Acid Synthesis and Elongation",
+        "Metabolism of Triacylglycerols and Ketogenesis",
+        "Cholesterol Synthesis, Transport, and Excretion",
+        "Lipoprotein Metabolism and Disorders",
+        "Phospholipids and Glycolipids",
+        "Eicosanoids (Prostaglandins, Leukotrienes)",
+        "Fatty Liver and Lipotropic Factors"
+      ]
+    },
+    {
+      "topic": "Protein and Amino Acid Metabolism",
+      "subtopics": [
+        "Chemistry of Amino Acids and Proteins",
+        "Digestion and Absorption of Proteins",
+        "General Reactions of Amino Acids (Transamination, Deamination)",
+        "Urea Cycle and Ammonia Toxicity",
+        "Metabolism of Individual Amino Acids (Glycine, Phenylalanine, etc.)",
+        "Inborn Errors of Amino Acid Metabolism",
+        "Specialized Products from Amino Acids (Creatine, Histamine)"
+      ]
+    },
+    {
+      "topic": "Biological Oxidation and Bioenergetics",
+      "subtopics": [
+        "High-energy Compounds (ATP)",
+        "Electron Transport Chain (ETC)",
+        "Oxidative Phosphorylation and Chemiosmotic Theory",
+        "Uncouplers and Inhibitors of ETC"
+      ]
+    },
+    {
+      "topic": "Molecular Biology and Genetics",
+      "subtopics": [
+        "Structure and Functions of DNA and RNA",
+        "DNA Replication and Repair Mechanisms",
+        "Transcription and RNA Processing",
+        "Genetic Code and Translation (Protein Synthesis)",
+        "Regulation of Gene Expression (Lac Operon)",
+        "Recombinant DNA Technology and PCR",
+        "Genomics, Proteomics, and Gene Therapy"
+      ]
+    },
+    {
+      "topic": "Vitamins",
+      "subtopics": [
+        "Fat-Soluble Vitamins (A, D, E, K)",
+        "Water-Soluble Vitamins (B-complex, C)",
+        "Antioxidant Vitamins",
+        "Hypervitaminosis and Deficiency Disorders"
+      ]
+    },
+    {
+      "topic": "Minerals and Trace Elements",
+      "subtopics": [
+        "Macro-minerals (Calcium, Phosphorus, Magnesium, Sodium, Potassium)",
+        "Micro-minerals (Iron, Iodine, Copper, Zinc, Selenium, Fluoride)",
+        "Electrolyte Balance and Disorders"
+      ]
+    },
+    {
+      "topic": "Acid-Base Balance and Water Balance",
+      "subtopics": [
+        "Body Buffer Systems",
+        "Respiratory and Renal Regulation of pH",
+        "Acid-Base Imbalances (Acidosis and Alkalosis)",
+        "Anion Gap and Clinical Correlation"
+      ]
+    },
+    {
+      "topic": "Heme Metabolism and Hemoglobin",
+      "subtopics": [
+        "Biosynthesis of Heme and Porphyrias",
+        "Heme Degradation and Bilirubin Metabolism",
+        "Jaundice (Pre-hepatic, Hepatic, Post-hepatic)",
+        "Hemoglobin Variants and Hemoglobinopathies"
+      ]
+    },
+    {
+      "topic": "Clinical Biochemistry",
+      "subtopics": [
+        "Liver Function Tests (LFTs)",
+        "Renal Function Tests (RFTs)",
+        "Gastric and Pancreatic Function Tests",
+        "Thyroid Function Tests",
+        "Cardiac Biomarkers",
+        "Tumor Markers"
+      ]
+    },
+    {
+      "topic": "Nutrition",
+      "subtopics": [
+        "Calorific Value of Food and BMR",
+        "Dietary Fibers and Balanced Diet",
+        "Protein Energy Malnutrition (Kwashiorkor and Marasmus)",
+        "Obesity and Metabolic Syndrome"
+      ]
+    }
+  ]
+}

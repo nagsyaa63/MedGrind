@@ -1,0 +1,97 @@
+{
+  "subject": "Pediatrics",
+  "topics": [
+    {
+      "topic": "Growth and Development",
+      "subtopics": [
+        "Normal Growth Parameters and Charts",
+        "Developmental Milestones (Physical, Social, Language)",
+        "Disorders of Growth (Short Stature)",
+        "Behavioral and Developmental Disorders (ADHD, Autism)"
+      ]
+    },
+    {
+      "topic": "Nutrition and Fluid Electrolyte",
+      "subtopics": [
+        "Breastfeeding and Complementary Feeding",
+        "Nutritional Requirements in Children",
+        "Protein Energy Malnutrition (Kwashiorkor, Marasmus)",
+        "Vitamin and Trace Element Deficiencies",
+        "Fluid and Electrolyte Balance in Children"
+      ]
+    },
+    {
+      "topic": "Neonatology",
+      "subtopics": [
+        "Care of Normal Newborn and Resuscitation",
+        "Low Birth Weight and Prematurity",
+        "Neonatal Sepsis and Meningitis",
+        "Neonatal Jaundice",
+        "Respiratory Distress in Newborn (RDS, MAS, TTN)",
+        "Birth Trauma and Congenital Anomalies"
+      ]
+    },
+    {
+      "topic": "Infectious Diseases",
+      "subtopics": [
+        "Viral Infections (Measles, Mumps, Rubella, Varicella)",
+        "Tuberculosis in Children",
+        "HIV/AIDS and Vertical Transmission",
+        "Malaria, Dengue, and Enteric Fever",
+        "Common Parasitic Infestations",
+        "National Immunization Schedule"
+      ]
+    },
+    {
+      "topic": "Respiratory and Cardiovascular Systems",
+      "subtopics": [
+        "Acute Respiratory Infections (Croup, Epiglottitis, Bronchiolitis)",
+        "Pneumonia and Empyema",
+        "Bronchial Asthma and Cystic Fibrosis",
+        "Congenital Heart Diseases (Acyanotic and Cyanotic)",
+        "Acute Rheumatic Fever and RHD",
+        "Heart Failure in Children"
+      ]
+    },
+    {
+      "topic": "Gastrointestinal and Renal Systems",
+      "subtopics": [
+        "Acute Diarrhea and Dehydration (ORS, Zinc)",
+        "Persistent Diarrhea and Celiac Disease",
+        "Liver Disorders (Hepatitis, Wilson's Disease)",
+        "Acute Glomerulonephritis and Nephrotic Syndrome",
+        "Urinary Tract Infections and VUR",
+        "Acute and Chronic Kidney Injury"
+      ]
+    },
+    {
+      "topic": "Hematology and Oncology",
+      "subtopics": [
+        "Nutritional Anemias (Iron, B12/Folic Acid)",
+        "Hemolytic Anemias (Thalassemia, Sickle Cell)",
+        "Bleeding Disorders (Hemophilia, ITP)",
+        "Pediatric Malignancies (Leukemia, Lymphoma, Wilms Tumor)"
+      ]
+    },
+    {
+      "topic": "Neurology and Endocrinology",
+      "subtopics": [
+        "Meningitis and Encephalitis",
+        "Seizures and Epilepsy (Febrile Seizures)",
+        "Cerebral Palsy and Hydrocephalus",
+        "Childhood Diabetes (Type 1)",
+        "Congenital Hypothyroidism",
+        "Disorders of Sexual Differentiation"
+      ]
+    },
+    {
+      "topic": "Genetics and Social Pediatrics",
+      "subtopics": [
+        "Chromosomal Abnormalities (Down Syndrome, Turner Syndrome)",
+        "Common Inborn Errors of Metabolism",
+        "Adolescent Health and Problems",
+        "Child Abuse and Rights of the Child"
+      ]
+    }
+  ]
+}

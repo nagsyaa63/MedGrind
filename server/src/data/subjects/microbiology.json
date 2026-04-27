@@ -1,0 +1,102 @@
+{
+  "subject": "Microbiology",
+  "topics": [
+    {
+      "topic": "General Microbiology",
+      "subtopics": [
+        "History and Introduction to Microbiology",
+        "Bacterial Morphology and Structure",
+        "Physiology and Growth of Bacteria",
+        "Sterilization and Disinfection",
+        "Bacterial Genetics",
+        "Antimicrobial Resistance and Susceptibility Testing"
+      ]
+    },
+    {
+      "topic": "Immunology",
+      "subtopics": [
+        "Innate and Acquired Immunity",
+        "Antigens and Antibodies (Immunoglobulins)",
+        "Antigen-Antibody Reactions",
+        "Complement System",
+        "Immune Response: Humoral and Cell-Mediated",
+        "Hypersensitivity Reactions",
+        "Autoimmunity and Immunodeficiency",
+        "Transplantation and Tumor Immunology",
+        "Vaccines and Immunoprophylaxis"
+      ]
+    },
+    {
+      "topic": "Systemic Bacteriology",
+      "subtopics": [
+        "Staphylococcus, Streptococcus, and Pneumococcus",
+        "Neisseria (Meningococcus and Gonococcus)",
+        "Corynebacterium diphtheriae",
+        "Bacillus and Clostridium",
+        "Enterobacteriaceae (Salmonella, Shigella, E. coli)",
+        "Vibrio and Pseudomonas",
+        "Haemophilus and Bordetella",
+        "Mycobacterium tuberculosis and M. leprae",
+        "Spirochetes (Treponema, Leptospira)",
+        "Mycoplasma, Chlamydia, and Rickettsia",
+        "Actinomycetes and Nocardia"
+      ]
+    },
+    {
+      "topic": "Virology",
+      "subtopics": [
+        "General Properties and Cultivation of Viruses",
+        "Bacteriophages",
+        "Herpesviruses and Poxviruses",
+        "Adenoviruses and Papillomaviruses",
+        "Hepatitis Viruses",
+        "Picornaviruses (Polio) and Orthomyxoviruses (Influenza)",
+        "Paramyxoviruses (Measles, Mumps, Rubella)",
+        "Rhabdoviruses (Rabies)",
+        "Arboviruses and Hemorrhagic Fever Viruses",
+        "Retroviruses (HIV/AIDS)",
+        "Oncogenic Viruses",
+        "Prions and Slow Viral Diseases"
+      ]
+    },
+    {
+      "topic": "Mycology",
+      "subtopics": [
+        "General Mycology and Classification",
+        "Superficial and Cutaneous Mycoses",
+        "Subcutaneous Mycoses",
+        "Systemic Mycoses",
+        "Opportunistic Mycoses (Candidiasis, Aspergillosis)",
+        "Antifungal Susceptibility Testing"
+      ]
+    },
+    {
+      "topic": "Parasitology",
+      "subtopics": [
+        "Introduction to Parasitology",
+        "Protozoology: Amoeba, Giardia, Trichomonas",
+        "Protozoology: Hemoflagellates (Leishmania, Trypanosoma)",
+        "Protozoology: Plasmodium (Malaria) and Toxoplasma",
+        "Helminthology: Cestodes (Tapeworms)",
+        "Helminthology: Trematodes (Flukes)",
+        "Helminthology: Nematodes (Ascaris, Hookworm, Wuchereria)",
+        "Laboratory Diagnosis of Parasitic Infections"
+      ]
+    },
+    {
+      "topic": "Applied and Clinical Microbiology",
+      "subtopics": [
+        "Infection Control and Hospital-Acquired Infections",
+        "Biomedical Waste Management",
+        "Bacteriology of Water, Milk, and Air",
+        "Sepsis and Bloodstream Infections",
+        "Meningitis and Central Nervous System Infections",
+        "Respiratory Tract Infections",
+        "Gastrointestinal Infections",
+        "Urinary Tract Infections",
+        "Sexually Transmitted Infections",
+        "Normal Flora of Human Body"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "subject": "Anesthesiology",
+  "topics": [
+    {
+      "topic": "General Principles and Physics",
+      "subtopics": [
+        "History of Anesthesia",
+        "Physics Applied to Anesthesia (Gas Laws, Flowmeters)",
+        "Anesthetic Machine and Vaporizers",
+        "Breathing Systems and Scavenging",
+        "Medical Gases and Cylinders"
+      ]
+    },
+    {
+      "topic": "Pre-operative Management",
+      "subtopics": [
+        "Pre-anesthetic Evaluation and Risk Stratification (ASA)",
+        "Pre-medication and Fasting Guidelines",
+        "Informed Consent in Anesthesia",
+        "Management of Co-morbidities (HTN, Diabetes, Cardiac)"
+      ]
+    },
+    {
+      "topic": "Induction and Airway Management",
+      "subtopics": [
+        "Intravenous Anesthetic Agents (Propofol, Ketamine, Etomidate)",
+        "Inhalational Anesthetic Agents (Sevoflurane, Desflurane, N2O)",
+        "Muscle Relaxants (Depolarizing and Non-depolarizing)",
+        "Neuromuscular Blockade Monitoring and Reversal",
+        "Airway Anatomy and Assessment",
+        "Endotracheal Intubation and Supraglottic Airway Devices",
+        "Management of the Difficult Airway"
+      ]
+    },
+    {
+      "topic": "Monitoring and Maintenance",
+      "subtopics": [
+        "Standard Mandatory Monitoring (ECG, SpO2, NIBP, EtCO2)",
+        "Invasive Monitoring (CVP, Arterial Line)",
+        "Depth of Anesthesia Monitoring (BIS)",
+        "Maintenance of General Anesthesia",
+        "Fluid Therapy and Crystalloids vs Colloids"
+      ]
+    },
+    {
+      "topic": "Regional Anesthesia",
+      "subtopics": [
+        "Spinal Anesthesia (Subarachnoid Block)",
+        "Epidural Anesthesia and Analgesia",
+        "Combined Spinal-Epidural (CSE)",
+        "Peripheral Nerve Blocks (Brachial Plexus, Femoral)",
+        "Local Anesthetic Systemic Toxicity (LAST)"
+      ]
+    },
+    {
+      "topic": "Post-operative Care and Complications",
+      "subtopics": [
+        "Recovery Room Management (PACU)",
+        "Post-operative Nausea and Vomiting (PONV)",
+        "Aspiration and Pulmonary Complications",
+        "Awareness Under Anesthesia",
+        "Anesthetic Emergencies (Malignant Hyperthermia)"
+      ]
+    },
+    {
+      "topic": "Critical Care and Resuscitation",
+      "subtopics": [
+        "Basic and Advanced Life Support (BLS/ACLS)",
+        "Mechanical Ventilation in ICU",
+        "Oxygen Therapy and Delivery Devices",
+        "Sepsis and Septic Shock Management",
+        "Poisoning and Acid-Base Disorders"
+      ]
+    },
+    {
+      "topic": "Pain Management",
+      "subtopics": [
+        "Pathophysiology of Acute and Chronic Pain",
+        "WHO Pain Ladder",
+        "Opioid and Non-opioid Analgesics",
+        "Patient Controlled Analgesia (PCA)",
+        "Interventional Pain Techniques"
+      ]
+    },
+    {
+      "topic": "Specialty Anesthesia",
+      "subtopics": [
+        "Obstetric Anesthesia and Labor Analgesia",
+        "Pediatric Anesthesia and Anatomical Differences",
+        "Geriatric Anesthesia",
+        "Neuro-anesthesia and ICP Management",
+        "Cardiac and Thoracic Anesthesia Basics"
+      ]
+    }
+  ]
+}
