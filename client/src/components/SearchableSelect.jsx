@@ -35,6 +35,13 @@ export default function SearchableSelect({
     ? options.filter((o) => o.toLowerCase().includes(query.toLowerCase()))
     : options;
 
+  // Show "Use: [typed text]" when query has no exact match
+  const trimmedQuery = query.trim();
+  const hasExactMatch = trimmedQuery
+    ? options.some((o) => o.toLowerCase() === trimmedQuery.toLowerCase())
+    : false;
+  const showFreeTextOption = trimmedQuery.length > 0 && !hasExactMatch;
+
   // Close on outside click
   useEffect(() => {
     const handler = (e) => {
@@ -139,7 +146,18 @@ export default function SearchableSelect({
             role="listbox"
             className="max-h-52 overflow-y-auto py-1"
           >
-            {filtered.length === 0 ? (
+            {/* Free-text fallback: shown when typed text has no exact match */}
+            {showFreeTextOption && (
+              <li
+                role="option"
+                aria-selected={false}
+                onClick={() => handleSelect(trimmedQuery)}
+                className="px-3 py-2 text-sm cursor-pointer transition-colors text-indigo-600 font-medium hover:bg-indigo-50 border-b border-gray-100"
+              >
+                Use: &ldquo;{trimmedQuery}&rdquo;
+              </li>
+            )}
+            {filtered.length === 0 && !showFreeTextOption ? (
               <li className="px-3 py-2 text-sm text-gray-400 text-center">No results</li>
             ) : (
               filtered.map((opt) => (

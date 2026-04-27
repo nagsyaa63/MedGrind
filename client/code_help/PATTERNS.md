@@ -47,6 +47,20 @@ import { ALLOWED_SUBJECTS, DIFFICULTY_COLORS, OPTION_KEYS } from '../config/cons
 ```
 Never define these locally in components.
 
+## useColleges Hook
+Fetches `/api/colleges` once and caches in module memory (same pattern as `useTaxonomy`).
+
+```js
+import { useColleges } from '../hooks/useColleges';
+const { colleges, loading, error } = useColleges();
+```
+
+- `colleges` — `string[]` of college name strings
+- `loading` — bool, true until first fetch resolves
+- `error` — string | null
+- Module-level `_cache` and `_promise` prevent duplicate requests across re-renders
+- Use with `SearchableSelect` for college name fields; free-text fallback is built into `SearchableSelect`
+
 ## Protected Routes
 Wrap in ProtectedRoute + AppLayout:
 ```jsx
