@@ -180,16 +180,27 @@ export default function AdminBulkUpload() {
         <div className="bg-white border border-gray-200 rounded-lg p-6 space-y-4">
           <p className="text-sm font-semibold text-gray-800">Upload Result</p>
 
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid grid-cols-3 gap-4">
             <div className="bg-green-50 border border-green-200 rounded-lg p-4 text-center">
               <p className="text-3xl font-bold text-green-600">{result.inserted}</p>
-              <p className="text-xs text-green-700 mt-1">Questions inserted</p>
+              <p className="text-xs text-green-700 mt-1">Inserted</p>
+            </div>
+            <div className={`border rounded-lg p-4 text-center ${result.skipped?.length > 0 ? 'bg-amber-50 border-amber-200' : 'bg-gray-50 border-gray-200'}`}>
+              <p className={`text-3xl font-bold ${result.skipped?.length > 0 ? 'text-amber-600' : 'text-gray-400'}`}>{result.skipped?.length || 0}</p>
+              <p className={`text-xs mt-1 ${result.skipped?.length > 0 ? 'text-amber-700' : 'text-gray-500'}`}>Duplicates skipped</p>
             </div>
             <div className={`border rounded-lg p-4 text-center ${result.failed.length > 0 ? 'bg-red-50 border-red-200' : 'bg-gray-50 border-gray-200'}`}>
               <p className={`text-3xl font-bold ${result.failed.length > 0 ? 'text-red-600' : 'text-gray-400'}`}>{result.failed.length}</p>
-              <p className={`text-xs mt-1 ${result.failed.length > 0 ? 'text-red-700' : 'text-gray-500'}`}>Rows failed</p>
+              <p className={`text-xs mt-1 ${result.failed.length > 0 ? 'text-red-700' : 'text-gray-500'}`}>Errors</p>
             </div>
           </div>
+
+          {result.skipped?.length > 0 && (
+            <div className="bg-amber-50 border border-amber-200 rounded-lg p-3 text-xs text-amber-700">
+              <p className="font-medium mb-1">ℹ️ {result.skipped.length} duplicate{result.skipped.length !== 1 ? 's' : ''} skipped</p>
+              <p>These questions already exist in the database (matched by question text). No action taken — existing data is unchanged.</p>
+            </div>
+          )}
 
           {result.failed.length > 0 && (
             <div className="space-y-2">
