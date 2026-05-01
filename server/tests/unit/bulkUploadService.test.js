@@ -1,12 +1,19 @@
 /**
  * bulkUploadService unit tests
- * Tests row validation logic without hitting MongoDB.
+ * Tests row validation and deduplication logic without hitting MongoDB.
  */
 
-// Mock Question.insertMany
-jest.mock('../../src/models/Question', () => ({
-  insertMany: jest.fn().mockResolvedValue([]),
-}));
+// Mock Question model — include generateContentHash using real crypto
+jest.mock('../../src/models/Question', () => {
+  const crypto = require('crypto');
+  return {
+    insertMany: jest.fn().mockResolvedValue([]),
+    generateContentHash: (text) => {
+      const normalized = text.toLowerCase().replace(/\s+/g, ' ').trim();
+      return crypto.createHash('sha256').update(normalized).digest('hex');
+    },
+  };
+});
 
 // Mock taxonomyService
 jest.mock('../../src/services/taxonomyService', () => ({
@@ -39,7 +46,41 @@ describe('bulkUploadService', () => {
     const result = await processBulkUpload(csv, ADMIN_ID);
     expect(result.inserted).toBe(1);
     expect(result.failed).toHaveLength(0);
+    expect(result.skipped).toHaveLength(0);
     expect(Question.insertMany).toHaveBeenCalledTimes(1);
+  });
+
+  it('result always includes skipped array', async () => {
+    const csv = buildCsv([validRow]);
+    const result = await processBulkUpload(csv, ADMIN_ID);
+    expect(result).toHaveProperty('skipped');
+    expect(Array.isArray(result.skipped)).toBe(true);
+  });
+
+  it('attaches contentHash (64-char SHA-256 hex) to each inserted document', async () => {
+    const csv = buildCsv([validRow]);
+    await processBulkUpload(csv, ADMIN_ID);
+    const insertedDoc = Question.insertMany.mock.calls[0][0][0];
+    expect(insertedDoc).toHaveProperty('contentHash');
+    expect(typeof insertedDoc.contentHash).toBe('string');
+    expect(insertedDoc.contentHash).toHaveLength(64);
+  });
+
+  it('counts duplicate key errors (code 11000) as skipped, not failed', async () => {
+    const dupError = new Error('E11000 duplicate key error');
+    dupError.writeErrors = [{
+      index: 0,
+      code: 11000,
+      errmsg: 'E11000 duplicate key error collection: medgrind.questions index: contentHash_1',
+    }];
+    Question.insertMany.mockRejectedValueOnce(dupError);
+
+    const csv = buildCsv([validRow]);
+    const result = await processBulkUpload(csv, ADMIN_ID);
+    expect(result.inserted).toBe(0);
+    expect(result.skipped).toHaveLength(1);
+    expect(result.skipped[0].reason).toMatch(/Duplicate/);
+    expect(result.failed).toHaveLength(0);
   });
 
   it('rejects row with invalid action', async () => {
@@ -91,7 +132,7 @@ describe('bulkUploadService', () => {
     const result = await processBulkUpload(csv, ADMIN_ID);
     expect(result.inserted).toBe(2);
     expect(result.failed).toHaveLength(1);
-    expect(result.failed[0].row).toBe(3); // row 3 (1-based, header=1)
+    expect(result.failed[0].row).toBe(3);
   });
 
   it('explanation is optional — empty string is accepted', async () => {
