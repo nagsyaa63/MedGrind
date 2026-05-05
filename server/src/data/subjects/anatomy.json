@@ -1,200 +1,128 @@
 {
   "subject": "Anatomy",
-  "topics": [
+  "mappings": [
     {
       "topic": "General Anatomy",
       "subtopics": [
-        "Introduction to Anatomy (Anatomical Terminology, Planes, Positions)",
-        "Bones and Cartilage (Classification, Ossification, Blood Supply)",
-        "Joints (Classification, Synovial Joint Structure, Movements)",
-        "Muscles (Classification, Nerve Supply, Actions)",
-        "Blood Vessels (Arteries, Veins, Capillaries, Anastomoses)",
-        "Lymphatic System (Lymph Nodes, Lymphatic Drainage)",
-        "Nervous System Basics (Neuron, Nerve, Dermatome, Myotome)",
-        "Skin and Fascia (Layers, Deep Fascia, Superficial Fascia)"
+        "Terminology, Planes & Positions",
+        "Osteology & Chondrology (Classification, Ossification)",
+        "Arthrology (Synovial joint structure & movements)",
+        "Myology (Classification & Nerve supply)",
+        "Angiology (Arteries, Veins, Anastomoses)",
+        "Lymphatic System & Nervous System Basics",
+        "Integumentary System (Skin & Fascia layers)"
       ]
     },
     {
       "topic": "Upper Limb",
       "subtopics": [
-        "Pectoral Region and Breast",
-        "Axilla (Boundaries, Contents, Axillary Artery, Brachial Plexus)",
-        "Brachial Plexus (Roots, Trunks, Cords, Branches, Injuries)",
-        "Arm (Muscles, Nerves, Vessels, Compartments)",
-        "Forearm (Anterior Compartment, Posterior Compartment, Interosseous Membrane)",
-        "Hand (Muscles, Spaces, Arches, Nerve Supply)",
-        "Shoulder Joint (Anatomy, Rotator Cuff, Movements, Dislocations)",
-        "Elbow Joint (Anatomy, Movements, Cubital Fossa)",
-        "Wrist and Hand Joints (Carpal Tunnel, Anatomical Snuffbox)",
-        "Venous Drainage of Upper Limb (Cephalic, Basilic, Cubital Fossa Veins)",
-        "Lymphatic Drainage of Upper Limb"
+        "Pectoral Region & Breast",
+        "Axilla (Boundaries, Axillary artery, Brachial Plexus)",
+        "Brachial Plexus (Roots to Branches, Injuries)",
+        "Regional Anatomy (Arm, Forearm, Hand spaces/arches)",
+        "Major Joints (Shoulder/Rotator cuff, Elbow, Wrist)",
+        "Neurovascular Structures (Cubital fossa, Carpal tunnel)",
+        "Venous & Lymphatic Drainage"
       ]
     },
     {
       "topic": "Lower Limb",
       "subtopics": [
-        "Front of Thigh (Femoral Triangle, Quadriceps, Femoral Nerve)",
-        "Medial Side of Thigh (Adductors, Obturator Nerve)",
-        "Gluteal Region (Gluteal Muscles, Sciatic Nerve, Piriformis)",
-        "Back of Thigh (Hamstrings, Sciatic Nerve)",
-        "Popliteal Fossa (Boundaries, Contents)",
-        "Leg (Anterior, Lateral, Posterior Compartments)",
-        "Foot (Arches, Muscles, Plantar Aponeurosis)",
-        "Hip Joint (Anatomy, Blood Supply of Femoral Head, Movements)",
-        "Knee Joint (Anatomy, Ligaments, Menisci, Locking)",
-        "Ankle Joint and Foot Joints",
-        "Venous Drainage of Lower Limb (Great Saphenous, Small Saphenous, Perforators)",
-        "Lymphatic Drainage of Lower Limb",
-        "Femoral Hernia Anatomy (Femoral Canal, Femoral Ring)"
+        "Thigh Regions (Femoral triangle, Adductors, Hamstrings)",
+        "Gluteal Region & Sciatic Nerve",
+        "Popliteal Fossa & Leg Compartments",
+        "Foot Anatomy (Arches & Plantar aponeurosis)",
+        "Major Joints (Hip, Knee/Ligaments, Ankle)",
+        "Venous System (Saphenous veins & Perforators)",
+        "Femoral Canal & Hernia Anatomy"
       ]
     },
     {
       "topic": "Thorax",
       "subtopics": [
-        "Thoracic Wall (Ribs, Sternum, Intercostal Muscles, Intercostal Nerves)",
-        "Lungs (Lobes, Bronchopulmonary Segments, Blood Supply, Pleura)",
-        "Mediastinum (Superior, Anterior, Middle, Posterior)",
-        "Heart (Chambers, Valves, Coronary Arteries, Conducting System)",
-        "Pericardium (Layers, Sinuses)",
-        "Great Vessels (Aorta, SVC, IVC, Pulmonary Vessels)",
-        "Thoracic Duct and Lymphatic Drainage",
-        "Esophagus (Thoracic Part, Constrictions)",
-        "Diaphragm (Openings, Nerve Supply)",
-        "Trachea and Bronchi"
+        "Thoracic Wall (Ribs, Intercostal spaces)",
+        "Lungs & Pleura (Bronchopulmonary segments)",
+        "Mediastinum (Divisions & Contents)",
+        "Heart Anatomy (Chambers, Valves, Coronary circulation)",
+        "Pericardium & Great Vessels",
+        "Thoracic Organs (Esophagus, Trachea, Diaphragm)"
       ]
     },
     {
       "topic": "Abdomen",
       "subtopics": [
-        "Anterior Abdominal Wall (Muscles, Layers, Rectus Sheath, Inguinal Canal)",
-        "Peritoneum (Greater Sac, Lesser Sac, Peritoneal Folds, Pouches)",
-        "Stomach (Anatomy, Blood Supply, Lymphatic Drainage, Nerve Supply)",
-        "Duodenum (Parts, Relations, Blood Supply)",
-        "Small Intestine (Jejunum vs Ileum, Meckel's Diverticulum)",
-        "Large Intestine (Cecum, Appendix, Colon, Rectum)",
-        "Liver (Lobes, Segments, Portal Vein, Hepatic Veins, Porta Hepatis)",
-        "Gallbladder and Biliary System (Calot's Triangle, Bile Duct)",
-        "Pancreas (Parts, Relations, Ducts, Blood Supply)",
-        "Spleen (Relations, Blood Supply, Ligaments)",
-        "Kidneys and Ureters (Relations, Blood Supply, Hilum)",
-        "Suprarenal Glands (Blood Supply, Medulla, Cortex)",
-        "Abdominal Aorta and Branches",
-        "Inferior Vena Cava and Tributaries",
-        "Portal Venous System (Portocaval Anastomoses)",
-        "Lymphatic Drainage of Abdomen",
-        "Posterior Abdominal Wall (Psoas, Quadratus Lumborum, Lumbar Plexus)"
+        "Abdominal Wall & Inguinal Canal",
+        "Peritoneum (Sacs, Folds, Pouches)",
+        "Gastrointestinal Tract (Stomach, Duodenum, Intestines)",
+        "Hepatobiliary System (Liver segments, Gallbladder, Pancreas)",
+        "Urogenital Organs (Kidneys, Ureters, Suprarenals)",
+        "Neurovascular (Abdominal aorta, IVC, Portal system, Lumbar plexus)",
+        "Posterior Abdominal Wall & Spleen"
       ]
     },
     {
-      "topic": "Pelvis and Perineum",
+      "topic": "Pelvis & Perineum",
       "subtopics": [
-        "Bony Pelvis (Male vs Female, Pelvic Diameters, Joints)",
-        "Pelvic Floor (Levator Ani, Pelvic Diaphragm)",
-        "Urinary Bladder (Relations, Blood Supply, Nerve Supply)",
-        "Urethra (Male, Female)",
-        "Rectum and Anal Canal (Blood Supply, Lymphatic Drainage, Sphincters)",
-        "Male Reproductive Organs (Prostate, Seminal Vesicles, Vas Deferens, Testis, Epididymis)",
-        "Female Reproductive Organs (Uterus, Ovary, Fallopian Tube, Vagina, Broad Ligament)",
-        "Perineum (Urogenital Triangle, Anal Triangle, Ischioanal Fossa)",
-        "Internal Iliac Artery and Branches",
-        "Pelvic Autonomic Nerves"
+        "Bony Pelvis & Pelvic Floor (Pelvic diaphragm)",
+        "Pelvic Viscera (Urinary bladder, Urethra, Rectum)",
+        "Male Reproductive System (Prostate, Testis, Duct system)",
+        "Female Reproductive System (Uterus, Ovary, Ligaments)",
+        "Perineum (Urogenital & Anal triangles)",
+        "Internal Iliac Artery & Autonomic Nerves"
       ]
     },
     {
-      "topic": "Head and Neck",
+      "topic": "Head & Neck",
       "subtopics": [
-        "Scalp (Layers, Blood Supply, Nerve Supply)",
-        "Face (Muscles of Facial Expression, Facial Nerve, Blood Supply)",
-        "Parotid Gland (Relations, Structures Passing Through, Facial Nerve)",
-        "Submandibular Region (Submandibular Gland, Lingual Nerve, Submandibular Ganglion)",
-        "Temporal and Infratemporal Fossa (Muscles of Mastication, Mandibular Nerve, Maxillary Artery)",
-        "Pterygopalatine Fossa",
-        "Oral Cavity (Tongue, Palate, Floor of Mouth, Salivary Glands)",
-        "Pharynx (Nasopharynx, Oropharynx, Laryngopharynx, Muscles, Nerve Supply)",
-        "Larynx (Cartilages, Muscles, Nerve Supply, Vocal Cords)",
-        "Thyroid Gland (Relations, Blood Supply, Recurrent Laryngeal Nerve)",
-        "Parathyroid Glands",
-        "Neck Triangles (Anterior, Posterior, Suboccipital)",
-        "Cervical Fascia (Layers, Fascial Spaces)",
-        "Carotid System (Common, Internal, External Carotid Arteries)",
-        "Internal Jugular Vein",
-        "Cervical Lymph Nodes (Levels, Drainage)",
-        "Cranial Cavity (Meninges, Dural Folds, Dural Venous Sinuses)",
-        "Orbit (Walls, Contents, Muscles, Nerves, Vessels)",
-        "Ear (External, Middle, Inner Ear Anatomy)",
-        "Nose and Paranasal Sinuses (Lateral Wall, Blood Supply, Nerve Supply)",
-        "Cranial Nerves (I through XII \u2014 Origin, Course, Distribution, Clinical Anatomy)"
+        "Scalp, Face & Muscles of Mastication",
+        "Glands (Parotid, Submandibular, Thyroid, Parathyroid)",
+        "Fossae (Temporal, Infratemporal, Pterygopalatine)",
+        "Viscera (Oral cavity, Pharynx, Larynx/Vocal cords)",
+        "Neck Triangles & Cervical Fascia",
+        "Neurovascular (Carotid system, IJV, Dural sinuses)",
+        "Special Senses (Orbit, Ear, Nose/Sinuses)",
+        "Cranial Nerves (I-XII Course & Clinicals)"
       ]
     },
     {
       "topic": "Neuroanatomy",
       "subtopics": [
-        "Spinal Cord (External Features, Internal Structure, Tracts, Blood Supply)",
-        "Brainstem (Medulla, Pons, Midbrain \u2014 External Features, Internal Structure, Cranial Nerve Nuclei)",
-        "Cerebellum (Lobes, Deep Nuclei, Connections, Functions)",
-        "Diencephalon (Thalamus, Hypothalamus, Epithalamus, Subthalamus)",
-        "Cerebral Hemisphere (Lobes, Sulci, Gyri, Functional Areas)",
-        "White Matter of Cerebrum (Association, Commissural, Projection Fibers, Internal Capsule)",
-        "Basal Ganglia (Caudate, Putamen, Globus Pallidus, Connections, Disorders)",
-        "Limbic System (Hippocampus, Amygdala, Cingulate Gyrus)",
-        "Ventricular System and CSF (Ventricles, Choroid Plexus, CSF Circulation, Hydrocephalus)",
-        "Blood Supply of Brain (Circle of Willis, Anterior, Middle, Posterior Cerebral Arteries)",
-        "Meninges and Intracranial Hemorrhages (Epidural, Subdural, Subarachnoid)",
-        "Ascending Tracts (Dorsal Column, Spinothalamic, Spinocerebellar)",
-        "Descending Tracts (Corticospinal, Corticobulbar, Extrapyramidal)",
-        "Autonomic Nervous System (Sympathetic, Parasympathetic \u2014 Anatomy)",
-        "Cranial Nerve Nuclei and Connections"
+        "Spinal Cord (Internal structure & Tracts)",
+        "Brainstem & Cranial Nerve Nuclei",
+        "Cerebellum & Diencephalon (Thalamus, Hypothalamus)",
+        "Cerebral Hemispheres (Lobes, Functional areas, White matter)",
+        "Basal Ganglia & Limbic System",
+        "Ventricular System & CSF Circulation",
+        "Blood Supply of Brain (Circle of Willis)",
+        "Meninges & Intracranial Hemorrhages"
       ]
     },
     {
       "topic": "Embryology",
       "subtopics": [
-        "Gametogenesis (Spermatogenesis, Oogenesis)",
-        "Fertilization and Implantation",
-        "Bilaminar and Trilaminar Germ Disc (Gastrulation)",
-        "Folding of Embryo",
-        "Placenta and Fetal Membranes",
-        "Development of Cardiovascular System (Heart, Aortic Arches, Fetal Circulation)",
-        "Development of GIT (Foregut, Midgut, Hindgut)",
-        "Development of Urogenital System (Kidney, Ureter, Bladder, Gonads, Genital Ducts)",
-        "Development of Nervous System (Neural Tube, Brain Vesicles, Spinal Cord)",
-        "Development of Head and Neck (Pharyngeal Arches, Pouches, Clefts, Face, Palate)",
-        "Development of Limbs",
-        "Development of Respiratory System",
-        "Development of Musculoskeletal System",
-        "Teratology (Teratogens, Critical Periods, Common Anomalies)",
-        "Twinning (Monozygotic, Dizygotic)"
+        "General Embryology (Gametogenesis to Gastrulation)",
+        "Folding of Embryo & Fetal Membranes",
+        "Systemic Development (CVS, GIT, Urogenital, CNS)",
+        "Head, Neck & Pharyngeal Arch Derivatives",
+        "Development of Limbs & Respiratory System",
+        "Teratology & Twinning"
       ]
     },
     {
       "topic": "Histology",
       "subtopics": [
-        "Epithelial Tissue (Types, Classification, Glands)",
-        "Connective Tissue (Types, Cells, Fibers, Ground Substance)",
-        "Cartilage (Hyaline, Elastic, Fibrocartilage)",
-        "Bone (Compact, Spongy, Haversian System)",
-        "Muscle Tissue (Skeletal, Smooth, Cardiac)",
-        "Nervous Tissue (Neuron, Neuroglia, Nerve Fiber, Synapse)",
-        "Blood and Bone Marrow (RBC, WBC, Platelets, Hematopoiesis)",
-        "Lymphoid Tissue (Lymph Node, Spleen, Thymus, Tonsil, MALT)",
-        "Cardiovascular Histology (Arteries, Veins, Capillaries, Heart)",
-        "Respiratory Histology (Trachea, Bronchi, Lung)",
-        "GIT Histology (Esophagus, Stomach, Small Intestine, Large Intestine, Appendix)",
-        "Liver and Pancreas Histology",
-        "Kidney and Urinary Tract Histology",
-        "Male Reproductive Histology (Testis, Epididymis, Prostate)",
-        "Female Reproductive Histology (Ovary, Uterus, Fallopian Tube, Breast)",
-        "Endocrine Histology (Pituitary, Thyroid, Parathyroid, Adrenal, Pineal)",
-        "Skin Histology (Epidermis, Dermis, Appendages)",
-        "Eye and Ear Histology"
+        "Basic Tissues (Epithelium, Connective, Muscle, Nerve)",
+        "Systemic Histology (CVS, Respiratory, GIT, Liver, Pancreas)",
+        "Urogenital & Endocrine Histology",
+        "Special Senses & Skin Histology",
+        "Lymphoid Organs & Hematopoiesis"
       ]
     },
     {
-      "topic": "Surface and Radiological Anatomy",
+      "topic": "Surface & Radiological Anatomy",
       "subtopics": [
-        "Surface Markings (Heart, Lungs, Liver, Spleen, Kidneys, Major Vessels)",
-        "Cross-Sectional Anatomy (CT/MRI Correlation)",
-        "Radiological Anatomy of Chest, Abdomen, Pelvis, Limbs, Head"
+        "Surface Markings of Major Viscera",
+        "Radiological Anatomy (X-ray, CT, MRI Correlation)"
       ]
     }
   ]

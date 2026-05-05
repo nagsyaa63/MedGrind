@@ -1,318 +1,121 @@
 {
   "subject": "Pathology",
-  "topics": [
+  "mappings": [
     {
-      "topic": "Cell Injury, Cell Death & Adaptations (~25 questions)",
+      "topic": "General Pathology: Cell Injury & Adaptations",
       "subtopics": [
-        "Causes of cell injury (hypoxia, toxins, infections, immunologic, genetic, nutritional)",
-        "Reversible cell injury \u2014 cellular swelling, fatty change",
-        "Irreversible cell injury \u2014 necrosis types (coagulative, liquefactive, caseous, fat, fibrinoid, gangrenous)",
-        "Apoptosis \u2014 intrinsic & extrinsic pathways, examples (physiologic & pathologic)",
-        "Necroptosis, pyroptosis, ferroptosis",
-        "Cellular adaptations \u2014 hypertrophy, hyperplasia, atrophy, metaplasia, dysplasia",
-        "Intracellular accumulations \u2014 lipids, proteins, glycogen, pigments",
-        "Pathologic calcification \u2014 dystrophic vs metastatic",
-        "Cellular aging mechanisms"
+        "Cell Injury Mechanisms (Hypoxia, Reversible vs Irreversible)",
+        "Necrosis Types (Coagulative, Liquefactive, Caseous, Fat, Fibrinoid)",
+        "Apoptosis Pathways (Intrinsic vs Extrinsic)",
+        "Cellular Adaptations (Hypertrophy, Hyperplasia, Atrophy, Metaplasia, Dysplasia)",
+        "Cell Death Variants (Necroptosis, Pyroptosis, Ferroptosis)",
+        "Intracellular Accumulations & Pathologic Calcification (Dystrophic vs Metastatic)",
+        "Cellular Aging"
       ]
     },
     {
-      "topic": "Inflammation & Repair (~30 questions)",
+      "topic": "Inflammation & Repair",
       "subtopics": [
-        "Acute inflammation \u2014 vascular changes, cellular events, chemical mediators",
-        "Vasoactive amines (histamine, serotonin)",
-        "Plasma proteases \u2014 complement, kinin, coagulation systems",
-        "Arachidonic acid metabolites \u2014 prostaglandins, leukotrienes, lipoxins",
-        "Cytokines \u2014 TNF, IL-1, IL-6, chemokines",
-        "Leukocyte recruitment \u2014 rolling, adhesion, transmigration, chemotaxis",
-        "Phagocytosis & intracellular killing \u2014 oxidative burst, MPO-H2O2-halide system",
-        "Outcomes of acute inflammation",
-        "Chronic inflammation \u2014 causes, cells involved (macrophages, lymphocytes, plasma cells)",
-        "Granulomatous inflammation \u2014 types, examples (TB, sarcoidosis, foreign body)",
-        "Tissue repair \u2014 regeneration vs scarring",
-        "Growth factors (EGF, PDGF, FGF, TGF-\u03b2, VEGF)",
-        "Wound healing \u2014 primary & secondary intention",
-        "Factors affecting wound healing",
-        "Abnormal wound healing \u2014 keloid, hypertrophic scar, proud flesh"
+        "Acute Inflammation (Vascular changes, Leukocyte events)",
+        "Chemical Mediators (Vasoactive amines, Arachidonic acid metabolites, Cytokines)",
+        "Phagocytosis & Intracellular Killing (Oxidative burst)",
+        "Chronic & Granulomatous Inflammation (TB, Sarcoidosis)",
+        "Wound Healing (Primary vs Secondary intention)",
+        "Tissue Repair & Regeneration (Growth factors, Keloids, Scars)"
       ]
     },
     {
-      "topic": "Hemodynamic Disorders, Thromboembolism & Shock (~25 questions)",
+      "topic": "Hemodynamics & Immunology",
       "subtopics": [
-        "Edema \u2014 pathophysiology, types (transudate vs exudate)",
-        "Hyperemia & congestion \u2014 active vs passive",
-        "Hemorrhage \u2014 types, clinical significance",
-        "Hemostasis \u2014 normal mechanism (endothelium, platelets, coagulation cascade)",
-        "Thrombosis \u2014 Virchow's triad, morphology, fate of thrombus",
-        "Disseminated intravascular coagulation (DIC)",
-        "Embolism \u2014 pulmonary, systemic, fat, air, amniotic fluid",
-        "Infarction \u2014 red vs white, factors affecting",
-        "Shock \u2014 types (cardiogenic, hypovolemic, septic, neurogenic, anaphylactic)",
-        "Stages of shock \u2014 nonprogressive, progressive, irreversible",
-        "Pathology of shock in various organs"
+        "Edema, Congestion & Hemorrhage",
+        "Hemostasis & Thrombosis (Virchow's Triad, DIC)",
+        "Embolism & Infarction",
+        "Shock (Types, Stages, Organ pathology)",
+        "Hypersensitivity Reactions (Types I-IV)",
+        "Autoimmune Diseases (SLE, Rheumatoid Arthritis, Sjogren, Scleroderma)",
+        "Immunodeficiency & AIDS",
+        "Transplant Rejection & Amyloidosis"
       ]
     },
     {
-      "topic": "Immunopathology (~30 questions)",
+      "topic": "Neoplasia",
       "subtopics": [
-        "Overview of immune system \u2014 innate & adaptive immunity",
-        "Cells of immune system \u2014 T cells, B cells, NK cells, macrophages, dendritic cells",
-        "MHC molecules \u2014 Class I & Class II, antigen presentation",
-        "Hypersensitivity reactions \u2014 Type I (anaphylaxis, atopy), Type II (cytotoxic), Type III (immune complex), Type IV (delayed)",
-        "Autoimmune diseases \u2014 mechanisms of autoimmunity, tolerance",
-        "Systemic lupus erythematosus (SLE) \u2014 pathogenesis, clinical features, LE cell",
-        "Rheumatoid arthritis",
-        "Sj\u00f6gren syndrome",
-        "Systemic sclerosis (scleroderma)",
-        "Mixed connective tissue disease",
-        "Polyarteritis nodosa & other vasculitides",
-        "Immunodeficiency diseases \u2014 primary (DiGeorge, Bruton, SCID, Wiskott-Aldrich, CGD)",
-        "AIDS \u2014 pathogenesis, natural history, opportunistic infections, neoplasms",
-        "Transplant rejection \u2014 hyperacute, acute, chronic; graft-versus-host disease",
-        "Amyloidosis \u2014 classification, pathogenesis, diagnosis (Congo red, apple-green birefringence)"
+        "Benign vs Malignant Characteristics",
+        "Molecular Basis of Cancer (Oncogenes, Tumor Suppressors — p53, RB)",
+        "Carcinogenesis (Chemical, Radiation, Viral/Microbial)",
+        "Hallmarks of Cancer & Metastasis Pathways",
+        "Grading, Staging (TNM) & Tumor Markers (PSA, AFP, CEA)",
+        "Laboratory & Molecular Diagnosis"
       ]
     },
     {
-      "topic": "Neoplasia (~30 questions)",
+      "topic": "Genetic, Pediatric & Environmental Pathology",
       "subtopics": [
-        "Nomenclature & classification of tumors \u2014 benign vs malignant",
-        "Characteristics of benign & malignant tumors (differentiation, rate of growth, local invasion, metastasis)",
-        "Carcinogenesis \u2014 molecular basis (oncogenes, tumor suppressor genes, DNA repair genes)",
-        "Oncogenes \u2014 RAS, MYC, ABL, HER2/NEU, RET",
-        "Tumor suppressor genes \u2014 RB, p53, APC, BRCA1/2, WT1, NF1/2",
-        "Chemical carcinogenesis \u2014 initiators, promoters, direct & indirect acting agents",
-        "Radiation carcinogenesis \u2014 UV, ionizing radiation",
-        "Viral & microbial carcinogenesis \u2014 HPV, EBV, HBV, HCV, HTLV-1, H. pylori",
-        "Tumor immunity \u2014 tumor antigens, immune surveillance, immune evasion",
-        "Clinical features of tumors \u2014 local & hormonal effects, paraneoplastic syndromes",
-        "Grading & staging of tumors \u2014 TNM system",
-        "Laboratory diagnosis \u2014 tumor markers (AFP, CEA, CA-125, PSA, \u03b2-hCG)",
-        "Molecular diagnosis of cancer",
-        "Hallmarks of cancer (Hanahan & Weinberg)",
-        "Metastasis \u2014 pathways (lymphatic, hematogenous, transcoelomic), organ tropism"
+        "Mendelian & Chromosomal Disorders (Down, Turner, Marfan)",
+        "Storage Diseases (Gaucher, Niemann-Pick, Glycogen storage)",
+        "Pediatric Tumors (Wilms, Neuroblastoma, Retinoblastoma)",
+        "Nutritional Deficiencies (PEM, Vitamin & Mineral deficiencies)",
+        "Environmental & Lifestyle Injuries (Tobacco, Alcohol, Radiation)"
       ]
     },
     {
-      "topic": "Genetic & Pediatric Diseases (~20 questions)",
+      "topic": "Hematopathology",
       "subtopics": [
-        "Mendelian disorders \u2014 autosomal dominant, autosomal recessive, X-linked",
-        "Marfan syndrome, Ehlers-Danlos syndrome, familial hypercholesterolemia",
-        "Storage diseases \u2014 Gaucher, Niemann-Pick, Tay-Sachs, mucopolysaccharidoses",
-        "Glycogen storage diseases",
-        "Chromosomal disorders \u2014 Down syndrome, Turner syndrome, Klinefelter syndrome",
-        "Single gene disorders with atypical inheritance \u2014 trinucleotide repeats, mitochondrial, genomic imprinting",
-        "Cystic fibrosis \u2014 pathogenesis, clinical features",
-        "Phenylketonuria, galactosemia, alkaptonuria",
-        "Pediatric tumors \u2014 Wilms tumor, neuroblastoma, retinoblastoma"
+        "Anemias (Iron deficiency, Megaloblastic, Aplastic, Hemolytic)",
+        "Thalassemias & Sickle Cell Disease",
+        "Bleeding Disorders (Hemophilia, ITP, vWD, DIC)",
+        "Acute & Chronic Leukemias (ALL, AML, CML, CLL)",
+        "Lymphomas (Hodgkin vs NHL, Reed-Sternberg cells)",
+        "Plasma Cell Neoplasms (Multiple Myeloma) & Myeloproliferative disorders"
       ]
     },
     {
-      "topic": "Environmental & Nutritional Diseases (~15 questions)",
+      "topic": "Cardiovascular & Respiratory Pathology",
       "subtopics": [
-        "Environmental pollution \u2014 air, water, occupational",
-        "Tobacco-related diseases",
-        "Alcohol-related diseases",
-        "Drug injury & adverse drug reactions",
-        "Radiation injury",
-        "Protein-energy malnutrition \u2014 marasmus, kwashiorkor",
-        "Vitamin deficiencies \u2014 A, D, E, K, B1, B2, B3, B6, B12, C, folate",
-        "Mineral deficiencies \u2014 iron, zinc, iodine, selenium",
-        "Obesity & its complications"
+        "Atherosclerosis & Ischemic Heart Disease (MI, Angina)",
+        "Valvular & Hypertensive Heart Disease",
+        "Cardiomyopathies, Myocarditis & Pericardial disease",
+        "Vasculitis & Aneurysms",
+        "Obstructive vs Restrictive Lung Diseases (COPD, Asthma, Silicosis)",
+        "Pulmonary Infections (Pneumonia, TB) & Lung Tumors",
+        "Pleural Diseases & ARDS"
       ]
     },
     {
-      "topic": "Hematopathology (~30 questions)",
+      "topic": "Gastrointestinal & Hepatobiliary Pathology",
       "subtopics": [
-        "Anemias \u2014 classification (morphologic, etiologic)",
-        "Iron deficiency anemia \u2014 pathogenesis, peripheral smear, iron studies",
-        "Megaloblastic anemia \u2014 B12 & folate deficiency, pernicious anemia",
-        "Aplastic anemia \u2014 causes, pathology",
-        "Hemolytic anemias \u2014 classification (intrinsic vs extrinsic)",
-        "Hereditary spherocytosis, G6PD deficiency",
-        "Sickle cell disease \u2014 pathogenesis, complications",
-        "Thalassemias \u2014 alpha & beta, pathogenesis, clinical features",
-        "Hemolytic disease of newborn",
-        "Bleeding disorders \u2014 platelet disorders (ITP, TTP, HUS), coagulation disorders (hemophilia A & B, von Willebrand disease)",
-        "DIC \u2014 pathogenesis, lab findings",
-        "White blood cell disorders \u2014 leukocytosis, leukopenia",
-        "Acute leukemias \u2014 ALL, AML, classification (FAB, WHO)",
-        "Chronic leukemias \u2014 CML, CLL",
-        "Lymphomas \u2014 Hodgkin lymphoma (types, Reed-Sternberg cell), Non-Hodgkin lymphoma (classification, types)",
-        "Plasma cell neoplasms \u2014 multiple myeloma, Waldenstr\u00f6m macroglobulinemia",
-        "Myeloproliferative neoplasms \u2014 polycythemia vera, essential thrombocythemia, myelofibrosis",
-        "Myelodysplastic syndromes",
-        "Spleen disorders \u2014 splenomegaly, hypersplenism",
-        "Thymus pathology \u2014 thymoma, thymic hyperplasia"
+        "Esophageal & Gastric Diseases (Barrett’s, H. pylori, PUD, Tumors)",
+        "IBD (Crohn's vs Ulcerative Colitis) & Malabsorption",
+        "Colorectal Polyps & Carcinoma",
+        "Hepatitis (Viral, Autoimmune) & Cirrhosis (Portal Hypertension)",
+        "Alcoholic & Non-alcoholic Fatty Liver Disease (NAFLD)",
+        "Hepatobiliary & Pancreatic Tumors",
+        "Gallbladder Disease & Pancreatitis"
       ]
     },
     {
-      "topic": "Cardiovascular Pathology (~25 questions)",
+      "topic": "Renal & Reproductive Pathology",
       "subtopics": [
-        "Atherosclerosis \u2014 pathogenesis (response to injury), risk factors, morphology, complications",
-        "Ischemic heart disease \u2014 angina pectoris, myocardial infarction (pathology, complications, biomarkers)",
-        "Hypertensive heart disease \u2014 systemic & pulmonary",
-        "Valvular heart disease \u2014 rheumatic heart disease, mitral valve prolapse, infective endocarditis, Libman-Sacks endocarditis",
-        "Cardiomyopathies \u2014 dilated, hypertrophic, restrictive",
-        "Myocarditis \u2014 viral, giant cell, hypersensitivity",
-        "Pericardial diseases \u2014 pericarditis, pericardial effusion, cardiac tamponade",
-        "Congenital heart diseases \u2014 left-to-right shunts (ASD, VSD, PDA), right-to-left shunts (TOF, TGA), obstructive lesions (coarctation)",
-        "Cardiac tumors \u2014 myxoma, rhabdomyoma",
-        "Vasculitis \u2014 large vessel (giant cell, Takayasu), medium vessel (PAN, Kawasaki), small vessel (Wegener/GPA, Churg-Strauss, microscopic polyangiitis)",
-        "Aneurysms & dissections \u2014 aortic aneurysm, aortic dissection",
-        "Varicose veins, DVT, lymphedema"
+        "Glomerular Diseases (Nephrotic vs Nephritic Syndromes)",
+        "Tubular & Interstitial Diseases (ATN, Pyelonephritis)",
+        "Renal & Bladder Tumors (RCC, Wilms, Urothelial)",
+        "Testicular & Prostatic Pathology (BPH, Prostatic Carcinoma, GCTs)",
+        "Uterine & Cervical Pathology (CIN, Endometriosis, Hyperplasia)",
+        "Ovarian Tumors & Gestational Trophoblastic Disease",
+        "Breast Pathology (Fibrocystic changes, Breast Carcinoma subtypes)"
       ]
     },
     {
-      "topic": "Respiratory Pathology (~25 questions)",
+      "topic": "Systemic Pathology (Endocrine, MSK, Skin, CNS)",
       "subtopics": [
-        "Atelectasis \u2014 types (resorption, compression, contraction)",
-        "Pulmonary edema & ARDS",
-        "Obstructive lung diseases \u2014 emphysema (types), chronic bronchitis, asthma, bronchiectasis",
-        "Restrictive lung diseases \u2014 pneumoconioses (asbestosis, silicosis, coal workers), sarcoidosis, idiopathic pulmonary fibrosis",
-        "Pulmonary infections \u2014 pneumonia (lobar, bronchopneumonia, interstitial), lung abscess, tuberculosis",
-        "Pulmonary embolism & infarction",
-        "Pulmonary hypertension \u2014 primary & secondary",
-        "Lung tumors \u2014 bronchogenic carcinoma (squamous, adeno, small cell, large cell), carcinoid, mesothelioma",
-        "Pleural diseases \u2014 pleural effusion, pneumothorax, mesothelioma",
-        "Nasopharyngeal carcinoma, laryngeal tumors"
-      ]
-    },
-    {
-      "topic": "GIT Pathology (~25 questions)",
-      "subtopics": [
-        "Oral pathology \u2014 leukoplakia, oral cancers, salivary gland tumors (pleomorphic adenoma, Warthin tumor)",
-        "Esophageal diseases \u2014 esophagitis, Barrett esophagus, esophageal carcinoma (squamous vs adeno), varices, achalasia",
-        "Gastritis \u2014 acute & chronic, H. pylori-associated",
-        "Peptic ulcer disease \u2014 gastric vs duodenal",
-        "Gastric tumors \u2014 adenocarcinoma (intestinal vs diffuse), GIST, lymphoma, carcinoid",
-        "Malabsorption syndromes \u2014 celiac disease, tropical sprue, Whipple disease",
-        "Inflammatory bowel disease \u2014 Crohn disease vs ulcerative colitis",
-        "Ischemic bowel disease",
-        "Diverticular disease",
-        "Polyps \u2014 hyperplastic, adenomatous (tubular, villous, tubulovillous), familial polyposis syndromes",
-        "Colorectal carcinoma \u2014 pathogenesis (APC/\u03b2-catenin pathway, microsatellite instability), staging",
-        "Appendicitis \u2014 acute, carcinoid tumor of appendix",
-        "Peritoneal diseases"
-      ]
-    },
-    {
-      "topic": "Hepatobiliary & Pancreatic Pathology (~25 questions)",
-      "subtopics": [
-        "Jaundice \u2014 classification (prehepatic, hepatic, posthepatic), neonatal jaundice",
-        "Hepatitis \u2014 viral (A, B, C, D, E), autoimmune, drug-induced",
-        "Cirrhosis \u2014 pathogenesis, morphology, complications (portal hypertension, ascites, hepatorenal syndrome)",
-        "Alcoholic liver disease \u2014 fatty liver, alcoholic hepatitis, cirrhosis",
-        "Non-alcoholic fatty liver disease (NAFLD/NASH)",
-        "Metabolic liver diseases \u2014 hemochromatosis, Wilson disease, \u03b11-antitrypsin deficiency",
-        "Liver tumors \u2014 hepatocellular carcinoma, hepatoblastoma, cholangiocarcinoma, metastatic tumors",
-        "Gallbladder diseases \u2014 cholelithiasis, cholecystitis, gallbladder carcinoma",
-        "Diseases of bile ducts \u2014 cholangitis, biliary atresia",
-        "Pancreatitis \u2014 acute & chronic, pathogenesis",
-        "Pancreatic tumors \u2014 ductal adenocarcinoma, pancreatic neuroendocrine tumors (insulinoma, gastrinoma)"
-      ]
-    },
-    {
-      "topic": "Renal Pathology (~25 questions)",
-      "subtopics": [
-        "Glomerular diseases \u2014 nephrotic vs nephritic syndrome",
-        "Minimal change disease",
-        "Membranous nephropathy",
-        "Focal segmental glomerulosclerosis",
-        "Membranoproliferative glomerulonephritis",
-        "IgA nephropathy (Berger disease)",
-        "Post-streptococcal glomerulonephritis",
-        "Rapidly progressive (crescentic) glomerulonephritis \u2014 types (anti-GBM, immune complex, pauci-immune)",
-        "Diabetic nephropathy",
-        "Lupus nephritis \u2014 WHO classification",
-        "Tubular & interstitial diseases \u2014 acute tubular necrosis, tubulointerstitial nephritis, drug-induced",
-        "Urinary tract infections \u2014 pyelonephritis (acute & chronic)",
-        "Nephrolithiasis \u2014 types of stones",
-        "Cystic diseases \u2014 ADPKD, ARPKD, medullary sponge kidney",
-        "Renal tumors \u2014 renal cell carcinoma (clear cell, papillary, chromophobe), Wilms tumor, angiomyolipoma",
-        "Obstructive uropathy \u2014 hydronephrosis",
-        "Bladder tumors \u2014 urothelial (transitional cell) carcinoma"
-      ]
-    },
-    {
-      "topic": "Male Reproductive Pathology (~15 questions)",
-      "subtopics": [
-        "Testicular tumors \u2014 germ cell tumors (seminoma, embryonal carcinoma, yolk sac, choriocarcinoma, teratoma), sex cord-stromal tumors (Leydig, Sertoli)",
-        "Cryptorchidism",
-        "Testicular torsion, epididymitis, orchitis",
-        "Prostate \u2014 benign prostatic hyperplasia (BPH), prostatic carcinoma (Gleason grading)",
-        "Prostatitis",
-        "Penile pathology \u2014 phimosis, hypospadias, penile carcinoma"
-      ]
-    },
-    {
-      "topic": "Female Reproductive & Breast Pathology (~25 questions)",
-      "subtopics": [
-        "Cervical pathology \u2014 cervicitis, CIN (cervical intraepithelial neoplasia), cervical carcinoma (squamous vs adeno), HPV role, Pap smear",
-        "Endometrial pathology \u2014 endometritis, endometrial hyperplasia, endometrial carcinoma (Type I vs Type II)",
-        "Endometriosis & adenomyosis",
-        "Uterine leiomyoma & leiomyosarcoma",
-        "Ovarian tumors \u2014 surface epithelial (serous, mucinous, endometrioid, clear cell, Brenner), germ cell (dysgerminoma, teratoma, yolk sac, choriocarcinoma), sex cord-stromal (granulosa cell, fibroma, Sertoli-Leydig)",
-        "Gestational trophoblastic disease \u2014 hydatidiform mole (complete vs partial), choriocarcinoma",
-        "Ectopic pregnancy, placental abnormalities",
-        "Vulvar & vaginal pathology",
-        "Breast pathology \u2014 fibrocystic changes, fibroadenoma, phyllodes tumor, intraductal papilloma",
-        "Breast carcinoma \u2014 ductal carcinoma in situ, lobular carcinoma in situ, invasive ductal, invasive lobular, Paget disease, inflammatory carcinoma",
-        "Molecular classification of breast cancer (ER, PR, HER2)",
-        "Gynecomastia"
-      ]
-    },
-    {
-      "topic": "Endocrine Pathology (~25 questions)",
-      "subtopics": [
-        "Pituitary \u2014 adenomas (prolactinoma, GH-secreting, ACTH-secreting), hypopituitarism, Sheehan syndrome, craniopharyngioma",
-        "Thyroid \u2014 goiter (diffuse, multinodular), Graves disease, Hashimoto thyroiditis, De Quervain thyroiditis, Riedel thyroiditis",
-        "Thyroid tumors \u2014 papillary carcinoma, follicular carcinoma, medullary carcinoma, anaplastic carcinoma",
-        "Parathyroid \u2014 hyperparathyroidism (primary, secondary, tertiary), hypoparathyroidism",
-        "Adrenal cortex \u2014 Cushing syndrome, Conn syndrome (primary hyperaldosteronism), adrenogenital syndrome, Addison disease, adrenal cortical tumors",
-        "Adrenal medulla \u2014 pheochromocytoma, neuroblastoma",
-        "MEN syndromes \u2014 MEN 1, MEN 2A, MEN 2B",
-        "Diabetes mellitus \u2014 Type 1 & Type 2, pathogenesis, complications (micro & macrovascular)",
-        "Pancreatic neuroendocrine tumors \u2014 insulinoma, gastrinoma, glucagonoma, VIPoma",
-        "Pineal gland tumors"
-      ]
-    },
-    {
-      "topic": "Bone, Joint & Soft Tissue Pathology (~20 questions)",
-      "subtopics": [
-        "Bone formation & remodeling disorders",
-        "Osteoporosis \u2014 pathogenesis, types",
-        "Paget disease of bone",
-        "Osteomalacia & rickets",
-        "Osteomyelitis \u2014 pyogenic, tuberculous",
-        "Bone tumors \u2014 osteosarcoma, chondrosarcoma, Ewing sarcoma, giant cell tumor, osteochondroma, enchondroma, osteoid osteoma",
-        "Metastatic bone disease",
-        "Joint diseases \u2014 osteoarthritis, rheumatoid arthritis, gout & pseudogout, infectious arthritis",
-        "Soft tissue tumors \u2014 lipoma, liposarcoma, fibrosarcoma, rhabdomyosarcoma, synovial sarcoma",
-        "Skeletal muscle diseases \u2014 muscular dystrophies"
-      ]
-    },
-    {
-      "topic": "Skin Pathology (~15 questions)",
-      "subtopics": [
-        "Inflammatory dermatoses \u2014 eczema, psoriasis, lichen planus, pemphigus, pemphigoid",
-        "Infectious skin diseases \u2014 fungal, viral (molluscum, verruca), bacterial",
-        "Skin tumors \u2014 benign (seborrheic keratosis, actinic keratosis, keratoacanthoma, nevus)",
-        "Malignant skin tumors \u2014 basal cell carcinoma, squamous cell carcinoma, melanoma (types, Clark levels, Breslow thickness)",
-        "Dermatitis herpetiformis",
-        "Skin manifestations of systemic diseases"
-      ]
-    },
-    {
-      "topic": "CNS Pathology (~20 questions)",
-      "subtopics": [
-        "Cerebrovascular diseases \u2014 ischemic stroke, hemorrhagic stroke, subarachnoid hemorrhage, berry aneurysm",
-        "CNS infections \u2014 meningitis (bacterial, viral, TB, fungal), brain abscess, encephalitis (HSV, rabies)",
-        "Prion diseases \u2014 Creutzfeldt-Jakob disease",
-        "Demyelinating diseases \u2014 multiple sclerosis, Guillain-Barr\u00e9 syndrome",
-        "Neurodegenerative diseases \u2014 Alzheimer disease, Parkinson disease, Huntington disease, ALS",
-        "CNS tumors \u2014 gliomas (astrocytoma, glioblastoma, oligodendroglioma, ependymoma), meningioma, schwannoma, medulloblastoma, craniopharyngioma",
-        "Raised intracranial pressure \u2014 hydrocephalus, brain herniation",
-        "Peripheral neuropathies",
-        "Phakomatoses \u2014 neurofibromatosis, tuberous sclerosis, von Hippel-Lindau"
+        "Pituitary, Thyroid & Adrenal Disorders",
+        "Diabetes Mellitus Pathogenesis & Complications",
+        "Bone Tumors (Osteosarcoma, Ewing, GCT) & Joint diseases (Gout, RA)",
+        "Metabolic Bone Disease (Osteoporosis, Paget, Rickets)",
+        "Skin Tumors (BCC, SCC, Melanoma) & Inflammatory Dermatoses",
+        "Cerebrovascular Disease (Stroke) & CNS Infections",
+        "Neurodegenerative & Demyelinating Diseases (Alzheimer, MS)",
+        "CNS Tumors & Phakomatoses"
       ]
     }
   ]

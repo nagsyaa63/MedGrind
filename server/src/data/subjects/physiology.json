@@ -1,162 +1,142 @@
 {
   "subject": "Physiology",
-  "topics": [
+  "mappings": [
     {
-      "topic": "General Physiology (~20 questions)",
+      "topic": "General Physiology",
       "subtopics": [
-        "Cell Structure and Function [cite: uploaded:physiologyinfo.md]",
-        "Cell Membrane Transport (Diffusion, Osmosis, Active Transport, Ion Channels) [cite: uploaded:physiologyinfo.md]",
-        "Resting Membrane Potential and Action Potential [cite: uploaded:physiologyinfo.md]",
-        "Synaptic Transmission [cite: uploaded:physiologyinfo.md]",
-        "Body Fluid Compartments (ICF, ECF, Plasma Volume) [cite: uploaded:physiologyinfo.md]"
+        "Cell Structure and Function",
+        "Cell Membrane Transport (Diffusion, Osmosis, Active/Passive Transport)",
+        "Resting Membrane Potential & Action Potential (Ion channels)",
+        "Synaptic Transmission & Neurotransmitters",
+        "Body Fluid Compartments (ICF vs ECF, Plasma volume)"
       ]
     },
     {
-      "topic": "Blood (Hematology) (~25 questions)",
+      "topic": "Blood (Hematology)",
       "subtopics": [
-        "Composition of Blood (Plasma, Formed Elements) [cite: uploaded:physiologyinfo.md]",
-        "Red Blood Cells (Erythropoiesis, Hemoglobin, Iron Metabolism) [cite: uploaded:physiologyinfo.md]",
-        "White Blood Cells (Types, Functions, Differential Count) [cite: uploaded:physiologyinfo.md]",
-        "Platelets and Hemostasis (Platelet Plug, Coagulation Cascade, Fibrinolysis) [cite: uploaded:physiologyinfo.md]",
-        "Blood Groups (ABO, Rh System, Transfusion Reactions) [cite: uploaded:physiologyinfo.md]",
-        "Anemia (Classification, Iron Deficiency, Megaloblastic) [cite: uploaded:physiologyinfo.md]",
-        "ESR, PCV, Blood Indices (MCV, MCH, MCHC) [cite: uploaded:physiologyinfo.md]",
-        "Reticuloendothelial System [cite: uploaded:physiologyinfo.md]"
+        "Composition of Blood (Plasma and Formed elements)",
+        "Red Blood Cells (Erythropoiesis, Hb, Iron metabolism)",
+        "White Blood Cells (Types, Functions, Immunity basics)",
+        "Platelets & Hemostasis (Coagulation cascade, Fibrinolysis)",
+        "Blood Groups (ABO, Rh system, Transfusion compatibility)",
+        "Anemia (Iron deficiency, Megaloblastic, Classification)",
+        "Blood Indices (MCV, MCH, MCHC, ESR, PCV)",
+        "Reticuloendothelial System"
       ]
     },
     {
-      "topic": "Cardiovascular System (~30 questions)",
+      "topic": "Cardiovascular System",
       "subtopics": [
-        "Properties of Cardiac Muscle (Automaticity, Rhythmicity, Conductivity) [cite: uploaded:physiologyinfo.md]",
-        "Cardiac Cycle (Phases, Pressure-Volume Changes, Heart Sounds) [cite: uploaded:physiologyinfo.md]",
-        "ECG (Normal ECG, Waves, Intervals, Axis, Arrhythmias) [cite: uploaded:physiologyinfo.md]",
-        "Cardiac Output (Measurement, Regulation, Starling's Law) [cite: uploaded:physiologyinfo.md]",
-        "Blood Pressure (Regulation, Baroreceptor Reflex, Renin-Angiotensin System) [cite: uploaded:physiologyinfo.md]",
-        "Arterial Pulse and Venous Pulse (JVP Waves) [cite: uploaded:physiologyinfo.md]",
-        "Regional Circulation (Coronary, Cerebral, Splanchnic, Cutaneous, Fetal) [cite: uploaded:physiologyinfo.md]",
-        "Shock (Types, Compensatory Mechanisms) [cite: uploaded:physiologyinfo.md]",
-        "Heart Failure (Pathophysiology) [cite: uploaded:physiologyinfo.md]",
-        "Exercise Physiology (Cardiovascular Responses) [cite: uploaded:physiologyinfo.md]"
+        "Properties of Cardiac Muscle (Conductivity, Rhythmicity)",
+        "Cardiac Cycle (Phases, PV Loops, Heart Sounds)",
+        "ECG interpretation (Waves, Intervals, Basic arrhythmias)",
+        "Cardiac Output (Regulation, Starling's Law, Measurement)",
+        "Blood Pressure Regulation (Baroreceptors, RAAS)",
+        "Pulses (Arterial vs JVP waves)",
+        "Regional Circulation (Coronary, Cerebral, Fetal)",
+        "Pathophysiology of Shock & Heart Failure",
+        "Exercise Physiology (CV responses)"
       ]
     },
     {
-      "topic": "Respiratory System (~25 questions)",
+      "topic": "Respiratory System",
       "subtopics": [
-        "Mechanics of Breathing (Inspiration, Expiration, Compliance, Surfactant) [cite: uploaded:physiologyinfo.md]",
-        "Lung Volumes and Capacities (Spirometry, TV, IRV, ERV, RV, VC, TLC, FRC) [cite: uploaded:physiologyinfo.md]",
-        "Gas Exchange (Diffusion, Partial Pressures, Oxygen-Hemoglobin Dissociation Curve) [cite: uploaded:physiologyinfo.md]",
-        "Transport of Gases (O2 Transport, CO2 Transport, Chloride Shift) [cite: uploaded:physiologyinfo.md]",
-        "Regulation of Respiration (Respiratory Centers, Chemical and Neural Control) [cite: uploaded:physiologyinfo.md]",
-        "Ventilation-Perfusion Ratio (V/Q Mismatch, Dead Space, Shunt) [cite: uploaded:physiologyinfo.md]",
-        "Pulmonary Function Tests (FEV1, FVC, PEFR) [cite: uploaded:physiologyinfo.md]",
-        "Hypoxia (Types, Cyanosis) [cite: uploaded:physiologyinfo.md]",
-        "High Altitude and Deep Sea Physiology [cite: uploaded:physiologyinfo.md]",
-        "Artificial Respiration [cite: uploaded:physiologyinfo.md]"
+        "Mechanics of Breathing (Compliance, Surfactant, Work of breathing)",
+        "Lung Volumes & Capacities (Spirometry/Static volumes)",
+        "Gas Exchange (Diffusion, Partial pressures, V/Q Ratio)",
+        "Oxygen-Hemoglobin Dissociation Curve & Chloride shift",
+        "Transport of O2 and CO2",
+        "Regulation of Respiration (Neural & Chemical control)",
+        "Pulmonary Function Tests (FEV1, FVC, PEFR)",
+        "Hypoxia types & Cyanosis"
       ]
     },
     {
-      "topic": "Renal Physiology (~25 questions)",
+      "topic": "Renal Physiology",
       "subtopics": [
-        "Nephron Structure and Function [cite: uploaded:physiologyinfo.md]",
-        "Glomerular Filtration (GFR, Filtration Fraction, Clearance) [cite: uploaded:physiologyinfo.md]",
-        "Tubular Reabsorption and Secretion (PCT, Loop of Henle, DCT, Collecting Duct) [cite: uploaded:physiologyinfo.md]",
-        "Countercurrent Mechanism (Concentration and Dilution of Urine) [cite: uploaded:physiologyinfo.md]",
-        "Renal Regulation of Acid-Base Balance (Bicarbonate Reabsorption, H+ Secretion, Ammonia Buffer) [cite: uploaded:physiologyinfo.md]",
-        "Renal Blood Flow (Autoregulation, Tubuloglomerular Feedback) [cite: uploaded:physiologyinfo.md]",
-        "Micturition (Reflex, Neural Control, Cystometrogram) [cite: uploaded:physiologyinfo.md]",
-        "Diuretics (Site of Action \u2014 Physiology Basis) [cite: uploaded:physiologyinfo.md]",
-        "Renal Function Tests (Clearance, GFR Estimation) [cite: uploaded:physiologyinfo.md]",
-        "Acid-Base Disorders (Metabolic/Respiratory Acidosis and Alkalosis, Compensation, ABG Interpretation) [cite: uploaded:physiologyinfo.md]"
+        "Nephron Structure & GFR (Autoregulation, Clearance)",
+        "Tubular Function (PCT, Loop of Henle, DCT, Collecting Duct)",
+        "Countercurrent Mechanism (Concentration & Dilution)",
+        "Acid-Base Balance (Renal compensation, Ammonia buffer)",
+        "Micturition Reflex & Cystometrogram",
+        "Physiological basis of Diuretics",
+        "Acid-Base Disorders (ABG interpretation, Acidosis/Alkalosis)"
       ]
     },
     {
-      "topic": "GIT Physiology (~25 questions)",
+      "topic": "GIT Physiology",
       "subtopics": [
-        "Salivary Secretion (Composition, Regulation) [cite: uploaded:physiologyinfo.md]",
-        "Gastric Secretion (HCl, Pepsinogen, Intrinsic Factor, Phases of Secretion) [cite: uploaded:physiologyinfo.md]",
-        "Pancreatic Secretion (Enzymes, Bicarbonate, Regulation) [cite: uploaded:physiologyinfo.md]",
-        "Bile Secretion and Gallbladder Function (Bile Salts, Enterohepatic Circulation) [cite: uploaded:physiologyinfo.md]",
-        "Intestinal Secretion and Absorption (Carbohydrates, Proteins, Fats, Water, Electrolytes) [cite: uploaded:physiologyinfo.md]",
-        "GIT Motility (Peristalsis, Segmentation, MMC, Gastric Emptying, Deglutition) [cite: uploaded:physiologyinfo.md]",
-        "Defecation Reflex [cite: uploaded:physiologyinfo.md]",
-        "GIT Hormones (Gastrin, CCK, Secretin, GIP, Motilin, VIP) [cite: uploaded:physiologyinfo.md]",
-        "Liver Functions [cite: uploaded:physiologyinfo.md]",
-        "Vomiting Reflex [cite: uploaded:physiologyinfo.md]"
+        "Salivary and Gastric Secretions (HCl production phases)",
+        "Pancreatic & Bile Secretion (Enzymes, Enterohepatic circulation)",
+        "Digestion & Absorption of Macronutrients/Electrolytes",
+        "GIT Motility (Peristalsis, Segmental, MMC, Deglutition)",
+        "Defecation & Vomiting Reflexes",
+        "GIT Hormones (Gastrin, CCK, Secretin, VIP, Motilin)",
+        "Liver Functions"
       ]
     },
     {
-      "topic": "Endocrine System (~30 questions)",
+      "topic": "Endocrine System",
       "subtopics": [
-        "General Principles (Hormone Classification, Mechanism of Action, Feedback) [cite: uploaded:physiologyinfo.md]",
-        "Hypothalamus and Pituitary (Anterior \u2014 GH, PRL, ACTH, TSH, FSH, LH; Posterior \u2014 ADH, Oxytocin) [cite: uploaded:physiologyinfo.md]",
-        "Thyroid Gland (T3, T4 Synthesis, Actions, Regulation, Thyroid Function Tests) [cite: uploaded:physiologyinfo.md]",
-        "Adrenal Cortex (Cortisol, Aldosterone, Androgens, Cushing's, Addison's) [cite: uploaded:physiologyinfo.md]",
-        "Adrenal Medulla (Catecholamines, Fight-or-Flight Response) [cite: uploaded:physiologyinfo.md]",
-        "Pancreatic Hormones (Insulin, Glucagon, Somatostatin, Blood Glucose Regulation) [cite: uploaded:physiologyinfo.md]",
-        "Calcium Metabolism (PTH, Calcitonin, Vitamin D) [cite: uploaded:physiologyinfo.md]",
-        "Growth Hormone (Actions, Regulation, Gigantism, Dwarfism, Acromegaly) [cite: uploaded:physiologyinfo.md]",
-        "Diabetes Mellitus (Type 1, Type 2 \u2014 Pathophysiology) [cite: uploaded:physiologyinfo.md]"
+        "Hormone mechanism of action & Feedback loops",
+        "Hypothalamus-Pituitary Axis (Anterior vs Posterior hormones)",
+        "Thyroid Gland (T3/T4 synthesis, TFTs, Hyper/Hypothyroidism)",
+        "Adrenal Cortex & Medulla (Cortisol, Aldosterone, Catecholamines)",
+        "Pancreatic Hormones (Insulin/Glucagon, Glucose homeostasis)",
+        "Calcium Metabolism (PTH, Vitamin D, Calcitonin)",
+        "Growth Hormone disorders (Acromegaly, Gigantism, Dwarfism)",
+        "Diabetes Mellitus Pathophysiology"
       ]
     },
     {
-      "topic": "Neurophysiology (~30 questions)",
+      "topic": "Neurophysiology",
       "subtopics": [
-        "Sensory Receptors (Classification, Receptor Potential, Adaptation) [cite: uploaded:physiologyinfo.md]",
-        "Somatic Sensation (Touch, Pain, Temperature, Proprioception Pathways) [cite: uploaded:physiologyinfo.md]",
-        "Pain Physiology (Types, Gate Control Theory, Referred Pain, Endogenous Opioids) [cite: uploaded:physiologyinfo.md]",
-        "Motor System (UMN, LMN, Motor Cortex, Corticospinal Tract, Motor Unit) [cite: uploaded:physiologyinfo.md]",
-        "Reflexes (Stretch Reflex, Withdrawal Reflex, Golgi Tendon Reflex, Babinski Sign) [cite: uploaded:physiologyinfo.md]",
-        "Basal Ganglia (Functions, Disorders \u2014 Parkinson's, Huntington's) [cite: uploaded:physiologyinfo.md]",
-        "Cerebellum (Functions, Cerebellar Signs) [cite: uploaded:physiologyinfo.md]",
-        "Vestibular System (Balance, Nystagmus) [cite: uploaded:physiologyinfo.md]",
-        "Reticular Activating System (Sleep-Wake Cycle, EEG, Sleep Stages) [cite: uploaded:physiologyinfo.md]",
-        "Higher Functions (Learning, Memory, Speech, Limbic System, Emotions) [cite: uploaded:physiologyinfo.md]",
-        "Autonomic Nervous System (Sympathetic, Parasympathetic, Neurotransmitters) [cite: uploaded:physiologyinfo.md]",
-        "CSF (Formation, Circulation, Composition) [cite: uploaded:physiologyinfo.md]",
-        "Temperature Regulation (Hypothalamic Thermostat, Fever) [cite: uploaded:physiologyinfo.md]"
+        "Sensory receptors & Somatic sensation pathways",
+        "Pain Physiology (Gate control theory, Referred pain)",
+        "Motor System (Corticospinal tract, UMN vs LMN)",
+        "Reflexes (Stretch, Withdrawal, Golgi tendon, Babinski)",
+        "Basal Ganglia & Cerebellum (Functions, Clinical signs)",
+        "Vestibular System (Balance, Nystagmus)",
+        "RAS, Sleep cycles, EEG & Higher functions (Memory, Speech)",
+        "Autonomic Nervous System (Sympathetic vs Parasympathetic)",
+        "CSF & Temperature Regulation"
       ]
     },
     {
-      "topic": "Muscle Physiology (~15 questions)",
+      "topic": "Muscle Physiology",
       "subtopics": [
-        "Skeletal Muscle (Structure, Neuromuscular Junction, Excitation-Contraction Coupling) [cite: uploaded:physiologyinfo.md]",
-        "Muscle Contraction (Sliding Filament Theory, Cross-Bridge Cycle, Types of Contraction) [cite: uploaded:physiologyinfo.md]",
-        "Smooth Muscle (Properties, Contraction Mechanism) [cite: uploaded:physiologyinfo.md]",
-        "Cardiac Muscle (Properties, Comparison with Skeletal) [cite: uploaded:physiologyinfo.md]",
-        "Muscle Fatigue and Rigor Mortis [cite: uploaded:physiologyinfo.md]",
-        "EMG (Electromyography Basics) [cite: uploaded:physiologyinfo.md]"
+        "Neuromuscular Junction & Excitation-Contraction Coupling",
+        "Muscle Contraction (Sliding filament, Cross-bridge cycle)",
+        "Skeletal vs Smooth vs Cardiac Muscle properties",
+        "Muscle Fatigue, Rigor Mortis & EMG basics"
       ]
     },
     {
-      "topic": "Reproductive Physiology (~20 questions)",
+      "topic": "Reproductive Physiology",
       "subtopics": [
-        "Male Reproductive Physiology (Spermatogenesis, Testosterone, Regulation \u2014 HPG Axis) [cite: uploaded:physiologyinfo.md]",
-        "Female Reproductive Physiology (Oogenesis, Menstrual Cycle, Ovulation, Hormonal Regulation) [cite: uploaded:physiologyinfo.md]",
-        "Puberty (Male, Female, Precocious, Delayed) [cite: uploaded:physiologyinfo.md]",
-        "Pregnancy (Hormones \u2014 hCG, Progesterone, Estrogen, HPL; Physiological Changes) [cite: uploaded:physiologyinfo.md]",
-        "Parturition (Stages of Labor, Hormonal Control) [cite: uploaded:physiologyinfo.md]",
-        "Lactation (Milk Ejection Reflex, Prolactin, Oxytocin) [cite: uploaded:physiologyinfo.md]",
-        "Contraception (Physiological Basis) [cite: uploaded:physiologyinfo.md]",
-        "Menopause [cite: uploaded:physiologyinfo.md]"
+        "Male Physiology (Spermatogenesis, HPG axis, Testosterone)",
+        "Female Physiology (Menstrual cycle, Ovulation, Oogenesis)",
+        "Puberty & Menopause",
+        "Pregnancy (Hormonal changes, hCG, Physiological adaptations)",
+        "Parturition & Lactation (Milk ejection reflex)"
       ]
     },
     {
-      "topic": "Special Senses (~20 questions)",
+      "topic": "Special Senses",
       "subtopics": [
-        "Vision (Optics, Refraction, Accommodation, Visual Acuity, Color Vision, Visual Pathway, Pupillary Reflexes) [cite: uploaded:physiologyinfo.md]",
-        "Hearing (Sound Transmission, Cochlear Mechanism, Auditory Pathway, Hearing Tests) [cite: uploaded:physiologyinfo.md]",
-        "Taste (Taste Buds, Modalities, Pathway) [cite: uploaded:physiologyinfo.md]",
-        "Smell (Olfactory Receptors, Pathway) [cite: uploaded:physiologyinfo.md]",
-        "Vestibular Apparatus (Semicircular Canals, Otolith Organs, Vestibular Reflexes) [cite: uploaded:physiologyinfo.md]"
+        "Vision (Optics, Accommodation, Visual pathway, Color vision)",
+        "Hearing (Cochlear mechanism, Auditory pathway, Hearing tests)",
+        "Taste & Smell (Receptors and Pathways)",
+        "Vestibular Apparatus (Canals, Otoliths)"
       ]
     },
     {
-      "topic": "Environmental Physiology (~10 questions)",
+      "topic": "Environmental Physiology",
       "subtopics": [
-        "High Altitude Physiology (Acclimatization, Mountain Sickness) [cite: uploaded:physiologyinfo.md]",
-        "Deep Sea Physiology (Nitrogen Narcosis, Decompression Sickness, Oxygen Toxicity) [cite: uploaded:physiologyinfo.md]",
-        "Space Physiology (Weightlessness Effects) [cite: uploaded:physiologyinfo.md]",
-        "Exercise Physiology (Cardiovascular, Respiratory, Metabolic Responses) [cite: uploaded:physiologyinfo.md]"
+        "High Altitude (Acclimatization, Mountain sickness)",
+        "Deep Sea (Decompression sickness, Nitrogen narcosis)",
+        "Space Physiology (Weightlessness)",
+        "Exercise Physiology metabolic responses"
       ]
     }
   ]

@@ -1,336 +1,111 @@
 {
   "subject": "Dermatology",
-  "topics": [
+  "mappings": [
     {
-      "topic": "General Dermatology & Basic Sciences (~25 questions)",
+      "topic": "General Dermatology & Basic Sciences",
       "subtopics": [
-        "Structure of the skin (epidermis \u2014 layers, keratinocytes, melanocytes, Langerhans cells, Merkel cells; dermis \u2014 papillary, reticular; hypodermis)",
-        "Skin appendages (hair follicle, sebaceous gland, eccrine and apocrine sweat glands, nails)",
-        "Functions of the skin (barrier, thermoregulation, sensation, immunological, vitamin D synthesis)",
-        "Immunology of the skin (innate and adaptive immunity, Langerhans cells, T-cell subsets, cytokines)",
-        "Wound healing \u2014 phases, keloid vs hypertrophic scar",
-        "Dermatological terminology (macule, papule, plaque, nodule, vesicle, bulla, pustule, wheal, erosion, ulcer, crust, scale, lichenification, excoriation, atrophy)",
-        "Principles of dermatological diagnosis (morphology, distribution, configuration)",
-        "Skin biopsy \u2014 types (punch, shave, excisional, incisional), indications",
-        "KOH mount, Tzanck smear, Wood's lamp examination, dermoscopy basics",
-        "Patch testing and prick testing",
-        "Diascopy",
-        "Dermatological therapeutics \u2014 topical steroids (potency classification, side effects), emollients, keratolytics, retinoids, immunomodulators"
+        "Skin Anatomy & Histology (Epidermis layers, Cells, Dermis, Appendages)",
+        "Physiology & Immunology (Barrier function, T-cell subsets, Cytokines)",
+        "Dermatological Terminology (Macule, Papule, Plaque, Bulla, etc.)",
+        "Diagnostic Procedures (Biopsy types, KOH, Tzanck smear, Wood's lamp, Dermoscopy)",
+        "Dermatological Therapeutics (Topical steroid potency, Retinoids, Emollients)"
       ]
     },
     {
-      "topic": "Bacterial Infections of the Skin (~25 questions)",
+      "topic": "Infections of the Skin (Bacterial, Viral, Fungal)",
       "subtopics": [
-        "Impetigo \u2014 bullous and non-bullous, etiology (Staphylococcus, Streptococcus), management",
-        "Ecthyma",
-        "Folliculitis, furuncle (boil), carbuncle",
-        "Staphylococcal scalded skin syndrome (SSSS) \u2014 Nikolsky sign, differentiation from TEN",
-        "Cellulitis and erysipelas \u2014 clinical features, management",
-        "Necrotizing fasciitis \u2014 types, clinical features, management",
-        "Erythrasma \u2014 Wood's lamp (coral red fluorescence)",
-        "Pitted keratolysis",
-        "Cutaneous tuberculosis \u2014 lupus vulgaris (apple jelly nodules), scrofuloderma, tuberculosis verrucosa cutis, erythema induratum (Bazin), lichen scrofulosorum, papulonecrotic tuberculid",
-        "Atypical mycobacterial infections (M. marinum \u2014 fish tank granuloma, M. ulcerans \u2014 Buruli ulcer)",
-        "Actinomycosis \u2014 sulfur granules",
-        "Anthrax \u2014 cutaneous (malignant pustule)",
-        "Syphilis (covered under STI)"
+        "Bacterial Infections (Impetigo, SSSS, Cellulitis, Cutaneous TB, Erythrasma)",
+        "Viral Infections (HSV, VZV/Shingles, Warts, Molluscum, Viral Exanthems)",
+        "HIV/AIDS Cutaneous Manifestations (Kaposi Sarcoma, Oral hairy leukoplakia)",
+        "Superficial Fungal Infections (Dermatophytosis/Tinea, Pityriasis versicolor)",
+        "Candidiasis & Deep/Subcutaneous Mycoses (Sporotrichosis, Mycetoma)",
+        "Antifungal Therapeutics (Azoles, Terbinafine, Griseofulvin)"
       ]
     },
     {
-      "topic": "Viral Infections of the Skin (~25 questions)",
+      "topic": "Parasitic Infestations & Papulosquamous Disorders",
       "subtopics": [
-        "Herpes simplex virus (HSV) \u2014 types, primary and recurrent infection, herpetic whitlow, eczema herpeticum, Tzanck smear, management (acyclovir)",
-        "Varicella (chickenpox) \u2014 clinical features, complications, management",
-        "Herpes zoster (shingles) \u2014 dermatome distribution, Ramsay Hunt syndrome, postherpetic neuralgia, management",
-        "Warts (verrucae) \u2014 verruca vulgaris, verruca plana, plantar warts, genital warts (condylomata acuminata), HPV types, management",
-        "Molluscum contagiosum \u2014 umbilicated papules, Henderson-Patterson bodies, management",
-        "Hand, foot, and mouth disease (Coxsackie virus)",
-        "Measles \u2014 Koplik spots, skin rash",
-        "Poxvirus infections \u2014 orf, milker's nodule, smallpox",
-        "Viral exanthems \u2014 roseola, erythema infectiosum (fifth disease/parvovirus B19)",
-        "HIV/AIDS \u2014 dermatological manifestations (oral hairy leukoplakia, Kaposi sarcoma, seborrheic dermatitis, eosinophilic folliculitis, pruritic papular eruption)",
-        "Kaposi sarcoma \u2014 HHV-8, types"
+        "Scabies & Pediculosis (Sarcoptes, Lice management)",
+        "Other Infestations (Larva migrans, Leishmaniasis, Filariasis)",
+        "Psoriasis (Pathology, Signs, Management, Biologics)",
+        "Lichen Planus (5 Ps, Wickham striae, Saw-tooth acanthosis)",
+        "Pityriasis Rosea & Rubra Pilaris",
+        "Secondary Syphilis Manifestations"
       ]
     },
     {
-      "topic": "Fungal Infections of the Skin (~25 questions)",
+      "topic": "Vesiculobullous & Eczematous Disorders",
       "subtopics": [
-        "Dermatophytosis (tinea/ringworm) \u2014 classification (tinea capitis, corporis, cruris, pedis, unguium, manuum, barbae, faciei)",
-        "Tinea capitis \u2014 types (grey patch, black dot, kerion, favus), management (griseofulvin, terbinafine)",
-        "Tinea corporis \u2014 clinical features, KOH mount, management",
-        "Tinea cruris and tinea pedis",
-        "Onychomycosis (tinea unguium) \u2014 types (DLSO, SWO, PSO, TDO), management",
-        "Tinea versicolor (pityriasis versicolor) \u2014 Malassezia, spaghetti and meatball appearance on KOH, Wood's lamp, management",
-        "Candidiasis \u2014 oral (thrush), cutaneous, intertrigo, vulvovaginal, chronic mucocutaneous candidiasis",
-        "Candidal nail infection (paronychia)",
-        "Deep fungal infections \u2014 sporotrichosis (rose gardener's disease, lymphocutaneous spread), chromoblastomycosis (copper penny bodies/sclerotic bodies), mycetoma (Madura foot \u2014 actinomycotic vs eumycotic), histoplasmosis, blastomycosis, coccidioidomycosis, cryptococcosis",
-        "Subcutaneous mycoses",
-        "Systemic antifungals \u2014 griseofulvin, terbinafine, azoles (fluconazole, itraconazole, voriconazole), amphotericin B"
+        "Pemphigus Group (Vulgaris, Foliaceus, DIF findings)",
+        "Pemphigoid Group (Bullous pemphigoid, Cicatricial)",
+        "Dermatitis Herpetiformis & Celiac association",
+        "Mechanobullous Disorders (Epidermolysis bullosa types)",
+        "Atopic Dermatitis (Hanifin-Rajka criteria, Pathophysiology)",
+        "Contact & Seborrheic Dermatitis",
+        "Specialized Eczema (Stasis, Pompholyx, Erythroderma)"
       ]
     },
     {
-      "topic": "Parasitic Infestations (~18 questions)",
+      "topic": "Connective Tissue & Pigmentary Disorders",
       "subtopics": [
-        "Scabies \u2014 Sarcoptes scabiei, clinical features (burrows, nocturnal itching, distribution), Norwegian/crusted scabies, diagnosis (dermoscopy, skin scraping), management (permethrin, ivermectin)",
-        "Pediculosis \u2014 capitis (head lice), corporis (body lice), pubis (crab lice), management",
-        "Cutaneous larva migrans (creeping eruption) \u2014 hookworm larvae",
-        "Myiasis \u2014 types (wound, furuncular, creeping)",
-        "Leishmaniasis \u2014 cutaneous (oriental sore), mucocutaneous, visceral (kala-azar) \u2014 dermal manifestations (PKDL)",
-        "Filariasis \u2014 elephantiasis, lymphedema",
-        "Insect bite reactions",
-        "Tungiasis (jigger flea)",
-        "Demodex folliculitis"
+        "Lupus Erythematosus (DLE, SCLE, ACLE, Lupus band test)",
+        "Dermatomyositis & Scleroderma (Heliotrope rash, Gottron's, CREST)",
+        "Vasculitis (HSP, PAN, Wegener's) & Behçet's Disease",
+        "Vitiligo & Albinism (Autoimmune vs Genetic Hypopigmentation)",
+        "Hyperpigmentation (Melasma, Acanthosis Nigricans, Peutz-Jeghers)",
+        "Dermal Melanocytosis & Ochronosis"
       ]
     },
     {
-      "topic": "Papulosquamous Disorders (~30 questions)",
+      "topic": "Hair, Nail & Sebaceous Gland Disorders",
       "subtopics": [
-        "Psoriasis \u2014 types (plaque/vulgaris, guttate, pustular \u2014 generalized/von Zumbusch and palmoplantar, erythrodermic, inverse, nail psoriasis, psoriatic arthritis)",
-        "Psoriasis \u2014 pathology (Munro microabscess, spongiform pustule of Kogoj), Auspitz sign, Koebner phenomenon, Woronoff ring",
-        "Psoriasis \u2014 management (topical \u2014 steroids, vitamin D analogues, tar, dithranol; phototherapy \u2014 NB-UVB, PUVA; systemic \u2014 methotrexate, cyclosporine, acitretin; biologics \u2014 anti-TNF, anti-IL-17, anti-IL-23, anti-IL-12/23)",
-        "Lichen planus \u2014 clinical features (5 Ps \u2014 pruritic, polygonal, planar, purple, papules), Wickham striae, types (hypertrophic, atrophic, annular, linear, erosive, oral, nail, follicular/lichen planopilaris)",
-        "Lichen planus \u2014 pathology (saw-tooth acanthosis, Max Joseph spaces, civatte bodies), management",
-        "Pityriasis rosea \u2014 herald patch, Christmas tree pattern, collarette scale, self-limiting",
-        "Pityriasis rubra pilaris \u2014 types, nutmeg grater appearance, islands of sparing",
-        "Parapsoriasis \u2014 small plaque, large plaque (pre-mycosis fungoides)",
-        "Lichen nitidus",
-        "Lichen striatus",
-        "Secondary syphilis \u2014 papulosquamous lesions"
+        "Alopecia (Areata, Androgenetic, Telogen/Anagen effluvium)",
+        "Cicatricial (Scarring) Alopecia types",
+        "Nail Pathology (Onychomycosis, Psoriatic/Lichen planus changes, Clubbing)",
+        "Acne Vulgaris (Pathogenesis, Grades, Isotretinoin)",
+        "Rosacea & Hidradenitis Suppurativa",
+        "Sweat Gland Disorders (Miliaria, Hyperhidrosis)"
       ]
     },
     {
-      "topic": "Vesiculobullous Disorders (~25 questions)",
+      "topic": "Drug Reactions & Sexually Transmitted Infections",
       "subtopics": [
-        "Pemphigus vulgaris \u2014 pathology (intraepidermal, acantholysis, tombstone pattern), Nikolsky sign, Asboe-Hansen sign, anti-desmoglein antibodies (Dsg1, Dsg3), direct immunofluorescence (fishnet/intercellular IgG), management (systemic steroids, steroid-sparing agents \u2014 azathioprine, mycophenolate, rituximab)",
-        "Pemphigus foliaceus \u2014 superficial, anti-Dsg1, fogo selvagem (endemic)",
-        "Paraneoplastic pemphigus",
-        "IgA pemphigus",
-        "Bullous pemphigoid \u2014 subepidermal, tense bullae, anti-BP180/BP230, linear IgG at BMZ on DIF, management",
-        "Mucous membrane pemphigoid (cicatricial pemphigoid)",
-        "Pemphigoid gestationis (herpes gestationis)",
-        "Linear IgA bullous dermatosis \u2014 string of pearls sign, drug-induced (vancomycin)",
-        "Dermatitis herpetiformis \u2014 association with celiac disease, granular IgA at dermal papillae, dapsone",
-        "Epidermolysis bullosa \u2014 types (simplex, junctional, dystrophic), inheritance, management",
-        "Epidermolysis bullosa acquisita",
-        "Chronic bullous disease of childhood",
-        "Hailey-Hailey disease (benign familial pemphigus)",
-        "Darier disease (keratosis follicularis)"
+        "Exanthematous & Fixed Drug Eruptions (FDE)",
+        "Severe Cutaneous Adverse Reactions (SJS, TEN, DRESS/DIHS, SCORTEN)",
+        "Photosensitivity & Jarisch-Herxheimer Reaction",
+        "Syphilis (Primary, Secondary, Tertiary, Congenital)",
+        "Genital Ulcer Diseases (Chancroid, LGV, Donovanosis, Herpes)",
+        "Genital Warts (HPV 6, 11) & Syndromic Management"
       ]
     },
     {
-      "topic": "Eczema / Dermatitis (~25 questions)",
+      "topic": "Leprosy (Hansen's Disease)",
       "subtopics": [
-        "Classification of eczema (exogenous vs endogenous)",
-        "Atopic dermatitis \u2014 diagnostic criteria (Hanifin-Rajka), clinical features by age (infantile, childhood, adult), pathophysiology (filaggrin mutation, Th2 predominance), SCORAD index, management (emollients, topical steroids, calcineurin inhibitors \u2014 tacrolimus/pimecrolimus, dupilumab)",
-        "Contact dermatitis \u2014 irritant vs allergic, patch testing, common allergens (nickel, chromate, rubber, fragrance, PPD), management",
-        "Seborrheic dermatitis \u2014 Malassezia association, clinical features (scalp, face, flexures), cradle cap in infants, management",
-        "Nummular (discoid) eczema",
-        "Pompholyx (dyshidrotic eczema)",
-        "Stasis dermatitis (varicose eczema)",
-        "Asteatotic eczema (eczema craquel\u00e9)",
-        "Lichen simplex chronicus (neurodermatitis)",
-        "Prurigo nodularis",
-        "Photodermatitis \u2014 phototoxic vs photoallergic",
-        "Erythroderma (exfoliative dermatitis) \u2014 causes (psoriasis, eczema, drug reaction, CTCL, pityriasis rubra pilaris), management"
+        "Etiology & Ridley-Jopling Spectrum (TT to LL)",
+        "Clinical Features & Nerve Involvement (Thickened nerves, Deformities)",
+        "Lepra Reactions (Type 1/Reversal, Type 2/ENL)",
+        "Lab Diagnosis (Slit-skin smear, Lepromin test)",
+        "WHO MDT Regimens & NLEP Guidelines"
       ]
     },
     {
-      "topic": "Connective Tissue Disorders \u2014 Dermatological Manifestations (~22 questions)",
+      "topic": "Skin Tumors",
       "subtopics": [
-        "Lupus erythematosus \u2014 cutaneous types (acute \u2014 malar rash, subacute \u2014 annular/papulosquamous, chronic \u2014 discoid lupus erythematosus/DLE), lupus band test, systemic manifestations",
-        "Dermatomyositis \u2014 heliotrope rash, Gottron's papules, shawl sign, V-sign, mechanic's hands, nail fold changes, association with malignancy, management",
-        "Scleroderma \u2014 localized (morphea \u2014 plaque, linear, en coup de sabre) and systemic (limited/CREST syndrome, diffuse), Raynaud's phenomenon, sclerodactyly, calcinosis, management",
-        "Mixed connective tissue disease",
-        "Vasculitis \u2014 cutaneous small vessel vasculitis (leukocytoclastic), Henoch-Sch\u00f6nlein purpura (IgA vasculitis), polyarteritis nodosa (cutaneous), granulomatosis with polyangiitis (Wegener's), eosinophilic granulomatosis with polyangiitis (Churg-Strauss)",
-        "Beh\u00e7et's disease \u2014 oral ulcers, genital ulcers, pathergy test, skin manifestations",
-        "Relapsing polychondritis",
-        "Panniculitis \u2014 erythema nodosum (most common), erythema induratum, lupus panniculitis"
+        "Benign & Premalignant Tumors (Seborrheic keratosis, Actinic keratosis)",
+        "Basal Cell Carcinoma (BCC/Rodent ulcer) & SCC",
+        "Melanoma (ABCDE criteria, Breslow/Clark staging)",
+        "Cutaneous Lymphomas (Mycosis Fungoides, Sézary Syndrome)",
+        "Vascular & Adnexal Tumors (Hemangioma, Neurofibroma)"
       ]
     },
     {
-      "topic": "Pigmentary Disorders (~20 questions)",
+      "topic": "Genodermatoses & Advanced Therapeutics",
       "subtopics": [
-        "Vitiligo \u2014 types (generalized/non-segmental, segmental, focal, universal, acrofacial), pathogenesis (autoimmune), clinical features, Wood's lamp, management (topical steroids, calcineurin inhibitors, NB-UVB, PUVA, surgical \u2014 melanocyte transfer, punch grafting)",
-        "Albinism \u2014 oculocutaneous types, management",
-        "Piebaldism \u2014 white forelock",
-        "Melasma (chloasma) \u2014 types (epidermal, dermal, mixed), Wood's lamp differentiation, management (sunscreen, hydroquinone, triple combination \u2014 Kligman's formula, chemical peels, lasers)",
-        "Post-inflammatory hyperpigmentation and hypopigmentation",
-        "Freckles (ephelides) and lentigines",
-        "Caf\u00e9-au-lait macules \u2014 neurofibromatosis association",
-        "Acanthosis nigricans \u2014 types, insulin resistance association, malignancy association",
-        "Addison's disease \u2014 hyperpigmentation",
-        "Peutz-Jeghers syndrome \u2014 mucocutaneous pigmentation",
-        "Incontinentia pigmenti",
-        "Nevus depigmentosus",
-        "Idiopathic guttate hypomelanosis",
-        "Ochronosis (alkaptonuria)"
-      ]
-    },
-    {
-      "topic": "Hair Disorders (~15 questions)",
-      "subtopics": [
-        "Hair cycle (anagen, catagen, telogen) and hair physiology",
-        "Alopecia areata \u2014 clinical features (exclamation mark hairs), types (patchy, totalis, universalis, ophiasis, sisaipho), nail changes, management (intralesional steroids, topical immunotherapy \u2014 DPCP, JAK inhibitors)",
-        "Androgenetic alopecia \u2014 male pattern (Hamilton-Norwood), female pattern (Ludwig), pathogenesis (DHT), management (minoxidil, finasteride, hair transplant)",
-        "Telogen effluvium \u2014 causes, management",
-        "Anagen effluvium \u2014 chemotherapy-induced",
-        "Trichotillomania",
-        "Traction alopecia",
-        "Scarring (cicatricial) alopecia \u2014 lichen planopilaris, frontal fibrosing alopecia, discoid lupus, folliculitis decalvans, dissecting cellulitis",
-        "Hirsutism \u2014 causes (PCOS, adrenal), management",
-        "Hypertrichosis",
-        "Hair shaft abnormalities (trichorrhexis nodosa, monilethrix, pili torti, bamboo hair/trichorrhexis invaginata \u2014 Netherton syndrome)"
-      ]
-    },
-    {
-      "topic": "Nail Disorders (~12 questions)",
-      "subtopics": [
-        "Nail anatomy and physiology",
-        "Onychomycosis (covered in fungal infections)",
-        "Psoriatic nail changes (pitting, oil drop sign, onycholysis, subungual hyperkeratosis, splinter hemorrhages)",
-        "Nail changes in lichen planus (thinning, ridging, pterygium, twenty-nail dystrophy)",
-        "Nail changes in alopecia areata (pitting, trachyonychia)",
-        "Paronychia \u2014 acute and chronic",
-        "Ingrown toenail (onychocryptosis) \u2014 management",
-        "Beau's lines, Mees' lines, Muehrcke's lines",
-        "Koilonychia (spoon nails) \u2014 iron deficiency",
-        "Clubbing \u2014 causes",
-        "Nail tumors \u2014 glomus tumor, subungual melanoma (Hutchinson sign), myxoid cyst, subungual exostosis",
-        "Yellow nail syndrome",
-        "Half-and-half nails (Lindsay's nails) \u2014 renal disease",
-        "Terry's nails \u2014 liver disease",
-        "Melanonychia striata \u2014 differential diagnosis"
-      ]
-    },
-    {
-      "topic": "Drug Reactions in Dermatology (~22 questions)",
-      "subtopics": [
-        "Morbilliform (exanthematous) drug eruption \u2014 most common type",
-        "Urticaria and angioedema \u2014 drug-induced",
-        "Fixed drug eruption \u2014 clinical features, common drugs (cotrimoxazole, NSAIDs, tetracyclines)",
-        "Stevens-Johnson syndrome (SJS) and Toxic Epidermal Necrolysis (TEN) \u2014 SCORTEN prognostic score, common drugs (sulfonamides, anticonvulsants \u2014 carbamazepine, phenytoin, lamotrigine, allopurinol, NSAIDs), management (supportive, IVIG controversy, cyclosporine)",
-        "Drug reaction with eosinophilia and systemic symptoms (DRESS/DIHS) \u2014 RegiSCAR criteria, common drugs (anticonvulsants, allopurinol, dapsone), HHV-6 reactivation",
-        "Acute generalized exanthematous pustulosis (AGEP)",
-        "Erythema multiforme \u2014 target lesions, HSV association, drug association",
-        "Photosensitive drug reactions \u2014 phototoxic vs photoallergic",
-        "Drug-induced lupus",
-        "Drug-induced pemphigus and pemphigoid",
-        "Drug-induced pigmentation (minocycline, amiodarone, chloroquine, heavy metals)",
-        "Drug-induced acne and acneiform eruptions",
-        "Drug-induced lichenoid reactions",
-        "Serum sickness-like reaction",
-        "Warfarin-induced skin necrosis",
-        "Heparin-induced skin necrosis",
-        "Jarisch-Herxheimer reaction"
-      ]
-    },
-    {
-      "topic": "Sexually Transmitted Infections (STI) (~25 questions)",
-      "subtopics": [
-        "Syphilis \u2014 primary (chancre), secondary (condylomata lata, mucous patches, moth-eaten alopecia, rash), tertiary (gumma, cardiovascular, neurosyphilis), congenital syphilis (Hutchinson's teeth, saddle nose, saber shins, interstitial keratitis)",
-        "Syphilis \u2014 investigations (dark-field microscopy, VDRL, RPR, TPHA, FTA-ABS), management (penicillin)",
-        "Gonorrhea \u2014 clinical features, complications, management",
-        "Chancroid (Haemophilus ducreyi) \u2014 painful ulcer, school of fish appearance",
-        "Lymphogranuloma venereum (LGV) \u2014 Chlamydia trachomatis L1-L3, groove sign, bubo, management",
-        "Donovanosis (granuloma inguinale) \u2014 Klebsiella granulomatis, Donovan bodies, beefy red granulation tissue",
-        "Genital herpes \u2014 HSV-2, clinical features, management",
-        "Genital warts (condylomata acuminata) \u2014 HPV 6, 11, management",
-        "Molluscum contagiosum \u2014 genital",
-        "HIV/AIDS \u2014 dermatological manifestations, WHO staging",
-        "Syndromic management of STIs (WHO approach \u2014 urethral discharge, genital ulcer, vaginal discharge, inguinal bubo)",
-        "Reiter's syndrome (reactive arthritis) \u2014 keratoderma blennorrhagicum, circinate balanitis"
-      ]
-    },
-    {
-      "topic": "Leprosy (Hansen's Disease) (~30 questions)",
-      "subtopics": [
-        "Etiology \u2014 Mycobacterium leprae, characteristics (acid-fast, obligate intracellular, Schwann cell tropism)",
-        "Ridley-Jopling classification (TT, BT, BB, BL, LL) and WHO classification (paucibacillary, multibacillary)",
-        "Tuberculoid leprosy (TT) \u2014 well-defined hypopigmented anesthetic patches, thickened nerves, granuloma",
-        "Borderline types (BT, BB, BL) \u2014 immunological spectrum",
-        "Lepromatous leprosy (LL) \u2014 leonine facies, madarosis, glove and stocking anesthesia, diffuse infiltration, globi, foamy macrophages (Virchow cells)",
-        "Indeterminate leprosy",
-        "Histoid leprosy \u2014 Wade's histoid bacillus",
-        "Nerve involvement \u2014 thickened peripheral nerves (ulnar, lateral popliteal, greater auricular, radial cutaneous), nerve abscess",
-        "Deformities \u2014 claw hand, foot drop, wrist drop, trophic ulcers, absorption of digits, lagophthalmos",
-        "Slit-skin smear and bacteriological index (BI), morphological index (MI)",
-        "Skin biopsy and histopathology \u2014 granuloma types",
-        "Lepromin test (Mitsuda reaction) \u2014 significance",
-        "WHO MDT regimen \u2014 paucibacillary (dapsone + rifampicin \u00d7 6 months), multibacillary (dapsone + rifampicin + clofazimine \u00d7 12 months)",
-        "Lepra reactions \u2014 Type 1 (reversal reaction \u2014 cell-mediated, upgrading/downgrading), Type 2 (erythema nodosum leprosum/ENL \u2014 immune complex), Lucio phenomenon",
-        "Management of lepra reactions (steroids for Type 1, thalidomide/steroids for Type 2)",
-        "Dapsone hypersensitivity syndrome",
-        "Rehabilitation and prevention of deformities",
-        "National Leprosy Eradication Programme (NLEP)"
-      ]
-    },
-    {
-      "topic": "Skin Tumors (~25 questions)",
-      "subtopics": [
-        "Benign epidermal tumors \u2014 seborrheic keratosis (Leser-Tr\u00e9lat sign), skin tags (acrochordons), epidermal cyst, dermoid cyst, milia, keratoacanthoma",
-        "Premalignant conditions \u2014 actinic keratosis, Bowen's disease (SCC in situ), erythroplasia of Queyrat, leukoplakia, xeroderma pigmentosum",
-        "Basal cell carcinoma (BCC) \u2014 types (nodular, superficial, morpheaform, pigmented), rodent ulcer, pearly papule with telangiectasia, management (excision, Mohs surgery, imiquimod, vismodegib)",
-        "Squamous cell carcinoma (SCC) \u2014 risk factors, clinical features, Marjolin's ulcer (SCC in chronic ulcer/scar), management",
-        "Melanoma \u2014 types (superficial spreading, nodular, lentigo maligna, acral lentiginous), ABCDE criteria, Breslow thickness, Clark levels, staging, sentinel lymph node biopsy, management (wide excision, immunotherapy \u2014 nivolumab, pembrolizumab, ipilimumab, targeted therapy \u2014 BRAF inhibitors)",
-        "Dermatofibrosarcoma protuberans (DFSP)",
-        "Merkel cell carcinoma",
-        "Cutaneous T-cell lymphoma \u2014 mycosis fungoides (patch, plaque, tumor stages, S\u00e9zary syndrome), management",
-        "Kaposi sarcoma \u2014 HHV-8, types (classic, endemic, iatrogenic, AIDS-related)",
-        "Vascular tumors \u2014 hemangioma (infantile \u2014 PHACE syndrome, management \u2014 propranolol), port wine stain (Sturge-Weber), pyogenic granuloma, angiosarcoma",
-        "Dermatofibroma",
-        "Lipoma",
-        "Neurofibroma \u2014 neurofibromatosis type 1 (caf\u00e9-au-lait macules, axillary freckling, Lisch nodules, plexiform neurofibroma)",
-        "Xanthomas \u2014 types (eruptive, tuberous, tendinous, xanthelasma), lipid associations",
-        "Dermoscopy in skin tumors"
-      ]
-    },
-    {
-      "topic": "Disorders of Sebaceous and Sweat Glands (~15 questions)",
-      "subtopics": [
-        "Acne vulgaris \u2014 pathogenesis (sebum, Cutibacterium acnes, follicular hyperkeratinization, inflammation), grading, management (topical \u2014 benzoyl peroxide, retinoids, antibiotics; systemic \u2014 antibiotics, isotretinoin, hormonal \u2014 OCP, spironolactone)",
-        "Acne variants \u2014 acne conglobata, acne fulminans, neonatal acne, drug-induced acne",
-        "Rosacea \u2014 types (erythematotelangiectatic, papulopustular, phymatous \u2014 rhinophyma, ocular), management",
-        "Perioral dermatitis",
-        "Hidradenitis suppurativa \u2014 pathogenesis, Hurley staging, management",
-        "Miliaria (prickly heat) \u2014 types (crystallina, rubra, profunda)",
-        "Hyperhidrosis \u2014 primary, secondary, management (aluminum chloride, botulinum toxin, iontophoresis, sympathectomy)",
-        "Bromhidrosis and chromhidrosis",
-        "Fox-Fordyce disease"
-      ]
-    },
-    {
-      "topic": "Genodermatoses & Miscellaneous (~15 questions)",
-      "subtopics": [
-        "Ichthyosis \u2014 types (vulgaris, X-linked, lamellar, epidermolytic/bullous), collodion baby, harlequin ichthyosis",
-        "Xeroderma pigmentosum \u2014 defective DNA repair, skin cancers",
-        "Epidermolysis bullosa (covered in vesiculobullous)",
-        "Neurofibromatosis \u2014 type 1 (von Recklinghausen), type 2",
-        "Tuberous sclerosis \u2014 ash leaf macules, angiofibromas, shagreen patch, periungual fibromas",
-        "Ehlers-Danlos syndrome \u2014 skin hyperextensibility",
-        "Pseudoxanthoma elasticum \u2014 plucked chicken skin",
-        "Urticaria pigmentosa (mastocytosis) \u2014 Darier sign",
-        "Morphea and systemic sclerosis",
-        "Granuloma annulare",
-        "Sarcoidosis \u2014 cutaneous manifestations (lupus pernio, erythema nodosum, papules, plaques)",
-        "Pyoderma gangrenosum \u2014 pathergy, association with IBD",
-        "Sweet syndrome (acute febrile neutrophilic dermatosis)",
-        "Erythema nodosum \u2014 causes, clinical features",
-        "Lichen sclerosus"
-      ]
-    },
-    {
-      "topic": "Dermatological Therapeutics & Procedures (~10 questions)",
-      "subtopics": [
-        "Phototherapy \u2014 NB-UVB, BB-UVB, PUVA (psoralen + UVA), excimer laser",
-        "Cryotherapy \u2014 liquid nitrogen, indications",
-        "Electrosurgery \u2014 electrocautery, electrodesiccation, electrofulguration",
-        "Chemical peels \u2014 types (superficial, medium, deep), agents (glycolic acid, TCA, phenol)",
-        "Lasers in dermatology \u2014 CO2, Nd:YAG, pulsed dye, Q-switched (for pigmentation and tattoo removal)",
-        "Dermabrasion and microdermabrasion",
-        "Intralesional therapy (steroids, 5-FU, bleomycin)",
-        "Biologics in dermatology \u2014 anti-TNF (infliximab, adalimumab, etanercept), anti-IL-17 (secukinumab, ixekizumab), anti-IL-23 (guselkumab, risankizumab), anti-IL-4/13 (dupilumab), JAK inhibitors (tofacitinib, baricitinib, ruxolitinib)",
-        "Mohs micrographic surgery",
-        "Botulinum toxin and fillers in dermatology"
+        "Genodermatoses (Ichthyosis, Xeroderma Pigmentosum, Tuberous Sclerosis)",
+        "Neutrophilic Dermatoses (Sweet syndrome, Pyoderma gangrenosum)",
+        "Phototherapy & Laser Systems (PUVA, NB-UVB, CO2, Nd:YAG)",
+        "Procedural Dermatology (Chemical peels, Mohs surgery, Cryotherapy)",
+        "Targeted Biologics & JAK Inhibitors"
       ]
     }
   ]

@@ -1,207 +1,111 @@
 {
   "subject": "Microbiology",
-  "topics": [
+  "mappings": [
     {
-      "topic": "General Microbiology (~20 questions)",
+      "topic": "General Microbiology",
       "subtopics": [
-        "History of microbiology \u2014 Koch's postulates, contributions of Pasteur, Lister, Jenner, Fleming",
-        "Classification of microorganisms \u2014 bacteria, viruses, fungi, parasites",
-        "Bacterial morphology \u2014 cocci, bacilli, spirochetes; cell wall structure (Gram-positive vs Gram-negative)",
-        "Bacterial growth \u2014 growth curve, culture media (simple, enriched, selective, differential, transport)",
-        "Bacterial genetics \u2014 transformation, transduction, conjugation, transposons, plasmids",
-        "Sterilization & disinfection \u2014 physical methods (autoclaving, hot air oven, pasteurization, filtration, radiation), chemical methods (glutaraldehyde, formaldehyde, chlorhexidine, alcohol, iodine, phenol)",
-        "Biofilms \u2014 formation, clinical significance",
-        "Normal flora \u2014 distribution, significance",
-        "Bacterial toxins \u2014 exotoxins vs endotoxins",
-        "Antimicrobial susceptibility testing \u2014 disc diffusion (Kirby-Bauer), MIC, E-test"
+        "History & Postulates (Koch, Pasteur, Lister, Fleming)",
+        "Bacterial Morphology & Cell Wall (Gram-positive vs Gram-negative)",
+        "Bacterial Growth Dynamics & Culture Media Types",
+        "Bacterial Genetics (Transformation, Transduction, Conjugation)",
+        "Sterilization & Disinfection Methods (Autoclave, Glutaraldehyde)",
+        "Microbial Signficance (Biofilms, Normal flora, Toxins)",
+        "Antimicrobial Susceptibility Testing (Kirby-Bauer, MIC)"
       ]
     },
     {
-      "topic": "Immunology (~30 questions)",
+      "topic": "Immunology",
       "subtopics": [
-        "Innate immunity \u2014 barriers, phagocytes, NK cells, complement, acute phase proteins, pattern recognition receptors (TLRs)",
-        "Adaptive immunity \u2014 humoral & cell-mediated",
-        "Antigens \u2014 types, epitopes, haptens, superantigens",
-        "Antibodies \u2014 structure, classes (IgG, IgM, IgA, IgE, IgD), functions, isotype switching",
-        "Complement system \u2014 classical, alternative, lectin pathways; MAC, C3a/C5a (anaphylatoxins), opsonization (C3b)",
-        "Complement deficiencies & associated diseases",
-        "MHC \u2014 Class I & Class II, antigen processing & presentation",
-        "T cells \u2014 CD4+ (Th1, Th2, Th17, Treg), CD8+ cytotoxic T cells, T cell activation",
-        "B cells \u2014 activation, germinal center reaction, plasma cells, memory cells",
-        "Hypersensitivity reactions \u2014 Type I (IgE-mediated, anaphylaxis, atopy), Type II (cytotoxic \u2014 transfusion reactions, HDN, autoimmune hemolytic anemia), Type III (immune complex \u2014 serum sickness, Arthus reaction), Type IV (delayed \u2014 tuberculin test, contact dermatitis, granuloma)",
-        "Autoimmunity \u2014 mechanisms, molecular mimicry, examples",
-        "Immunodeficiency \u2014 primary (SCID, DiGeorge, Bruton, CGD, Wiskott-Aldrich, selective IgA deficiency), secondary (AIDS, malnutrition, drugs)",
-        "Transplant immunology \u2014 types of grafts, rejection mechanisms, HLA typing",
-        "Tumor immunology \u2014 tumor antigens, immune surveillance",
-        "Vaccines \u2014 types (live attenuated, killed, toxoid, subunit, conjugate, recombinant, mRNA), national immunization schedule, cold chain",
-        "Immunological techniques \u2014 ELISA, Western blot, immunofluorescence, flow cytometry, RIA, complement fixation test, precipitation, agglutination (Widal, Coombs test)"
+        "Innate vs Adaptive Immunity (NK cells, Complement, PRRs)",
+        "Antigenic Properties (Epitopes, Haptens, Superantigens)",
+        "Antibody Structure, Classes (IgG-IgD) & Functions",
+        "Complement Pathways & MAC Deficiencies",
+        "MHC Molecules & Antigen Presentation",
+        "T & B Cell Activation (CD4/CD8 subsets, Germinal centers)",
+        "Hypersensitivity Reactions (Types I-IV)",
+        "Immunopathology (Autoimmunity, Immunodeficiency - SCID, AIDS)",
+        "Vaccinology & Immunological Techniques (ELISA, Flow cytometry)"
       ]
     },
     {
-      "topic": "Bacteriology \u2014 Gram-Positive Cocci (~25 questions)",
+      "topic": "Systemic Bacteriology: Gram-Positive",
       "subtopics": [
-        "Staphylococcus aureus \u2014 virulence factors (protein A, coagulase, toxins \u2014 TSST-1, exfoliatin, PVL, enterotoxins), diseases (skin infections, endocarditis, osteomyelitis, food poisoning, TSS, scalded skin syndrome), MRSA",
-        "Coagulase-negative staphylococci \u2014 S. epidermidis (prosthetic infections), S. saprophyticus (UTI)",
-        "Streptococcus pyogenes (Group A) \u2014 virulence factors (M protein, streptolysin O & S, erythrogenic toxin), diseases (pharyngitis, scarlet fever, impetigo, erysipelas, necrotizing fasciitis, rheumatic fever, post-streptococcal GN), ASO titer",
-        "Streptococcus agalactiae (Group B) \u2014 neonatal meningitis, sepsis",
-        "Streptococcus pneumoniae \u2014 capsule (quellung reaction), diseases (pneumonia, meningitis, otitis media), optochin sensitivity, bile solubility",
-        "Viridans streptococci \u2014 S. mutans (dental caries), S. sanguis (subacute endocarditis)",
-        "Enterococcus \u2014 E. faecalis, E. faecium, VRE"
+        "Staphylococcus species (S. aureus, MRSA, CoNS)",
+        "Streptococcus species (Group A/B, Pneumococcus, Viridans)",
+        "Enterococcus (VRE)",
+        "Corynebacterium diphtheriae (Toxin, Albert stain)",
+        "Bacillus species (Anthracis, Cereus)",
+        "Clostridium species (Tetani, Botulinum, Perfringens, Difficile)",
+        "Listeria, Actinomyces & Nocardia"
       ]
     },
     {
-      "topic": "Bacteriology \u2014 Gram-Positive Bacilli (~20 questions)",
+      "topic": "Systemic Bacteriology: Gram-Negative",
       "subtopics": [
-        "Corynebacterium diphtheriae \u2014 diphtheria toxin (ADP-ribosylation of EF-2), Elek test, Albert stain, Schick test, pseudomembrane",
-        "Bacillus anthracis \u2014 anthrax (cutaneous, pulmonary, GI), Medusa head colony, bamboo stick appearance, McFadyean reaction",
-        "Bacillus cereus \u2014 food poisoning (emetic & diarrheal)",
-        "Clostridium tetani \u2014 tetanospasmin, lock jaw, risus sardonicus, opisthotonus, spatula test",
-        "Clostridium botulinum \u2014 botulinum toxin, flaccid paralysis, infant botulism",
-        "Clostridium perfringens \u2014 gas gangrene (alpha toxin \u2014 lecithinase), Nagler reaction, food poisoning, necrotizing enteritis",
-        "Clostridium difficile \u2014 pseudomembranous colitis, toxin A & B",
-        "Listeria monocytogenes \u2014 tumbling motility, cold enrichment, neonatal meningitis, granulomatosis infantiseptica",
-        "Actinomyces israelii \u2014 sulfur granules, cervicofacial actinomycosis",
-        "Nocardia \u2014 modified acid-fast, pulmonary nocardiosis"
+        "Neisseria (Meningitidis, Gonorrhoeae)",
+        "Coccobacilli (Haemophilus, Bordetella, Moraxella)",
+        "Enterobacteriaceae (E. coli pathotypes, Klebsiella, Salmonella, Shigella, Proteus)",
+        "Pseudomonas & Acinetobacter (Nosocomial infections)",
+        "Vibrio & Campylobacter (Cholera, GBS)",
+        "Helicobacter pylori (Urease, Peptic ulcers)",
+        "Zoonotic & Miscellaneous (Yersinia, Brucella, Legionella)"
       ]
     },
     {
-      "topic": "Bacteriology \u2014 Gram-Negative Cocci & Coccobacilli (~15 questions)",
+      "topic": "Mycobacteriology & Atypical Bacteria",
       "subtopics": [
-        "Neisseria meningitidis \u2014 meningococcal meningitis, Waterhouse-Friderichsen syndrome, capsular serotypes, chocolate agar, oxidase positive",
-        "Neisseria gonorrhoeae \u2014 gonorrhea, ophthalmia neonatorum, disseminated gonococcal infection, no capsule, no vaccine",
-        "Moraxella catarrhalis \u2014 otitis media, sinusitis, COPD exacerbation",
-        "Haemophilus influenzae \u2014 type b (meningitis, epiglottitis), X & V factor requirement, satellite phenomenon, Hib vaccine",
-        "Bordetella pertussis \u2014 whooping cough, pertussis toxin, Bordet-Gengou medium, lymphocytosis"
+        "Mycobacterium tuberculosis (Pathogenesis, ZN stain, DOTS)",
+        "Mycobacterium leprae (Classification, Lepromin test)",
+        "Atypical Mycobacteria (Runyon groups, MAC)",
+        "Spirochetes (Syphilis, Borrelia/Lyme, Leptospira)",
+        "Rickettsia & Coxiella (Weil-Felix reaction, Q fever)",
+        "Chlamydia & Mycoplasma (Trachoma, LGV, Eaton agent)"
       ]
     },
     {
-      "topic": "Bacteriology \u2014 Enterobacteriaceae & Gram-Negative Bacilli (~25 questions)",
+      "topic": "Virology",
       "subtopics": [
-        "Escherichia coli \u2014 pathotypes (ETEC, EPEC, EHEC/O157:H7, EIEC, EAEC), UTI, neonatal meningitis (K1 capsule), HUS",
-        "Klebsiella pneumoniae \u2014 lobar pneumonia (currant jelly sputum), mucoid colonies, ESBL",
-        "Salmonella typhi \u2014 typhoid fever (Widal test, blood culture, bone marrow culture), carrier state, rose spots, enteric fever",
-        "Non-typhoidal Salmonella \u2014 gastroenteritis, osteomyelitis in sickle cell",
-        "Shigella \u2014 bacillary dysentery, Shiga toxin, species (S. dysenteriae, S. flexneri, S. sonnei, S. boydii)",
-        "Proteus \u2014 swarming motility, UTI, struvite stones, urease positive",
-        "Pseudomonas aeruginosa \u2014 pyocyanin, ecthyma gangrenosum, burn wound infections, CF lung infections, otitis externa",
-        "Vibrio cholerae \u2014 cholera toxin (ADP-ribosylation of Gs), rice-water stools, TCBS agar, string test, O1 & O139",
-        "Vibrio parahaemolyticus \u2014 Kanagawa phenomenon",
-        "Campylobacter jejuni \u2014 Guillain-Barr\u00e9 syndrome, bloody diarrhea",
-        "Helicobacter pylori \u2014 gastritis, peptic ulcer, gastric carcinoma, MALT lymphoma, urease test, CLO test",
-        "Yersinia pestis \u2014 plague (bubonic, pneumonic, septicemic), safety pin appearance",
-        "Brucella \u2014 undulant fever, Castaneda medium, serology",
-        "Legionella pneumophila \u2014 Legionnaires' disease, Pontiac fever, BCYE agar, urinary antigen test",
-        "Acinetobacter \u2014 MDR nosocomial infections"
+        "General Virology (Structure, Baltimore classification, Genetics)",
+        "DNA Viruses (Herpesviruses, Poxvirus, Adenovirus, HPV, HBV)",
+        "Respiratory RNA Viruses (Influenza, Measles, Mumps, RSV, COVID-19)",
+        "Gastrointestinal RNA Viruses (Polio, Rotavirus, Norovirus, HAV, HEV)",
+        "Arboviruses & Hemorrhagic Fevers (Dengue, Zika, JE, Ebola)",
+        "Retroviruses (HIV structure, AIDS, CD4 tropism, ART)",
+        "Chronic Hepatitis (HCV, HDV)"
       ]
     },
     {
-      "topic": "Bacteriology \u2014 Mycobacteria (~25 questions)",
+      "topic": "Mycology",
       "subtopics": [
-        "Mycobacterium tuberculosis \u2014 acid-fast staining (Ziehl-Neelsen), culture (LJ medium, BACTEC, MGIT), cord factor, tuberculin test (Mantoux), pathogenesis (Ghon complex, Ranke complex, miliary TB, TB meningitis)",
-        "Drug-resistant TB \u2014 MDR-TB, XDR-TB, DOTS strategy",
-        "Mycobacterium leprae \u2014 leprosy (tuberculoid vs lepromatous, borderline), lepromin test, ridley-jopling classification, WHO MDT",
-        "Atypical mycobacteria \u2014 Runyon classification, M. avium complex (MAC), M. marinum, M. kansasii, M. fortuitum",
-        "BCG vaccine \u2014 strain, uses, complications",
-        "Lab diagnosis of TB \u2014 smear, culture, CBNAAT/GeneXpert, IGRA, molecular methods"
+        "Fungal Basics (Classification, SDA culture, KOH)",
+        "Superficial & Cutaneous Mycoses (Dermatophytes, Malassezia)",
+        "Subcutaneous Mycoses (Sporotrichosis, Mycetoma)",
+        "Systemic/Dimorphic Fungi (Histoplasmosis, Coccidioidomycosis)",
+        "Opportunistic Fungi (Candidiasis, Cryptococcosis, Aspergillosis, Mucormycosis)",
+        "Pneumocystis jirovecii (PCP)"
       ]
     },
     {
-      "topic": "Bacteriology \u2014 Spirochetes, Rickettsia, Chlamydia & Mycoplasma (~20 questions)",
+      "topic": "Parasitology",
       "subtopics": [
-        "Treponema pallidum \u2014 syphilis (primary, secondary, tertiary \u2014 gumma, tabes dorsalis, Argyll Robertson pupil), congenital syphilis, dark-field microscopy, VDRL, RPR, FTA-ABS, TPHA",
-        "Borrelia \u2014 relapsing fever (B. recurrentis), Lyme disease (B. burgdorferi \u2014 erythema migrans, stages)",
-        "Leptospira \u2014 leptospirosis (Weil disease), dark-field, MAT",
-        "Rickettsia \u2014 epidemic typhus (R. prowazekii), endemic typhus (R. typhi), Rocky Mountain spotted fever (R. rickettsii), scrub typhus (Orientia tsutsugamushi), Weil-Felix reaction",
-        "Coxiella burnetii \u2014 Q fever, no Weil-Felix reaction",
-        "Chlamydia trachomatis \u2014 trachoma (serotypes A-C), genital infections (D-K), LGV (L1-L3), neonatal conjunctivitis & pneumonia",
-        "Chlamydia pneumoniae & Chlamydia psittaci",
-        "Mycoplasma pneumoniae \u2014 atypical pneumonia, cold agglutinins, Eaton agent",
-        "Ureaplasma urealyticum"
+        "Intestinal Protozoa (Amoebic dysentery, Giardia, Cryptosporidium)",
+        "Blood & Tissue Protozoa (Malaria life cycle/species, Leishmania, Toxoplasma)",
+        "Genitourinary & Free-living Protozoa (Trichomonas, Naegleria)",
+        "Cestodes (Taenia, Echinococcus/Hydatid, H. nana)",
+        "Nematodes (Ascaris, Hookworm, Pinworm, Strongyloides)",
+        "Tissue Nematodes (Filariasis, Onchocerca, Loa loa)",
+        "Trematodes/Flukes (Schistosoma, Fasciola, Clonorchis)"
       ]
     },
     {
-      "topic": "Virology \u2014 General & DNA Viruses (~25 questions)",
+      "topic": "Applied Microbiology & Lab Diagnosis",
       "subtopics": [
-        "General virology \u2014 structure (capsid, envelope, nucleic acid), classification (Baltimore), replication cycle, viral genetics (reassortment, recombination, antigenic shift & drift)",
-        "Herpesviruses \u2014 HSV-1 (oral herpes, encephalitis), HSV-2 (genital herpes, neonatal herpes), VZV (chickenpox, shingles), EBV (infectious mononucleosis, Burkitt lymphoma, nasopharyngeal carcinoma, heterophile antibodies), CMV (congenital CMV, owl's eye inclusion), HHV-6 (roseola), HHV-8 (Kaposi sarcoma)",
-        "Adenovirus \u2014 pharyngoconjunctival fever, epidemic keratoconjunctivitis",
-        "Poxviruses \u2014 smallpox (variola), vaccinia, molluscum contagiosum",
-        "Papillomaviruses (HPV) \u2014 genital warts, cervical cancer (types 16, 18), HPV vaccine",
-        "Polyomaviruses \u2014 JC virus (PML), BK virus",
-        "Parvoviruses \u2014 B19 (erythema infectiosum/fifth disease, aplastic crisis, hydrops fetalis)",
-        "Hepatitis B virus \u2014 HBsAg, HBeAg, anti-HBc, serological markers, window period, chronic hepatitis, HCC, vaccine"
-      ]
-    },
-    {
-      "topic": "Virology \u2014 RNA Viruses (~25 questions)",
-      "subtopics": [
-        "Orthomyxoviruses \u2014 influenza (antigenic shift vs drift, H & N subtypes, avian flu, swine flu), oseltamivir",
-        "Paramyxoviruses \u2014 measles (Koplik spots, SSPE, giant cell pneumonia), mumps (parotitis, orchitis), RSV (bronchiolitis), parainfluenza (croup)",
-        "Rhabdovirus \u2014 rabies (Negri bodies, hydrophobia, post-exposure prophylaxis, vaccine)",
-        "Picornaviruses \u2014 poliovirus (poliomyelitis, Sabin vs Salk vaccine, AFP surveillance), coxsackievirus (hand-foot-mouth, herpangina, myocarditis), echovirus, rhinovirus, hepatitis A",
-        "Togaviruses \u2014 rubella (congenital rubella syndrome), chikungunya",
-        "Flaviviruses \u2014 dengue (hemorrhagic fever, shock syndrome, NS1 antigen), Zika, Japanese encephalitis, yellow fever, West Nile",
-        "Filoviruses \u2014 Ebola, Marburg",
-        "Bunyaviruses \u2014 hantavirus, Crimean-Congo hemorrhagic fever",
-        "Arenaviruses \u2014 Lassa fever",
-        "Coronaviruses \u2014 SARS-CoV, MERS-CoV, SARS-CoV-2 (COVID-19)",
-        "Retroviruses \u2014 HIV (structure, replication, CD4 tropism, viral load, ELISA, Western blot, p24 antigen, opportunistic infections, AIDS-defining illnesses, ART)",
-        "Rotavirus \u2014 infantile diarrhea, vaccine",
-        "Calicivirus \u2014 norovirus (gastroenteritis)",
-        "Hepatitis C virus \u2014 chronic hepatitis, cirrhosis, HCC, DAAs",
-        "Hepatitis D (delta agent) & Hepatitis E (pregnancy)"
-      ]
-    },
-    {
-      "topic": "Mycology (~20 questions)",
-      "subtopics": [
-        "General mycology \u2014 classification (yeasts, molds, dimorphic), fungal structure, KOH mount, culture (SDA)",
-        "Superficial mycoses \u2014 pityriasis versicolor (Malassezia furfur \u2014 spaghetti & meatball appearance), tinea nigra, piedra",
-        "Cutaneous mycoses (dermatophytosis) \u2014 Trichophyton, Microsporum, Epidermophyton; tinea corporis, capitis, pedis, cruris, unguium",
-        "Subcutaneous mycoses \u2014 sporotrichosis (Sporothrix schenckii \u2014 rose gardener), chromoblastomycosis (copper penny bodies), mycetoma (Madura foot)",
-        "Systemic mycoses \u2014 histoplasmosis (Histoplasma capsulatum \u2014 intracellular in macrophages), coccidioidomycosis (spherules), blastomycosis (broad-based budding), paracoccidioidomycosis (mariner's wheel)",
-        "Opportunistic mycoses \u2014 candidiasis (Candida albicans \u2014 germ tube test, pseudohyphae), cryptococcosis (Cryptococcus neoformans \u2014 India ink, capsule, latex agglutination), aspergillosis (Aspergillus fumigatus \u2014 septate hyphae, 45\u00b0 branching, aspergilloma, ABPA, invasive), mucormycosis/zygomycosis (Rhizopus \u2014 aseptate/pauciseptate, 90\u00b0 branching, rhinocerebral)",
-        "Pneumocystis jirovecii \u2014 PCP in AIDS, silver stain"
-      ]
-    },
-    {
-      "topic": "Parasitology \u2014 Protozoa (~25 questions)",
-      "subtopics": [
-        "Entamoeba histolytica \u2014 amoebic dysentery, liver abscess (anchovy sauce pus), flask-shaped ulcer, trophozoite with ingested RBCs, cyst morphology",
-        "Giardia lamblia \u2014 giardiasis, falling leaf motility, duodenal biopsy",
-        "Cryptosporidium \u2014 AIDS-related diarrhea, modified acid-fast stain",
-        "Plasmodium species \u2014 P. vivax (benign tertian, Sch\u00fcffner dots, hypnozoites), P. falciparum (malignant tertian, Maurer clefts, cerebral malaria, blackwater fever), P. malariae (quartan), P. ovale, P. knowlesi",
-        "Malaria \u2014 life cycle (mosquito & human stages), diagnosis (peripheral smear, RDT, PCR), treatment, prophylaxis",
-        "Leishmania \u2014 visceral (kala-azar \u2014 L. donovani, LD bodies, splenic aspirate), cutaneous (L. tropica), mucocutaneous (L. braziliensis), Montenegro test",
-        "Trypanosoma \u2014 T. brucei (African sleeping sickness, Winterbottom sign, CSF examination), T. cruzi (Chagas disease, Romana sign, megacolon, megaesophagus)",
-        "Toxoplasma gondii \u2014 congenital toxoplasmosis, ring-enhancing lesions in AIDS, Sabin-Feldman dye test",
-        "Trichomonas vaginalis \u2014 vaginitis, strawberry cervix, wet mount",
-        "Free-living amoebae \u2014 Naegleria fowleri (PAM), Acanthamoeba (keratitis, GAE)"
-      ]
-    },
-    {
-      "topic": "Parasitology \u2014 Helminths (~25 questions)",
-      "subtopics": [
-        "Cestodes (tapeworms) \u2014 Taenia solium (cysticercosis, neurocysticercosis), Taenia saginata, Echinococcus granulosus (hydatid cyst \u2014 Casoni test, daughter cysts), Hymenolepis nana (dwarf tapeworm), Diphyllobothrium latum (B12 deficiency)",
-        "Nematodes (roundworms) \u2014 Ascaris lumbricoides (Loeffler syndrome, biliary obstruction), Ancylostoma duodenale & Necator americanus (hookworm \u2014 iron deficiency anemia, ground itch), Enterobius vermicularis (pinworm \u2014 perianal pruritus, scotch tape test), Strongyloides stercoralis (hyperinfection in immunosuppressed, autoinfection), Trichuris trichiura (whipworm \u2014 rectal prolapse)",
-        "Tissue nematodes \u2014 Wuchereria bancrofti & Brugia malayi (lymphatic filariasis, elephantiasis, nocturnal periodicity, DEC), Onchocerca volvulus (river blindness, Mazzotti reaction), Loa loa (Calabar swelling, diurnal periodicity), Dracunculus medinensis (guinea worm)",
-        "Trichinella spiralis \u2014 trichinosis, encysted larvae in muscle",
-        "Trematodes (flukes) \u2014 Schistosoma (S. mansoni, S. japonicum, S. haematobium \u2014 bladder carcinoma), liver flukes (Fasciola hepatica, Clonorchis sinensis \u2014 cholangiocarcinoma), lung fluke (Paragonimus westermani), intestinal fluke (Fasciolopsis buski)",
-        "Larva migrans \u2014 cutaneous (Ancylostoma braziliense), visceral (Toxocara canis/cati)"
-      ]
-    },
-    {
-      "topic": "Laboratory Diagnosis & Applied Microbiology (~15 questions)",
-      "subtopics": [
-        "Specimen collection & transport \u2014 blood culture, CSF, urine, stool, sputum, swabs",
-        "Microscopy \u2014 Gram stain, Ziehl-Neelsen, Albert stain, India ink, KOH mount, dark-field, fluorescence",
-        "Culture techniques \u2014 aerobic, anaerobic, CO2 enriched, cell culture (for viruses)",
-        "Biochemical tests \u2014 catalase, coagulase, oxidase, urease, indole, citrate, TSI, VP, methyl red",
-        "Serological tests \u2014 agglutination (Widal, Weil-Felix, Paul-Bunnell), precipitation, complement fixation, ELISA, Western blot, IFA",
-        "Molecular diagnostics \u2014 PCR, RT-PCR, GeneXpert, LAMP, sequencing",
-        "Antimicrobial susceptibility testing \u2014 disc diffusion, MIC, automated systems (VITEK)",
-        "Hospital infection control \u2014 nosocomial infections, hand hygiene, biomedical waste management, isolation precautions (standard, contact, droplet, airborne)",
-        "Emerging & re-emerging infections"
+        "Specimen Management & Transport Protocols",
+        "Diagnostic Staining & Microscopy Techniques",
+        "Biochemical Profiling (Catalase, Coagulase, Urease)",
+        "Molecular & Serological Diagnostics (PCR, GeneXpert, Agglutination)",
+        "Hospital Infection Control & Biomedical Waste Management",
+        "Nosocomial Infection Prevention & Hand Hygiene"
       ]
     }
   ]

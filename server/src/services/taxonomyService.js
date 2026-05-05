@@ -37,22 +37,24 @@ function _load() {
       const raw = fs.readFileSync(path.join(DATA_DIR, file), 'utf8');
       const data = JSON.parse(raw);
       const subjectName = data.subject;
+      // Support both 'topics' (old format) and 'mappings' (new format)
+      const topicsArray = data.topics || data.mappings;
 
-      if (!subjectName || !Array.isArray(data.topics)) {
+      if (!subjectName || !Array.isArray(topicsArray)) {
         console.warn(`[taxonomy] Skipping malformed file: ${file}`);
         continue;
       }
 
       // Build reverse subtopic → topic index for O(1) lookup
       const subtopicIndex = new Map();
-      for (const t of data.topics) {
+      for (const t of topicsArray) {
         for (const st of t.subtopics || []) {
           subtopicIndex.set(st, t.topic);
         }
       }
 
       _subjectMap[subjectName] = {
-        topics: data.topics,
+        topics: topicsArray,
         subtopicIndex,
       };
       _allSubjects.push(subjectName);

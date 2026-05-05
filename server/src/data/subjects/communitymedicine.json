@@ -1,246 +1,113 @@
 {
   "subject": "Community Medicine (PSM)",
-  "topics": [
+  "mappings": [
     {
-      "topic": "Concept of Health & Disease (~10 questions)",
+      "topic": "Concept of Health, Disease & Prevention",
       "subtopics": [
-        "Definition of health \u2014 WHO definition, dimensions of health (physical, mental, social, spiritual)",
-        "Determinants of health \u2014 biological, behavioral, environmental, socioeconomic, health services",
-        "Concept of disease \u2014 natural history of disease, iceberg phenomenon, spectrum of disease",
-        "Concepts of prevention \u2014 primordial, primary, secondary, tertiary prevention",
-        "Levels of prevention \u2014 health promotion, specific protection, early diagnosis & treatment, disability limitation, rehabilitation",
-        "Models of disease causation \u2014 germ theory, epidemiological triad, web of causation, Henle-Koch postulates",
-        "Health indicators \u2014 mortality indicators (CDR, IMR, NMR, MMR, U5MR), morbidity indicators, disability indicators, nutritional indicators, health policy indicators"
+        "WHO Definition & Dimensions of Health",
+        "Determinants of Health (Biological, Behavioral, Socioeconomic)",
+        "Natural History of Disease & Iceberg Phenomenon",
+        "Levels of Prevention (Primordial, Primary, Secondary, Tertiary)",
+        "Models of Disease Causation (Epidemiological Triad, Web of Causation)",
+        "Health Indicators (IMR, NMR, MMR, U5MR)"
       ]
     },
     {
-      "topic": "Epidemiology (~30 questions)",
+      "topic": "Epidemiology & Surveillance",
       "subtopics": [
-        "Definition & scope of epidemiology",
-        "Measures of disease frequency \u2014 incidence (cumulative incidence, incidence rate/person-time), prevalence (point, period), relationship between incidence & prevalence",
-        "Measures of mortality \u2014 crude death rate, specific death rates, case fatality rate, proportional mortality rate, standardized mortality ratio",
-        "Measures of association \u2014 relative risk, odds ratio, attributable risk, population attributable risk, NNT",
-        "Epidemic \u2014 types (common source: point & propagated, mixed), epidemic curve, investigation of an epidemic",
-        "Endemic, pandemic, sporadic, exotic",
-        "Descriptive epidemiology \u2014 person, place, time distribution",
-        "Analytical epidemiology \u2014 observational studies: cross-sectional, case-control (odds ratio), cohort (relative risk)",
-        "Experimental epidemiology \u2014 randomized controlled trial (RCT), community trial, field trial",
-        "Bias \u2014 selection bias, information bias (recall, interviewer, observer), confounding, effect modification",
-        "Screening \u2014 criteria (Wilson & Jungner), sensitivity, specificity, PPV, NPV, likelihood ratios, ROC curve",
-        "Surveillance \u2014 types (passive, active, sentinel), disease notification",
-        "Uses of epidemiology",
-        "Association vs causation \u2014 Hill's criteria of causation"
+        "Measures of Disease Frequency (Incidence vs Prevalence)",
+        "Measures of Association (Relative Risk, Odds Ratio, AR)",
+        "Study Designs (Cross-sectional, Case-control, Cohort, RCT)",
+        "Epidemic Investigation & Dynamics (Endemic, Pandemic, Exotic)",
+        "Screening Principles (Sensitivity, Specificity, PPV, NPV, Wilson-Jungner)",
+        "Surveillance Systems (Active, Passive, Sentinel, IDSP)",
+        "Bias & Confounding in Research"
       ]
     },
     {
-      "topic": "Biostatistics (~25 questions)",
+      "topic": "Biostatistics & Demography",
       "subtopics": [
-        "Data types \u2014 qualitative (nominal, ordinal), quantitative (discrete, continuous)",
-        "Measures of central tendency \u2014 mean, median, mode",
-        "Measures of dispersion \u2014 range, variance, standard deviation, standard error, coefficient of variation",
-        "Normal distribution \u2014 properties, 68-95-99.7 rule, Z-score",
-        "Sampling methods \u2014 simple random, systematic, stratified, cluster, multistage",
-        "Sample size determination",
-        "Hypothesis testing \u2014 null & alternative hypothesis, Type I & Type II errors, p-value, significance level, power",
-        "Parametric tests \u2014 t-test (paired, unpaired), ANOVA, Pearson correlation, linear regression",
-        "Non-parametric tests \u2014 chi-square test, Fisher exact test, Mann-Whitney U, Wilcoxon, Kruskal-Wallis, Spearman correlation",
-        "Confidence intervals \u2014 interpretation, 95% CI",
-        "Correlation & regression \u2014 correlation coefficient, regression equation, multiple regression",
-        "Rates, ratios, proportions",
-        "Demographic methods \u2014 life table, survival analysis",
-        "Sensitivity, specificity, PPV, NPV \u2014 calculations",
-        "Graphical representation \u2014 bar diagram, histogram, pie chart, frequency polygon, scatter diagram, box plot"
+        "Data Types & Measures of Central Tendency/Dispersion",
+        "Normal Distribution & Sampling Methods",
+        "Hypothesis Testing (p-value, Type I/II Errors, Power)",
+        "Parametric vs Non-parametric Tests (t-test, Chi-square, ANOVA)",
+        "Correlation, Regression & Demographic Cycles",
+        "Graphical Representation of Data (Histogram, Box plot, Ogive)",
+        "Fertility & Mortality Indicators (CBR, TFR, Life Expectancy)"
       ]
     },
     {
-      "topic": "Nutrition (~25 questions)",
+      "topic": "Nutrition & Health",
       "subtopics": [
-        "Macronutrients \u2014 carbohydrates, proteins (essential amino acids, biological value, protein quality \u2014 NPU, PER), fats (essential fatty acids, saturated, unsaturated, trans fats)",
-        "Energy requirements \u2014 BMR, RDA, specific dynamic action",
-        "Proteins \u2014 protein-energy malnutrition: kwashiorkor, marasmus, marasmic kwashiorkor; assessment (weight-for-age, height-for-age, weight-for-height, MUAC, BMI)",
-        "Vitamins \u2014 A (xerophthalmia, Bitot spots, night blindness, national programs), D (rickets, osteomalacia), E, K, B1 (beriberi), B2 (angular stomatitis), B3 (pellagra \u2014 3Ds), B6, B12, C (scurvy), folate (NTDs)",
-        "Minerals \u2014 iron (anemia), iodine (goiter, cretinism, IDD), calcium, zinc, fluorine (fluorosis \u2014 dental, skeletal)",
-        "Nutritional assessment \u2014 anthropometry (BMI, MUAC, Quetelet index), clinical, biochemical, dietary (24-hour recall, food frequency, diet survey)",
-        "Growth monitoring \u2014 growth chart, WHO growth standards, IAP classification, Gomez, Waterlow, WHO classification of malnutrition",
-        "Balanced diet \u2014 food groups, food pyramid, ICMR RDA",
-        "National nutrition programs \u2014 ICDS, Mid-Day Meal, PMPOSHAN, National Iodine Deficiency Disorders Control Programme, National Iron Plus Initiative, Vitamin A supplementation",
-        "Food hygiene \u2014 food adulteration, food safety (FSSAI), food-borne diseases, food preservation",
-        "Infant & young child feeding \u2014 breastfeeding (advantages, colostrum, exclusive breastfeeding), complementary feeding, weaning, formula feeding"
+        "Macronutrients & Protein Quality (NPU, PER, BV)",
+        "Micronutrient Deficiencies (Xerophthalmia, Rickets, Pellagra, Scurvy)",
+        "Nutritional Assessment & Growth Monitoring (WHO Z-scores, MUAC)",
+        "National Nutrition Programs (ICDS, MDM, POSHAN Abhiyaan)",
+        "Food Hygiene & Safety (FSSAI, Adulteration)",
+        "Infant Feeding (IYCF, Breastfeeding, Weaning)"
       ]
     },
     {
-      "topic": "Maternal & Child Health (MCH) (~25 questions)",
+      "topic": "Maternal, Child & Adolescent Health",
       "subtopics": [
-        "Maternal health \u2014 antenatal care (registration, risk assessment, TT immunization, IFA supplementation), intranatal care, postnatal care",
-        "Maternal mortality \u2014 MMR, causes (direct & indirect), strategies to reduce",
-        "Safe motherhood \u2014 essential obstetric care, emergency obstetric care, skilled birth attendant",
-        "Infant mortality \u2014 IMR, NMR, PMR, causes, strategies to reduce",
-        "Under-5 mortality rate",
-        "Child health \u2014 IMNCI (Integrated Management of Neonatal & Childhood Illness), growth monitoring, immunization",
-        "National immunization schedule \u2014 BCG, OPV/IPV, DPT/pentavalent, hepatitis B, measles-rubella, rotavirus, PCV, JE, Td",
-        "Expanded Programme on Immunization (EPI), Universal Immunization Programme (UIP)",
-        "Cold chain \u2014 components, equipment, temperature maintenance, VVM (vaccine vial monitor)",
-        "Herd immunity \u2014 concept, threshold",
-        "Adverse events following immunization (AEFI) \u2014 classification, surveillance",
-        "Reproductive & child health (RCH) program",
-        "Janani Suraksha Yojana (JSY), Janani Shishu Suraksha Karyakram (JSSK)",
-        "RBSK (Rashtriya Bal Swasthya Karyakram)",
-        "School health services",
-        "Adolescent health \u2014 RKSK (Rashtriya Kishor Swasthya Karyakram)",
-        "Family planning \u2014 methods (natural, barrier, hormonal, IUCD, sterilization), spacing methods, national family planning program, eligible couple, contraceptive prevalence rate"
+        "Antenatal, Intranatal & Postnatal Care Strategies",
+        "Child Health Programs (IMNCI, RBSK, RMNCH+A)",
+        "National Immunization Schedule & Cold Chain Management",
+        "AEFI Surveillance & Herd Immunity",
+        "Social Schemes (JSY, JSSK, Ayushman Bharat)",
+        "Family Planning Methods (Natural, Barrier, Hormonal, IUD, Permanent)"
       ]
     },
     {
-      "topic": "Communicable Diseases (~30 questions)",
+      "topic": "Communicable & Non-Communicable Diseases",
       "subtopics": [
-        "General epidemiology \u2014 chain of infection (agent, host, environment), modes of transmission (direct, indirect, vehicle, vector, airborne), incubation period, generation time, serial interval",
-        "Respiratory infections \u2014 tuberculosis (epidemiology, RNTCP/NTEP, DOTS, MDR-TB management), influenza, measles, chickenpox, diphtheria, pertussis, mumps, COVID-19",
-        "GIT infections \u2014 cholera (epidemiology, case management, ORS), typhoid, hepatitis A & E, poliomyelitis (AFP surveillance, pulse polio, endgame strategy), rotavirus diarrhea",
-        "Vector-borne diseases \u2014 malaria (epidemiology, NVBDCP, control strategies, A. stephensi, A. culicifacies), dengue (Aedes aegypti, control), chikungunya, Japanese encephalitis, kala-azar (elimination program), filariasis (MDA, morbidity management)",
-        "Zoonoses \u2014 rabies (PEP, anti-rabies vaccine, IDRV), plague, leptospirosis, brucellosis, anthrax",
-        "Surface infections \u2014 leprosy (NLEP, MDT, elimination, disability grading), STIs (syphilis, gonorrhea, syndromic management), HIV/AIDS (NACP, PPTCT, ART centers, targeted intervention)",
-        "Hepatitis B & C \u2014 epidemiology, prevention, vaccination",
-        "Emerging & re-emerging infections \u2014 Nipah, Zika, Ebola, SARS-CoV-2",
-        "Hospital-acquired infections \u2014 prevention, surveillance",
-        "Disease surveillance \u2014 IDSP (Integrated Disease Surveillance Programme), notifiable diseases",
-        "International health regulations (IHR 2005)",
-        "Disinfection & sterilization in community settings"
+        "Respiratory Infections (TB/NTEP, COVID-19, Measles)",
+        "GIT & Vector-borne Diseases (Malaria/NVBDCP, Cholera, Polio)",
+        "Zoonoses & Surface Infections (Rabies, Leprosy/NLEP, HIV/NACP)",
+        "CVS, Diabetes & Cancer Epidemiology (NPCDCS)",
+        "Blindness & Mental Health (NPCB, Vision 2020, NMHP)",
+        "Substance Abuse Control (COTPA, Tobacco Control)"
       ]
     },
     {
-      "topic": "Non-Communicable Diseases (NCD) (~20 questions)",
+      "topic": "Environmental & Occupational Health",
       "subtopics": [
-        "Cardiovascular diseases \u2014 coronary heart disease (risk factors, prevention), hypertension (screening, management), rheumatic heart disease, stroke",
-        "Diabetes mellitus \u2014 epidemiology, risk factors, screening, prevention, NPCDCS",
-        "Cancer \u2014 epidemiology, risk factors, screening (cervical \u2014 VIA, Pap smear; breast \u2014 BSE, mammography; oral), national cancer control programme",
-        "Chronic respiratory diseases \u2014 COPD, asthma",
-        "Obesity \u2014 BMI classification, metabolic syndrome, prevention",
-        "Blindness \u2014 causes, national programme for control of blindness (NPCB), vision 2020",
-        "Mental health \u2014 epidemiology, national mental health programme (NMHP), district mental health programme",
-        "Accidents & injuries \u2014 road traffic accidents, prevention strategies, national programme",
-        "Substance abuse \u2014 alcohol, tobacco (COTPA, NTCP), drugs",
-        "NCD risk factors \u2014 tobacco, alcohol, physical inactivity, unhealthy diet",
-        "NPCDCS \u2014 National Programme for Prevention and Control of Cancer, Diabetes, CVD and Stroke"
+        "Water Purification & Quality Standards (Chlorination, MPN)",
+        "Waste Management (BMW Rules, Solid waste disposal)",
+        "Air & Noise Pollution Health Impacts",
+        "Disaster Management & Triage Phases",
+        "Occupational Hazards & Pneumoconioses (Silicosis, Asbestosis)",
+        "Legislation (Factories Act, ESI Act) & Ergonomics"
       ]
     },
     {
-      "topic": "Environmental Health (~20 questions)",
+      "topic": "Health Planning, Management & International Health",
       "subtopics": [
-        "Water \u2014 sources, purification (large scale: sedimentation, filtration, chlorination; small scale: boiling, chlorination, filtration), water quality standards (WHO, BIS), bacteriological examination (MPN, membrane filter), waterborne diseases",
-        "Sanitary well, protected water supply",
-        "Chlorination \u2014 types (simple, super, break-point, double pot), chlorine demand, residual chlorine, Horrock's apparatus",
-        "Air pollution \u2014 sources, pollutants (SO2, NOx, CO, PM2.5, PM10, ozone), health effects, air quality index, indoor air pollution",
-        "Solid waste management \u2014 types, methods of disposal (sanitary landfill, composting, incineration), biomedical waste management (BMW rules)",
-        "Sewage & excreta disposal \u2014 sewage treatment, septic tank, oxidation pond, types of latrines (sanitary, bore-hole, water seal, VIP)",
-        "Housing \u2014 standards, ventilation, lighting, overcrowding (floor space, cubic space)",
-        "Noise pollution \u2014 permissible limits, health effects",
-        "Radiation \u2014 ionizing & non-ionizing, health effects, protection",
-        "Climate change & health \u2014 global warming, ozone depletion, health impacts",
-        "Disaster management \u2014 types, phases (prevention, preparedness, response, recovery), triage"
+        "Health Management Functions & Planning Cycle",
+        "Health Economics (Cost-benefit, DALY, QALY)",
+        "Indian Health Infrastructure (Three-tier system, NHM)",
+        "International Agencies (WHO, UNICEF, World Bank, SDGs)",
+        "Primary Health Care Principles (Alma-Ata & Astana Declarations)",
+        "HMIS & Health Insurance Systems"
       ]
     },
     {
-      "topic": "Occupational Health (~15 questions)",
+      "topic": "Health Education & Sociology",
       "subtopics": [
-        "Occupational hazards \u2014 physical (heat, cold, noise, vibration, radiation, pressure), chemical (dusts, gases, metals, solvents), biological, mechanical, psychosocial",
-        "Occupational diseases \u2014 pneumoconioses (silicosis, asbestosis, byssinosis, bagassosis), occupational cancers (bladder \u2014 aniline dyes, lung \u2014 asbestos, mesothelioma, scrotal \u2014 chimney sweeps), occupational dermatoses",
-        "Lead poisoning \u2014 occupational exposure, prevention",
-        "Noise-induced hearing loss \u2014 audiometry, prevention",
-        "Occupational health services \u2014 pre-placement examination, periodic examination, workplace monitoring",
-        "Factories Act 1948 \u2014 provisions, working hours, welfare measures",
-        "ESI Act, Workmen's Compensation Act",
-        "Ergonomics \u2014 principles, musculoskeletal disorders",
-        "ILO \u2014 role in occupational health"
+        "Behavior Change Communication (BCC) & IEC",
+        "Communication Models (Health Belief, Transtheoretical)",
+        "Social Determinants of Health & Culture",
+        "Social Security Schemes (CGHS, ECHS)",
+        "Medical Sociology & Social Mobility"
       ]
     },
     {
-      "topic": "Health Programs in India (~25 questions)",
+      "topic": "Genetics & Community Health",
       "subtopics": [
-        "National Health Mission (NHM) \u2014 NRHM, NUHM, components",
-        "RNTCP/NTEP \u2014 revised national TB control programme, DOTS, programmatic management of drug-resistant TB",
-        "NVBDCP \u2014 malaria, dengue, chikungunya, kala-azar, filariasis control",
-        "NLEP \u2014 national leprosy eradication programme",
-        "NACP \u2014 national AIDS control programme, phases, strategies",
-        "NPCB \u2014 national programme for control of blindness",
-        "NPCDCS \u2014 NCD control",
-        "NMHP \u2014 national mental health programme",
-        "IDSP \u2014 integrated disease surveillance programme",
-        "Universal Immunization Programme (UIP)",
-        "ICDS \u2014 integrated child development services",
-        "RMNCH+A \u2014 reproductive, maternal, newborn, child & adolescent health",
-        "Ayushman Bharat \u2014 health & wellness centers, PM-JAY",
-        "National Health Policy 2017",
-        "Swachh Bharat Mission",
-        "National Urban Health Mission",
-        "Rashtriya Swasthya Bima Yojana",
-        "ASHA, ANM, Anganwadi worker \u2014 roles & responsibilities",
-        "Primary health care \u2014 Alma-Ata declaration, PHC, CHC, sub-center, district hospital",
-        "Health infrastructure \u2014 three-tier system"
-      ]
-    },
-    {
-      "topic": "Demography & Family Planning (~20 questions)",
-      "subtopics": [
-        "Demography \u2014 definition, sources of demographic data (census, vital registration, SRS, NFHS, DLHS)",
-        "Population composition \u2014 age-sex pyramid, dependency ratio",
-        "Fertility indicators \u2014 CBR, GFR, TFR, GRR, NRR",
-        "Mortality indicators \u2014 CDR, IMR, NMR, PMR, MMR, U5MR, life expectancy",
-        "Demographic cycle/transition \u2014 stages, India's position",
-        "Population growth \u2014 Malthusian theory, demographic transition theory, population explosion",
-        "Population policy \u2014 national population policy 2000, goals",
-        "Family planning \u2014 methods: natural (rhythm, BBT, cervical mucus, LAM), barrier (condom, diaphragm), hormonal (OCP, injectable \u2014 DMPA, implants), IUCD (Cu-T 380A, LNG-IUS), sterilization (tubectomy, vasectomy), emergency contraception (levonorgestrel, Cu-T)",
-        "Medical termination of pregnancy (MTP) Act \u2014 provisions, amendments",
-        "Contraceptive prevalence rate, unmet need",
-        "Demographic indicators of India \u2014 current population, growth rate, sex ratio, literacy rate"
-      ]
-    },
-    {
-      "topic": "Health Education, Communication & Sociology (~15 questions)",
-      "subtopics": [
-        "Health education \u2014 definition, objectives, principles, methods (individual, group, mass)",
-        "IEC (Information, Education, Communication) & BCC (Behavior Change Communication)",
-        "Communication \u2014 types, barriers, models (PRECEDE-PROCEED, health belief model, stages of change/transtheoretical model)",
-        "Mass media \u2014 advantages, limitations",
-        "Social sciences in health \u2014 sociology, psychology, anthropology",
-        "Concepts \u2014 social class, social mobility, social change, urbanization",
-        "Culture & health \u2014 beliefs, practices, cultural barriers to health",
-        "Family \u2014 types (nuclear, joint, extended), family as a unit of health",
-        "Community organization & community participation",
-        "Social security \u2014 ESI, CGHS, ECHS",
-        "Health economics \u2014 concepts, health expenditure, GDP on health",
-        "Social determinants of health \u2014 poverty, education, gender, caste"
-      ]
-    },
-    {
-      "topic": "Health Planning & Management (~15 questions)",
-      "subtopics": [
-        "Health planning \u2014 definition, steps, types (normative, strategic, operational)",
-        "Health management \u2014 principles, functions (planning, organizing, staffing, directing, controlling)",
-        "Health team \u2014 composition, roles",
-        "Supervision & monitoring",
-        "Evaluation of health programs \u2014 process, outcome, impact evaluation",
-        "Health economics \u2014 cost-benefit analysis, cost-effectiveness analysis, DALY, QALY",
-        "National health accounts",
-        "Health insurance \u2014 types, community-based, social, private",
-        "International health agencies \u2014 WHO (structure, functions, WHA), UNICEF, UNFPA, World Bank, UNDP, bilateral agencies",
-        "Millennium Development Goals (MDGs) & Sustainable Development Goals (SDGs)",
-        "Primary health care \u2014 principles, elements, comprehensive vs selective",
-        "Alma-Ata Declaration (1978), Astana Declaration (2018)",
-        "Universal Health Coverage (UHC)",
-        "District health system \u2014 structure, functioning",
-        "HMIS \u2014 health management information system"
-      ]
-    },
-    {
-      "topic": "Genetics & Health (~10 questions)",
-      "subtopics": [
-        "Genetic epidemiology \u2014 genetic basis of disease, gene-environment interaction",
-        "Genetic counseling \u2014 indications, process",
-        "Genetic screening \u2014 newborn screening, prenatal diagnosis",
-        "Chromosomal disorders \u2014 Down syndrome, Turner, Klinefelter (epidemiological aspects)",
-        "Single gene disorders \u2014 sickle cell, thalassemia, cystic fibrosis (community aspects, screening programs)",
-        "Consanguinity \u2014 health effects",
-        "National programmes for genetic disorders \u2014 sickle cell anemia mission"
+        "Genetic Epidemiology & Counseling",
+        "Community Screening for Single Gene Disorders (Sickle Cell, Thalassemia)",
+        "Chromosomal Disorder Surveillance",
+        "Consanguinity & Health Effects"
       ]
     }
   ]

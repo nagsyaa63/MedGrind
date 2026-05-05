@@ -1,303 +1,96 @@
 {
-  "subject": "Other Subjects (Ethics, Biostatistics, Research Methodology & Medical Jurisprudence Overlap)",
-  "topics": [
+  "subject": "Ethics, Biostatistics, Research Methodology & Jurisprudence",
+  "mappings": [
     {
-      "topic": "Medical Ethics \u2014 Principles & Foundations (~20 questions)",
+      "topic": "Medical Ethics: Principles & Foundations",
       "subtopics": [
-        "Definition and scope of medical ethics",
-        "Bioethics vs medical ethics vs clinical ethics",
-        "Four principles of biomedical ethics (Beauchamp & Childress) \u2014 autonomy, beneficence, non-maleficence, justice",
-        "Principle of autonomy \u2014 respect for patient's decision-making, capacity assessment",
-        "Principle of beneficence \u2014 duty to act in patient's best interest, paternalism vs shared decision-making",
-        "Principle of non-maleficence \u2014 \"primum non nocere,\" balancing harm and benefit",
-        "Principle of justice \u2014 distributive justice, resource allocation, triage ethics",
-        "Deontological ethics (Kantian) \u2014 duty-based approach in medicine",
-        "Consequentialism/utilitarianism \u2014 outcome-based ethical reasoning",
-        "Virtue ethics \u2014 character of the physician",
-        "Hippocratic Oath \u2014 historical significance, modern relevance",
-        "Declaration of Geneva (Physician's Pledge) \u2014 WMA, modern Hippocratic Oath",
-        "Declaration of Helsinki \u2014 ethical principles for medical research involving human subjects",
-        "Nuremberg Code \u2014 origin, ten principles, historical context",
-        "Belmont Report \u2014 respect for persons, beneficence, justice in research",
-        "International ethical guidelines \u2014 WMA declarations (Tokyo, Lisbon, Malta, Ottawa)",
-        "Indian Medical Council (Professional Conduct, Etiquette and Ethics) Regulations, 2002",
-        "National Medical Commission (NMC) \u2014 role in ethics regulation, replacement of MCI",
-        "Ethical committees \u2014 Institutional Ethics Committee (IEC), composition, functions, ICMR guidelines"
+        "Four Principles of Bioethics (Autonomy, Beneficence, Non-maleficence, Justice)",
+        "Ethical Frameworks (Deontological/Kantian, Utilitarianism, Virtue Ethics)",
+        "Historical Codes (Hippocratic Oath, Nuremberg Code, Declaration of Helsinki)",
+        "Modern Regulations (Declaration of Geneva, Belmont Report, ICMR Guidelines)",
+        "Regulatory Bodies (National Medical Commission - NMC, Institutional Ethics Committees)"
       ]
     },
     {
-      "topic": "Consent (~15 questions)",
+      "topic": "Consent & Confidentiality",
       "subtopics": [
-        "Informed consent \u2014 definition, elements (disclosure, understanding, voluntariness, capacity, authorization)",
-        "Types of consent \u2014 implied, expressed (oral, written), blanket consent",
-        "Capacity/competence to consent \u2014 assessment, fluctuating capacity",
-        "Consent in minors \u2014 age of consent, parental/guardian consent, mature minor doctrine, Gillick competence",
-        "Consent in mentally ill patients \u2014 Mental Healthcare Act 2017, advance directives, nominated representative",
-        "Consent in unconscious/emergency patients \u2014 doctrine of necessity, implied consent in emergencies",
-        "Therapeutic privilege \u2014 withholding information, ethical justification, limitations",
-        "Right to refuse treatment \u2014 competent adults, Jehovah's Witnesses, hunger strikes",
-        "Consent for surgical procedures \u2014 specific vs general consent, scope of consent",
-        "Consent in research \u2014 additional requirements, IRB/IEC approval, vulnerable populations",
-        "Consent for HIV testing \u2014 pre-test and post-test counseling, confidentiality",
-        "Consent in organ donation \u2014 living donor, cadaveric donor, THOA 1994",
-        "Proxy consent / surrogate decision-making \u2014 hierarchy of surrogates",
-        "Withdrawal of consent \u2014 patient's right to withdraw at any time",
-        "Documentation of consent \u2014 legal requirements, best practices"
+        "Informed Consent Elements (Capacity, Voluntariness, Disclosure)",
+        "Consent in Special Populations (Minors/Gillick Competence, Mental Illness/MHCA 2017)",
+        "Emergency Consent (Doctrine of Necessity, Good Samaritan Law)",
+        "Patient Rights (Right to refuse, Surrogate decision-making, Right to Information)",
+        "Duty of Confidentiality & Exceptions (Statutory reporting, Tarasoff Principle, Telemedicine)"
       ]
     },
     {
-      "topic": "Confidentiality & Privacy (~10 questions)",
+      "topic": "End-of-Life & Professional Conduct",
       "subtopics": [
-        "Duty of confidentiality \u2014 ethical and legal basis",
-        "Doctor-patient privilege \u2014 scope, limitations",
-        "Exceptions to confidentiality \u2014 statutory reporting (notifiable diseases, gunshot wounds, child abuse), court orders, public interest",
-        "Confidentiality in HIV/AIDS \u2014 disclosure to spouse/partner, ethical dilemma",
-        "Confidentiality of medical records \u2014 storage, access, electronic health records",
-        "Breach of confidentiality \u2014 legal consequences, disciplinary action",
-        "Confidentiality in genetic information \u2014 implications for family members",
-        "Confidentiality in adolescent healthcare \u2014 reproductive health, substance abuse",
-        "Information Technology Act 2000 and health data \u2014 digital privacy",
-        "Telemedicine and confidentiality \u2014 Telemedicine Practice Guidelines 2020"
+        "Euthanasia (Active vs Passive, Aruna Shanbaug Case, Living Wills)",
+        "End-of-Life Care (Medical Futility, DNAR, Principle of Double Effect)",
+        "Organ Donation Ethics & Law (THOA 1994, Brain Death Certification)",
+        "Professional Boundaries (Doctor-Patient Models, Conflicts of Interest)",
+        "Misconduct & Communication (Professional Misconduct, SPIKES Protocol, Social Media Ethics)"
       ]
     },
     {
-      "topic": "End-of-Life Ethics (~15 questions)",
+      "topic": "Indian Medical Laws & Regulations",
       "subtopics": [
-        "Euthanasia \u2014 definition, types (active, passive, voluntary, involuntary, non-voluntary)",
-        "Legal status of euthanasia \u2014 India (Aruna Shanbaug case, Common Cause vs Union of India 2018), international comparison",
-        "Passive euthanasia in India \u2014 Supreme Court guidelines, living will/advance directive",
-        "Advance directives \u2014 legal validity in India, format, execution, safeguards",
-        "Physician-assisted suicide \u2014 definition, ethical arguments, legal status",
-        "Withdrawal and withholding of life-sustaining treatment \u2014 ethical framework, medical futility",
-        "Medical futility \u2014 definition, quantitative vs qualitative, who decides",
-        "Do Not Attempt Resuscitation (DNAR) \u2014 ethical basis, documentation, communication",
-        "Palliative care ethics \u2014 goals, symptom management, principle of double effect",
-        "Principle of double effect \u2014 conditions for ethical justification, application in pain management",
-        "Brain death \u2014 ethical implications, organ donation, family communication",
-        "Organ donation ethics \u2014 consent models (opt-in vs opt-out), living donor ethics, commercialization",
-        "Transplantation of Human Organs and Tissues Act (THOA) 1994 (amended 2011) \u2014 provisions, authorization committee",
-        "Terminal sedation \u2014 ethical considerations",
-        "Quality of life vs sanctity of life \u2014 ethical debate"
+        "National Medical Commission (NMC) Act 2019 & NEXT Exam",
+        "Reproductive Laws (MTP Act 2021, PCPNDT Act 1994, Surrogacy Act 2021)",
+        "Special Statutes (Mental Healthcare Act 2017, CPA 2019, Epidemic Diseases Act)",
+        "Environmental & Drug Safety (Biomedical Waste Rules, NDPS Act, Drugs & Cosmetics Act)",
+        "Constitutional Rights (Article 21 - Right to Health, Parmanand Katara Case)"
       ]
     },
     {
-      "topic": "Professional Conduct & Doctor-Patient Relationship (~15 questions)",
+      "topic": "Biostatistics: Descriptive & Inferential",
       "subtopics": [
-        "Doctor-patient relationship \u2014 models (paternalistic, informative, interpretive, deliberative)",
-        "Shared decision-making \u2014 principles, tools, patient-centered care",
-        "Professional boundaries \u2014 dual relationships, gifts, social media",
-        "Conflict of interest \u2014 disclosure, management, pharmaceutical industry interactions",
-        "Medical advertising and self-promotion \u2014 NMC regulations, ethical advertising",
-        "Second opinion \u2014 patient's right, physician's duty",
-        "Referral ethics \u2014 appropriate referral, fee-splitting (dichotomy), kickbacks",
-        "Whistle-blowing in medicine \u2014 duty to report, protection of whistleblowers",
-        "Impaired physician \u2014 substance abuse, mental health, fitness to practice",
-        "Professional misconduct \u2014 definition, examples, disciplinary proceedings by NMC/State Medical Councils",
-        "Duties of a physician \u2014 to patients, to colleagues, to society, to self",
-        "Communication skills \u2014 breaking bad news (SPIKES protocol), truth-telling, empathy",
-        "Cultural competence \u2014 respecting diverse beliefs, religious considerations in treatment",
-        "Social media ethics \u2014 patient privacy, professional image, online consultations",
-        "Telemedicine ethics \u2014 Telemedicine Practice Guidelines 2020, limitations, prescribing"
+        "Data Types & Measures of Central Tendency (Mean, Median, Mode)",
+        "Measures of Dispersion (Standard Deviation vs Standard Error, Skewness)",
+        "Normal Distribution & Probability (Gaussian Curve, Bayes' Theorem)",
+        "Sampling Methods (Random, Stratified, Cluster, Snowball)",
+        "Hypothesis Testing (Null Hypothesis, Type I/II Errors, p-value, Power)",
+        "Parametric & Non-Parametric Tests (t-test, ANOVA, Chi-square, Mann-Whitney)",
+        "Correlation & Regression (Pearson’s r, r²)"
       ]
     },
     {
-      "topic": "Indian Medical Laws & Regulations (~15 questions)",
+      "topic": "Diagnostic Test Evaluation & Risk Measures",
       "subtopics": [
-        "Indian Medical Council Act 1956 \u2014 establishment of MCI, functions (now replaced by NMC)",
-        "National Medical Commission Act 2019 \u2014 structure, functions, NEXT exam, autonomous boards",
-        "Consumer Protection Act 2019 (CPA) \u2014 applicability to medical profession, deficiency in service, medical negligence",
-        "Clinical Establishments (Registration and Regulation) Act 2010 \u2014 registration, standards",
-        "Mental Healthcare Act 2017 \u2014 rights of mentally ill, advance directives, decriminalization of suicide attempt",
-        "Rights of Persons with Disabilities Act 2016 \u2014 reasonable accommodation, non-discrimination",
-        "Pre-Conception and Pre-Natal Diagnostic Techniques (PCPNDT) Act 1994 \u2014 prohibition of sex determination, penalties",
-        "Medical Termination of Pregnancy (MTP) Act 1971 (amended 2021) \u2014 indications, gestational limits (20 weeks, 24 weeks for special categories), opinion requirements, confidentiality",
-        "Drugs and Cosmetics Act 1940 \u2014 drug regulation, schedule H, H1, X drugs",
-        "Narcotic Drugs and Psychotropic Substances (NDPS) Act 1985 \u2014 controlled substances, prescribing regulations",
-        "Epidemic Diseases Act 1897 \u2014 powers during epidemics, COVID-19 amendments",
-        "Biomedical Waste Management Rules 2016 \u2014 categories, color coding, treatment, disposal",
-        "Human Organ Transplantation Act (THOA) 1994 \u2014 brain death certification, authorization committee, penalties for organ trade",
-        "Assisted Reproductive Technology (ART) Regulation Act 2021 and Surrogacy Regulation Act 2021",
-        "Right to health \u2014 Article 21, Parmanand Katara case, duty to treat in emergencies"
+        "Test Performance (Sensitivity, Specificity, SnNOut, SpPIn)",
+        "Predictive Values (PPV, NPV) & Prevalence Effects",
+        "Likelihood Ratios & ROC Curves (AUC)",
+        "Reliability & Agreement (Cohen's Kappa, Intra/Inter-observer variability)",
+        "Measures of Association (Odds Ratio, Relative Risk, NNT, NNH)"
       ]
     },
     {
-      "topic": "Biostatistics \u2014 Descriptive Statistics (~15 questions)",
+      "topic": "Research Methodology: Study Designs",
       "subtopics": [
-        "Definition and scope of biostatistics",
-        "Types of data \u2014 qualitative (nominal, ordinal), quantitative (discrete, continuous), interval, ratio scales",
-        "Measures of central tendency \u2014 mean (arithmetic, geometric, harmonic), median, mode",
-        "Properties of mean, median, mode \u2014 when to use each, effect of skewness",
-        "Measures of dispersion \u2014 range, interquartile range, variance, standard deviation, coefficient of variation",
-        "Standard deviation vs standard error \u2014 distinction, calculation, interpretation",
-        "Normal (Gaussian) distribution \u2014 properties, 68-95-99.7 rule, Z-scores",
-        "Skewness and kurtosis \u2014 positive skew, negative skew, leptokurtic, platykurtic",
-        "Non-normal distributions \u2014 binomial, Poisson, log-normal",
-        "Frequency distribution \u2014 tables, histograms, frequency polygons, ogive curves",
-        "Data presentation \u2014 tables, bar charts, pie charts, line graphs, box-and-whisker plots, scatter plots",
-        "Percentiles, quartiles, deciles \u2014 calculation, interpretation",
-        "Correlation \u2014 Pearson's correlation coefficient (r), Spearman's rank correlation, interpretation, correlation vs causation",
-        "Regression \u2014 simple linear regression, regression equation, coefficient of determination (r\u00b2)",
-        "Coefficient of variation \u2014 comparing variability between different datasets"
+        "Observational Studies (Cross-sectional, Case-control, Cohort)",
+        "Interventional Studies (RCT Phases I-IV, Crossover, Factorial Design)",
+        "Randomization & Blinding Techniques (Allocation Concealment)",
+        "Analysis Approaches (Intention-to-Treat vs Per-Protocol)",
+        "Qualitative & Mixed Methods Research"
       ]
     },
     {
-      "topic": "Biostatistics \u2014 Inferential Statistics & Hypothesis Testing (~20 questions)",
+      "topic": "Bias, Evidence-Based Medicine & Systematic Reviews",
       "subtopics": [
-        "Population vs sample \u2014 parameters vs statistics",
-        "Sampling methods \u2014 simple random, systematic, stratified, cluster, multistage, convenience, snowball, purposive",
-        "Sampling error vs non-sampling error (bias)",
-        "Sample size determination \u2014 factors affecting, formula for proportions and means, power analysis",
-        "Probability \u2014 basic concepts, addition and multiplication rules, conditional probability, Bayes' theorem",
-        "Confidence intervals \u2014 95% CI, 99% CI, interpretation, relationship to hypothesis testing",
-        "Hypothesis testing \u2014 null hypothesis (H\u2080), alternative hypothesis (H\u2081), one-tailed vs two-tailed tests",
-        "Type I error (\u03b1) \u2014 false positive, significance level (p < 0.05)",
-        "Type II error (\u03b2) \u2014 false negative, power of a test (1 \u2212 \u03b2)",
-        "p-value \u2014 definition, interpretation, limitations, p-value vs clinical significance",
-        "Student's t-test \u2014 paired, unpaired (independent), assumptions, when to use",
-        "Chi-square test (\u03c7\u00b2) \u2014 test of association, goodness of fit, Yates' correction, assumptions",
-        "Fisher's exact test \u2014 when to use (small sample sizes, expected frequency < 5)",
-        "ANOVA (Analysis of Variance) \u2014 one-way, two-way, post-hoc tests (Tukey, Bonferroni)",
-        "Non-parametric tests \u2014 Mann-Whitney U test, Wilcoxon signed-rank test, Kruskal-Wallis test, Friedman test",
-        "When to use parametric vs non-parametric tests \u2014 assumptions, decision flowchart",
-        "Multiple comparisons \u2014 Bonferroni correction, false discovery rate",
-        "Odds ratio (OR) \u2014 calculation, interpretation, use in case-control studies",
-        "Relative risk (RR) \u2014 calculation, interpretation, use in cohort studies",
-        "Absolute risk reduction (ARR), relative risk reduction (RRR), number needed to treat (NNT), number needed to harm (NNH)"
+        "Bias Types (Selection, Recall, Berkson's, Publication/Funnel Plots)",
+        "Confounding Control (Randomization, Matching, Stratification, Multivariable Analysis)",
+        "Internal vs External Validity (Precision vs Accuracy)",
+        "EBM Hierarchy & PICO Framework",
+        "Systematic Reviews & Meta-analysis (Forest Plots, Heterogeneity/I², PRISMA)"
       ]
     },
     {
-      "topic": "Diagnostic Test Evaluation (~15 questions)",
+      "topic": "Jurisprudence: Negligence & Documentation",
       "subtopics": [
-        "Sensitivity \u2014 definition, calculation, true positive rate, SnNOut (high sensitivity rules out)",
-        "Specificity \u2014 definition, calculation, true negative rate, SpPIn (high specificity rules in)",
-        "Positive predictive value (PPV) \u2014 definition, calculation, effect of prevalence",
-        "Negative predictive value (NPV) \u2014 definition, calculation, effect of prevalence",
-        "Prevalence and its effect on PPV and NPV",
-        "2\u00d72 contingency table \u2014 construction, calculation of sensitivity, specificity, PPV, NPV",
-        "False positive rate and false negative rate",
-        "Accuracy \u2014 overall proportion of correct results",
-        "Likelihood ratios \u2014 positive LR (LR+), negative LR (LR\u2212), interpretation, Fagan nomogram",
-        "Pre-test and post-test probability \u2014 Bayesian approach",
-        "ROC curve (Receiver Operating Characteristic) \u2014 construction, AUC (Area Under Curve), comparison of tests",
-        "Cut-off values \u2014 trade-off between sensitivity and specificity, clinical decision thresholds",
-        "Screening vs diagnostic tests \u2014 characteristics, requirements for screening tests (Wilson & Jungner criteria)",
-        "Gold standard \u2014 definition, verification bias, imperfect gold standard",
-        "Agreement and reliability \u2014 Cohen's kappa, interpretation (poor to perfect agreement), intra-observer and inter-observer variability"
-      ]
-    },
-    {
-      "topic": "Research Methodology \u2014 Study Designs (~20 questions)",
-      "subtopics": [
-        "Classification of study designs \u2014 observational vs interventional, descriptive vs analytical",
-        "Case report and case series \u2014 definition, uses, limitations",
-        "Cross-sectional study (prevalence study) \u2014 design, advantages, limitations, measures (prevalence, OR)",
-        "Ecological study \u2014 unit of analysis is population, ecological fallacy",
-        "Case-control study \u2014 design, selection of cases and controls, matching, odds ratio, advantages, limitations",
-        "Nested case-control study \u2014 within a cohort, advantages",
-        "Cohort study \u2014 prospective vs retrospective, design, relative risk, attributable risk, advantages, limitations",
-        "Historical cohort study \u2014 using existing records",
-        "Randomized Controlled Trial (RCT) \u2014 design, phases (I\u2013IV), CONSORT statement",
-        "Randomization \u2014 simple, block, stratified, cluster, adaptive, allocation concealment",
-        "Blinding \u2014 single, double, triple blind, open-label, sham procedures",
-        "Placebo and placebo effect \u2014 ethical use, active comparator",
-        "Intention-to-treat (ITT) analysis vs per-protocol analysis \u2014 advantages, limitations",
-        "Crossover study design \u2014 washout period, carryover effect",
-        "Factorial design \u2014 testing multiple interventions simultaneously",
-        "Quasi-experimental studies \u2014 non-randomized, before-after studies, interrupted time series",
-        "Qualitative research \u2014 methods (interviews, focus groups, ethnography), thematic analysis, grounded theory",
-        "Mixed methods research \u2014 combining quantitative and qualitative approaches",
-        "Phases of clinical trials \u2014 Phase I (safety), Phase II (efficacy), Phase III (comparative), Phase IV (post-marketing surveillance)",
-        "Adaptive trial designs \u2014 interim analysis, sample size re-estimation"
-      ]
-    },
-    {
-      "topic": "Bias, Confounding & Error in Research (~15 questions)",
-      "subtopics": [
-        "Bias \u2014 definition, classification (selection bias, information bias, confounding)",
-        "Selection bias \u2014 types (Berkson's bias, Neyman bias, volunteer bias, healthy worker effect, loss to follow-up)",
-        "Information bias \u2014 recall bias, interviewer bias, observer bias, reporting bias, Hawthorne effect",
-        "Measurement bias \u2014 misclassification (differential, non-differential), instrument error",
-        "Lead-time bias \u2014 in screening studies, apparent vs real survival benefit",
-        "Length-time bias \u2014 screening detects slower-growing diseases",
-        "Publication bias \u2014 positive result bias, funnel plot, file drawer problem",
-        "Attrition bias \u2014 differential loss to follow-up",
-        "Confounding \u2014 definition, identification, control methods",
-        "Methods to control confounding \u2014 randomization, restriction, matching, stratification, multivariable analysis, propensity score",
-        "Effect modification (interaction) \u2014 difference from confounding, assessment, reporting",
-        "Internal validity vs external validity (generalizability)",
-        "Reliability \u2014 test-retest, inter-rater, intra-rater, Cronbach's alpha",
-        "Validity \u2014 content, criterion (concurrent, predictive), construct validity",
-        "Precision vs accuracy \u2014 random error vs systematic error"
-      ]
-    },
-    {
-      "topic": "Evidence-Based Medicine (EBM) & Systematic Reviews (~15 questions)",
-      "subtopics": [
-        "Evidence-based medicine \u2014 definition (Sackett), three pillars (best evidence, clinical expertise, patient values)",
-        "Hierarchy of evidence \u2014 pyramid (expert opinion \u2192 case series \u2192 case-control \u2192 cohort \u2192 RCT \u2192 systematic review/meta-analysis)",
-        "Levels of evidence and grades of recommendation \u2014 Oxford CEBM, GRADE system",
-        "Asking clinical questions \u2014 PICO framework (Population, Intervention, Comparison, Outcome)",
-        "Searching for evidence \u2014 PubMed, Cochrane Library, MEDLINE, search strategies, MeSH terms",
-        "Critical appraisal of literature \u2014 validity, results, applicability, CASP checklists",
-        "Systematic review \u2014 definition, steps (protocol, search, selection, data extraction, quality assessment, synthesis)",
-        "PRISMA statement \u2014 reporting guidelines for systematic reviews",
-        "Meta-analysis \u2014 definition, forest plot (point estimates, CI, diamond), heterogeneity (I\u00b2, Q statistic, Cochran's Q)",
-        "Fixed-effect vs random-effects model \u2014 when to use each",
-        "Heterogeneity \u2014 clinical, methodological, statistical, sources, management (subgroup analysis, meta-regression)",
-        "Funnel plot \u2014 detection of publication bias, Egger's test",
-        "Sensitivity analysis \u2014 assessing robustness of meta-analysis results",
-        "Clinical practice guidelines \u2014 development, AGREE II instrument, adaptation",
-        "Knowledge translation \u2014 implementation of evidence into practice, barriers, facilitators"
-      ]
-    },
-    {
-      "topic": "Medical Jurisprudence Overlap \u2014 Negligence & Malpractice (~15 questions)",
-      "subtopics": [
-        "Medical negligence \u2014 definition, elements (duty of care, breach of duty, causation, damage)",
-        "Standard of care \u2014 Bolam test (Bolam vs Friern Hospital), Bolitho modification",
-        "Res ipsa loquitur \u2014 \"the thing speaks for itself,\" application in medical negligence",
-        "Contributory negligence \u2014 patient's role in adverse outcome",
-        "Vicarious liability \u2014 employer's liability for employee's negligence, hospital liability",
-        "Civil vs criminal negligence \u2014 burden of proof, consequences",
-        "Criminal negligence in India \u2014 Section 304A IPC (causing death by negligence), Jacob Mathew vs State of Punjab (2005) \u2014 Supreme Court guidelines",
-        "Consumer Protection Act 2019 \u2014 medical negligence as deficiency in service, compensation, District/State/National Commission",
-        "Landmark cases in medical negligence \u2014 Indian Medical Association vs V.P. Shantha, Samira Kohli vs Dr. Prabha Manchanda, Malay Kumar Ganguly vs Dr. Sukumar Mukherjee",
-        "Professional indemnity insurance \u2014 importance, coverage",
-        "Defensive medicine \u2014 definition, positive and negative defensive medicine, impact on healthcare",
-        "Medical audit and clinical governance \u2014 quality improvement, peer review",
-        "Adverse events and medical errors \u2014 classification, root cause analysis, Swiss cheese model",
-        "Patient safety \u2014 WHO initiatives, reporting systems, just culture",
-        "Grievance redressal mechanisms \u2014 hospital committees, medical councils, consumer forums, courts"
-      ]
-    },
-    {
-      "topic": "Medical Documentation & Record Keeping (~10 questions)",
-      "subtopics": [
-        "Medical records \u2014 definition, types, importance (clinical, legal, research, administrative)",
-        "Components of medical records \u2014 history, examination, investigations, diagnosis, treatment, consent, discharge summary",
-        "Legal status of medical records \u2014 admissibility as evidence, Indian Evidence Act",
-        "Retention of medical records \u2014 duration, guidelines, digital records",
-        "Electronic Health Records (EHR) \u2014 advantages, challenges, interoperability, data security",
-        "Medico-legal case (MLC) \u2014 definition, when to register, documentation, police intimation",
-        "Death certificate \u2014 format, cause of death certification (ICD coding), who can issue",
-        "Wound certificate and injury report \u2014 documentation, legal importance",
-        "Prescription writing \u2014 legal requirements, legibility, abbreviations, e-prescriptions",
-        "Discharge summary \u2014 components, medicolegal importance, patient's right to records"
-      ]
-    },
-    {
-      "topic": "Consent Laws & Patient Rights (~10 questions)",
-      "subtopics": [
-        "Legal framework of consent in India \u2014 Indian Contract Act, IPC sections (Section 87, 88, 89, 90, 92)",
-        "Age of consent for medical treatment \u2014 Indian Majority Act 1875 (18 years), exceptions",
-        "Consent in emergency \u2014 Section 92 IPC, Good Samaritan Law (Supreme Court guidelines 2016, Motor Vehicles Amendment Act 2019)",
-        "Consent for mentally ill \u2014 Mental Healthcare Act 2017, advance directives, nominated representative",
-        "Consent for HIV testing \u2014 NACO guidelines, preand post-test counseling",
-        "Patient rights \u2014 Charter of Patient Rights (NHRC), right to information, right to choose, right to privacy, right to grievance redressal",
-        "Right to access medical records \u2014 patient's right, hospital's obligation",
-        "Refusal of treatment \u2014 competent adult's right, documentation, against medical advice (AMA) discharge",
-        "Consent in clinical research \u2014 ICMR guidelines, additional safeguards for vulnerable populations",
-        "Informed refusal \u2014 documentation, medicolegal protection"
+        "Medical Negligence (Duty, Breach, Causation, Bolam/Bolitho Tests)",
+        "Legal Doctrines (Res Ipsa Loquitur, Vicarious Liability, Contributory Negligence)",
+        "Criminal Negligence (Section 304A IPC, Jacob Mathew Case)",
+        "Medical Documentation (MLC Registration, Cause of Death Certification, EHR)",
+        "Grievance Redressal (Consumer Forums, State Medical Councils)"
       ]
     }
   ]

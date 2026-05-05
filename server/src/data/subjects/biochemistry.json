@@ -1,146 +1,98 @@
 {
   "subject": "Biochemistry",
-  "topics": [
+  "mappings": [
     {
-      "topic": "Chemistry of Biomolecules (~20 questions)",
+      "topic": "Chemistry of Biomolecules",
       "subtopics": [
-        "Amino Acids (Classification, Properties, Essential vs Non-Essential)",
-        "Proteins (Structure \u2014 Primary, Secondary, Tertiary, Quaternary; Denaturation)",
-        "Carbohydrates (Monosaccharides, Disaccharides, Polysaccharides, Glycosaminoglycans)",
-        "Lipids (Fatty Acids, Triglycerides, Phospholipids, Cholesterol, Sphingolipids, Prostaglandins)",
-        "Nucleotides and Nucleic Acids (DNA, RNA Structure, Purine, Pyrimidine)"
+        "Amino Acids (Classification, Essential/Non-Essential, Properties)",
+        "Protein Structure (Primary to Quaternary) & Denaturation",
+        "Carbohydrates (Mono/Di/Polysaccharides, Glycosaminoglycans)",
+        "Lipids (Fatty Acids, Cholesterol, Phospholipids, Prostaglandins)",
+        "Nucleic Acid Structure (DNA, RNA, Purines, Pyrimidines)"
       ]
     },
     {
-      "topic": "Enzymes (~20 questions)",
+      "topic": "Enzymology",
       "subtopics": [
-        "Classification (Oxidoreductases, Transferases, Hydrolases, Lyases, Isomerases, Ligases)",
-        "Enzyme Kinetics (Michaelis-Menten, Km, Vmax, Lineweaver-Burk Plot)",
-        "Enzyme Inhibition (Competitive, Non-Competitive, Uncompetitive, Suicide Inhibitors)",
-        "Regulation of Enzyme Activity (Allosteric, Covalent Modification, Zymogen Activation)",
-        "Isoenzymes (LDH, CK, ALP Isoforms, Clinical Significance)",
-        "Coenzymes and Cofactors (NAD, FAD, CoA, TPP, PLP, Biotin, Tetrahydrofolate)",
-        "Clinical Enzymology (Diagnostic Enzymes \u2014 Troponin, Amylase, Lipase, Transaminases)"
+        "Classification & Nomenclature (IUBMB System)",
+        "Enzyme Kinetics (Michaelis-Menten, Km, Vmax, LB Plot)",
+        "Inhibition Mechanisms (Competitive, Non-competitive, Suicide)",
+        "Regulation (Allosteric, Covalent, Zymogen activation)",
+        "Isoenzymes & Diagnostic Clinical Enzymology (CK, LDH, Troponin)",
+        "Coenzymes & Cofactors (NAD, FAD, TPP, PLP, Biotin)"
       ]
     },
     {
-      "topic": "Carbohydrate Metabolism (~25 questions)",
+      "topic": "Carbohydrate Metabolism & Bioenergetics",
       "subtopics": [
-        "Glycolysis (Steps, Regulation, Key Enzymes, Energy Yield)",
-        "TCA Cycle / Krebs Cycle (Steps, Regulation, Anaplerotic Reactions)",
-        "Gluconeogenesis (Key Enzymes, Substrates, Cori Cycle)",
-        "Glycogen Metabolism (Glycogenesis, Glycogenolysis, Regulation, Glycogen Storage Diseases)",
-        "HMP Shunt / Pentose Phosphate Pathway (Oxidative, Non-Oxidative Phases, G6PD Deficiency)",
-        "Fructose Metabolism (Essential Fructosuria, Hereditary Fructose Intolerance)",
-        "Galactose Metabolism (Galactosemia)",
-        "Pyruvate Dehydrogenase Complex",
-        "Electron Transport Chain and Oxidative Phosphorylation (Complexes I-V, Chemiosmotic Theory, Inhibitors, Uncouplers)",
-        "Blood Glucose Regulation (Insulin, Glucagon, Diabetes Mellitus Biochemistry)"
+        "Glycolysis & Pyruvate Dehydrogenase Complex",
+        "TCA Cycle & Anaplerotic Reactions",
+        "Gluconeogenesis & Cori Cycle",
+        "Glycogen Metabolism & Storage Diseases (GSDs)",
+        "HMP Shunt (Pentose Phosphate Pathway) & G6PD Deficiency",
+        "Fructose & Galactose Metabolism (Inborn Errors)",
+        "Electron Transport Chain (ETC) & Oxidative Phosphorylation",
+        "Blood Glucose Regulation (Insulin, Glucagon, Diabetes)"
       ]
     },
     {
-      "topic": "Lipid Metabolism (~25 questions)",
+      "topic": "Lipid Metabolism",
       "subtopics": [
-        "Beta-Oxidation of Fatty Acids (Steps, Energy Yield, Odd-Chain FA)",
-        "Fatty Acid Synthesis (De Novo Lipogenesis, Acetyl-CoA Carboxylase, Fatty Acid Synthase)",
-        "Ketone Body Metabolism (Ketogenesis, Ketolysis, Diabetic Ketoacidosis)",
-        "Cholesterol Metabolism (Synthesis \u2014 HMG-CoA Reductase, Regulation, Statins)",
-        "Lipoprotein Metabolism (Chylomicrons, VLDL, LDL, HDL, Lipoprotein Lipase)",
-        "Hyperlipidemias (Fredrickson Classification, Familial Hypercholesterolemia)",
-        "Phospholipid Metabolism",
-        "Sphingolipid Metabolism (Sphingolipidoses \u2014 Gaucher, Niemann-Pick, Tay-Sachs, Fabry, Krabbe)",
-        "Prostaglandins and Leukotrienes (Synthesis, Functions, COX Pathway, LOX Pathway)",
-        "Fatty Liver and Lipotropic Factors"
+        "Fatty Acid Oxidation (Beta-oxidation, Odd-chain FA)",
+        "De Novo Fatty Acid Synthesis & Lipogenesis",
+        "Cholesterol Synthesis & Regulation (Statins)",
+        "Lipoprotein Metabolism (Chylomicrons, VLDL, LDL, HDL)",
+        "Hyperlipidemias (Fredrickson Classification)",
+        "Ketone Body Metabolism & Diabetic Ketoacidosis",
+        "Sphingolipidoses (Gaucher, Niemann-Pick, Tay-Sachs)",
+        "Prostaglandins, Leukotrienes & COX/LOX Pathways"
       ]
     },
     {
-      "topic": "Amino Acid Metabolism (~20 questions)",
+      "topic": "Amino Acid & Heme Metabolism",
       "subtopics": [
-        "Transamination and Deamination (ALT, AST)",
-        "Urea Cycle (Steps, Regulation, Urea Cycle Disorders)",
-        "Metabolism of Individual Amino Acids (Phenylalanine \u2014 PKU, Tyrosine \u2014 Alkaptonuria, Albinism; Tryptophan \u2014 Hartnup Disease; Methionine \u2014 Homocystinuria; Branched Chain \u2014 Maple Syrup Urine Disease)",
+        "General Reactions (Transamination, Deamination, Urea Cycle)",
+        "Metabolism of Specific AA (Phenylalanine, Tyrosine, Tryptophan)",
+        "Inborn Errors (PKU, Alkaptonuria, Albinism, MSUD)",
         "One-Carbon Metabolism (Folate, B12, SAM)",
-        "Creatine and Creatinine Metabolism",
-        "Specialized Products from Amino Acids (Serotonin, Melatonin, Histamine, GABA, Catecholamines, Nitric Oxide, Heme)",
-        "Inborn Errors of Amino Acid Metabolism"
+        "Specialized Products (Catecholamines, Serotonin, NO, Heme)",
+        "Heme Synthesis, Degradation & Porphyrias",
+        "Bilirubin Metabolism & Jaundice (Types & Kernicterus)"
       ]
     },
     {
-      "topic": "Nucleotide Metabolism (~15 questions)",
+      "topic": "Nucleotide Metabolism & Molecular Biology",
       "subtopics": [
-        "Purine Synthesis (De Novo, Salvage Pathway \u2014 HGPRT)",
-        "Purine Degradation (Uric Acid, Gout, Lesch-Nyhan Syndrome)",
-        "Pyrimidine Synthesis (De Novo, Orotic Aciduria)",
-        "Pyrimidine Degradation",
-        "Anticancer Drugs Targeting Nucleotide Metabolism (Methotrexate, 5-FU, 6-MP)"
+        "Purine & Pyrimidine Metabolism (De Novo, Salvage Pathways)",
+        "Clinical Disorders (Gout, Lesch-Nyhan, Orotic Aciduria)",
+        "DNA Replication, Repair Mechanisms & Mutations",
+        "Transcription & mRNA Processing (Splicing, Capping)",
+        "Translation (Genetic Code, Ribosomes, Post-translational mods)",
+        "Gene Expression Regulation (Lac Operon, Epigenetics)",
+        "Molecular Techniques (PCR, Blotting, Vectors, CRISPR-Cas9)",
+        "Oncogenes & Tumor Suppressor Genes (p53, Rb)"
       ]
     },
     {
-      "topic": "Molecular Biology (~25 questions)",
+      "topic": "Nutrition, Vitamins & Minerals",
       "subtopics": [
-        "DNA Replication (Enzymes, Semiconservative, Leading/Lagging Strand, Okazaki Fragments)",
-        "DNA Repair Mechanisms (Mismatch, Base Excision, Nucleotide Excision, Xeroderma Pigmentosum)",
-        "Transcription (RNA Polymerase, Promoter, Enhancer, mRNA Processing \u2014 Capping, Polyadenylation, Splicing)",
-        "Translation (Ribosomes, tRNA, Genetic Code, Initiation, Elongation, Termination, Post-Translational Modifications)",
-        "Regulation of Gene Expression (Lac Operon, Transcription Factors, Epigenetics \u2014 Methylation, Acetylation)",
-        "Recombinant DNA Technology (Restriction Enzymes, Vectors, Cloning, PCR, Southern/Northern/Western Blot)",
-        "Gene Therapy (Principles, Vectors)",
-        "Mutations (Types, Frameshift, Point, Silent, Missense, Nonsense)",
-        "Oncogenes and Tumor Suppressor Genes (p53, Rb, Ras, Myc)",
-        "CRISPR-Cas9 Basics"
-      ]
-    },
-    {
-      "topic": "Porphyrin and Heme Metabolism (~15 questions)",
-      "subtopics": [
-        "Heme Synthesis (Steps, ALA Synthase, Rate-Limiting Step)",
-        "Porphyrias (Acute Intermittent Porphyria, Porphyria Cutanea Tarda, Erythropoietic Porphyria)",
-        "Heme Degradation (Bilirubin Metabolism, Conjugation, Jaundice Types)",
-        "Jaundice (Pre-Hepatic, Hepatic, Post-Hepatic, Neonatal Jaundice, Kernicterus)"
-      ]
-    },
-    {
-      "topic": "Nutrition and Vitamins (~25 questions)",
-      "subtopics": [
-        "Water-Soluble Vitamins (B1-Thiamine, B2-Riboflavin, B3-Niacin, B5-Pantothenic Acid, B6-Pyridoxine, B7-Biotin, B9-Folate, B12-Cobalamin, Vitamin C)",
-        "Fat-Soluble Vitamins (A-Retinol, D-Calciferol, E-Tocopherol, K-Phylloquinone)",
-        "Minerals (Iron, Calcium, Zinc, Copper, Selenium, Iodine, Fluoride)",
+        "Water-Soluble Vitamins (B-complex & Vitamin C)",
+        "Fat-Soluble Vitamins (A, D, E, K)",
+        "Macro & Trace Minerals (Iron, Calcium, Zinc, Iodine, Copper)",
         "Protein-Energy Malnutrition (Kwashiorkor, Marasmus)",
-        "BMR (Basal Metabolic Rate, Factors Affecting, Measurement)",
-        "Dietary Fiber",
-        "Balanced Diet, RDA"
+        "Bioenergetics (BMR, SDA, Dietary Fiber, RDA)"
       ]
     },
     {
-      "topic": "Organ Function Tests (~15 questions)",
+      "topic": "Clinical Biochemistry & Organ Function Tests",
       "subtopics": [
-        "Liver Function Tests (Bilirubin, Transaminases, ALP, GGT, Albumin, PT)",
-        "Kidney Function Tests (BUN, Creatinine, GFR, Creatinine Clearance)",
-        "Thyroid Function Tests (T3, T4, TSH, Free T4)",
-        "Lipid Profile (Total Cholesterol, LDL, HDL, Triglycerides)",
-        "Glucose Tolerance Test (OGTT)",
-        "Cardiac Markers (Troponin, CK-MB, BNP)",
-        "Tumor Markers (AFP, CEA, CA-125, CA 19-9, PSA, beta-hCG)"
-      ]
-    },
-    {
-      "topic": "Acid-Base and Electrolytes (~10 questions)",
-      "subtopics": [
-        "pH, Buffer Systems (Bicarbonate, Phosphate, Protein)",
-        "Henderson-Hasselbalch Equation",
-        "ABG Interpretation",
-        "Anion Gap",
-        "Electrolyte Disorders (Hypo/Hypernatremia, Hypo/Hyperkalemia)"
-      ]
-    },
-    {
-      "topic": "Integration and Clinical Biochemistry (~10 questions)",
-      "subtopics": [
-        "Fed State vs Fasting State Metabolism",
-        "Starvation Biochemistry",
-        "Diabetes Mellitus (Biochemical Basis, HbA1c)",
-        "Metabolic Syndrome",
-        "Alcohol Metabolism"
+        "Liver Function Tests (LFTS) & Kidney Function Tests (KFTs)",
+        "Thyroid Profile, Lipid Profile & Cardiac Markers",
+        "Glucose Tolerance Test (GTT) & HbA1c",
+        "Tumor Markers (PSA, AFP, CEA, hCG)",
+        "Acid-Base Balance (pH, Buffers, ABG Interpretation)",
+        "Electrolyte Disorders (Sodium/Potassium imbalances)",
+        "Integration of Metabolism (Fed, Fasting, Starvation States)"
       ]
     }
   ]
