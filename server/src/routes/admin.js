@@ -3,7 +3,7 @@ const router = express.Router();
 const multer = require('multer');
 const auth = require('../middleware/auth');
 const requireAdmin = require('../middleware/requireAdmin');
-const { getAdminQuestions, bulkUploadQuestions } = require('../controllers/adminController');
+const { getAdminQuestions, bulkUploadQuestions, bulkDeleteQuestions } = require('../controllers/adminController');
 
 // Multer: memory storage, 50MB limit, CSV only
 const upload = multer({
@@ -27,5 +27,6 @@ router.use(auth, requireAdmin);
 
 router.get('/questions', getAdminQuestions);
 router.post('/questions/bulk', upload.single('file'), bulkUploadQuestions);
+router.delete('/questions/bulk', bulkDeleteQuestions);
 
 module.exports = router;
