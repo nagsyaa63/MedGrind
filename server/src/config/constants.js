@@ -51,12 +51,26 @@ const MAX_BIO_LENGTH = 200;
 
 // === Enums ===
 const ALLOWED_SUBJECTS = [
-  'Anatomy', 'Physiology', 'Biochemistry', 'Pathology',
-  'Pharmacology', 'Microbiology', 'Forensic Medicine',
-  'Community Medicine', 'Medicine', 'Surgery',
-  'Obstetrics & Gynecology', 'Pediatrics', 'Ophthalmology',
-  'ENT', 'Orthopedics', 'Dermatology', 'Psychiatry',
-  'Radiology', 'Anesthesiology', 'Other',
+  'Anatomy',
+  'Physiology',
+  'Biochemistry',
+  'Pathology',
+  'Pharmacology',
+  'Microbiology',
+  'Forensic Medicine & Toxicology',
+  'Community Medicine (PSM)',
+  'Medicine',
+  'Surgery',
+  'Obstetrics & Gynecology',
+  'Pediatrics',
+  'Ophthalmology',
+  'ENT (Otorhinolaryngology)',
+  'Orthopedics',
+  'Dermatology',
+  'Psychiatry',
+  'Radiology',
+  'Anesthesiology',
+  'Ethics, Biostatistics, Research Methodology & Jurisprudence',
 ];
 const DIFFICULTY_LEVELS = ['Easy', 'Medium', 'Hard'];
 const OPTION_KEYS = ['A', 'B', 'C', 'D'];

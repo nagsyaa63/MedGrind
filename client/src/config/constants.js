@@ -1,12 +1,26 @@
 export const DEFAULT_PAGE_SIZE = 10;
 
 export const ALLOWED_SUBJECTS = [
-  'Anatomy', 'Physiology', 'Biochemistry', 'Pathology',
-  'Pharmacology', 'Microbiology', 'Forensic Medicine',
-  'Community Medicine', 'Medicine', 'Surgery',
-  'Obstetrics & Gynecology', 'Pediatrics', 'Ophthalmology',
-  'ENT', 'Orthopedics', 'Dermatology', 'Psychiatry',
-  'Radiology', 'Anesthesiology', 'Other',
+  'Anatomy',
+  'Physiology',
+  'Biochemistry',
+  'Pathology',
+  'Pharmacology',
+  'Microbiology',
+  'Forensic Medicine & Toxicology',
+  'Community Medicine (PSM)',
+  'Medicine',
+  'Surgery',
+  'Obstetrics & Gynecology',
+  'Pediatrics',
+  'Ophthalmology',
+  'ENT (Otorhinolaryngology)',
+  'Orthopedics',
+  'Dermatology',
+  'Psychiatry',
+  'Radiology',
+  'Anesthesiology',
+  'Ethics, Biostatistics, Research Methodology & Jurisprudence',
 ];
 
 export const DIFFICULTY_LEVELS = ['Easy', 'Medium', 'Hard'];

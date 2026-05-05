@@ -67,7 +67,10 @@ describe('Constants', () => {
     it('includes key medical subjects', () => {
       expect(ALLOWED_SUBJECTS).toContain('Anatomy');
       expect(ALLOWED_SUBJECTS).toContain('Pharmacology');
-      expect(ALLOWED_SUBJECTS).toContain('Other');
+      expect(ALLOWED_SUBJECTS).toContain('ENT (Otorhinolaryngology)');
+      expect(ALLOWED_SUBJECTS).toContain('Community Medicine (PSM)');
+      expect(ALLOWED_SUBJECTS).toContain('Forensic Medicine & Toxicology');
+      expect(ALLOWED_SUBJECTS).toContain('Ethics, Biostatistics, Research Methodology & Jurisprudence');
     });
   });
 
